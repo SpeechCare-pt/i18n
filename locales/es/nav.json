@@ -13,6 +13,7 @@
     "admin": "Admin"
   },
   "search": "Buscar…",
+  "orgLabel": "Organización",
   "notifications": "Notificaciones",
   "userMenu": "Cuenta",
   "noAccess": {
