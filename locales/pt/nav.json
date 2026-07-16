@@ -1,0 +1,26 @@
+{
+  "items": {
+    "inicio": "Início",
+    "agenda": "Agenda",
+    "contactos": "Contactos",
+    "tarefas": "Tarefas",
+    "sessoes": "Sessões",
+    "consulta": "Consulta",
+    "cobranca": "Cobrança",
+    "documentos": "Documentos",
+    "clientes": "Clientes",
+    "paineis": "Painéis",
+    "admin": "Admin"
+  },
+  "search": "Pesquisar…",
+  "notifications": "Notificações",
+  "userMenu": "Conta",
+  "noAccess": {
+    "title": "Sem acesso à Suite",
+    "body": "A tua conta ainda não tem acesso à SINAIA Suite. Fala com a coordenação da clínica."
+  },
+  "comingSoon": {
+    "title": "Em breve",
+    "body": "Este módulo ainda está a caminho."
+  }
+}
