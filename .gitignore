@@ -1,0 +1,6 @@
+node_modules
+*.log
+.DS_Store
+
+# The package ships raw locale JSON consumed via subpath imports, so there's no build output.
+dist

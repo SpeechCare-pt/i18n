@@ -1,0 +1,22 @@
+{
+  "name": "@sinaia/i18n",
+  "version": "0.1.0",
+  "description": "Shared i18next translation files for the SINAIA platform. Single source of truth for UI copy across web (SINAIA Suite) and, later, mobile (SINAIA Família).",
+  "type": "module",
+  "exports": {
+    "./locales/*": "./locales/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "locales"
+  ],
+  "scripts": {
+    "check": "node scripts/check-parity.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpeechCare-pt/i18n.git"
+  },
+  "license": "UNLICENSED",
+  "private": false
+}

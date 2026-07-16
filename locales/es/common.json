@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "endorsement": "by SpeechCare"
+  },
+  "loading": "Cargando…",
+  "actions": {
+    "continue": "Continuar",
+    "signOut": "Salir"
+  },
+  "language": {
+    "label": "Idioma",
+    "pt": "Portugués",
+    "es": "Español"
+  }
+}

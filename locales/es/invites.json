@@ -1,0 +1,27 @@
+{
+  "signIn": {
+    "heading": "Aceptar invitación",
+    "subheading": "Entra o crea tu cuenta para asociar la invitación."
+  },
+  "accept": {
+    "title": "Aceptar invitación",
+    "subtitle": "Confirma para asociar esta cuenta a la invitación.",
+    "confirm": "Aceptar invitación",
+    "confirming": "Asociando…"
+  },
+  "done": {
+    "title": "Invitación aceptada",
+    "body": "Tu cuenta está asociada."
+  },
+  "invalid": {
+    "title": "Invitación no válida",
+    "body": "Este enlace de invitación está incompleto: falta el código."
+  },
+  "verify": {
+    "title": "Confirma tu correo",
+    "body": "Para aceptar la invitación necesitas confirmar tu correo. El envío de confirmación aún no está disponible y se activará pronto."
+  },
+  "errors": {
+    "generic": "No se pudo aceptar la invitación. Inténtalo de nuevo o contacta con la clínica."
+  }
+}

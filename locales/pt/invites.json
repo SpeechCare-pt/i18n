@@ -1,0 +1,27 @@
+{
+  "signIn": {
+    "heading": "Aceitar convite",
+    "subheading": "Entra ou cria a tua conta para associares o convite."
+  },
+  "accept": {
+    "title": "Aceitar convite",
+    "subtitle": "Confirma para associares esta conta ao convite.",
+    "confirm": "Aceitar convite",
+    "confirming": "A associar…"
+  },
+  "done": {
+    "title": "Convite aceite",
+    "body": "A tua conta está associada."
+  },
+  "invalid": {
+    "title": "Convite inválido",
+    "body": "Este link de convite está incompleto: falta o código."
+  },
+  "verify": {
+    "title": "Confirma o teu email",
+    "body": "Para aceitares o convite precisas de confirmar o teu email. O envio de confirmação ainda não está disponível e vai ser ativado em breve."
+  },
+  "errors": {
+    "generic": "Não foi possível aceitar o convite. Tenta novamente ou contacta a clínica."
+  }
+}
