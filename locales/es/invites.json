@@ -22,6 +22,10 @@
     "body": "Para aceptar la invitación necesitas confirmar tu correo. El envío de confirmación aún no está disponible y se activará pronto."
   },
   "errors": {
-    "generic": "No se pudo aceptar la invitación. Inténtalo de nuevo o contacta con la clínica."
+    "generic": "No se pudo aceptar la invitación. Inténtalo de nuevo o contacta con la clínica.",
+    "invalid": "Esta invitación no es válida.",
+    "used": "Esta invitación ya se usó o se canceló.",
+    "expired": "Esta invitación ha caducado. Pide una nueva a la clínica.",
+    "wrong_email": "Esta invitación es para otro correo. Entra con el correo en el que la recibiste."
   }
 }

@@ -22,6 +22,10 @@
     "body": "Para aceitares o convite precisas de confirmar o teu email. O envio de confirmação ainda não está disponível e vai ser ativado em breve."
   },
   "errors": {
-    "generic": "Não foi possível aceitar o convite. Tenta novamente ou contacta a clínica."
+    "generic": "Não foi possível aceitar o convite. Tenta novamente ou contacta a clínica.",
+    "invalid": "Este convite não é válido.",
+    "used": "Este convite já foi usado ou foi cancelado.",
+    "expired": "Este convite expirou. Pede um novo à clínica.",
+    "wrong_email": "Este convite é para outro email. Entra com o email para onde o recebeste."
   }
 }
