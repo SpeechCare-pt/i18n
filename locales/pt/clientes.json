@@ -56,5 +56,11 @@
     "female": "Feminino",
     "male": "Masculino",
     "other": "Outro"
+  },
+  "ageUnit": {
+    "years_one": "ano",
+    "years_other": "anos",
+    "months_one": "mês",
+    "months_other": "meses"
   }
 }
