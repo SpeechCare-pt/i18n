@@ -1,0 +1,25 @@
+{
+  "title": "Agenda",
+  "today": "Hoy",
+  "previousDay": "Día anterior",
+  "nextDay": "Día siguiente",
+  "pickDay": "Elegir día",
+  "empty": {
+    "title": "Nada agendado",
+    "body": "No hay citas este día."
+  },
+  "capped": "Mostrando las primeras {{count}} citas de este día.",
+  "remote": "En línea",
+  "noLocation": "Sin lugar",
+  "count_one": "{{count}} cita",
+  "count_other": "{{count}} citas",
+  "status": {
+    "pending": "Por confirmar",
+    "confirmed": "Agendada",
+    "inProgress": "En curso",
+    "completed": "Completada",
+    "cancelled": "Anulada",
+    "noShowPatient": "No asistió",
+    "noShowTechnician": "No asistió el terapeuta"
+  }
+}

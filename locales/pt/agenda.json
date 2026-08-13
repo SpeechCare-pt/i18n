@@ -1,0 +1,25 @@
+{
+  "title": "Agenda",
+  "today": "Hoje",
+  "previousDay": "Dia anterior",
+  "nextDay": "Dia seguinte",
+  "pickDay": "Escolher dia",
+  "empty": {
+    "title": "Nada marcado",
+    "body": "Não há consultas neste dia."
+  },
+  "capped": "A mostrar as primeiras {{count}} consultas deste dia.",
+  "remote": "Online",
+  "noLocation": "Sem local",
+  "count_one": "{{count}} consulta",
+  "count_other": "{{count}} consultas",
+  "status": {
+    "pending": "Por confirmar",
+    "confirmed": "Marcada",
+    "inProgress": "A decorrer",
+    "completed": "Concluída",
+    "cancelled": "Anulada",
+    "noShowPatient": "Faltou",
+    "noShowTechnician": "Faltou o terapeuta"
+  }
+}
