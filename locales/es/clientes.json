@@ -23,7 +23,8 @@
     "sns": "Nº de historia",
     "birthdate": "Fecha de nacimiento",
     "age": "Edad",
-    "status": "Estado"
+    "status": "Estado",
+    "gender": "Género"
   },
   "status": {
     "active": "Activo",
@@ -45,6 +46,15 @@
     "notFound": {
       "title": "Ficha no encontrada",
       "body": "Esta ficha no existe o no tienes acceso a ella."
+    },
+    "clinical": {
+      "title": "Historia clínica",
+      "body": "El historial clínico de este paciente todavía no está en esta vista."
     }
+  },
+  "gender": {
+    "female": "Femenino",
+    "male": "Masculino",
+    "other": "Otro"
   }
 }
