@@ -1,0 +1,50 @@
+{
+  "title": "Clientes",
+  "search": {
+    "label": "Buscar clientes",
+    "placeholder": "Nombre o nº de historia",
+    "tooShort": "Escribe al menos 2 caracteres.",
+    "clear": "Borrar búsqueda"
+  },
+  "results": {
+    "capped": "Mostrando los primeros {{count}} resultados. Afina la búsqueda para encontrar otro."
+  },
+  "empty": {
+    "title": "Todavía no hay clientes",
+    "body": "En cuanto existan fichas en esta organización, aparecerán aquí."
+  },
+  "noResults": {
+    "title": "Sin resultados",
+    "body": "No hay nadie con «{{term}}». Prueba con otro nombre o con el nº de historia."
+  },
+  "loadMore": "Ver más",
+  "columns": {
+    "name": "Nombre",
+    "sns": "Nº de historia",
+    "birthdate": "Fecha de nacimiento",
+    "age": "Edad",
+    "status": "Estado"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "archived": "Archivado"
+  },
+  "age": {
+    "years_one": "{{count}} año",
+    "years_other": "{{count}} años",
+    "months_one": "{{count}} mes",
+    "months_other": "{{count}} meses"
+  },
+  "unknown": "Sin registro",
+  "record": {
+    "back": "Volver a clientes",
+    "college": "Colegio",
+    "team": "Atendido por",
+    "noTeam": "Todavía sin terapeuta asignado",
+    "notFound": {
+      "title": "Ficha no encontrada",
+      "body": "Esta ficha no existe o no tienes acceso a ella."
+    }
+  }
+}

@@ -11,5 +11,12 @@
     "label": "Idioma",
     "pt": "Portugués",
     "es": "Español"
+  },
+  "specialties": {
+    "speechTherapy": "Logopedia",
+    "neuropediatrics": "Neuropediatría",
+    "childPsychiatry": "Psiquiatría infantil",
+    "psychology": "Psicología",
+    "occupationalTherapy": "Terapia Ocupacional"
   }
 }
