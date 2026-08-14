@@ -53,5 +53,9 @@
     "cancelled": "Anulado",
     "expired": "Expirado",
     "failed": "Falhou"
+  },
+  "undo": {
+    "action": "Desfazer",
+    "busy": "A repor…"
   }
 }
