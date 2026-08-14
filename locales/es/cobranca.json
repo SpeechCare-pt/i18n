@@ -2,6 +2,8 @@
   "title": "Cobros",
   "summary_one": "{{count}} persona con importes pendientes · {{total}}",
   "summary_other": "{{count}} personas con importes pendientes · {{total}}",
+  "summaryNoTotal_one": "{{count}} persona con importes pendientes",
+  "summaryNoTotal_other": "{{count}} personas con importes pendientes",
   "empty": {
     "title": "No hay importes pendientes.",
     "body": "Cuando un pago quede sin liquidar, aparece aquí."

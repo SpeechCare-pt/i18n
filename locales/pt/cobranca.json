@@ -2,6 +2,8 @@
   "title": "Cobrança",
   "summary_one": "{{count}} pessoa com valores por regularizar · {{total}}",
   "summary_other": "{{count}} pessoas com valores por regularizar · {{total}}",
+  "summaryNoTotal_one": "{{count}} pessoa com valores por regularizar",
+  "summaryNoTotal_other": "{{count}} pessoas com valores por regularizar",
   "empty": {
     "title": "Não há valores por regularizar.",
     "body": "Quando um pagamento ficar por liquidar, aparece aqui."
