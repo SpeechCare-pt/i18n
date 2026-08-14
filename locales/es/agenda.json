@@ -47,7 +47,6 @@
     "servicePlaceholder": "Elegir tipo de consulta",
     "location": "Lugar",
     "locationPlaceholder": "Sin lugar",
-    "day": "Día",
     "time": "Hora",
     "ends": "Termina a las {{time}}",
     "submit": "Agendar",

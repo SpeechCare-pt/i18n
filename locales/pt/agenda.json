@@ -47,7 +47,6 @@
     "servicePlaceholder": "Escolher tipo de consulta",
     "location": "Local",
     "locationPlaceholder": "Sem local",
-    "day": "Dia",
     "time": "Hora",
     "ends": "Acaba às {{time}}",
     "submit": "Marcar",
