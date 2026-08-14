@@ -1,8 +1,8 @@
 {
   "greeting": {
-    "morning": "Buenos días, {{name}}.",
-    "afternoon": "Buenas tardes, {{name}}.",
-    "evening": "Buenas noches, {{name}}."
+    "morning": "Buenos días.",
+    "afternoon": "Buenas tardes.",
+    "evening": "Buenas noches."
   },
   "day": {
     "label": "Hoy",
