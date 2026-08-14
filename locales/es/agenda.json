@@ -21,5 +21,15 @@
     "cancelled": "Anulada",
     "noShowPatient": "No asistió",
     "noShowTechnician": "No asistió el terapeuta"
-  }
+  },
+  "timeline": "Horario del día",
+  "now": "Ahora",
+  "gap": "{{duration}} sin citas",
+  "durationHours": "{{count}}h",
+  "durationHoursMinutes": "{{hours}}h{{minutes}}",
+  "durationMinutes": "{{count}}min",
+  "sessionAria": "{{start}} a {{end}}, {{patient}}, {{status}}",
+  "therapists_one": "{{count}} terapeuta",
+  "therapists_other": "{{count}} terapeutas",
+  "unbooked": "El espacio en blanco es lo que no está agendado, no necesariamente lo que está libre — el horario de cada terapeuta todavía no está en el sistema."
 }
