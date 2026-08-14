@@ -31,5 +31,52 @@
   "sessionAria": "{{start}} a {{end}}, {{patient}}, {{status}}",
   "therapists_one": "{{count}} terapeuta",
   "therapists_other": "{{count}} terapeutas",
-  "unbooked": "El espacio en blanco es lo que no está agendado, no necesariamente lo que está libre — el horario de cada terapeuta todavía no está en el sistema."
+  "unbooked": "El espacio en blanco es lo que no está agendado, no necesariamente lo que está libre — el horario de cada terapeuta todavía no está en el sistema.",
+  "book": {
+    "new": "Nueva cita",
+    "title": "Nueva cita",
+    "rescheduleTitle": "Reagendar",
+    "patient": "Paciente",
+    "patientPlaceholder": "Nombre o nº de usuario",
+    "patientHint": "Escribe al menos dos letras.",
+    "patientEmpty": "Nadie con ese nombre o número.",
+    "patientChange": "Cambiar",
+    "therapist": "Terapeuta",
+    "therapistPlaceholder": "Elegir terapeuta",
+    "service": "Consulta",
+    "servicePlaceholder": "Elegir tipo de consulta",
+    "location": "Lugar",
+    "locationPlaceholder": "Sin lugar",
+    "day": "Día",
+    "time": "Hora",
+    "ends": "Termina a las {{time}}",
+    "submit": "Agendar",
+    "submitReschedule": "Guardar",
+    "saving": "Guardando…",
+    "close": "Cerrar",
+    "discard": "Cancelar",
+    "failed": "No se pudo guardar. Inténtalo otra vez."
+  },
+  "conflicts": {
+    "therapist_one": "{{name}} ya tiene una sesión a esta hora",
+    "therapist_other": "{{name}} ya tiene {{count}} sesiones a esta hora",
+    "therapistHint": "Puedes agendar igual — las sesiones de grupo comparten la hora.",
+    "patient_one": "{{name}} ya tiene otra sesión a esta hora",
+    "patient_other": "{{name}} ya tiene otras {{count}} sesiones a esta hora",
+    "patientHint": "Esto suele ser un error. Confírmalo antes de guardar.",
+    "entry": "{{start}}–{{end}}, {{patient}}, con {{technician}}"
+  },
+  "session": {
+    "title": "{{start}} · {{patient}}",
+    "with": "con {{name}}",
+    "open": "Abrir ficha",
+    "confirm": "Confirmar",
+    "reschedule": "Reagendar",
+    "complete": "Marcar como realizada",
+    "cancel": "Anular",
+    "noShowPatient": "Registrar ausencia",
+    "noShowTechnician": "Faltó el terapeuta",
+    "close": "Cerrar",
+    "failed": "No se pudo guardar. Inténtalo otra vez."
+  }
 }

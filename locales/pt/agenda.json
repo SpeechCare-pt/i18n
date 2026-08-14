@@ -31,5 +31,52 @@
   "sessionAria": "{{start}} às {{end}}, {{patient}}, {{status}}",
   "therapists_one": "{{count}} terapeuta",
   "therapists_other": "{{count}} terapeutas",
-  "unbooked": "O espaço em branco é o que não está marcado, não necessariamente o que está livre — o horário de cada terapeuta ainda não está no sistema."
+  "unbooked": "O espaço em branco é o que não está marcado, não necessariamente o que está livre — o horário de cada terapeuta ainda não está no sistema.",
+  "book": {
+    "new": "Nova marcação",
+    "title": "Nova marcação",
+    "rescheduleTitle": "Remarcar",
+    "patient": "Paciente",
+    "patientPlaceholder": "Nome ou nº de utente",
+    "patientHint": "Escreve pelo menos duas letras.",
+    "patientEmpty": "Ninguém com esse nome ou número.",
+    "patientChange": "Trocar",
+    "therapist": "Terapeuta",
+    "therapistPlaceholder": "Escolher terapeuta",
+    "service": "Consulta",
+    "servicePlaceholder": "Escolher tipo de consulta",
+    "location": "Local",
+    "locationPlaceholder": "Sem local",
+    "day": "Dia",
+    "time": "Hora",
+    "ends": "Acaba às {{time}}",
+    "submit": "Marcar",
+    "submitReschedule": "Guardar",
+    "saving": "A guardar…",
+    "close": "Fechar",
+    "discard": "Cancelar",
+    "failed": "Não foi possível guardar. Tenta outra vez."
+  },
+  "conflicts": {
+    "therapist_one": "{{name}} já tem uma sessão a esta hora",
+    "therapist_other": "{{name}} já tem {{count}} sessões a esta hora",
+    "therapistHint": "Podes marcar na mesma — as sessões de grupo partilham a hora.",
+    "patient_one": "{{name}} já tem outra sessão a esta hora",
+    "patient_other": "{{name}} já tem outras {{count}} sessões a esta hora",
+    "patientHint": "Isto costuma ser engano. Confirma antes de guardar.",
+    "entry": "{{start}}–{{end}}, {{patient}}, com {{technician}}"
+  },
+  "session": {
+    "title": "{{start}} · {{patient}}",
+    "with": "com {{name}}",
+    "open": "Abrir ficha",
+    "confirm": "Confirmar",
+    "reschedule": "Remarcar",
+    "complete": "Marcar como realizada",
+    "cancel": "Anular",
+    "noShowPatient": "Registar falta",
+    "noShowTechnician": "Faltou o terapeuta",
+    "close": "Fechar",
+    "failed": "Não foi possível guardar. Tenta outra vez."
+  }
 }
