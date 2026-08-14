@@ -37,7 +37,9 @@
     "void": "Anular",
     "reopen": "Reabrir",
     "expand": "Ver los importes de {{name}}",
+    "expandShort": "Ver importes",
     "collapse": "Cerrar los importes de {{name}}",
+    "collapseShort": "Cerrar",
     "saving": "Guardando…",
     "failed": "No se ha podido guardar. Inténtalo otra vez."
   },

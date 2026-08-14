@@ -37,7 +37,9 @@
     "void": "Anular",
     "reopen": "Reabrir",
     "expand": "Ver os valores de {{name}}",
+    "expandShort": "Ver valores",
     "collapse": "Fechar os valores de {{name}}",
+    "collapseShort": "Fechar",
     "saving": "A guardar…",
     "failed": "Não foi possível guardar. Tenta outra vez."
   },
