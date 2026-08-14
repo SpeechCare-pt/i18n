@@ -21,8 +21,8 @@
   },
   "owed": {
     "label": "Pendiente",
-    "summary_one": "{{count}} persona · {{total}}",
-    "summary_other": "{{count}} personas · {{total}}",
+    "people_one": "{{count}} persona",
+    "people_other": "{{count}} personas",
     "oldest": "La más antigua espera {{age}}.",
     "none": "Nadie tiene importes pendientes.",
     "open": "Ver cobros"

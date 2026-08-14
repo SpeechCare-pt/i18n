@@ -21,8 +21,8 @@
   },
   "owed": {
     "label": "Por regularizar",
-    "summary_one": "{{count}} pessoa · {{total}}",
-    "summary_other": "{{count}} pessoas · {{total}}",
+    "people_one": "{{count}} pessoa",
+    "people_other": "{{count}} pessoas",
     "oldest": "A mais antiga espera {{age}}.",
     "none": "Ninguém tem valores por regularizar.",
     "open": "Ver cobranças"
