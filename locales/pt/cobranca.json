@@ -1,0 +1,55 @@
+{
+  "title": "Cobrança",
+  "summary_one": "{{count}} pessoa com valores por regularizar · {{total}}",
+  "summary_other": "{{count}} pessoas com valores por regularizar · {{total}}",
+  "empty": {
+    "title": "Não há valores por regularizar.",
+    "body": "Quando um pagamento ficar por liquidar, aparece aqui."
+  },
+  "truncated": "Estás a ver os {{count}} valores mais antigos. O total por regularizar é maior do que o indicado.",
+  "bands": {
+    "over90": "Há mais de três meses",
+    "months": "Há um a três meses",
+    "weeks": "Há uma a quatro semanas",
+    "recent": "Esta semana"
+  },
+  "band": {
+    "people_one": "{{count}} pessoa",
+    "people_other": "{{count}} pessoas",
+    "share": "{{percent}}% de tudo o que está por regularizar"
+  },
+  "age": {
+    "today": "hoje",
+    "days_one": "há {{count}} dia",
+    "days_other": "há {{count}} dias",
+    "months_one": "há {{count}} mês",
+    "months_other": "há {{count}} meses",
+    "years_one": "há {{count}} ano",
+    "years_other": "há {{count}} anos"
+  },
+  "charges_one": "{{count}} valor",
+  "charges_other": "{{count}} valores",
+  "issued": "Emitido a {{date}}",
+  "actions": {
+    "settle": "Marcar recebido",
+    "void": "Anular",
+    "reopen": "Reabrir",
+    "expand": "Ver os valores de {{name}}",
+    "collapse": "Fechar os valores de {{name}}",
+    "saving": "A guardar…",
+    "failed": "Não foi possível guardar. Tenta outra vez."
+  },
+  "announce": {
+    "settled": "{{name}}: valor marcado como recebido.",
+    "voided": "{{name}}: valor anulado.",
+    "reopened": "{{name}}: valor reaberto."
+  },
+  "status": {
+    "pending": "Por regularizar",
+    "paid": "Pago",
+    "void": "Anulado",
+    "cancelled": "Anulado",
+    "expired": "Expirado",
+    "failed": "Falhou"
+  }
+}

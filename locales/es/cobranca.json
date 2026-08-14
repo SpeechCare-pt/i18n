@@ -1,0 +1,55 @@
+{
+  "title": "Cobros",
+  "summary_one": "{{count}} persona con importes pendientes · {{total}}",
+  "summary_other": "{{count}} personas con importes pendientes · {{total}}",
+  "empty": {
+    "title": "No hay importes pendientes.",
+    "body": "Cuando un pago quede sin liquidar, aparece aquí."
+  },
+  "truncated": "Estás viendo los {{count}} importes más antiguos. El total pendiente es mayor que el indicado.",
+  "bands": {
+    "over90": "Hace más de tres meses",
+    "months": "Hace uno a tres meses",
+    "weeks": "Hace una a cuatro semanas",
+    "recent": "Esta semana"
+  },
+  "band": {
+    "people_one": "{{count}} persona",
+    "people_other": "{{count}} personas",
+    "share": "{{percent}}% de todo lo pendiente"
+  },
+  "age": {
+    "today": "hoy",
+    "days_one": "hace {{count}} día",
+    "days_other": "hace {{count}} días",
+    "months_one": "hace {{count}} mes",
+    "months_other": "hace {{count}} meses",
+    "years_one": "hace {{count}} año",
+    "years_other": "hace {{count}} años"
+  },
+  "charges_one": "{{count}} importe",
+  "charges_other": "{{count}} importes",
+  "issued": "Emitido el {{date}}",
+  "actions": {
+    "settle": "Marcar cobrado",
+    "void": "Anular",
+    "reopen": "Reabrir",
+    "expand": "Ver los importes de {{name}}",
+    "collapse": "Cerrar los importes de {{name}}",
+    "saving": "Guardando…",
+    "failed": "No se ha podido guardar. Inténtalo otra vez."
+  },
+  "announce": {
+    "settled": "{{name}}: importe marcado como cobrado.",
+    "voided": "{{name}}: importe anulado.",
+    "reopened": "{{name}}: importe reabierto."
+  },
+  "status": {
+    "pending": "Pendiente",
+    "paid": "Pagado",
+    "void": "Anulado",
+    "cancelled": "Anulado",
+    "expired": "Caducado",
+    "failed": "Fallido"
+  }
+}
