@@ -1,0 +1,30 @@
+{
+  "greeting": {
+    "morning": "Bom dia, {{name}}.",
+    "afternoon": "Boa tarde, {{name}}.",
+    "evening": "Boa noite, {{name}}."
+  },
+  "day": {
+    "label": "Hoje",
+    "count_one": "{{count}} consulta",
+    "count_other": "{{count}} consultas",
+    "therapists_one": "{{count}} terapeuta",
+    "therapists_other": "{{count}} terapeutas",
+    "clinic": "O dia da clínica inteira.",
+    "next": "A seguir",
+    "with": "com {{name}}",
+    "left_one": "Falta {{count}} consulta.",
+    "left_other": "Faltam {{count}} consultas.",
+    "done": "Já passaram todas as consultas de hoje.",
+    "empty": "Não há consultas marcadas para hoje.",
+    "open": "Ver a agenda"
+  },
+  "owed": {
+    "label": "Por regularizar",
+    "summary_one": "{{count}} pessoa · {{total}}",
+    "summary_other": "{{count}} pessoas · {{total}}",
+    "oldest": "A mais antiga espera {{age}}.",
+    "none": "Ninguém tem valores por regularizar.",
+    "open": "Ver cobranças"
+  }
+}

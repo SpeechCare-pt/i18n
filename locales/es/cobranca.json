@@ -57,5 +57,17 @@
   "undo": {
     "action": "Deshacer",
     "busy": "Restaurando…"
+  },
+  "expired": {
+    "title": "Enlaces de pago caducados",
+    "summary_one": "{{count}} importe · {{total}}",
+    "summary_other": "{{count}} importes · {{total}}",
+    "explain": "El enlace de pago de estos importes caducó y la familia no ha pagado nada desde entonces. No significa que estén en deuda.",
+    "hidden_one": "Está oculto {{count}} importe en el que la familia pagó algo después.",
+    "hidden_other": "Están ocultos {{count}} importes en los que la familia pagó algo después.",
+    "none": "No hay enlaces caducados por revisar.",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "capped": "Estás viendo los {{count}} más recientes."
   }
 }

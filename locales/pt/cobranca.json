@@ -57,5 +57,17 @@
   "undo": {
     "action": "Desfazer",
     "busy": "A repor…"
+  },
+  "expired": {
+    "title": "Ligações de pagamento expiradas",
+    "summary_one": "{{count}} valor · {{total}}",
+    "summary_other": "{{count}} valores · {{total}}",
+    "explain": "A ligação de pagamento destes valores expirou e a família não pagou nada desde então. Não quer dizer que estejam em dívida.",
+    "hidden_one": "Está escondido {{count}} valor em que a família pagou alguma coisa depois.",
+    "hidden_other": "Estão escondidos {{count}} valores em que a família pagou alguma coisa depois.",
+    "none": "Não há ligações expiradas por rever.",
+    "show": "Mostrar",
+    "hide": "Esconder",
+    "capped": "Estás a ver os {{count}} mais recentes."
   }
 }
