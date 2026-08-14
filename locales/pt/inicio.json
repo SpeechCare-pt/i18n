@@ -11,12 +11,15 @@
     "therapists_one": "{{count}} terapeuta",
     "therapists_other": "{{count}} terapeutas",
     "clinic": "O dia da clínica inteira.",
+    "mine": "Só as tuas consultas.",
     "next": "A seguir",
     "with": "com {{name}}",
     "left_one": "Falta {{count}} consulta.",
     "left_other": "Faltam {{count}} consultas.",
     "done": "Já passaram todas as consultas de hoje.",
+    "doneMine": "Já passaram todas as tuas consultas de hoje.",
     "empty": "Não há consultas marcadas para hoje.",
+    "emptyMine": "Não tens consultas marcadas para hoje.",
     "open": "Ver a agenda"
   },
   "owed": {
