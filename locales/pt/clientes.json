@@ -13,6 +13,10 @@
     "title": "Ainda não há clientes",
     "body": "Assim que existirem fichas nesta organização, aparecem aqui."
   },
+  "emptyCaseload": {
+    "title": "Ainda não acompanhas ninguém",
+    "body": "Aqui aparecem os pacientes de que fazes parte da equipa de cuidados."
+  },
   "noResults": {
     "title": "Nada encontrado",
     "body": "Não há ninguém com «{{term}}». Tenta outro nome ou o nº de utente."
@@ -50,6 +54,10 @@
     "clinical": {
       "title": "Registo clínico",
       "body": "O histórico clínico deste paciente ainda não está nesta vista."
+    },
+    "noAccess": {
+      "title": "Fora da tua equipa de cuidados",
+      "body": "Só vês as fichas dos pacientes que acompanhas. Se precisas desta, pede à coordenação para te juntar à equipa."
     }
   },
   "gender": {

@@ -13,6 +13,10 @@
     "title": "Todavía no hay clientes",
     "body": "En cuanto existan fichas en esta organización, aparecerán aquí."
   },
+  "emptyCaseload": {
+    "title": "Todavía no atiendes a nadie",
+    "body": "Aquí aparecen los pacientes de cuyo equipo de cuidados formas parte."
+  },
   "noResults": {
     "title": "Sin resultados",
     "body": "No hay nadie con «{{term}}». Prueba con otro nombre o con el nº de historia."
@@ -50,6 +54,10 @@
     "clinical": {
       "title": "Historia clínica",
       "body": "El historial clínico de este paciente todavía no está en esta vista."
+    },
+    "noAccess": {
+      "title": "Fuera de tu equipo de cuidados",
+      "body": "Solo ves las fichas de los pacientes que atiendes. Si necesitas esta, pide a coordinación que te añada al equipo."
     }
   },
   "gender": {
