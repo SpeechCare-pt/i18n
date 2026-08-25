@@ -54,7 +54,10 @@
     "saving": "A guardar…",
     "close": "Fechar",
     "discard": "Cancelar",
-    "failed": "Não foi possível guardar. Tenta outra vez."
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "therapistHint": "Só aparecem os terapeutas habilitados para esta consulta.",
+    "therapistCleared": "«{{name}}» não está habilitado para esta consulta. Escolhe outro.",
+    "notQualified": "Esse terapeuta não está habilitado para esta consulta."
   },
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",

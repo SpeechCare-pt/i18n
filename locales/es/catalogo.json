@@ -67,5 +67,18 @@
   "error": "No se ha podido guardar. Inténtalo otra vez.",
   "readOnly": "Solo coordinación y dirección modifican el catálogo.",
   "savedNamed": "{{name}} guardado.",
-  "ageInverted": "La edad mínima no puede ser mayor que la máxima."
+  "ageInverted": "La edad mínima no puede ser mayor que la máxima.",
+  "qualified": {
+    "label": "Quién puede darla",
+    "hint": "Sin nadie marcado, cualquier terapeuta puede dar esta consulta.",
+    "anyone": "Cualquier terapeuta",
+    "count_one": "{{count}} terapeuta",
+    "count_other": "{{count}} terapeutas",
+    "empty": "Todavía no hay terapeutas en esta organización.",
+    "search": "Buscar terapeuta",
+    "searchPlaceholder": "Nombre del terapeuta",
+    "searchNone": "Nadie con «{{term}}».",
+    "chosenHidden_one": "Otro {{count}} marcado fuera de la búsqueda.",
+    "chosenHidden_other": "Otros {{count}} marcados fuera de la búsqueda."
+  }
 }
