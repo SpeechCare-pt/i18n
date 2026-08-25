@@ -71,5 +71,23 @@
     "show": "Mostrar",
     "hide": "Ocultar",
     "capped": "Estás viendo los {{count}} más recientes."
+  },
+  "institutions": {
+    "title": "A cobrar a instituciones",
+    "subtitle_one": "{{count}} institución con importes a su nombre",
+    "subtitle_other": "{{count}} instituciones con importes a su nombre",
+    "children_one": "{{count}} niño",
+    "children_other": "{{count}} niños",
+    "charges_one": "{{count}} importe",
+    "charges_other": "{{count}} importes",
+    "oldest": "el más antiguo {{age}}",
+    "toInstitution": "Pasar a {{name}}",
+    "toFamily": "Pasar a la familia",
+    "billedTo": "A nombre de {{name}}",
+    "billedToFamily": "A nombre de la familia",
+    "movedToInstitution": "Ha pasado a {{name}}.",
+    "movedToFamily": "Ha pasado a la familia.",
+    "noInstitution": "Este paciente no está asociado a ninguna institución.",
+    "failed": "No se ha podido cambiar. Inténtalo otra vez."
   }
 }
