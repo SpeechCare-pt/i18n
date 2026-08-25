@@ -1,0 +1,50 @@
+{
+  "title": "Instituciones",
+  "count_one": "{{count}} institución.",
+  "count_other": "{{count}} instituciones.",
+  "empty": {
+    "title": "Todavía no hay instituciones",
+    "body": "Registra los colegios y las fundaciones con los que trabajas, para que el contrato y el contacto dejen de vivir en el nombre de un servicio."
+  },
+  "search": {
+    "label": "Buscar institución",
+    "placeholder": "Nombre de la institución",
+    "none": "Ninguna institución con «{{term}}»."
+  },
+  "add": "Añadir institución",
+  "namePlaceholder": "Nombre de la institución",
+  "edit": "Definir",
+  "close": "Cerrar",
+  "editLabel": "Definir {{name}}",
+  "closeLabel": "Cerrar {{name}}",
+  "fields": {
+    "name": "Nombre",
+    "contactName": "Persona de contacto",
+    "email": "Email",
+    "phone": "Teléfono",
+    "contractRef": "Referencia del contrato",
+    "contractStartsAt": "Inicio",
+    "contractEndsAt": "Fin",
+    "locations": "Unidades"
+  },
+  "hints": {
+    "contractRef": "Lo que citas cuando hablas del acuerdo. Los precios no viven aquí.",
+    "term": "Déjalo en blanco si el acuerdo no tiene plazo.",
+    "locations": "Marca los sitios donde esta institución te recibe. Una institución puede tener varios."
+  },
+  "noLocations": "Sin unidades asociadas.",
+  "locationsCount_one": "{{count}} unidad",
+  "locationsCount_other": "{{count}} unidades",
+  "noUnclaimed": "Todas las unidades ya están asociadas.",
+  "archived": "Archivada",
+  "archive": "Archivar",
+  "restore": "Reactivar",
+  "save": "Guardar",
+  "saving": "Guardando…",
+  "saved": "{{name}} guardada.",
+  "added": "{{name}} añadida.",
+  "error": "No se pudo guardar. Inténtalo otra vez.",
+  "needsName": "La institución necesita un nombre.",
+  "termInverted": "El contrato no puede acabar antes de empezar.",
+  "readOnly": "Solo la coordinación y la dirección cambian las instituciones."
+}

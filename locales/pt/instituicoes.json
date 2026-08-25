@@ -1,0 +1,50 @@
+{
+  "title": "Instituições",
+  "count_one": "{{count}} instituição.",
+  "count_other": "{{count}} instituições.",
+  "empty": {
+    "title": "Ainda não há instituições",
+    "body": "Regista os colégios e as fundações com quem trabalhas, para o contrato e o contacto deixarem de viver no nome de um serviço."
+  },
+  "search": {
+    "label": "Procurar instituição",
+    "placeholder": "Nome da instituição",
+    "none": "Nenhuma instituição com «{{term}}»."
+  },
+  "add": "Adicionar instituição",
+  "namePlaceholder": "Nome da instituição",
+  "edit": "Definir",
+  "close": "Fechar",
+  "editLabel": "Definir {{name}}",
+  "closeLabel": "Fechar {{name}}",
+  "fields": {
+    "name": "Nome",
+    "contactName": "Pessoa de contacto",
+    "email": "Email",
+    "phone": "Telefone",
+    "contractRef": "Referência do contrato",
+    "contractStartsAt": "Início",
+    "contractEndsAt": "Fim",
+    "locations": "Unidades"
+  },
+  "hints": {
+    "contractRef": "O que citas quando falas do acordo. Os preços não vivem aqui.",
+    "term": "Deixa em branco se o acordo não tem prazo.",
+    "locations": "Marca os sítios onde esta instituição te recebe. Uma instituição pode ter vários."
+  },
+  "noLocations": "Sem unidades associadas.",
+  "locationsCount_one": "{{count}} unidade",
+  "locationsCount_other": "{{count}} unidades",
+  "noUnclaimed": "Todas as unidades já estão associadas.",
+  "archived": "Arquivada",
+  "archive": "Arquivar",
+  "restore": "Reactivar",
+  "save": "Guardar",
+  "saving": "A guardar…",
+  "saved": "{{name}} guardada.",
+  "added": "{{name}} adicionada.",
+  "error": "Não foi possível guardar. Tenta outra vez.",
+  "needsName": "A instituição precisa de um nome.",
+  "termInverted": "O contrato não pode acabar antes de começar.",
+  "readOnly": "Só a coordenação e a direção alteram as instituições."
+}
