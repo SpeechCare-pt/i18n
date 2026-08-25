@@ -14,7 +14,7 @@
     "label": "Buscar servicio",
     "placeholder": "Nombre del servicio",
     "none": "Ningún servicio con «{{term}}».",
-    "hiddenByFilter": "«{{term}}» está entre los que ya dicen lo que necesitan. Pulsa «Todos» para verlo."
+    "hiddenByFilter": "«{{term}}» no está entre los que faltan. Pulsa «Todos» para verlo."
   },
   "empty": {
     "title": "Todavía no hay servicios",
