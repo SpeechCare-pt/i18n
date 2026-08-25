@@ -10,6 +10,11 @@
     "all": "Todos",
     "pending": "Solo los que faltan"
   },
+  "search": {
+    "label": "Buscar servicio",
+    "placeholder": "Nombre del servicio",
+    "none": "Ningún servicio con «{{term}}»."
+  },
   "empty": {
     "title": "Todavía no hay servicios",
     "body": "En cuanto existan servicios en esta organización, aparecerán aquí."
