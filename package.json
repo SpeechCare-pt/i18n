@@ -1,7 +1,7 @@
 {
   "name": "@sinaia/i18n",
-  "version": "0.26.0",
-  "description": "Shared i18next translation files for the SINAIA platform. Single source of truth for UI copy across web (SINAIA Suite) and, later, mobile (SINAIA Família).",
+  "version": "0.27.0",
+  "description": "Shared i18next translation files for the SINAIA platform. Single source of truth for UI copy across web (SINAIA Suite) and, later, mobile (SINAIA Fam\u00edlia).",
   "type": "module",
   "exports": {
     "./locales/*": "./locales/*",
