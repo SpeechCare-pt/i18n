@@ -44,7 +44,24 @@
   "unknown": "Sin registro",
   "record": {
     "back": "Volver a clientes",
-    "college": "Colegio",
+    "institution": {
+      "label": "Institución",
+      "none": "Paga la familia",
+      "hint": "Quién recibe la factura de este paciente. Sin institución, la factura va a la familia.",
+      "edit": "Cambiar",
+      "choose": "Institución asociada",
+      "family": "Paga la familia",
+      "archived": "archivada",
+      "empty": "Todavía no hay instituciones asociadas registradas.",
+      "emptyHint": "La dirección las registra en Instituciones.",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "saved": "Institución actualizada.",
+      "cleared": "Institución quitada. Las facturas pasan a ir a la familia.",
+      "failed": "No se ha podido guardar. Inténtalo otra vez.",
+      "notFound": "Esa institución ya no existe.",
+      "wasArchived": "Esa institución se ha archivado mientras tanto. Elige otra."
+    },
     "team": "Atendido por",
     "noTeam": "Todavía sin terapeuta asignado",
     "notFound": {
