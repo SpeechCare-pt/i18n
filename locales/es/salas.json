@@ -7,6 +7,11 @@
     "body": "Registra las salas de cada unidad. Es con ellas que la agenda sabe dónde cabe cada consulta."
   },
   "noRooms": "Sin salas.",
+  "search": {
+    "label": "Buscar unidad o sala",
+    "placeholder": "Unidad o sala",
+    "none": "Ninguna unidad o sala con «{{term}}»."
+  },
   "add": "Añadir sala",
   "addLabel": "Añadir sala en {{name}}",
   "namePlaceholder": "Nombre de la sala",
