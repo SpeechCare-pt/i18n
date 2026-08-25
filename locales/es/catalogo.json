@@ -1,9 +1,9 @@
 {
   "title": "Catálogo",
   "summary": {
-    "pending_one": "{{count}} servicio todavía no dice cuánto dura.",
-    "pending_other": "{{count}} servicios todavía no dicen cuánto duran.",
-    "done": "Todos los servicios dicen cuánto duran."
+    "pending_one": "{{count}} servicio todavía no dice lo que necesita.",
+    "pending_other": "{{count}} servicios todavía no dicen lo que necesitan.",
+    "done": "Todos los servicios dicen lo que necesitan."
   },
   "filter": {
     "label": "Mostrar",
@@ -16,7 +16,7 @@
   },
   "allDone": {
     "title": "Está todo definido",
-    "body": "Ningún servicio está esperando duración."
+    "body": "Ningún servicio está esperando reglas."
   },
   "row": {
     "undefined": "Por definir",
