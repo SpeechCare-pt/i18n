@@ -13,7 +13,8 @@
   "search": {
     "label": "Procurar serviço",
     "placeholder": "Nome do serviço",
-    "none": "Nenhum serviço com «{{term}}»."
+    "none": "Nenhum serviço com «{{term}}».",
+    "hiddenByFilter": "«{{term}}» está entre os que já dizem o que precisam. Carrega em «Todos» para o ver."
   },
   "empty": {
     "title": "Ainda não há serviços",
@@ -27,7 +28,8 @@
     "undefined": "Por definir",
     "edit": "Definir",
     "close": "Fechar",
-    "editLabel": "Definir {{name}}"
+    "editLabel": "Definir {{name}}",
+    "closeLabel": "Fechar {{name}}"
   },
   "fields": {
     "duration": "Duração",
@@ -43,7 +45,8 @@
   "hints": {
     "equipment": "Separa por vírgulas.",
     "ages": "Em anos. Deixa em branco para não limitar.",
-    "roomType": "Como a clínica lhe chama. Usa o mesmo nome nos serviços que precisam da mesma sala."
+    "roomType": "Como a clínica lhe chama. Usa o mesmo nome nos serviços que precisam da mesma sala.",
+    "equipmentKnown": "Separa por vírgulas. Já em uso: {{list}}."
   },
   "modality": {
     "any": "Presencial ou online",
@@ -62,5 +65,7 @@
   "saving": "A guardar…",
   "saved": "Guardado.",
   "error": "Não foi possível guardar. Tenta outra vez.",
-  "readOnly": "Só a coordenação e a direção alteram o catálogo."
+  "readOnly": "Só a coordenação e a direção alteram o catálogo.",
+  "savedNamed": "{{name}} guardado.",
+  "ageInverted": "A idade mínima não pode ser maior do que a máxima."
 }
