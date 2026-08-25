@@ -8,7 +8,7 @@
   "filter": {
     "label": "Mostrar",
     "all": "Todos",
-    "pending": "Por definir"
+    "pending": "Solo los que faltan"
   },
   "empty": {
     "title": "Todavía no hay servicios",
