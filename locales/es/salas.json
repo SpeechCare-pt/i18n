@@ -1,7 +1,12 @@
 {
   "title": "Salas",
-  "subtitle_one": "{{count}} sala en {{units}} unidades.",
-  "subtitle_other": "{{count}} salas en {{units}} unidades.",
+  "subtitle": {
+    "rooms_one": "{{count}} sala",
+    "rooms_other": "{{count}} salas",
+    "units_one": "{{count}} unidad",
+    "units_other": "{{count}} unidades",
+    "joined": "{{rooms}} en {{units}}."
+  },
   "empty": {
     "title": "Todavía no hay salas",
     "body": "Registra las salas de cada unidad. Es con ellas que la agenda sabe dónde cabe cada consulta."
