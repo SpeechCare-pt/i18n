@@ -1,0 +1,55 @@
+{
+  "title": "Salas",
+  "subtitle_one": "{{count}} sala en {{units}} unidades.",
+  "subtitle_other": "{{count}} salas en {{units}} unidades.",
+  "empty": {
+    "title": "Todavía no hay salas",
+    "body": "Registra las salas de cada unidad. Es con ellas que la agenda sabe dónde cabe cada consulta."
+  },
+  "noRooms": "Sin salas.",
+  "add": "Añadir sala",
+  "addLabel": "Añadir sala en {{name}}",
+  "namePlaceholder": "Nombre de la sala",
+  "edit": "Definir",
+  "close": "Cerrar",
+  "editLabel": "Definir {{name}}",
+  "closeLabel": "Cerrar {{name}}",
+  "fields": {
+    "name": "Nombre",
+    "roomType": "Tipo de sala",
+    "capacity": "Aforo",
+    "equipment": "Equipamiento fijo",
+    "specialties": "Especialidades"
+  },
+  "hints": {
+    "roomType": "Como la llama la clínica. Usa el mismo nombre que piden los servicios.",
+    "roomTypeKnown": "Como la llama la clínica. Ya en uso: {{list}}.",
+    "capacity": "Cuántas personas caben.",
+    "equipment": "Separa por comas.",
+    "equipmentKnown": "Separa por comas. Ya en uso: {{list}}.",
+    "specialties": "Sin ninguna marcada, cualquier especialidad puede trabajar aquí."
+  },
+  "chips": {
+    "capacity_one": "{{count}} persona",
+    "capacity_other": "{{count}} personas",
+    "anySpecialty": "Cualquier especialidad"
+  },
+  "archived": "Archivada",
+  "archive": "Archivar",
+  "restore": "Reactivar",
+  "save": "Guardar",
+  "saving": "Guardando…",
+  "saved": "{{name}} guardada.",
+  "added": "{{name}} añadida.",
+  "error": "No se pudo guardar. Inténtalo otra vez.",
+  "needsName": "La sala necesita un nombre.",
+  "readOnly": "Solo la coordinación y la dirección cambian las salas.",
+  "gaps": {
+    "title_one": "{{count}} consulta que ninguna sala puede acoger",
+    "title_other": "{{count}} consultas que ninguna sala puede acoger",
+    "roomType": "«{{name}}» pide una {{roomType}} y no hay ninguna.",
+    "equipment": "«{{name}}» pide {{list}} y ninguna sala lo tiene.",
+    "both": "«{{name}}» pide una {{roomType}} con {{list}}, y no la hay.",
+    "combination": "«{{name}}» lo pide todo junto en la misma sala. Existe todo, pero repartido."
+  }
+}
