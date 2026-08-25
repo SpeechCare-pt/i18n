@@ -1,0 +1,61 @@
+{
+  "title": "Catálogo",
+  "summary": {
+    "pending_one": "{{count}} serviço ainda não diz quanto tempo demora.",
+    "pending_other": "{{count}} serviços ainda não dizem quanto tempo demoram.",
+    "done": "Todos os serviços dizem quanto tempo demoram."
+  },
+  "filter": {
+    "label": "Mostrar",
+    "all": "Todos",
+    "pending": "Por definir"
+  },
+  "empty": {
+    "title": "Ainda não há serviços",
+    "body": "Assim que existirem serviços nesta organização, aparecem aqui."
+  },
+  "allDone": {
+    "title": "Está tudo definido",
+    "body": "Nenhum serviço está à espera de duração."
+  },
+  "row": {
+    "undefined": "Por definir",
+    "edit": "Definir",
+    "close": "Fechar",
+    "editLabel": "Definir {{name}}"
+  },
+  "fields": {
+    "duration": "Duração",
+    "bufferBefore": "Folga antes",
+    "bufferAfter": "Folga depois",
+    "roomType": "Tipo de sala",
+    "equipment": "Equipamento",
+    "modality": "Modalidade",
+    "ages": "Escalão etário",
+    "ageMin": "Idade mínima",
+    "ageMax": "Idade máxima"
+  },
+  "hints": {
+    "equipment": "Separa por vírgulas.",
+    "ages": "Em anos. Deixa em branco para não limitar.",
+    "roomType": "Como a clínica lhe chama. Usa o mesmo nome nos serviços que precisam da mesma sala."
+  },
+  "modality": {
+    "any": "Presencial ou online",
+    "inPerson": "Presencial",
+    "online": "Online"
+  },
+  "ages": {
+    "range": "Dos {{min}} aos {{max}} anos",
+    "fromOnly": "A partir dos {{min}} anos",
+    "toOnly": "Até aos {{max}} anos"
+  },
+  "minutes": "{{count}} min",
+  "bufferBeforeShort": "{{count}} min antes",
+  "bufferAfterShort": "{{count}} min depois",
+  "save": "Guardar",
+  "saving": "A guardar…",
+  "saved": "Guardado.",
+  "error": "Não foi possível guardar. Tenta outra vez.",
+  "readOnly": "Só a coordenação e a direção alteram o catálogo."
+}
