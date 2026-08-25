@@ -29,7 +29,8 @@
     "edit": "Definir",
     "close": "Cerrar",
     "editLabel": "Definir {{name}}",
-    "closeLabel": "Cerrar {{name}}"
+    "closeLabel": "Cerrar {{name}}",
+    "archived": "Archivado"
   },
   "fields": {
     "duration": "Duración",
