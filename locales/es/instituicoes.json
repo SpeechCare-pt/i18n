@@ -23,6 +23,7 @@
     "email": "Email",
     "phone": "Teléfono",
     "contractRef": "Referencia del contrato",
+    "contractTerm": "Vigencia del contrato",
     "contractStartsAt": "Inicio",
     "contractEndsAt": "Fin",
     "locations": "Unidades"
