@@ -76,6 +76,7 @@
     "title": "A cobrar a instituições",
     "subtitle_one": "{{count}} instituição com valores em nome dela",
     "subtitle_other": "{{count}} instituições com valores em nome delas",
+    "note": "Estes valores também aparecem acima, na criança a quem a consulta pertence.",
     "children_one": "{{count}} criança",
     "children_other": "{{count}} crianças",
     "charges_one": "{{count}} valor",

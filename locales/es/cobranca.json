@@ -76,6 +76,7 @@
     "title": "A cobrar a instituciones",
     "subtitle_one": "{{count}} institución con importes a su nombre",
     "subtitle_other": "{{count}} instituciones con importes a su nombre",
+    "note": "Estos importes también aparecen arriba, en el niño al que pertenece la consulta.",
     "children_one": "{{count}} niño",
     "children_other": "{{count}} niños",
     "charges_one": "{{count}} importe",
