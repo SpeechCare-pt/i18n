@@ -41,8 +41,7 @@
   },
   "chips": {
     "capacity_one": "{{count}} pessoa",
-    "capacity_other": "{{count}} pessoas",
-    "anySpecialty": "Qualquer especialidade"
+    "capacity_other": "{{count}} pessoas"
   },
   "archived": "Arquivada",
   "archive": "Arquivar",
