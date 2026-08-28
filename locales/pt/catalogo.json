@@ -104,6 +104,7 @@
     "save": "Guardar preço",
     "saving": "A guardar…",
     "badAmount": "Escreve um valor em euros, por exemplo 49,50.",
-    "backdated": "Um preço entra em vigor hoje ou depois. Para corrigir o passado, fala com quem gere os dados."
+    "backdated": "Um preço entra em vigor hoje ou depois. Para corrigir o passado, fala com quem gere os dados.",
+    "cancel": "Cancelar"
   }
 }
