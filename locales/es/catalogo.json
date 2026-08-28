@@ -41,13 +41,15 @@
     "modality": "Modalidad",
     "ages": "Franja de edad",
     "ageMin": "Edad mínima",
-    "ageMax": "Edad máxima"
+    "ageMax": "Edad máxima",
+    "nonBillable": "Ocupa agenda sin facturar"
   },
   "hints": {
     "equipment": "Sepáralo por comas.",
     "ages": "En años. Déjalo en blanco para no limitar.",
     "roomType": "Como la clínica la llama. Usa el mismo nombre en los servicios que necesitan la misma sala.",
-    "equipmentKnown": "Sepáralo por comas. Ya en uso: {{list}}."
+    "equipmentKnown": "Sepáralo por comas. Ya en uso: {{list}}.",
+    "nonBillable": "Para reunión de equipo, supervisión, desplazamiento y tiempo administrativo. Ocupa la agenda y la sala y no genera documento de facturación."
   },
   "modality": {
     "any": "Presencial u online",
@@ -81,5 +83,27 @@
     "searchNone": "Nadie con «{{term}}».",
     "chosenHidden_one": "Otro {{count}} marcado fuera de la búsqueda.",
     "chosenHidden_other": "Otros {{count}} marcados fuera de la búsqueda."
+  },
+  "prices": {
+    "title": "Precios",
+    "none": "Todavía no hay precio definido para este servicio.",
+    "onlyCatalogue": "Sin tabla propia. Usa el precio del catálogo, {{amount}}.",
+    "nonBillable": "Este servicio no factura, así que no tiene precio.",
+    "scopeBase": "Tabla base",
+    "since": "en vigor desde {{on}}",
+    "from": "entra en vigor el {{on}}",
+    "by": "definido por {{name}}, {{on}}",
+    "add": "Nuevo precio",
+    "amount": "Precio",
+    "effectiveFrom": "A partir de",
+    "institution": "Institución",
+    "anyInstitution": "Cualquier institución",
+    "location": "Unidad",
+    "anyLocation": "Cualquier unidad",
+    "note": "Nota",
+    "save": "Guardar precio",
+    "saving": "Guardando…",
+    "badAmount": "Escribe un importe en euros, por ejemplo 49,50.",
+    "backdated": "Un precio entra en vigor hoy o después. Para corregir el pasado, habla con quien gestiona los datos."
   }
 }
