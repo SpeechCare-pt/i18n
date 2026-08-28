@@ -57,7 +57,17 @@
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "therapistHint": "Só aparecem os terapeutas habilitados para esta consulta.",
     "therapistCleared": "«{{name}}» não está habilitado para esta consulta. Escolhe outro.",
-    "notQualified": "Esse terapeuta não está habilitado para esta consulta."
+    "notQualified": "Esse terapeuta não está habilitado para esta consulta.",
+    "price": {
+      "nonBillable": "Não factura",
+      "unset": "Sem preço definido",
+      "origin": {
+        "institution": "Acordo com instituição",
+        "location": "Preço da unidade",
+        "base": "Tabela base",
+        "catalogue": "Preço do catálogo"
+      }
+    }
   },
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",
