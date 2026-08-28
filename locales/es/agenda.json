@@ -71,7 +71,7 @@
     "arrears": {
       "title": "Mes anterior sin regularizar",
       "body": "{{amount}} pendiente.",
-      "bodyMixed": "Cuentas pendientes en más de una moneda.",
+      "bodyMixed": "Cuentas pendientes de un mes anterior.",
       "authorise": "Autorizo esta cita"
     },
     "inArrears": "El mes anterior de este paciente no está regularizado. Habla con recepción.",
