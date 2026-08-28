@@ -67,7 +67,15 @@
         "base": "Tabela base",
         "catalogue": "Preço do catálogo"
       }
-    }
+    },
+    "arrears": {
+      "title": "Mês anterior por regularizar",
+      "body": "Este paciente tem {{amount}} em aberto de um mês anterior.",
+      "bodyMixed": "Este paciente tem contas em aberto de um mês anterior.",
+      "authorise": "Autorizo esta marcação"
+    },
+    "inArrears": "O mês anterior deste paciente não está regularizado. Fala com a receção.",
+    "arrearsNotAllowed": "Só a receção ou a direção podem autorizar esta marcação."
   },
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",

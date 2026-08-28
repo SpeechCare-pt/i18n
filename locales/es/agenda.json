@@ -67,7 +67,15 @@
         "base": "Tabla base",
         "catalogue": "Precio del catálogo"
       }
-    }
+    },
+    "arrears": {
+      "title": "Mes anterior sin regularizar",
+      "body": "Este paciente tiene {{amount}} pendiente de un mes anterior.",
+      "bodyMixed": "Este paciente tiene cuentas pendientes de un mes anterior.",
+      "authorise": "Autorizo esta cita"
+    },
+    "inArrears": "El mes anterior de este paciente no está regularizado. Habla con recepción.",
+    "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita."
   },
   "conflicts": {
     "therapist_one": "{{name}} ya tiene una sesión a esta hora",

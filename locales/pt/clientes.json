@@ -87,5 +87,9 @@
     "years_other": "anos",
     "months_one": "mês",
     "months_other": "meses"
+  },
+  "arrears": {
+    "badge": "Em atraso",
+    "label": "Mês anterior por regularizar"
   }
 }
