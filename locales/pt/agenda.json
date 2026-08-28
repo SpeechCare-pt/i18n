@@ -70,8 +70,8 @@
     },
     "arrears": {
       "title": "Mês anterior por regularizar",
-      "body": "Este paciente tem {{amount}} em aberto de um mês anterior.",
-      "bodyMixed": "Este paciente tem contas em aberto de um mês anterior.",
+      "body": "{{amount}} em aberto.",
+      "bodyMixed": "Contas em aberto em mais de uma moeda.",
       "authorise": "Autorizo esta marcação"
     },
     "inArrears": "O mês anterior deste paciente não está regularizado. Fala com a receção.",
