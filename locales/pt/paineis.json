@@ -1,0 +1,73 @@
+{
+  "title": "Painéis",
+  "review": {
+    "title": "Acessos a rever",
+    "subtitle": "Dos últimos 30 dias. Um acesso sai daqui quando passa o período.",
+    "empty": "Nada a rever nos últimos 30 dias.",
+    "truncated": "Houve mais acessos neste período do que foi possível ler. Esta lista pode estar incompleta.",
+    "capped": "A mostrar os {{count}} mais recentes de {{total}}.",
+    "breakGlass": {
+      "label": "Acesso por urgência",
+      "body": "{{actor}} abriu a ficha de {{patient}} sem fazer parte da equipa de cuidados.",
+      "bodyNoPatient": "{{actor}} abriu uma ficha sem fazer parte da equipa de cuidados.",
+      "reason": "Motivo: {{reason}}",
+      "noReason": "Sem motivo registado."
+    },
+    "massAccess": {
+      "label": "Muitas fichas no mesmo dia",
+      "body_one": "{{actor}} tocou em {{count}} ficha a {{day}}.",
+      "body_other": "{{actor}} tocou em {{count}} fichas a {{day}}."
+    },
+    "seeTrail": "Ver o que fez"
+  },
+  "trail": {
+    "title": "Registo de acessos",
+    "subtitle": "Quem viu cada ficha e quando. O registo não se apaga nem se edita.",
+    "filters": {
+      "label": "A ver",
+      "patient": "Ficha de {{name}}",
+      "person": "Feito por {{name}}",
+      "from": "De",
+      "to": "Até",
+      "clear": "Limpar",
+      "remove": "Retirar filtro"
+    },
+    "empty": {
+      "title": "Sem acessos",
+      "body": "Não há registos para o que pediste."
+    },
+    "loadMore": "Ver mais",
+    "loading": "A carregar…",
+    "byPerson": "Ver tudo o que esta pessoa fez",
+    "byPatient": "Ver tudo o que se fez nesta ficha",
+    "noPatient": "Sem ficha associada",
+    "action": {
+      "view": "Consultou",
+      "create": "Criou",
+      "update": "Alterou",
+      "reschedule": "Remarcou",
+      "cancel": "Cancelou",
+      "settle": "Regularizou",
+      "delete": "Apagou",
+      "export": "Exportou",
+      "share": "Deu acesso a",
+      "consentGrant": "Registou consentimento",
+      "consentRevoke": "Retirou acesso a",
+      "breakGlass": "Acedeu por urgência a",
+      "migrationSeed": "Veio da migração"
+    },
+    "resource": {
+      "patient": "ficha",
+      "clinicalEntry": "registo clínico",
+      "consent": "consentimento",
+      "accessGrant": "acesso",
+      "document": "documento",
+      "message": "mensagem",
+      "invoice": "conta",
+      "appointment": "sessão",
+      "formResponse": "formulário",
+      "user": "conta",
+      "invite": "convite"
+    }
+  }
+}

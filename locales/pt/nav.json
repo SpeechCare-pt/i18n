@@ -27,5 +27,10 @@
   "comingSoon": {
     "title": "Em breve",
     "body": "Este módulo ainda está a caminho."
+  },
+  "review": {
+    "none": "Sem acessos a rever",
+    "label_one": "{{count}} acesso a rever",
+    "label_other": "{{count}} acessos a rever"
   }
 }

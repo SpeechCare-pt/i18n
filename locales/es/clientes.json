@@ -74,7 +74,20 @@
     },
     "noAccess": {
       "title": "Fuera de tu equipo de cuidados",
-      "body": "Solo ves las fichas de los pacientes que atiendes. Si necesitas esta, pide a coordinación que te añada al equipo."
+      "body": "Solo ves las fichas de los pacientes que atiendes. Si necesitas esta, pide a coordinación que te añada al equipo.",
+      "urgent": {
+        "open": "Necesito acceder por urgencia",
+        "title": "Acceder por urgencia",
+        "body": "Escribe por qué lo necesitas. El acceso dura 8 horas, queda en el registro y la coordinación lo ve.",
+        "label": "Motivo",
+        "placeholder": "Ej.: niño en crisis en la sala de espera, terapeuta ausente",
+        "submit": "Acceder",
+        "cancel": "Cancelar",
+        "tooShort": "Escribe al menos {{count}} caracteres.",
+        "tooLong": "El motivo es demasiado largo.",
+        "failed": "No se pudo abrir el acceso. Inténtalo otra vez.",
+        "alreadyReachable": "Ya tienes acceso a esta ficha. Recarga la página."
+      }
     }
   },
   "gender": {
