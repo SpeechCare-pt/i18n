@@ -75,7 +75,8 @@
       "authorise": "Autorizo esta cita"
     },
     "inArrears": "El mes anterior de este paciente no está regularizado. Habla con recepción.",
-    "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita."
+    "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita.",
+    "tooManyOccurrences": "Una serie no puede tener más de 52 consultas. Elige una fecha final más cercana."
   },
   "conflicts": {
     "therapist_one": "{{name}} ya tiene una sesión a esta hora",
@@ -97,6 +98,48 @@
     "noShowPatient": "Registrar ausencia",
     "noShowTechnician": "Faltó el terapeuta",
     "close": "Cerrar",
-    "failed": "No se pudo guardar. Inténtalo otra vez."
+    "failed": "No se pudo guardar. Inténtalo otra vez.",
+    "openSeries": "Ver la serie"
+  },
+  "series": {
+    "repeat": "Consulta que se repite",
+    "frequency": "Frecuencia",
+    "weekly": "Todas las semanas",
+    "fortnightly": "Cada dos semanas",
+    "until": "Hasta",
+    "tooFew": "Elige una fecha final posterior al día de la primera consulta.",
+    "checking": "Comprobando las semanas…",
+    "loading": "Cargando…",
+    "summaryLabel": "Resumen de la serie",
+    "summary_one": "{{count}} consulta",
+    "summary_other": "{{count}} consultas",
+    "clashing_one": "{{count}} semana con solapamiento",
+    "clashing_other": "{{count}} semanas con solapamiento",
+    "clear": "Libre",
+    "clash": "Solapamiento",
+    "patientClash": "Ya tiene sesión con {{name}} a esta hora.",
+    "therapistClash_one": "El terapeuta ya tiene a {{name}} a esta hora.",
+    "therapistClash_other": "El terapeuta ya tiene {{count}} sesiones a esta hora.",
+    "moveTo": "Pasar a las {{time}}",
+    "moved": "Pasó a las {{time}}.",
+    "undoMove": "Restablecer",
+    "submit_one": "Reservar {{count}} consulta",
+    "submit_other": "Reservar {{count}} consultas",
+    "panelTitle": "Serie de consultas",
+    "from": "A partir de",
+    "affectsLabel": "Consultas afectadas",
+    "affects_one": "{{count}} consulta pendiente desde esta fecha",
+    "affects_other": "{{count}} consultas pendientes desde esta fecha",
+    "moveTherapist": "Pasar a otro terapeuta",
+    "keepTherapist": "Mantener el terapeuta",
+    "confirmMove": "Pasar las futuras",
+    "confirmEnd": "Terminar la serie",
+    "endedOn": "Serie terminada a partir del {{date}}.",
+    "done": {
+      "ended_one": "{{count}} consulta anulada.",
+      "ended_other": "{{count}} consultas anuladas.",
+      "moved_one": "{{count}} consulta pasó al nuevo terapeuta.",
+      "moved_other": "{{count}} consultas pasaron al nuevo terapeuta."
+    }
   }
 }
