@@ -98,7 +98,7 @@
       "signAgain": "Registrar nueva versión",
       "revoke": "Revocar",
       "form": {
-        "title": "Registrar — {{purpose}}",
+        "title": "Registrar consentimiento",
         "body": "Queda registrado el nombre de quien firma, la fecha y la versión {{version}} del documento.",
         "name": "Quién firma",
         "namePlaceholder": "Nombre completo",
