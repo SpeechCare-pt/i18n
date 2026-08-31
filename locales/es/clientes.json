@@ -91,6 +91,7 @@
       "signedBy": "Firmado el {{date}} por {{signer}} ({{relationship}})",
       "version": "Versión {{version}}",
       "unsigned": "Sin firmar",
+      "withdrawn": "Revocado",
       "revoked": "Revocado el {{date}}",
       "earlier_one": "{{count}} firma anterior más",
       "earlier_other": "{{count}} firmas anteriores más",
