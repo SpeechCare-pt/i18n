@@ -62,6 +62,67 @@
       "notFound": "Esa institución ya no existe.",
       "wasArchived": "Esa institución se ha archivado mientras tanto. Elige otra."
     },
+    "consents": {
+      "title": "Consentimientos",
+      "hint": "Cada finalidad se firma por separado. El documento en sí se queda en la clínica.",
+      "purpose": {
+        "careProvision": {
+          "label": "Prestación de cuidados",
+          "body": "Evaluar y hacer seguimiento del paciente."
+        },
+        "dataProcessing": {
+          "label": "Tratamiento de datos",
+          "body": "Guardar y tratar los datos personales y clínicos."
+        },
+        "teamSharing": {
+          "label": "Compartir con el equipo",
+          "body": "El equipo multidisciplinar comparte la ficha entre sí. Sin esto, cada técnico ve solo su especialidad."
+        },
+        "schoolSharing": {
+          "label": "Compartir con el colegio",
+          "body": "Hablar con el colegio o la escuela sobre el seguimiento."
+        },
+        "imageUse": {
+          "label": "Uso de imagen",
+          "body": "Captar imágenes o vídeo en sesión."
+        }
+      },
+      "signed": "Firmado el {{date}} por {{signer}}",
+      "signedBy": "Firmado el {{date}} por {{signer}} ({{relationship}})",
+      "version": "Versión {{version}}",
+      "unsigned": "Sin firmar",
+      "revoked": "Revocado el {{date}}",
+      "earlier_one": "{{count}} firma anterior más",
+      "earlier_other": "{{count}} firmas anteriores más",
+      "sign": "Registrar",
+      "signAgain": "Registrar nueva versión",
+      "revoke": "Revocar",
+      "form": {
+        "title": "Registrar — {{purpose}}",
+        "body": "Queda registrado el nombre de quien firma, la fecha y la versión {{version}} del documento.",
+        "name": "Quién firma",
+        "namePlaceholder": "Nombre completo",
+        "relationship": "Relación con el paciente",
+        "relationshipPlaceholder": "Ej.: madre, padre, tutor, el propio paciente",
+        "submit": "Registrar",
+        "cancel": "Cancelar",
+        "nameTooShort": "Escribe el nombre de quien firma.",
+        "nameTooLong": "El nombre es demasiado largo.",
+        "relationshipTooLong": "La relación es demasiado larga.",
+        "failed": "No se pudo registrar. Inténtalo otra vez.",
+        "saved": "Consentimiento registrado."
+      },
+      "confirm": {
+        "title": "¿Revocar {{purpose}}?",
+        "body": "Queda registrado con la fecha y quién lo hizo.",
+        "bodyTeamSharing": "El equipo deja de ver esta ficha fuera de su especialidad, desde ya. Queda registrado con la fecha y quién lo hizo.",
+        "submit": "Revocar",
+        "cancel": "Mantener",
+        "failed": "No se pudo revocar. Inténtalo otra vez.",
+        "gone": "Ya no había nada que revocar.",
+        "done": "Consentimiento revocado."
+      }
+    },
     "team": "Atendido por",
     "noTeam": "Todavía sin terapeuta asignado",
     "notFound": {

@@ -52,7 +52,8 @@
       "export": "Exportou",
       "share": "Deu acesso à ficha",
       "consentGrant": "Registou consentimento",
-      "consentRevoke": "Retirou o acesso à ficha",
+      "consentRevoke": "Revogou um consentimento",
+      "shareRevoke": "Retirou o acesso à ficha",
       "breakGlass": "Abriu a ficha por urgência",
       "migrationSeed": "Veio da migração"
     },
