@@ -50,10 +50,10 @@
       "settle": "Regularizou",
       "delete": "Apagou",
       "export": "Exportou",
-      "share": "Deu acesso a",
+      "share": "Deu acesso à ficha",
       "consentGrant": "Registou consentimento",
-      "consentRevoke": "Retirou acesso a",
-      "breakGlass": "Acedeu por urgência a",
+      "consentRevoke": "Retirou o acesso à ficha",
+      "breakGlass": "Abriu a ficha por urgência",
       "migrationSeed": "Veio da migração"
     },
     "resource": {
