@@ -98,6 +98,11 @@
       "sign": "Registar",
       "signAgain": "Registar nova versão",
       "revoke": "Revogar",
+      "aria": {
+        "sign": "Registar consentimento de {{purpose}}",
+        "signAgain": "Registar nova versão de {{purpose}}",
+        "revoke": "Revogar {{purpose}}"
+      },
       "form": {
         "title": "Registar consentimento",
         "body": "Fica registado o nome de quem assina, a data e a versão {{version}} do documento.",
