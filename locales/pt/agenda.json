@@ -121,7 +121,7 @@
     "therapistClash_one": "O terapeuta já tem {{name}} a esta hora.",
     "therapistClash_other": "O terapeuta já tem {{count}} sessões a esta hora.",
     "moveTo": "Passar para as {{time}}",
-    "moved": "Passou para as {{time}}.",
+    "moved": "Passou das {{time}}.",
     "undoMove": "Repor",
     "submit_one": "Marcar {{count}} consulta",
     "submit_other": "Marcar {{count}} consultas",
