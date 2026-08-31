@@ -140,6 +140,7 @@
       "ended_other": "{{count}} consultas anuladas.",
       "moved_one": "{{count}} consulta pasó al nuevo terapeuta.",
       "moved_other": "{{count}} consultas pasaron al nuevo terapeuta."
-    }
+    },
+    "affectsNone": "Nada pendiente desde esta fecha."
   }
 }
