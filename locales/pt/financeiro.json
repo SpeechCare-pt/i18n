@@ -1,0 +1,62 @@
+{
+  "title": "Financeiro",
+  "intro": "O que está por receber, o que ficou por cobrar e o que está em caixa agora.",
+  "now": {
+    "title": "Agora",
+    "inTills": "Em caixa",
+    "overdue": "Em atraso",
+    "open": "Cobranças em aberto",
+    "nothing": "—",
+    "noTills": "Nenhuma caixa aberta",
+    "tillsOpen_one": "{{count}} caixa aberta",
+    "tillsOpen_other": "{{count}} caixas abertas",
+    "overdueCount_zero": "Nada de meses anteriores",
+    "overdueCount_one": "{{count}} cobrança de um mês anterior",
+    "overdueCount_other": "{{count}} cobranças de meses anteriores",
+    "openNote": "Inclui as deste mês",
+    "tillsNote": "O valor em caixa é o que os movimentos dizem que lá deve estar. A contagem física só acontece ao fechar.",
+    "truncated": "Há mais cobranças em aberto do que este ecrã consegue ler, por isso os totais são um mínimo."
+  },
+  "aging": {
+    "title": "Antiguidade",
+    "hint": "As cobranças por regularizar, pela idade. As duas colunas nunca se somam.",
+    "owed": "Por regularizar",
+    "lapsed": "Links expirados",
+    "inCurrency": "Em {{currency}}",
+    "charges_one": "{{count}} cobrança",
+    "charges_other": "{{count}} cobranças",
+    "lapsedNote": "Um link expirado quer dizer que o link de pagamento morreu, não que o dinheiro está em dívida — mas também não quer dizer o contrário. Está aqui para se ver, não para somar.",
+    "bands": {
+      "d0_30": "Até 30 dias",
+      "d31_60": "31 a 60 dias",
+      "d61_90": "61 a 90 dias",
+      "d91_180": "91 a 180 dias",
+      "d181_365": "181 dias a 1 ano",
+      "over365": "Mais de um ano"
+    },
+    "empty": {
+      "title": "Não há nada por regularizar",
+      "body": "Nem cobranças pendentes nem links expirados."
+    },
+    "truncated": "Há mais cobranças do que este ecrã consegue ler, por isso os totais são um mínimo."
+  },
+  "missed": {
+    "title": "Realizado e não cobrado",
+    "earlier": "← Mês anterior",
+    "later": "Mês seguinte →",
+    "summary": "Em {{month}} realizaram-se {{held}} sessões facturáveis a {{seen}} pacientes.",
+    "lede_one": "{{count}} paciente foi visto este mês sem nenhuma cobrança emitida, num total de {{sessions}} sessões.",
+    "lede_other": "{{count}} pacientes foram vistos este mês sem nenhuma cobrança emitida, num total de {{sessions}} sessões.",
+    "sessions_one": "{{count}} sessão",
+    "sessions_other": "{{count}} sessões",
+    "since": "desde {{date}}",
+    "notBillable_one": "Ficou de fora {{count}} sessão que não factura (serviço não facturável ou sessão oferecida).",
+    "notBillable_other": "Ficaram de fora {{count}} sessões que não facturam (serviço não facturável ou sessão oferecida).",
+    "empty": {
+      "title": "Está tudo cobrado",
+      "body": "Todos os pacientes vistos este mês têm uma cobrança emitida.",
+      "quiet": "Não houve sessões facturáveis neste mês."
+    },
+    "truncated": "Houve mais sessões neste mês do que este ecrã consegue ler, por isso a lista pode estar incompleta."
+  }
+}

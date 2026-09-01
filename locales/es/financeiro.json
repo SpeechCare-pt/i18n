@@ -1,0 +1,62 @@
+{
+  "title": "Finanzas",
+  "intro": "Lo que está por cobrar, lo que quedó sin facturar y lo que hay en caja ahora.",
+  "now": {
+    "title": "Ahora",
+    "inTills": "En caja",
+    "overdue": "En mora",
+    "open": "Cobros abiertos",
+    "nothing": "—",
+    "noTills": "Ninguna caja abierta",
+    "tillsOpen_one": "{{count}} caja abierta",
+    "tillsOpen_other": "{{count}} cajas abiertas",
+    "overdueCount_zero": "Nada de meses anteriores",
+    "overdueCount_one": "{{count}} cobro de un mes anterior",
+    "overdueCount_other": "{{count}} cobros de meses anteriores",
+    "openNote": "Incluye los de este mes",
+    "tillsNote": "El importe en caja es lo que los movimientos dicen que debería haber. El recuento físico solo ocurre al cerrar.",
+    "truncated": "Hay más cobros abiertos de los que esta pantalla puede leer, así que los totales son un mínimo."
+  },
+  "aging": {
+    "title": "Antigüedad",
+    "hint": "Los cobros pendientes, por antigüedad. Las dos columnas nunca se suman.",
+    "owed": "Pendientes",
+    "lapsed": "Enlaces caducados",
+    "inCurrency": "En {{currency}}",
+    "charges_one": "{{count}} cobro",
+    "charges_other": "{{count}} cobros",
+    "lapsedNote": "Un enlace caducado significa que el enlace de pago murió, no que el dinero se deba — pero tampoco lo contrario. Está aquí para verse, no para sumarse.",
+    "bands": {
+      "d0_30": "Hasta 30 días",
+      "d31_60": "31 a 60 días",
+      "d61_90": "61 a 90 días",
+      "d91_180": "91 a 180 días",
+      "d181_365": "181 días a 1 año",
+      "over365": "Más de un año"
+    },
+    "empty": {
+      "title": "No hay nada pendiente",
+      "body": "Ni cobros pendientes ni enlaces caducados."
+    },
+    "truncated": "Hay más cobros de los que esta pantalla puede leer, así que los totales son un mínimo."
+  },
+  "missed": {
+    "title": "Realizado y no cobrado",
+    "earlier": "← Mes anterior",
+    "later": "Mes siguiente →",
+    "summary": "En {{month}} se realizaron {{held}} sesiones facturables a {{seen}} pacientes.",
+    "lede_one": "{{count}} paciente fue visto este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
+    "lede_other": "{{count}} pacientes fueron vistos este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
+    "sessions_one": "{{count}} sesión",
+    "sessions_other": "{{count}} sesiones",
+    "since": "desde {{date}}",
+    "notBillable_one": "Quedó fuera {{count}} sesión que no factura (servicio no facturable o sesión ofrecida).",
+    "notBillable_other": "Quedaron fuera {{count}} sesiones que no facturan (servicio no facturable o sesión ofrecida).",
+    "empty": {
+      "title": "Está todo cobrado",
+      "body": "Todos los pacientes vistos este mes tienen un cobro emitido.",
+      "quiet": "No hubo sesiones facturables en este mes."
+    },
+    "truncated": "Hubo más sesiones este mes de las que esta pantalla puede leer, así que la lista puede estar incompleta."
+  }
+}
