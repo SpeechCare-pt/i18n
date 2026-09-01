@@ -137,6 +137,7 @@
       "targetMerged": "Ese servicio también se unió a otro. Elige el que quedó.",
       "tooManyFutureSessions": "Este servicio tiene más consultas por realizar de las que se pueden mover de una vez. Habla con quien hace el mantenimiento.",
       "failed": "No se pudo unir. Inténtalo de nuevo."
-    }
+    },
+    "pastAtLeast": "más de {{count}} consultas ya realizadas se quedan donde están"
   }
 }

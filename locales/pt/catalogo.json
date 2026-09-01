@@ -137,6 +137,7 @@
       "targetMerged": "Esse serviço também já foi junto a outro. Escolhe o que ficou.",
       "tooManyFutureSessions": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez. Fala com quem faz a manutenção.",
       "failed": "Não foi possível juntar. Tenta outra vez."
-    }
+    },
+    "pastAtLeast": "mais de {{count}} consultas já realizadas ficam onde estão"
   }
 }
