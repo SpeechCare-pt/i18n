@@ -18,7 +18,10 @@
     "scales_one": "{{count}} puntuación",
     "scales_other": "{{count}} puntuaciones",
     "anyAge": "Sin franja de edad definida",
-    "anyone": "Cualquier profesional"
+    "anyone": "Cualquier profesional",
+    "ageRange": "De los {{from}} a los {{to}}",
+    "ageFrom": "A partir de los {{from}}",
+    "ageTo": "Hasta los {{to}}"
   },
   "form": {
     "key": "Código",
