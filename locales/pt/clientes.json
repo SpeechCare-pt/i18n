@@ -172,7 +172,6 @@
     "title": "Acordo de preço",
     "hint": "O que esta família paga, quando é diferente da tabela. Ganha a qualquer acordo de instituição ou de unidade.",
     "empty": "Esta família paga a tabela normal.",
-    "emptyReadOnly": "Esta família paga a tabela normal.",
     "add": "Novo acordo",
     "service": "Serviço",
     "chooseService": "Escolher serviço…",

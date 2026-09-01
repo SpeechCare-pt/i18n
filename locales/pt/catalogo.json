@@ -106,9 +106,7 @@
     "badAmount": "Escreve um valor em euros, por exemplo 49,50.",
     "backdated": "Um preço entra em vigor hoje ou depois. Para corrigir o passado, fala com quem gere os dados.",
     "cancel": "Cancelar",
-    "scopePatient": "Acordo da família",
-    "patient": "Paciente",
-    "anyPatient": "Qualquer paciente"
+    "scopePatient": "Acordo da família"
   },
   "merge": {
     "title": "Juntar a outro serviço",
@@ -128,7 +126,6 @@
     "nothing": "Não há nada para passar. O serviço é arquivado.",
     "submit": "Juntar",
     "saving": "A juntar…",
-    "done": "«{{from}}» foi junto a «{{into}}».",
     "mergedInto": "Junto a {{name}}",
     "cancel": "Cancelar",
     "errors": {
@@ -138,6 +135,7 @@
       "tooManyFutureSessions": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez. Fala com quem faz a manutenção.",
       "failed": "Não foi possível juntar. Tenta outra vez."
     },
-    "pastAtLeast": "mais de {{count}} consultas já realizadas ficam onde estão"
+    "pastAtLeast": "mais de {{count}} consultas já realizadas ficam onde estão",
+    "tooMany": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez — não dá para juntar assim."
   }
 }

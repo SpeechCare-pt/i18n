@@ -172,7 +172,6 @@
     "title": "Acuerdo de precio",
     "hint": "Lo que paga esta familia, cuando es distinto de la tarifa. Gana a cualquier acuerdo de institución o de unidad.",
     "empty": "Esta familia paga la tarifa normal.",
-    "emptyReadOnly": "Esta familia paga la tarifa normal.",
     "add": "Nuevo acuerdo",
     "service": "Servicio",
     "chooseService": "Elegir servicio…",
