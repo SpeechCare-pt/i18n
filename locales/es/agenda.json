@@ -200,6 +200,7 @@
     "slotNotFree": "Esta cita ya no está anulada, así que el hueco dejó de existir.",
     "passed": "Esta hora ya pasó, así que no hay hueco que ofrecer.",
     "slotPassed": "Esta hora ya pasó.",
-    "reopen": "Ofrecer el hueco"
+    "reopen": "Ofrecer el hueco",
+    "truncated": "La lista de espera es más larga que esto, así que puede faltar aquí alguien que sirva."
   }
 }

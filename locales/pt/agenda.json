@@ -200,6 +200,7 @@
     "slotNotFree": "Esta consulta já não está anulada, por isso a vaga deixou de existir.",
     "passed": "Esta hora já passou, por isso não há vaga para oferecer.",
     "slotPassed": "Esta hora já passou.",
-    "reopen": "Oferecer a vaga"
+    "reopen": "Oferecer a vaga",
+    "truncated": "A lista de espera é maior do que isto, por isso pode faltar aqui alguém que sirva."
   }
 }

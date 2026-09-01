@@ -6,7 +6,8 @@
     "intakeHint": "Famílias que ainda não começaram acompanhamento.",
     "betterSlotHint": "Famílias que já cá andam e querem outra hora.",
     "intakeEmpty": "Ninguém à espera de começar.",
-    "betterSlotEmpty": "Ninguém à espera de outra hora."
+    "betterSlotEmpty": "Ninguém à espera de outra hora.",
+    "truncated": "A lista é maior do que isto. Estão a faltar entradas mais recentes."
   },
   "loading": "A carregar…",
   "add": {
