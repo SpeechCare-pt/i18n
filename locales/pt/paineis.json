@@ -86,6 +86,7 @@
     "entries_one": "{{count}} entrada",
     "entries_other": "{{count}} entradas",
     "days_one": "{{count}} dia",
-    "days_other": "{{count}} dias"
+    "days_other": "{{count}} dias",
+    "underADay": "menos de um dia"
   }
 }
