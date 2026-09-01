@@ -32,7 +32,8 @@
     "alreadyWaiting": "Este paciente ya está en esta lista para esta especialidad.",
     "failed": "No se pudo poner en la lista. Inténtalo otra vez.",
     "close": "Cerrar",
-    "change": "Cambiar"
+    "change": "Cambiar",
+    "choose": "Elegir…"
   },
   "priorities": {
     "urgent": "Urgente",
