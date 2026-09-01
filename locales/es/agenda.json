@@ -100,7 +100,8 @@
     "close": "Cerrar",
     "failed": "No se pudo guardar. Inténtalo otra vez.",
     "openSeries": "Ver la serie",
-    "offer": "Ofrecer el hueco"
+    "offer": "Ofrecer el hueco",
+    "record": "Registrar consulta"
   },
   "series": {
     "repeat": "Consulta que se repite",

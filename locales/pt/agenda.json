@@ -100,7 +100,8 @@
     "close": "Fechar",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "openSeries": "Ver a série",
-    "offer": "Oferecer a vaga"
+    "offer": "Oferecer a vaga",
+    "record": "Registar consulta"
   },
   "series": {
     "repeat": "Consulta que se repete",
