@@ -135,10 +135,6 @@
       "title": "Ficha no encontrada",
       "body": "Esta ficha no existe o no tienes acceso a ella."
     },
-    "clinical": {
-      "title": "Historia clínica",
-      "body": "El historial clínico de este paciente todavía no está en esta vista."
-    },
     "noAccess": {
       "title": "Fuera de tu equipo de cuidados",
       "body": "Solo ves las fichas de los pacientes que atiendes. Si necesitas esta, pide a coordinación que te añada al equipo.",
