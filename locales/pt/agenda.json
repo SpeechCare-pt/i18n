@@ -65,7 +65,8 @@
         "institution": "Acordo com instituição",
         "location": "Preço da unidade",
         "base": "Tabela base",
-        "catalogue": "Preço do catálogo"
+        "catalogue": "Preço do catálogo",
+        "patient": "Acordo da família"
       }
     },
     "arrears": {

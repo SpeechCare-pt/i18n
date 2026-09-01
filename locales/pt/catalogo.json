@@ -105,6 +105,38 @@
     "saving": "A guardar…",
     "badAmount": "Escreve um valor em euros, por exemplo 49,50.",
     "backdated": "Um preço entra em vigor hoje ou depois. Para corrigir o passado, fala com quem gere os dados.",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "scopePatient": "Acordo da família",
+    "patient": "Paciente",
+    "anyPatient": "Qualquer paciente"
+  },
+  "merge": {
+    "title": "Juntar a outro serviço",
+    "hint": "Se este serviço só existe para guardar um preço, junta-o ao serviço de que é cópia. O preço passa para lá; o que já aconteceu fica como está.",
+    "into": "Juntar a",
+    "choose": "Escolher serviço…",
+    "scopeHint": "A que é que este preço passa a aplicar-se lá.",
+    "preview": "O que vai acontecer",
+    "prices_one": "{{count}} preço passa para o outro serviço",
+    "prices_other": "{{count}} preços passam para o outro serviço",
+    "future_one": "{{count}} consulta ainda por realizar muda de serviço",
+    "future_other": "{{count}} consultas ainda por realizar mudam de serviço",
+    "past_one": "{{count}} consulta já realizada fica onde está",
+    "past_other": "{{count}} consultas já realizadas ficam onde estão",
+    "series_one": "{{count}} série passa a gerar no outro serviço",
+    "series_other": "{{count}} séries passam a gerar no outro serviço",
+    "nothing": "Não há nada para passar. O serviço é arquivado.",
+    "submit": "Juntar",
+    "saving": "A juntar…",
+    "done": "«{{from}}» foi junto a «{{into}}».",
+    "mergedInto": "Junto a {{name}}",
+    "cancel": "Cancelar",
+    "errors": {
+      "mergeIntoSelf": "Um serviço não se junta a si próprio.",
+      "alreadyMerged": "Este serviço já foi junto a outro.",
+      "targetMerged": "Esse serviço também já foi junto a outro. Escolhe o que ficou.",
+      "tooManyFutureSessions": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez. Fala com quem faz a manutenção.",
+      "failed": "Não foi possível juntar. Tenta outra vez."
+    }
   }
 }

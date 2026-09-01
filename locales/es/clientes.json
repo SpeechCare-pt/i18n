@@ -167,5 +167,33 @@
   "arrears": {
     "badge": "En mora",
     "label": "Mes anterior sin regularizar"
+  },
+  "acordo": {
+    "title": "Acuerdo de precio",
+    "hint": "Lo que paga esta familia, cuando es distinto de la tarifa. Gana a cualquier acuerdo de institución o de unidad.",
+    "empty": "Esta familia paga la tarifa normal.",
+    "emptyReadOnly": "Esta familia paga la tarifa normal.",
+    "add": "Nuevo acuerdo",
+    "service": "Servicio",
+    "chooseService": "Elegir servicio…",
+    "amount": "Precio",
+    "effectiveFrom": "A partir de",
+    "location": "Unidad",
+    "anyLocation": "Cualquier unidad",
+    "note": "Nota",
+    "notePlaceholder": "Hermano -10%, acuerdo de 2026…",
+    "save": "Guardar acuerdo",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "saved": "Acuerdo guardado.",
+    "since": "en vigor desde {{on}}",
+    "from": "entra en vigor el {{on}}",
+    "by": "definido por {{name}}, {{on}}",
+    "superseded": "sustituido",
+    "free": "Exento",
+    "badAmount": "Escribe un importe en euros, por ejemplo 20,00.",
+    "missingService": "Elige el servicio al que se aplica el acuerdo.",
+    "backdated": "Un acuerdo entra en vigor hoy o después.",
+    "failed": "No se pudo guardar. Inténtalo de nuevo."
   }
 }

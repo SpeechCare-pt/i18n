@@ -167,5 +167,33 @@
   "arrears": {
     "badge": "Em atraso",
     "label": "Mês anterior por regularizar"
+  },
+  "acordo": {
+    "title": "Acordo de preço",
+    "hint": "O que esta família paga, quando é diferente da tabela. Ganha a qualquer acordo de instituição ou de unidade.",
+    "empty": "Esta família paga a tabela normal.",
+    "emptyReadOnly": "Esta família paga a tabela normal.",
+    "add": "Novo acordo",
+    "service": "Serviço",
+    "chooseService": "Escolher serviço…",
+    "amount": "Preço",
+    "effectiveFrom": "A partir de",
+    "location": "Unidade",
+    "anyLocation": "Qualquer unidade",
+    "note": "Nota",
+    "notePlaceholder": "Irmão -10%, acordo de 2026…",
+    "save": "Guardar acordo",
+    "saving": "A guardar…",
+    "cancel": "Cancelar",
+    "saved": "Acordo guardado.",
+    "since": "em vigor desde {{on}}",
+    "from": "entra em vigor a {{on}}",
+    "by": "definido por {{name}}, {{on}}",
+    "superseded": "substituído",
+    "free": "Isento",
+    "badAmount": "Escreve um valor em euros, por exemplo 20,00.",
+    "missingService": "Escolhe o serviço a que o acordo se aplica.",
+    "backdated": "Um acordo entra em vigor hoje ou depois.",
+    "failed": "Não foi possível guardar. Tenta outra vez."
   }
 }

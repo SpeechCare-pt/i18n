@@ -105,6 +105,38 @@
     "saving": "Guardando…",
     "badAmount": "Escribe un importe en euros, por ejemplo 49,50.",
     "backdated": "Un precio entra en vigor hoy o después. Para corregir el pasado, habla con quien gestiona los datos.",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "scopePatient": "Acuerdo de la familia",
+    "patient": "Paciente",
+    "anyPatient": "Cualquier paciente"
+  },
+  "merge": {
+    "title": "Unir a otro servicio",
+    "hint": "Si este servicio solo existe para guardar un precio, únelo al servicio del que es copia. El precio pasa allí; lo que ya ocurrió se queda como está.",
+    "into": "Unir a",
+    "choose": "Elegir servicio…",
+    "scopeHint": "A qué pasa a aplicarse ese precio allí.",
+    "preview": "Lo que va a pasar",
+    "prices_one": "{{count}} precio pasa al otro servicio",
+    "prices_other": "{{count}} precios pasan al otro servicio",
+    "future_one": "{{count}} consulta aún por realizar cambia de servicio",
+    "future_other": "{{count}} consultas aún por realizar cambian de servicio",
+    "past_one": "{{count}} consulta ya realizada se queda donde está",
+    "past_other": "{{count}} consultas ya realizadas se quedan donde están",
+    "series_one": "{{count}} serie pasa a generar en el otro servicio",
+    "series_other": "{{count}} series pasan a generar en el otro servicio",
+    "nothing": "No hay nada que pasar. El servicio se archiva.",
+    "submit": "Unir",
+    "saving": "Uniendo…",
+    "done": "«{{from}}» se unió a «{{into}}».",
+    "mergedInto": "Unido a {{name}}",
+    "cancel": "Cancelar",
+    "errors": {
+      "mergeIntoSelf": "Un servicio no se une a sí mismo.",
+      "alreadyMerged": "Este servicio ya se unió a otro.",
+      "targetMerged": "Ese servicio también se unió a otro. Elige el que quedó.",
+      "tooManyFutureSessions": "Este servicio tiene más consultas por realizar de las que se pueden mover de una vez. Habla con quien hace el mantenimiento.",
+      "failed": "No se pudo unir. Inténtalo de nuevo."
+    }
   }
 }
