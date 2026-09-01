@@ -30,7 +30,9 @@
     "submit": "Guardar",
     "cancel": "Cancelar",
     "alreadyWaiting": "Este paciente ya está en esta lista para esta especialidad.",
-    "failed": "No se pudo poner en la lista. Inténtalo otra vez."
+    "failed": "No se pudo poner en la lista. Inténtalo otra vez.",
+    "close": "Cerrar",
+    "change": "Cambiar"
   },
   "priorities": {
     "urgent": "Urgente",
@@ -48,6 +50,7 @@
     "withTechnician": "con {{name}}",
     "atLocation": "en {{name}}",
     "withdraw": "Quitar",
-    "withdrawFailed": "No se pudo quitar. Inténtalo otra vez."
+    "withdrawFailed": "No se pudo quitar. Inténtalo otra vez.",
+    "born": "n. {{date}}"
   }
 }

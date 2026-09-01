@@ -99,7 +99,8 @@
     "noShowTechnician": "Faltó el terapeuta",
     "close": "Cerrar",
     "failed": "No se pudo guardar. Inténtalo otra vez.",
-    "openSeries": "Ver la serie"
+    "openSeries": "Ver la serie",
+    "offer": "Ofrecer el hueco"
   },
   "series": {
     "repeat": "Consulta que se repite",
@@ -196,6 +197,9 @@
     "failed": "No se pudo reservar. Inténtalo otra vez.",
     "patientInArrears": "Esta familia tiene el mes anterior sin regularizar. Reserva desde Nueva cita para autorizarlo.",
     "notWaiting": "Esta persona ya salió de la lista de espera.",
-    "slotNotFree": "Esta cita ya no está anulada, así que el hueco dejó de existir."
+    "slotNotFree": "Esta cita ya no está anulada, así que el hueco dejó de existir.",
+    "passed": "Esta hora ya pasó, así que no hay hueco que ofrecer.",
+    "slotPassed": "Esta hora ya pasó.",
+    "reopen": "Ofrecer el hueco"
   }
 }

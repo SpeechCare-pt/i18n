@@ -99,7 +99,8 @@
     "noShowTechnician": "Faltou o terapeuta",
     "close": "Fechar",
     "failed": "Não foi possível guardar. Tenta outra vez.",
-    "openSeries": "Ver a série"
+    "openSeries": "Ver a série",
+    "offer": "Oferecer a vaga"
   },
   "series": {
     "repeat": "Consulta que se repete",
@@ -196,6 +197,9 @@
     "failed": "Não foi possível marcar. Tenta outra vez.",
     "patientInArrears": "Esta família tem o mês anterior por regularizar. Marca pela Nova marcação para autorizar.",
     "notWaiting": "Esta pessoa já saiu da lista de espera.",
-    "slotNotFree": "Esta consulta já não está anulada, por isso a vaga deixou de existir."
+    "slotNotFree": "Esta consulta já não está anulada, por isso a vaga deixou de existir.",
+    "passed": "Esta hora já passou, por isso não há vaga para oferecer.",
+    "slotPassed": "Esta hora já passou.",
+    "reopen": "Oferecer a vaga"
   }
 }
