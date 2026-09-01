@@ -142,5 +142,43 @@
       "moved_other": "{{count}} consultas passaram para o novo terapeuta."
     },
     "affectsNone": "Nada por realizar a partir desta data."
+  },
+  "chores": {
+    "label": "Por tratar",
+    "faltas_one": "{{count}} falta por remarcar · faltam {{days}} dias",
+    "faltas_other": "{{count}} faltas por remarcar · faltam {{days}} dias",
+    "closures_one": "{{count}} consulta em dia de encerramento",
+    "closures_other": "{{count}} consultas em dias de encerramento"
+  },
+  "rebook": {
+    "title": "Faltas por remarcar",
+    "deadlineLabel": "Prazo",
+    "deadline_one": "{{count}} falta. Faltam {{days}} dias para o fim do mês.",
+    "deadline_other": "{{count}} faltas. Faltam {{days}} dias para o fim do mês.",
+    "none": "Nada por remarcar este mês.",
+    "with": "com {{name}}",
+    "fromSeries": "de uma série",
+    "find": "Ver vagas",
+    "looking": "A ver a agenda…",
+    "noSlots": "Sem vagas deste terapeuta até ao fim do mês.",
+    "missedOn": "faltou a {{date}}",
+    "slot": "{{date}} · {{start}}–{{end}}",
+    "back": "Voltar",
+    "outsideTheMonth": "A remarcação tem de ser no mês em que faltou.",
+    "alreadyRebooked": "Esta falta já foi remarcada.",
+    "failed": "Não foi possível remarcar. Tenta outra vez."
+  },
+  "closures": {
+    "title": "Dias de encerramento",
+    "summaryLabel": "Consultas afetadas",
+    "summary_one": "{{count}} consulta de série cai num feriado nas próximas {{weeks}} semanas.",
+    "summary_other": "{{count}} consultas de séries caem em feriados nas próximas {{weeks}} semanas.",
+    "none": "Nenhuma consulta de série cai num feriado nas próximas {{weeks}} semanas.",
+    "noSlot": "Sem vaga deste terapeuta nessa semana — tem de ser à mão.",
+    "pickFor": "Nova hora para {{name}}",
+    "confirm_one": "Remarcar {{count}} consulta",
+    "confirm_other": "Remarcar {{count}} consultas",
+    "moved_one": "{{count}} consulta remarcada.",
+    "moved_other": "{{count}} consultas remarcadas."
   }
 }

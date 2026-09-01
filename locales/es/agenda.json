@@ -142,5 +142,43 @@
       "moved_other": "{{count}} consultas pasaron al nuevo terapeuta."
     },
     "affectsNone": "Nada pendiente desde esta fecha."
+  },
+  "chores": {
+    "label": "Pendiente",
+    "faltas_one": "{{count}} falta por reprogramar · quedan {{days}} días",
+    "faltas_other": "{{count}} faltas por reprogramar · quedan {{days}} días",
+    "closures_one": "{{count}} consulta en día de cierre",
+    "closures_other": "{{count}} consultas en días de cierre"
+  },
+  "rebook": {
+    "title": "Faltas por reprogramar",
+    "deadlineLabel": "Plazo",
+    "deadline_one": "{{count}} falta. Quedan {{days}} días para el fin de mes.",
+    "deadline_other": "{{count}} faltas. Quedan {{days}} días para el fin de mes.",
+    "none": "Nada por reprogramar este mes.",
+    "with": "con {{name}}",
+    "fromSeries": "de una serie",
+    "find": "Ver huecos",
+    "looking": "Consultando la agenda…",
+    "noSlots": "Sin huecos de este terapeuta hasta fin de mes.",
+    "missedOn": "faltó el {{date}}",
+    "slot": "{{date}} · {{start}}–{{end}}",
+    "back": "Volver",
+    "outsideTheMonth": "La reprogramación tiene que ser en el mes en que faltó.",
+    "alreadyRebooked": "Esta falta ya se reprogramó.",
+    "failed": "No se pudo reprogramar. Inténtalo otra vez."
+  },
+  "closures": {
+    "title": "Días de cierre",
+    "summaryLabel": "Consultas afectadas",
+    "summary_one": "{{count}} consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
+    "summary_other": "{{count}} consultas de series caen en festivos en las próximas {{weeks}} semanas.",
+    "none": "Ninguna consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
+    "noSlot": "Sin hueco de este terapeuta esa semana — hay que hacerlo a mano.",
+    "pickFor": "Nueva hora para {{name}}",
+    "confirm_one": "Reprogramar {{count}} consulta",
+    "confirm_other": "Reprogramar {{count}} consultas",
+    "moved_one": "{{count}} consulta reprogramada.",
+    "moved_other": "{{count}} consultas reprogramadas."
   }
 }
