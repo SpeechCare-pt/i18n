@@ -166,7 +166,8 @@
     "back": "Voltar",
     "outsideTheMonth": "A remarcação tem de ser no mês em que faltou.",
     "alreadyRebooked": "Esta falta já foi remarcada.",
-    "failed": "Não foi possível remarcar. Tenta outra vez."
+    "failed": "Não foi possível remarcar. Tenta outra vez.",
+    "startsAt": "Marca no início do intervalo. Para outra hora, usa Nova marcação."
   },
   "closures": {
     "title": "Dias de encerramento",

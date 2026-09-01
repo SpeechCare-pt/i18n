@@ -166,7 +166,8 @@
     "back": "Volver",
     "outsideTheMonth": "La reprogramación tiene que ser en el mes en que faltó.",
     "alreadyRebooked": "Esta falta ya se reprogramó.",
-    "failed": "No se pudo reprogramar. Inténtalo otra vez."
+    "failed": "No se pudo reprogramar. Inténtalo otra vez.",
+    "startsAt": "Reserva al inicio del intervalo. Para otra hora, usa Nueva cita."
   },
   "closures": {
     "title": "Días de cierre",
