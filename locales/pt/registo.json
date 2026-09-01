@@ -38,7 +38,8 @@
     "needsSession": "Esta nota está presa a uma sessão que já não existe.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "forbidden": "Só quem acompanha o paciente pode escrever no registo.",
-    "counter": "{{count}} de {{limit}} caracteres"
+    "counter": "{{count}} de {{limit}} caracteres",
+    "unknownSession": "Essa sessão não existe ou não é deste paciente. Volta à agenda e tenta de novo."
   },
   "history": {
     "title": "Consultas anteriores",
