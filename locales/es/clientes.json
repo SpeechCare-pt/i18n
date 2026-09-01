@@ -194,5 +194,22 @@
     "missingService": "Elige el servicio al que se aplica el acuerdo.",
     "backdated": "Un acuerdo entra en vigor hoy o después.",
     "failed": "No se pudo guardar. Inténtalo de nuevo."
+  },
+  "pagamento": {
+    "title": "Estado de pago",
+    "upToDate": "Esta familia está al día.",
+    "never": "Nunca se registró un pago.",
+    "lastPaid": "Último pago el {{on}}.",
+    "openCount_one": "{{count}} cobro abierto",
+    "openCount_other": "{{count}} cobros abiertos",
+    "arrears_one": "{{count}} cobro de un mes anterior, {{amount}}",
+    "arrears_other": "{{count}} cobros de meses anteriores, {{amount}}",
+    "arrearsNoTotal_one": "{{count}} cobro de un mes anterior",
+    "arrearsNoTotal_other": "{{count}} cobros de meses anteriores",
+    "since": "el más antiguo desde {{on}}",
+    "issued": "emitido el {{on}}",
+    "noTotal": "Los cobros están en monedas distintas, así que no hay un total.",
+    "truncated": "Esta familia tiene más cobros de los que esta pantalla puede leer, así que el total es un mínimo.",
+    "toCobranca": "Ver en Cobranza"
   }
 }

@@ -58,5 +58,80 @@
       "quiet": "Não houve sessões facturáveis neste mês."
     },
     "truncated": "Houve mais sessões neste mês do que este ecrã consegue ler, por isso a lista pode estar incompleta."
+  },
+  "run": {
+    "title": "Levantar a cobrança do mês",
+    "hint": "Uma linha por sessão realizada, ao preço em vigor no dia em que aconteceu. A cobrança fica pendente e endereçada à família.",
+    "preview": "{{count}} famílias por cobrar em {{month}}, {{sessions}} sessões, {{total}}.",
+    "preview_one": "1 família por cobrar em {{month}}, {{sessions}} sessões, {{total}}.",
+    "alreadyRaised_one": "{{count}} família já tem cobrança deste mês.",
+    "alreadyRaised_other": "{{count}} famílias já têm cobrança deste mês.",
+    "columns": {
+      "patient": "Paciente",
+      "sessions": "Sessões",
+      "total": "Total"
+    },
+    "sessions_one": "{{count}} sessão",
+    "sessions_other": "{{count}} sessões",
+    "selectAll": "Escolher todas",
+    "selectNone": "Não escolher nenhuma",
+    "raise": "Levantar {{count}} cobranças · {{total}}",
+    "raise_one": "Levantar 1 cobrança · {{total}}",
+    "raising": "A levantar…",
+    "raised_one": "Levantada 1 cobrança, com {{lines}} sessões.",
+    "raised_other": "Levantadas {{count}} cobranças, com {{lines}} sessões.",
+    "skippedAfter_one": "{{count}} família ficou de fora por já ter cobrança deste mês.",
+    "skippedAfter_other": "{{count}} famílias ficaram de fora por já terem cobrança deste mês.",
+    "failed": "Não foi possível levantar as cobranças. Tenta outra vez.",
+    "skipped": {
+      "notBillable": "{{name}} não factura",
+      "free": "{{name}} foi oferecida",
+      "noPrice": "{{name}} não tem preço definido"
+    },
+    "skippedNote_one": "{{count}} sessão fica de fora desta cobrança.",
+    "skippedNote_other": "{{count}} sessões ficam de fora desta cobrança.",
+    "noPriceWarning": "Há sessões sem preço. Define o preço no catálogo antes de cobrar, ou a família paga a menos.",
+    "empty": {
+      "title": "Não há nada para cobrar",
+      "body": "Todas as famílias vistas neste mês já têm cobrança emitida.",
+      "quiet": "Não houve sessões realizadas neste mês."
+    },
+    "truncated": "Este mês tem mais sessões do que este ecrã consegue ler de uma vez, por isso não é possível levantar as cobranças com segurança.",
+    "origin": {
+      "patient": "acordo da família",
+      "institution": "acordo da instituição",
+      "location": "preço da unidade",
+      "base": "tabela base",
+      "catalogue": "preço do serviço"
+    }
+  },
+  "export": {
+    "title": "Exportar o período",
+    "hint": "O que foi emitido e o que foi liquidado, para a contabilidade emitir os documentos. São duas listas: uma cobrança emitida em março e paga em abril é fatura de março e recibo de abril.",
+    "from": "De",
+    "to": "Até",
+    "download": "Descarregar CSV",
+    "raised_one": "{{count}} cobrança emitida",
+    "raised_other": "{{count}} cobranças emitidas",
+    "settled_one": "{{count}} cobrança liquidada",
+    "settled_other": "{{count}} cobranças liquidadas",
+    "empty": "Não houve movimento neste período.",
+    "badPeriod": "A data de fim é anterior à de início.",
+    "truncated": "O período tem mais cobranças do que este ecrã consegue ler, por isso o ficheiro está incompleto. Escolhe um período mais curto.",
+    "note": "A fatura-recibo é emitida pelo software da contabilidade. Isto é a passagem de testemunho, não um documento fiscal.",
+    "csv": {
+      "kind": "Tipo",
+      "raised": "Emitida",
+      "settled": "Liquidada",
+      "invoiceId": "Referência",
+      "patient": "Paciente",
+      "coversMonth": "Mês",
+      "amount": "Valor",
+      "currency": "Moeda",
+      "status": "Estado",
+      "issuedAt": "Data de emissão",
+      "paidAt": "Data de pagamento",
+      "institution": "Entidade"
+    }
   }
 }
