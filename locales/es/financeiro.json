@@ -62,7 +62,7 @@
   "run": {
     "title": "Emitir el cobro del mes",
     "hint": "Una línea por sesión realizada, al precio vigente el día en que ocurrió. El cobro queda pendiente y dirigido a la familia.",
-    "preview": "{{count}} familias por cobrar en {{month}}, {{sessions}} sesiones, {{total}}.",
+    "preview_other": "{{count}} familias por cobrar en {{month}}, {{sessions}} sesiones, {{total}}.",
     "preview_one": "1 familia por cobrar en {{month}}, {{sessions}} sesiones, {{total}}.",
     "alreadyRaised_one": "{{count}} familia ya tiene cobro de este mes.",
     "alreadyRaised_other": "{{count}} familias ya tienen cobro de este mes.",
@@ -75,7 +75,7 @@
     "sessions_other": "{{count}} sesiones",
     "selectAll": "Seleccionar todas",
     "selectNone": "No seleccionar ninguna",
-    "raise": "Emitir {{count}} cobros · {{total}}",
+    "raise_other": "Emitir {{count}} cobros · {{total}}",
     "raise_one": "Emitir 1 cobro · {{total}}",
     "raising": "Emitiendo…",
     "raised_one": "Emitido 1 cobro, con {{lines}} sesiones.",
