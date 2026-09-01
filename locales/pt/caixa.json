@@ -16,7 +16,8 @@
     "cancel": "Cancelar",
     "close": "Fechar",
     "notClosed": "Essa caixa ainda está aberta, por isso corrige-se lá mesmo.",
-    "failed": "Não foi possível abrir a caixa. Tenta outra vez."
+    "failed": "Não foi possível abrir a caixa. Tenta outra vez.",
+    "otherLocation": "Essa caixa é de outra unidade."
   },
   "till": {
     "openedBy": "Aberta por {{name}}",
@@ -64,7 +65,8 @@
     "cancel": "Cancelar",
     "reasonRequired": "O dinheiro que sai tem de dizer porquê.",
     "tillClosed": "Esta caixa está fechada. A correcção entra na caixa seguinte, com referência a esta.",
-    "failed": "Não foi possível registar. Tenta outra vez."
+    "failed": "Não foi possível registar. Tenta outra vez.",
+    "sessionOption": "{{date}} · {{time}} com {{name}}"
   },
   "closeTill": {
     "action": "Fechar caixa",
@@ -77,6 +79,8 @@
     "cancel": "Cancelar",
     "varianceRequired": "Há diferenças em {{methods}}. Escreve a justificação antes de fechar.",
     "tillClosed": "Esta caixa já está fechada.",
-    "failed": "Não foi possível fechar. Tenta outra vez."
+    "failed": "Não foi possível fechar. Tenta outra vez.",
+    "countedTwice": "Cada método conta-se uma vez.",
+    "tooManyMovements": "Esta caixa tem mais movimentos do que um fecho consegue contar. Divide o turno."
   }
 }

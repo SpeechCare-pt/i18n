@@ -16,7 +16,8 @@
     "cancel": "Cancelar",
     "close": "Cerrar",
     "notClosed": "Esa caja sigue abierta, así que se corrige ahí mismo.",
-    "failed": "No se pudo abrir la caja. Inténtalo otra vez."
+    "failed": "No se pudo abrir la caja. Inténtalo otra vez.",
+    "otherLocation": "Esa caja es de otra unidad."
   },
   "till": {
     "openedBy": "Abierta por {{name}}",
@@ -64,7 +65,8 @@
     "cancel": "Cancelar",
     "reasonRequired": "El dinero que sale tiene que decir por qué.",
     "tillClosed": "Esta caja está cerrada. La corrección entra en la caja siguiente, con referencia a esta.",
-    "failed": "No se pudo registrar. Inténtalo otra vez."
+    "failed": "No se pudo registrar. Inténtalo otra vez.",
+    "sessionOption": "{{date}} · {{time}} con {{name}}"
   },
   "closeTill": {
     "action": "Cerrar caja",
@@ -77,6 +79,8 @@
     "cancel": "Cancelar",
     "varianceRequired": "Hay diferencias en {{methods}}. Escribe la justificación antes de cerrar.",
     "tillClosed": "Esta caja ya está cerrada.",
-    "failed": "No se pudo cerrar. Inténtalo otra vez."
+    "failed": "No se pudo cerrar. Inténtalo otra vez.",
+    "countedTwice": "Cada método se cuenta una vez.",
+    "tooManyMovements": "Esta caja tiene más movimientos de los que un cierre puede contar. Divide el turno."
   }
 }
