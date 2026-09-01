@@ -210,6 +210,8 @@
     "issued": "emitido el {{on}}",
     "noTotal": "Los cobros están en monedas distintas, así que no hay un total.",
     "truncated": "Esta familia tiene más cobros de los que esta pantalla puede leer, así que el total es un mínimo.",
-    "toCobranca": "Ver en Cobranza"
+    "toCobranca": "Ver en Cobranza",
+    "toInstitution": "a cargo de {{name}}",
+    "familyOwes": "De esta familia: {{amount}}"
   }
 }

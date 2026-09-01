@@ -210,6 +210,8 @@
     "issued": "emitida a {{on}}",
     "noTotal": "As cobranças estão em moedas diferentes, por isso não há um total.",
     "truncated": "Esta família tem mais cobranças do que este ecrã consegue ler, por isso o total é um mínimo.",
-    "toCobranca": "Ver na Cobrança"
+    "toCobranca": "Ver na Cobrança",
+    "toInstitution": "a cargo de {{name}}",
+    "familyOwes": "Desta família: {{amount}}"
   }
 }
