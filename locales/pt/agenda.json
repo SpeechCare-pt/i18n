@@ -195,6 +195,7 @@
     "close": "Fechar",
     "failed": "Não foi possível marcar. Tenta outra vez.",
     "patientInArrears": "Esta família tem o mês anterior por regularizar. Marca pela Nova marcação para autorizar.",
-    "notWaiting": "Esta pessoa já saiu da lista de espera."
+    "notWaiting": "Esta pessoa já saiu da lista de espera.",
+    "slotNotFree": "Esta consulta já não está anulada, por isso a vaga deixou de existir."
   }
 }

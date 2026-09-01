@@ -27,7 +27,7 @@
     "anyLocation": "Cualquier unidad",
     "notes": "Notas",
     "notesPlaceholder": "Lo que dijo la familia",
-    "submit": "Poner en la lista",
+    "submit": "Guardar",
     "cancel": "Cancelar",
     "alreadyWaiting": "Este paciente ya está en esta lista para esta especialidad.",
     "failed": "No se pudo poner en la lista. Inténtalo otra vez."

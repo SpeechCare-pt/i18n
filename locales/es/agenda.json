@@ -195,6 +195,7 @@
     "close": "Cerrar",
     "failed": "No se pudo reservar. Inténtalo otra vez.",
     "patientInArrears": "Esta familia tiene el mes anterior sin regularizar. Reserva desde Nueva cita para autorizarlo.",
-    "notWaiting": "Esta persona ya salió de la lista de espera."
+    "notWaiting": "Esta persona ya salió de la lista de espera.",
+    "slotNotFree": "Esta cita ya no está anulada, así que el hueco dejó de existir."
   }
 }
