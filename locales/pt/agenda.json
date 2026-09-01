@@ -182,5 +182,19 @@
     "moved_one": "{{count}} consulta remarcada.",
     "moved_other": "{{count}} consultas remarcadas.",
     "sessionClosed": "Uma dessas consultas já foi realizada ou anulada. Actualiza a lista e tenta outra vez."
+  },
+  "offer": {
+    "title": "Oferecer esta vaga",
+    "slot": "{{date}} · {{start}}–{{end}}",
+    "none": "Ninguém na lista de espera pode a esta hora.",
+    "anySubject": "Esta vaga não diz a especialidade, por isso a lista é toda a gente que pode a esta hora.",
+    "waiting_one": "à espera há {{count}} dia",
+    "waiting_other": "à espera há {{count}} dias",
+    "waitingToday": "entrou hoje",
+    "give": "Marcar",
+    "close": "Fechar",
+    "failed": "Não foi possível marcar. Tenta outra vez.",
+    "patientInArrears": "Esta família tem o mês anterior por regularizar. Marca pela Nova marcação para autorizar.",
+    "notWaiting": "Esta pessoa já saiu da lista de espera."
   }
 }

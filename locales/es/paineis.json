@@ -70,5 +70,22 @@
       "user": "cuenta",
       "invite": "invitación"
     }
+  },
+  "waits": {
+    "title": "Tiempo de espera",
+    "subtitle": "De lo que hay en esta lista de espera. Quien todavía espera cuenta hasta hoy.",
+    "empty": "Todavía nadie ha entrado en la lista de espera.",
+    "truncated": "Hay más entradas de las que se pudieron leer. Estos números pueden estar incompletos.",
+    "since": "Desde {{date}}.",
+    "bySubject": "Por especialidad",
+    "byLocation": "Por unidad",
+    "trend": "Por mes de entrada",
+    "anyLocation": "Sin unidad",
+    "mean": "Media",
+    "max": "Máximo",
+    "entries_one": "{{count}} entrada",
+    "entries_other": "{{count}} entradas",
+    "days_one": "{{count}} día",
+    "days_other": "{{count}} días"
   }
 }

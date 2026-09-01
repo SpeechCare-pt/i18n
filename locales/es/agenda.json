@@ -182,5 +182,19 @@
     "moved_one": "{{count}} consulta reprogramada.",
     "moved_other": "{{count}} consultas reprogramadas.",
     "sessionClosed": "Una de esas consultas ya se realizó o se anuló. Actualiza la lista e inténtalo otra vez."
+  },
+  "offer": {
+    "title": "Ofrecer este hueco",
+    "slot": "{{date}} · {{start}}–{{end}}",
+    "none": "Nadie en la lista de espera puede a esta hora.",
+    "anySubject": "Este hueco no dice la especialidad, así que la lista es todo el mundo que puede a esta hora.",
+    "waiting_one": "esperando desde hace {{count}} día",
+    "waiting_other": "esperando desde hace {{count}} días",
+    "waitingToday": "entró hoy",
+    "give": "Reservar",
+    "close": "Cerrar",
+    "failed": "No se pudo reservar. Inténtalo otra vez.",
+    "patientInArrears": "Esta familia tiene el mes anterior sin regularizar. Reserva desde Nueva cita para autorizarlo.",
+    "notWaiting": "Esta persona ya salió de la lista de espera."
   }
 }

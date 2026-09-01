@@ -1,0 +1,53 @@
+{
+  "title": "Lista de espera",
+  "lists": {
+    "intake": "Espera para empezar",
+    "betterSlot": "Quiere mejor horario",
+    "intakeHint": "Familias que aún no han empezado el seguimiento.",
+    "betterSlotHint": "Familias que ya vienen y quieren otra hora.",
+    "intakeEmpty": "Nadie esperando para empezar.",
+    "betterSlotEmpty": "Nadie esperando otra hora."
+  },
+  "loading": "Cargando…",
+  "add": {
+    "open": "Poner en la lista",
+    "title": "Poner en la lista de espera",
+    "patient": "Paciente",
+    "patientPlaceholder": "Buscar por nombre",
+    "kind": "Lista",
+    "subject": "Especialidad",
+    "priority": "Prioridad clínica",
+    "weekdays": "Días que puede",
+    "weekdaysHint": "Sin ninguno elegido, vale cualquier día.",
+    "from": "A partir de las",
+    "to": "Hasta las",
+    "technician": "Terapeuta",
+    "anyTechnician": "Cualquier terapeuta",
+    "location": "Unidad",
+    "anyLocation": "Cualquier unidad",
+    "notes": "Notas",
+    "notesPlaceholder": "Lo que dijo la familia",
+    "submit": "Poner en la lista",
+    "cancel": "Cancelar",
+    "alreadyWaiting": "Este paciente ya está en esta lista para esta especialidad.",
+    "failed": "No se pudo poner en la lista. Inténtalo otra vez."
+  },
+  "priorities": {
+    "urgent": "Urgente",
+    "high": "Alta",
+    "normal": "Normal"
+  },
+  "row": {
+    "waiting_one": "esperando desde hace {{count}} día",
+    "waiting_other": "esperando desde hace {{count}} días",
+    "waitingToday": "entró hoy",
+    "anyDay": "cualquier día",
+    "fromHour": "a partir de las {{time}}",
+    "toHour": "hasta las {{time}}",
+    "betweenHours": "entre las {{from}} y las {{to}}",
+    "withTechnician": "con {{name}}",
+    "atLocation": "en {{name}}",
+    "withdraw": "Quitar",
+    "withdrawFailed": "No se pudo quitar. Inténtalo otra vez."
+  }
+}
