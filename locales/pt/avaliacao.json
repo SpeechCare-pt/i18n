@@ -92,7 +92,8 @@
     "years_other": "{{count}} anos",
     "months_one": "{{count}} mês",
     "months_other": "{{count}} meses",
-    "and": "{{first}} e {{second}}"
+    "and": "{{first}} e {{second}}",
+    "underAMonth": "menos de um mês"
   },
   "compare": {
     "title": "Aplicação anterior",
