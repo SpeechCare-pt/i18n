@@ -32,7 +32,9 @@
     "by": "por {{name}}",
     "for": "para {{name}}",
     "closedTills": "Caixas fechadas",
-    "difference": "Diferença: {{note}}"
+    "difference": "Diferença: {{note}}",
+    "showTill": "Ver a caixa",
+    "hideTill": "Fechar"
   },
   "methods": {
     "cash": "Numerário",

@@ -32,7 +32,9 @@
     "by": "por {{name}}",
     "for": "para {{name}}",
     "closedTills": "Cajas cerradas",
-    "difference": "Diferencia: {{note}}"
+    "difference": "Diferencia: {{note}}",
+    "showTill": "Ver la caja",
+    "hideTill": "Cerrar"
   },
   "methods": {
     "cash": "Efectivo",
