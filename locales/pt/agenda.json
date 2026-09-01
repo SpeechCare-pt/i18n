@@ -180,6 +180,7 @@
     "confirm_one": "Remarcar {{count}} consulta",
     "confirm_other": "Remarcar {{count}} consultas",
     "moved_one": "{{count}} consulta remarcada.",
-    "moved_other": "{{count}} consultas remarcadas."
+    "moved_other": "{{count}} consultas remarcadas.",
+    "sessionClosed": "Uma dessas consultas já foi realizada ou anulada. Actualiza a lista e tenta outra vez."
   }
 }

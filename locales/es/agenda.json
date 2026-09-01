@@ -145,16 +145,16 @@
   },
   "chores": {
     "label": "Pendiente",
-    "faltas_one": "{{count}} falta por reprogramar · quedan {{days}} días",
-    "faltas_other": "{{count}} faltas por reprogramar · quedan {{days}} días",
+    "faltas_one": "{{count}} ausencia por reprogramar · quedan {{days}} días",
+    "faltas_other": "{{count}} ausencias por reprogramar · quedan {{days}} días",
     "closures_one": "{{count}} consulta en día de cierre",
     "closures_other": "{{count}} consultas en días de cierre"
   },
   "rebook": {
-    "title": "Faltas por reprogramar",
+    "title": "Ausencias por reprogramar",
     "deadlineLabel": "Plazo",
-    "deadline_one": "{{count}} falta. Quedan {{days}} días para el fin de mes.",
-    "deadline_other": "{{count}} faltas. Quedan {{days}} días para el fin de mes.",
+    "deadline_one": "{{count}} ausencia. Quedan {{days}} días para el fin de mes.",
+    "deadline_other": "{{count}} ausencias. Quedan {{days}} días para el fin de mes.",
     "none": "Nada por reprogramar este mes.",
     "with": "con {{name}}",
     "fromSeries": "de una serie",
@@ -164,8 +164,8 @@
     "missedOn": "faltó el {{date}}",
     "slot": "{{date}} · {{start}}–{{end}}",
     "back": "Volver",
-    "outsideTheMonth": "La reprogramación tiene que ser en el mes en que faltó.",
-    "alreadyRebooked": "Esta falta ya se reprogramó.",
+    "outsideTheMonth": "La reprogramación tiene que ser en el mes de la ausencia.",
+    "alreadyRebooked": "Esta ausencia ya se reprogramó.",
     "failed": "No se pudo reprogramar. Inténtalo otra vez.",
     "startsAt": "Reserva al inicio del intervalo. Para otra hora, usa Nueva cita."
   },
@@ -180,6 +180,7 @@
     "confirm_one": "Reprogramar {{count}} consulta",
     "confirm_other": "Reprogramar {{count}} consultas",
     "moved_one": "{{count}} consulta reprogramada.",
-    "moved_other": "{{count}} consultas reprogramadas."
+    "moved_other": "{{count}} consultas reprogramadas.",
+    "sessionClosed": "Una de esas consultas ya se realizó o se anuló. Actualiza la lista e inténtalo otra vez."
   }
 }
