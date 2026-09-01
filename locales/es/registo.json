@@ -59,6 +59,9 @@
       "journal": "Diario",
       "assessment": "Evaluación"
     },
-    "noText": "Sin texto."
+    "noText": "Sin texto.",
+    "expand": "Ver todo",
+    "collapse": "Ver menos",
+    "noAccess": "No puedes leer el registro clínico de este paciente. Necesitas autorización de acceso."
   }
 }
