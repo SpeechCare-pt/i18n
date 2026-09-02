@@ -67,7 +67,9 @@
     "saving": "Publicando…",
     "saved": "Formulario publicado.",
     "cancel": "Cancelar",
-    "noQuestions": "Añade al menos una pregunta."
+    "noQuestions": "Añade al menos una pregunta.",
+    "specialty": "Área clínica",
+    "anySpecialty": "Sin área definida"
   },
   "fill": {
     "title": "Rellenar formulario",
@@ -114,6 +116,10 @@
     "badAnswers": "Hay respuestas que no sirven para las preguntas de esta versión.",
     "appointmentNotThisPatient": "Esa sesión es de otro paciente.",
     "episodeNotThisPatient": "Ese episodio es de otro paciente.",
-    "failed": "No se pudo guardar. Inténtalo de nuevo."
+    "failed": "No se pudo guardar. Inténtalo de nuevo.",
+    "repeatedTarget": "Hay dos preguntas que escriben en el mismo campo de la ficha.",
+    "rangeInverted": "El mínimo es mayor que el máximo.",
+    "badRange": "El mínimo o el máximo no es un número.",
+    "nothingSelected": "Falta elegir una opción."
   }
 }

@@ -67,7 +67,9 @@
     "saving": "A publicar…",
     "saved": "Formulário publicado.",
     "cancel": "Cancelar",
-    "noQuestions": "Adiciona pelo menos uma pergunta."
+    "noQuestions": "Adiciona pelo menos uma pergunta.",
+    "specialty": "Área clínica",
+    "anySpecialty": "Sem área definida"
   },
   "fill": {
     "title": "Preencher formulário",
@@ -114,6 +116,10 @@
     "badAnswers": "Há respostas que não servem para as perguntas desta versão.",
     "appointmentNotThisPatient": "Essa sessão é de outro paciente.",
     "episodeNotThisPatient": "Esse episódio é de outro paciente.",
-    "failed": "Não foi possível gravar. Tenta outra vez."
+    "failed": "Não foi possível gravar. Tenta outra vez.",
+    "repeatedTarget": "Há duas perguntas a escrever no mesmo campo da ficha.",
+    "rangeInverted": "O mínimo é maior do que o máximo.",
+    "badRange": "O mínimo ou o máximo não é um número.",
+    "nothingSelected": "Falta escolher uma opção."
   }
 }
