@@ -3,7 +3,6 @@
   "hint": "Um episódio por linha de cuidado. O que é da fala não se mistura com o que é da terapia ocupacional.",
   "empty": "Ainda não há nenhum episódio aberto para este paciente.",
   "truncated": "Só os {{count}} episódios mais recentes.",
-  "loading": "A carregar…",
   "episode": {
     "open": "Abrir episódio",
     "openTitle": "Novo episódio",
@@ -75,7 +74,6 @@
     "mode": "Objectivos",
     "title": "Como correu cada objectivo",
     "hint": "Marca só os objectivos que trabalhaste nesta sessão.",
-    "needsSession": "Abre a sessão a partir da agenda para registar objectivos.",
     "noEpisode": "Este paciente ainda não tem nenhum episódio aberto.",
     "noObjectives": "Este episódio ainda não tem objectivos escritos.",
     "episode": "Episódio",
@@ -83,7 +81,6 @@
     "save": "Gravar",
     "saving": "A gravar…",
     "saved": "Registo gravado.",
-    "none": "Escolhe pelo menos um objectivo.",
     "marked_one": "{{count}} objectivo marcado",
     "marked_other": "{{count}} objectivos marcados"
   },
@@ -101,6 +98,12 @@
     "noMarks": "Escolhe pelo menos um objectivo.",
     "repeatedObjective": "O mesmo objectivo está marcado duas vezes.",
     "objectiveNotInEpisode": "Esse objectivo já não está no plano.",
-    "failed": "Não foi possível gravar. Tenta outra vez."
+    "failed": "Não foi possível gravar. Tenta outra vez.",
+    "tooManyMarks": "Demasiados objectivos de uma vez.",
+    "parentArchived": "Esse objectivo já foi retirado do plano.",
+    "tooManyOpenEpisodes": "Este paciente tem episódios abertos a mais para verificar.",
+    "notThisEpisodesClinician": "Só quem é responsável pelo episódio, ou a coordenação, pode alterá-lo.",
+    "episodeNotThisPatient": "Esse episódio é de outro paciente.",
+    "progressNeedsEpisode": "Falta escolher o episódio."
   }
 }

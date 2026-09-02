@@ -3,7 +3,6 @@
   "hint": "Un episodio por línea de cuidado. Lo que es del habla no se mezcla con lo que es de terapia ocupacional.",
   "empty": "Todavía no hay ningún episodio abierto para este paciente.",
   "truncated": "Solo los {{count}} episodios más recientes.",
-  "loading": "Cargando…",
   "episode": {
     "open": "Abrir episodio",
     "openTitle": "Nuevo episodio",
@@ -75,7 +74,6 @@
     "mode": "Objetivos",
     "title": "Cómo fue cada objetivo",
     "hint": "Marca solo los objetivos que trabajaste en esta sesión.",
-    "needsSession": "Abre la sesión desde la agenda para registrar objetivos.",
     "noEpisode": "Este paciente todavía no tiene ningún episodio abierto.",
     "noObjectives": "Este episodio todavía no tiene objetivos escritos.",
     "episode": "Episodio",
@@ -83,7 +81,6 @@
     "save": "Guardar",
     "saving": "Guardando…",
     "saved": "Registro guardado.",
-    "none": "Elige al menos un objetivo.",
     "marked_one": "{{count}} objetivo marcado",
     "marked_other": "{{count}} objetivos marcados"
   },
@@ -101,6 +98,12 @@
     "noMarks": "Elige al menos un objetivo.",
     "repeatedObjective": "El mismo objetivo está marcado dos veces.",
     "objectiveNotInEpisode": "Ese objetivo ya no está en el plan.",
-    "failed": "No se pudo guardar. Inténtalo de nuevo."
+    "failed": "No se pudo guardar. Inténtalo de nuevo.",
+    "tooManyMarks": "Demasiados objetivos a la vez.",
+    "parentArchived": "Ese objetivo ya se retiró del plan.",
+    "tooManyOpenEpisodes": "Este paciente tiene demasiados episodios abiertos para comprobar.",
+    "notThisEpisodesClinician": "Solo quien es responsable del episodio, o la coordinación, puede modificarlo.",
+    "episodeNotThisPatient": "Ese episodio es de otro paciente.",
+    "progressNeedsEpisode": "Falta elegir el episodio."
   }
 }
