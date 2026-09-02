@@ -213,5 +213,19 @@
     "toCobranca": "Ver en Cobranza",
     "toInstitution": "a cargo de {{name}}",
     "familyOwes": "De esta familia: {{amount}}"
+  },
+  "anulacoes": {
+    "title": "Anulaciones",
+    "empty": "Ninguna sesión anulada en las últimas {{count}} sesiones.",
+    "rate": "{{cancelled}} anuladas de {{total}} sesiones, {{percent}}%.",
+    "rateHint": "La mediana de la clínica es 9,5%.",
+    "truncated": "Solo las {{count}} sesiones más recientes.",
+    "noShow": "Falta",
+    "noReason": "Sin motivo registrado",
+    "notice_one": "{{count}} hora de antelación",
+    "notice_other": "{{count}} horas de antelación",
+    "noticeLate": "registrado después de la hora",
+    "fee": "tasa de {{amount}}",
+    "waived": "tasa eximida"
   }
 }

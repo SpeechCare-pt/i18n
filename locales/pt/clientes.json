@@ -213,5 +213,19 @@
     "toCobranca": "Ver na Cobrança",
     "toInstitution": "a cargo de {{name}}",
     "familyOwes": "Desta família: {{amount}}"
+  },
+  "anulacoes": {
+    "title": "Anulações",
+    "empty": "Nenhuma sessão anulada nas últimas {{count}} sessões.",
+    "rate": "{{cancelled}} anuladas em {{total}} sessões, {{percent}}%.",
+    "rateHint": "A mediana da prática é 9,5%.",
+    "truncated": "Só as {{count}} sessões mais recentes.",
+    "noShow": "Falta",
+    "noReason": "Sem motivo registado",
+    "notice_one": "{{count}} hora de antecedência",
+    "notice_other": "{{count}} horas de antecedência",
+    "noticeLate": "registado depois da hora",
+    "fee": "taxa de {{amount}}",
+    "waived": "taxa dispensada"
   }
 }
