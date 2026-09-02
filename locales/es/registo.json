@@ -58,7 +58,8 @@
       "sessionNote": "Consulta",
       "diagnosis": "Diagnóstico",
       "journal": "Diario",
-      "assessment": "Evaluación"
+      "assessment": "Evaluación",
+      "objectiveProgress": "Objetivos"
     },
     "noText": "Sin texto.",
     "expand": "Ver todo",

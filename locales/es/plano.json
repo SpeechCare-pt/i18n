@@ -72,6 +72,7 @@
     "legend": "De izquierda a derecha, la sesión más antigua primero."
   },
   "mark": {
+    "mode": "Objetivos",
     "title": "Cómo fue cada objetivo",
     "hint": "Marca solo los objetivos que trabajaste en esta sesión.",
     "needsSession": "Abre la sesión desde la agenda para registrar objetivos.",
@@ -82,7 +83,9 @@
     "save": "Guardar",
     "saving": "Guardando…",
     "saved": "Registro guardado.",
-    "none": "Elige al menos un objetivo."
+    "none": "Elige al menos un objetivo.",
+    "marked_one": "{{count}} objetivo marcado",
+    "marked_other": "{{count}} objetivos marcados"
   },
   "errors": {
     "tooShort": "Falta rellenar, o es demasiado corto.",

@@ -72,6 +72,7 @@
     "legend": "Da esquerda para a direita, a sessão mais antiga primeiro."
   },
   "mark": {
+    "mode": "Objectivos",
     "title": "Como correu cada objectivo",
     "hint": "Marca só os objectivos que trabalhaste nesta sessão.",
     "needsSession": "Abre a sessão a partir da agenda para registar objectivos.",
@@ -82,7 +83,9 @@
     "save": "Gravar",
     "saving": "A gravar…",
     "saved": "Registo gravado.",
-    "none": "Escolhe pelo menos um objectivo."
+    "none": "Escolhe pelo menos um objectivo.",
+    "marked_one": "{{count}} objectivo marcado",
+    "marked_other": "{{count}} objectivos marcados"
   },
   "errors": {
     "tooShort": "Falta preencher, ou está demasiado curto.",
