@@ -63,7 +63,7 @@
     "superseded": "substituída",
     "badPercent": "Escreve uma percentagem entre 1 e 100.",
     "badFixed": "Escreve um valor em euros, por exemplo 30,00.",
-    "backdated": "Uma regra entra em vigor hoje ou depois.",
+    "backdated": "Uma regra não pode entrar em vigor num mês que já fechou.",
     "failed": "Não foi possível guardar. Tenta outra vez."
   },
   "people": {
