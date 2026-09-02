@@ -92,7 +92,8 @@
     "answers_one": "{{count}} resposta",
     "answers_other": "{{count}} respostas",
     "superseded": "respondido na versão {{version}}, que já foi substituída",
-    "truncated": "Só os {{count}} mais recentes."
+    "truncated": "Só os {{count}} mais recentes.",
+    "draft": "por terminar"
   },
   "errors": {
     "tooShort": "Falta preencher, ou está demasiado curto.",
