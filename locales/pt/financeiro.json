@@ -62,8 +62,8 @@
   "run": {
     "title": "Levantar a cobrança do mês",
     "hint": "Uma linha por sessão realizada, ao preço em vigor no dia em que aconteceu. A cobrança fica pendente e endereçada à família.",
-    "preview_other": "{{count}} famílias por cobrar em {{month}}, {{sessions}} sessões, {{total}}.",
-    "preview_one": "1 família por cobrar em {{month}}, {{sessions}} sessões, {{total}}.",
+    "preview_other": "{{count}} famílias por cobrar em {{month}}, {{sessions}}, {{total}}.",
+    "preview_one": "1 família por cobrar em {{month}}, {{sessions}}, {{total}}.",
     "alreadyRaised_one": "{{count}} família já tem cobrança deste mês.",
     "alreadyRaised_other": "{{count}} famílias já têm cobrança deste mês.",
     "columns": {
@@ -79,8 +79,8 @@
     "raise_one": "Levantar 1 cobrança · {{total}}",
     "raiseNone": "Escolhe pelo menos uma família",
     "raising": "A levantar…",
-    "raised_one": "Levantada 1 cobrança, com {{lines}} sessões.",
-    "raised_other": "Levantadas {{count}} cobranças, com {{lines}} sessões.",
+    "raised_one": "Levantada 1 cobrança, com {{lines}}.",
+    "raised_other": "Levantadas {{count}} cobranças, com {{lines}}.",
     "skippedAfter_one": "{{count}} família ficou de fora por já ter cobrança deste mês.",
     "skippedAfter_other": "{{count}} famílias ficaram de fora por já terem cobrança deste mês.",
     "failed": "Não foi possível levantar as cobranças. Tenta outra vez.",
