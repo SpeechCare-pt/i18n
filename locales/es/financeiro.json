@@ -61,7 +61,7 @@
   },
   "run": {
     "title": "Emitir el cobro del mes",
-    "hint": "Una línea por sesión realizada, al precio vigente el día en que ocurrió. El cobro queda pendiente y dirigido a la familia.",
+    "hint": "Una línea por sesión realizada, al precio vigente el día en que ocurrió, más las tasas de cancelación del mes. El cargo queda pendiente y a nombre de la familia.",
     "preview_other": "{{count}} familias por cobrar en {{month}}, {{sessions}}, {{total}}.",
     "preview_one": "1 familia por cobrar en {{month}}, {{sessions}}, {{total}}.",
     "alreadyRaised_one": "{{count}} familia ya tiene cobro de este mes.",
@@ -73,6 +73,8 @@
     },
     "sessions_one": "{{count}} sesión",
     "sessions_other": "{{count}} sesiones",
+    "fees_one": "{{count}} tasa de cancelación",
+    "fees_other": "{{count}} tasas de cancelación",
     "selectAll": "Seleccionar todas",
     "selectNone": "No seleccionar ninguna",
     "raise_other": "Emitir {{count}} cobros · {{total}}",

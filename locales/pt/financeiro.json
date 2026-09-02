@@ -61,7 +61,7 @@
   },
   "run": {
     "title": "Levantar a cobrança do mês",
-    "hint": "Uma linha por sessão realizada, ao preço em vigor no dia em que aconteceu. A cobrança fica pendente e endereçada à família.",
+    "hint": "Uma linha por sessão realizada, ao preço em vigor no dia em que aconteceu, mais as taxas de cancelamento do mês. A cobrança fica pendente e endereçada à família.",
     "preview_other": "{{count}} famílias por cobrar em {{month}}, {{sessions}}, {{total}}.",
     "preview_one": "1 família por cobrar em {{month}}, {{sessions}}, {{total}}.",
     "alreadyRaised_one": "{{count}} família já tem cobrança deste mês.",
@@ -73,6 +73,8 @@
     },
     "sessions_one": "{{count}} sessão",
     "sessions_other": "{{count}} sessões",
+    "fees_one": "{{count}} taxa de cancelamento",
+    "fees_other": "{{count}} taxas de cancelamento",
     "selectAll": "Escolher todas",
     "selectNone": "Não escolher nenhuma",
     "raise_other": "Levantar {{count}} cobranças · {{total}}",
