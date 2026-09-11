@@ -73,7 +73,6 @@
     "email": "Email",
     "phone": "Telefone",
     "logo": "Imagem",
-    "logoChoose": "Escolher imagem",
     "logoRemove": "Retirar imagem",
     "logoNone": "Sem imagem",
     "save": "Guardar",
@@ -109,7 +108,6 @@
     "back": "Voltar à ficha",
     "print": "Imprimir",
     "issuedOn": "Emitido a {{date}}",
-    "signature": "Assinatura",
     "professionalId": "Cédula profissional {{id}}",
     "notFound": "Documento não encontrado."
   },
@@ -121,13 +119,14 @@
     "templateKeyTaken": "Já existe um modelo com este nome. Publica uma versão nova a partir dele.",
     "templateKindFixed": "O tipo de documento não muda depois da primeira versão.",
     "tooManyVersions": "Este modelo já tem versões a mais.",
-    "badText": "Falta preencher um campo ou é comprido demais.",
     "letterheadMissing": "Define primeiro o papel timbrado, no Catálogo.",
     "sessionNotHeld": "A sessão ainda não foi dada.",
     "sessionNotThisPatient": "Essa sessão não é deste paciente.",
     "episodeNotThisPatient": "Esse acompanhamento não é deste paciente.",
     "periodInverted": "A data de fim é anterior à de início.",
     "documentOutOfSpecialty": "Este documento é de outra área clínica.",
-    "notOnCareTeam": "Não estás na equipa deste paciente."
+    "notOnCareTeam": "Não estás na equipa deste paciente.",
+    "tooShort": "Falta preencher um campo.",
+    "tooLong": "Um dos campos é comprido demais."
   }
 }

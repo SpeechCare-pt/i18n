@@ -73,7 +73,6 @@
     "email": "Email",
     "phone": "Teléfono",
     "logo": "Imagen",
-    "logoChoose": "Elegir imagen",
     "logoRemove": "Quitar imagen",
     "logoNone": "Sin imagen",
     "save": "Guardar",
@@ -109,7 +108,6 @@
     "back": "Volver a la ficha",
     "print": "Imprimir",
     "issuedOn": "Emitido el {{date}}",
-    "signature": "Firma",
     "professionalId": "Número de colegiado {{id}}",
     "notFound": "Documento no encontrado."
   },
@@ -121,13 +119,14 @@
     "templateKeyTaken": "Ya existe un modelo con este nombre. Publica una versión nueva a partir de él.",
     "templateKindFixed": "El tipo de documento no cambia después de la primera versión.",
     "tooManyVersions": "Este modelo ya tiene demasiadas versiones.",
-    "badText": "Falta rellenar un campo o es demasiado largo.",
     "letterheadMissing": "Define primero el membrete, en el Catálogo.",
     "sessionNotHeld": "La sesión todavía no se ha dado.",
     "sessionNotThisPatient": "Esa sesión no es de este paciente.",
     "episodeNotThisPatient": "Ese seguimiento no es de este paciente.",
     "periodInverted": "La fecha de fin es anterior a la de inicio.",
     "documentOutOfSpecialty": "Este documento es de otra área clínica.",
-    "notOnCareTeam": "No estás en el equipo de este paciente."
+    "notOnCareTeam": "No estás en el equipo de este paciente.",
+    "tooShort": "Falta rellenar un campo.",
+    "tooLong": "Uno de los campos es demasiado largo."
   }
 }
