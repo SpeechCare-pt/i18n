@@ -114,6 +114,7 @@
     "notFound": "Documento não encontrado."
   },
   "errors": {
+    "failed": "Não foi possível gravar. Tenta outra vez.",
     "badSections": "Há secções por corrigir.",
     "tooManySections": "São secções a mais.",
     "badTemplateKey": "Este nome não dá um identificador válido.",
