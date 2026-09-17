@@ -247,5 +247,19 @@
     "reasonTooShort": "Escribe por qué, al menos 4 letras.",
     "reasonTooLong": "La justificación es demasiado larga.",
     "failed": "No se pudo anular. Inténtalo otra vez."
+  },
+  "calendarFeed": {
+    "title": "Calendario externo",
+    "hint": "Suscribe este enlace en Google Calendar, en el Calendario de Apple o en Outlook y verás ahí tu agenda.",
+    "oneWay": "Es solo de lectura. Lo que cambies en el calendario externo no vuelve a SINAIA.",
+    "create": "Crear el enlace",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "regenerate": "Generar un enlace nuevo",
+    "regenerateConfirm": "El enlace anterior dejará de funcionar y tendrás que suscribirte otra vez. ¿Continuar?",
+    "revoke": "Desconectar",
+    "revokeConfirm": "Dejarás de ver la agenda en el calendario externo. ¿Continuar?",
+    "secret": "Quien tenga este enlace verá los nombres de tus pacientes. No lo compartas.",
+    "failed": "No ha sido posible. Inténtalo otra vez."
   }
 }
