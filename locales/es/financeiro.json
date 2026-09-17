@@ -61,7 +61,7 @@
   },
   "run": {
     "title": "Emitir el cobro del mes",
-    "hint": "Una línea por sesión realizada, al precio vigente el día en que ocurrió, más las tasas de cancelación del mes. El cargo queda pendiente y a nombre de la familia.",
+    "hint": "Una línea por sesión. Quien está en pack paga el mes que reservó; quien paga por consulta paga lo que ocurrió. Las tasas de cancelación del mes entran en ambas. El cargo queda pendiente y dirigido a la familia.",
     "preview_other": "{{count}} familias por cobrar en {{month}}, {{sessions}}, {{total}}.",
     "preview_one": "1 familia por cobrar en {{month}}, {{sessions}}, {{total}}.",
     "alreadyRaised_one": "{{count}} familia ya tiene cobro de este mes.",
@@ -106,7 +106,14 @@
       "location": "precio de la unidad",
       "base": "tarifa base",
       "catalogue": "precio del servicio"
-    }
+    },
+    "arrangement": {
+      "pack": "Pack",
+      "perSession": "Por consulta"
+    },
+    "lapsed": "Pack fuera de plazo · a precio de consulta suelta",
+    "credited": "{{total}} de crédito por sesiones pagadas y no realizadas el mes anterior.",
+    "applied": "{{total}} de crédito descontados en estos cargos."
   },
   "export": {
     "title": "Exportar el periodo",
@@ -175,5 +182,12 @@
     "badCourtesy": "Escribe un número entero entre 0 y 31.",
     "backdated": "Una regla no puede entrar en vigor en un mes que ya cerró.",
     "failed": "No se pudo guardar. Inténtalo otra vez."
+  },
+  "lapsedPacks": {
+    "title": "Packs sin pagar después del día 8",
+    "hint": "A estas familias se les cobró a precio de pack y no pagaron hasta el día 8. El mes pasa a precio de consulta suelta y todavía nadie se lo ha dicho.",
+    "empty": "No hay packs fuera de plazo este mes.",
+    "since": "cobrado el {{date}}",
+    "truncated": "Hay más cargos este mes de los que esta pantalla puede leer de una vez."
   }
 }
