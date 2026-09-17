@@ -67,6 +67,10 @@
         "base": "Tabla base",
         "catalogue": "Precio del catálogo",
         "patient": "Acuerdo de la familia"
+      },
+      "rate": {
+        "pack": "precio de pack",
+        "packLapsed": "pack fuera de plazo · precio de consulta suelta"
       }
     },
     "arrears": {

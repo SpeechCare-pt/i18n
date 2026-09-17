@@ -151,6 +151,19 @@
         "failed": "No se pudo abrir el acceso. Inténtalo otra vez.",
         "alreadyReachable": "Ya tienes acceso a esta ficha. Recarga la página."
       }
+    },
+    "arrangement": {
+      "label": "Modalidad de pago",
+      "pack": "Pack — mes pagado por adelantado",
+      "perSession": "Por consulta — se paga sesión a sesión",
+      "unset": "Sin definir — se cobra por consulta",
+      "hint": "El pack paga el mes entero por adelantado, hasta el día 8. Pasado ese día, el mes pasa a precio de consulta suelta.",
+      "edit": "Cambiar",
+      "choose": "Modalidad",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "saved": "Modalidad actualizada.",
+      "failed": "No se ha podido guardar. Inténtalo de nuevo."
     }
   },
   "gender": {
