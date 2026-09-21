@@ -225,7 +225,18 @@
     "truncated": "Esta família tem mais cobranças do que este ecrã consegue ler, por isso o total é um mínimo.",
     "toCobranca": "Ver na Cobrança",
     "toInstitution": "a cargo de {{name}}",
-    "familyOwes": "Desta família: {{amount}}"
+    "familyOwes": "Desta família: {{amount}}",
+    "balanceTitle": "Conta corrente",
+    "balanceOwed": "Saldo: {{amount}} a pagar",
+    "balanceFavour": "Saldo: {{amount}} a favor da família",
+    "balanceSettled": "Saldo: está tudo saldado.",
+    "balanceUnknown": "Não há saldo porque as cobranças estão em moedas diferentes.",
+    "creditHeld": "Crédito por usar: {{amount}}. Entra na próxima cobrança.",
+    "paidTitle": "Pagamentos",
+    "paidNone": "Ainda não há cobranças pagas.",
+    "paidLine": "{{month}} · {{amount}}",
+    "paidOn": "pago a {{on}}",
+    "paidNoMonth": "sem mês associado"
   },
   "anulacoes": {
     "title": "Anulações",

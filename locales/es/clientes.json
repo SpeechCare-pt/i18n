@@ -225,7 +225,18 @@
     "truncated": "Esta familia tiene más cobros de los que esta pantalla puede leer, así que el total es un mínimo.",
     "toCobranca": "Ver en Cobranza",
     "toInstitution": "a cargo de {{name}}",
-    "familyOwes": "De esta familia: {{amount}}"
+    "familyOwes": "De esta familia: {{amount}}",
+    "balanceTitle": "Cuenta corriente",
+    "balanceOwed": "Saldo: {{amount}} a pagar",
+    "balanceFavour": "Saldo: {{amount}} a favor de la familia",
+    "balanceSettled": "Saldo: está todo saldado.",
+    "balanceUnknown": "No hay saldo porque los cargos están en monedas distintas.",
+    "creditHeld": "Crédito sin usar: {{amount}}. Entra en el próximo cargo.",
+    "paidTitle": "Pagos",
+    "paidNone": "Todavía no hay cargos pagados.",
+    "paidLine": "{{month}} · {{amount}}",
+    "paidOn": "pagado el {{on}}",
+    "paidNoMonth": "sin mes asociado"
   },
   "anulacoes": {
     "title": "Anulaciones",
