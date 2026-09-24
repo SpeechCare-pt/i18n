@@ -41,12 +41,19 @@
     "collapse": "Fechar os valores de {{name}}",
     "collapseShort": "Fechar",
     "saving": "A guardar…",
-    "failed": "Não foi possível guardar. Tenta outra vez."
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "receivePart": "Receber parte",
+    "receivePartOf": "Receber parte de {{name}}",
+    "amount": "Quanto recebeste",
+    "amountHint": "Faltam {{outstanding}}.",
+    "confirm": "Registar",
+    "cancel": "Cancelar"
   },
   "announce": {
     "settled": "{{name}}: valor marcado como recebido.",
     "voided": "{{name}}: valor anulado.",
-    "reopened": "{{name}}: valor reaberto."
+    "reopened": "{{name}}: valor reaberto.",
+    "partReceived": "Registei {{amount}} de {{name}}."
   },
   "status": {
     "pending": "Por regularizar",
@@ -90,5 +97,11 @@
     "movedToFamily": "Passou para a família.",
     "noInstitution": "Este paciente não está associado a nenhuma instituição.",
     "failed": "Não foi possível mudar. Tenta outra vez."
-  }
+  },
+  "errors": {
+    "exceedsOutstanding": "Isso é mais do que falta nesta cobrança.",
+    "amountMustBePositive": "Escreve um valor maior do que zero.",
+    "chargeNotOpen": "Esta cobrança já está fechada."
+  },
+  "partPaid": "de {{amount}}, {{paid}} pagos"
 }

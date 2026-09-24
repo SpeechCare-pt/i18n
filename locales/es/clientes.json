@@ -234,7 +234,9 @@
     "paidTitle": "Pagos",
     "paidNone": "Todavía no hay cargos pagados.",
     "paidLine": "{{month}} · {{amount}}",
-    "paidOn": "pagado el {{on}}"
+    "paidOn": "pagado el {{on}}",
+    "partPaid": "de {{amount}}, {{paid}} pagados",
+    "partPaidNote": "Este cobro está pagado en parte. Se cierra solo cuando entre el resto."
   },
   "anulacoes": {
     "title": "Anulaciones",

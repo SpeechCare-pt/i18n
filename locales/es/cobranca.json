@@ -41,12 +41,19 @@
     "collapse": "Cerrar los importes de {{name}}",
     "collapseShort": "Cerrar",
     "saving": "Guardando…",
-    "failed": "No se ha podido guardar. Inténtalo otra vez."
+    "failed": "No se ha podido guardar. Inténtalo otra vez.",
+    "receivePart": "Cobrar una parte",
+    "receivePartOf": "Cobrar una parte de {{name}}",
+    "amount": "Cuánto has cobrado",
+    "amountHint": "Faltan {{outstanding}}.",
+    "confirm": "Registrar",
+    "cancel": "Cancelar"
   },
   "announce": {
     "settled": "{{name}}: importe marcado como cobrado.",
     "voided": "{{name}}: importe anulado.",
-    "reopened": "{{name}}: importe reabierto."
+    "reopened": "{{name}}: importe reabierto.",
+    "partReceived": "He registrado {{amount}} de {{name}}."
   },
   "status": {
     "pending": "Pendiente",
@@ -90,5 +97,11 @@
     "movedToFamily": "Ha pasado a la familia.",
     "noInstitution": "Este paciente no está asociado a ninguna institución.",
     "failed": "No se ha podido cambiar. Inténtalo otra vez."
-  }
+  },
+  "errors": {
+    "exceedsOutstanding": "Eso es más de lo que falta en este cobro.",
+    "amountMustBePositive": "Escribe un importe mayor que cero.",
+    "chargeNotOpen": "Este cobro ya está cerrado."
+  },
+  "partPaid": "de {{amount}}, {{paid}} pagados"
 }

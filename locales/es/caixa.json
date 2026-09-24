@@ -66,7 +66,15 @@
     "reasonRequired": "El dinero que sale tiene que decir por qué.",
     "tillClosed": "Esta caja está cerrada. La corrección entra en la caja siguiente, con referencia a esta.",
     "failed": "No se pudo registrar. Inténtalo otra vez.",
-    "sessionOption": "{{date}} · {{time}} con {{name}}"
+    "sessionOption": "{{date}} · {{time}} con {{name}}",
+    "charge": "Cobro",
+    "chargeNone": "Sin cobro",
+    "chargeHint": "El dinero queda ligado a este cobro. Se cierra cuando esté pagado del todo.",
+    "chargeOption": "{{amount}} pendiente, del {{issued}}",
+    "chargeNoneOpen": "Esta familia no tiene cobros abiertos.",
+    "exceedsOutstanding": "Eso es más de lo que falta en ese cobro.",
+    "chargeNotThisPatient": "Ese cobro es de otra familia.",
+    "refundNotSupported": "Una salida no puede quedar ligada a un cobro."
   },
   "closeTill": {
     "action": "Cerrar caja",

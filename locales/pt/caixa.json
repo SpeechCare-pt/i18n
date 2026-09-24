@@ -66,7 +66,15 @@
     "reasonRequired": "O dinheiro que sai tem de dizer porquê.",
     "tillClosed": "Esta caixa está fechada. A correcção entra na caixa seguinte, com referência a esta.",
     "failed": "Não foi possível registar. Tenta outra vez.",
-    "sessionOption": "{{date}} · {{time}} com {{name}}"
+    "sessionOption": "{{date}} · {{time}} com {{name}}",
+    "charge": "Cobrança",
+    "chargeNone": "Sem cobrança",
+    "chargeHint": "O dinheiro fica ligado a esta cobrança. Ela fecha quando estiver toda paga.",
+    "chargeOption": "{{amount}} em falta, de {{issued}}",
+    "chargeNoneOpen": "Esta família não tem cobranças em aberto.",
+    "exceedsOutstanding": "Isso é mais do que falta nessa cobrança.",
+    "chargeNotThisPatient": "Essa cobrança é de outra família.",
+    "refundNotSupported": "Uma saída não pode ficar ligada a uma cobrança."
   },
   "closeTill": {
     "action": "Fechar caixa",
