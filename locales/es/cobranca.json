@@ -103,5 +103,5 @@
     "amountMustBePositive": "Escribe un importe mayor que cero.",
     "chargeNotOpen": "Este cobro ya está cerrado."
   },
-  "partPaid": "{{paid}} pagado · {{outstanding}} pendiente"
+  "partPaid": "de {{amount}}, {{paid}} pagados"
 }

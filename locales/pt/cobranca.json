@@ -103,5 +103,5 @@
     "amountMustBePositive": "Escreve um valor maior do que zero.",
     "chargeNotOpen": "Esta cobrança já está fechada."
   },
-  "partPaid": "{{paid}} pago · {{outstanding}} em falta"
+  "partPaid": "de {{amount}}, {{paid}} pagos"
 }

@@ -235,7 +235,7 @@
     "paidNone": "Ainda não há cobranças pagas.",
     "paidLine": "{{month}} · {{amount}}",
     "paidOn": "pago a {{on}}",
-    "partPaid": "{{paid}} pago · {{outstanding}} em falta",
+    "partPaid": "de {{amount}}, {{paid}} pagos",
     "partPaidNote": "Esta cobrança está paga em parte. Fecha sozinha quando o resto entrar."
   },
   "anulacoes": {
