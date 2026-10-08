@@ -269,5 +269,29 @@
     "revokeConfirm": "Dejarás de ver la agenda en el calendario externo. ¿Continuar?",
     "secret": "Quien tenga este enlace verá los nombres de tus pacientes. No lo compartas.",
     "failed": "No ha sido posible. Inténtalo otra vez."
+  },
+  "filters": {
+    "label": "Filtros de la agenda",
+    "therapists": "Filtrar por terapeuta",
+    "allTherapists": "Todos los terapeutas",
+    "someTherapists_one": "{{count}} terapeuta",
+    "someTherapists_other": "{{count}} terapeutas",
+    "search": "Buscar terapeuta",
+    "noMatch": "Nadie con ese nombre.",
+    "site": "Filtrar por centro",
+    "allSites": "Todos los centros",
+    "clear": "Quitar filtros",
+    "emptyBody": "No hay citas en este centro para este día."
+  },
+  "view": {
+    "label": "Vista",
+    "day": "Día",
+    "week": "Semana",
+    "weekNeedsOne": "Elige un terapeuta para ver la semana."
+  },
+  "week": {
+    "previous": "Semana anterior",
+    "next": "Semana siguiente",
+    "openDay": "Abrir {{day}}"
   }
 }
