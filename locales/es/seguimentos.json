@@ -1,0 +1,168 @@
+{
+  "title": "Por agendar",
+  "loading": "Cargando…",
+  "technicianScope": "Solo tus pacientes.",
+  "truncated": "La lista es más grande que esto. Faltan seguimientos y los recuentos son solo de los que aparecen.",
+  "countCapped": "{{count}}+",
+  "search": "Buscar por nombre",
+  "filter": {
+    "clinician": "Médico o terapeuta",
+    "anyClinician": "Todos"
+  },
+  "chips": {
+    "all": "Todos por agendar",
+    "seen": "Falta próximo retorno",
+    "overdue": "Atrasados",
+    "notContacted": "Aún sin contacto",
+    "awaitingReply": "Esperando respuesta",
+    "waitlisted": "Lista de espera",
+    "booked": "Consultas agendadas",
+    "awaiting": "Espera retorno",
+    "hints": {
+      "all": "Todo lo que recepción tiene que agendar, incluidos los que aún no tienen mes.",
+      "seen": "Ya tuvieron la consulta y nadie dijo cuándo vuelven.",
+      "overdue": "El mes de retorno ya pasó. Incluye los que no tienen mes.",
+      "notContacted": "Todavía nadie ha intentado hablar con la familia.",
+      "awaitingReply": "Ya hubo al menos un intento y la familia aún no ha agendado.",
+      "waitlisted": "El médico no tiene hueco. Solo una consulta agendada los saca de aquí.",
+      "booked": "Tienen una consulta en la agenda.",
+      "awaiting": "El retorno es dentro de más de un mes. Entran en la lista el día 1 del mes anterior."
+    }
+  },
+  "sections": {
+    "seen": "Consulta hecha, falta próximo retorno",
+    "toBook": "Por agendar",
+    "waitlisted": "Lista de espera",
+    "booked": "Consultas agendadas",
+    "awaiting": "Espera retorno",
+    "archive": "Archivo",
+    "archiveNote": "Los últimos 100 seguimientos creados.",
+    "empty": {
+      "all": "Nada por agendar. Todo al día.",
+      "filtered": "Nada por agendar con este filtro.",
+      "section": "Nada por aquí.",
+      "archive": "Todavía no hay seguimientos con alta."
+    }
+  },
+  "month": {
+    "overdue": "atrasado",
+    "thisMonth": "este mes",
+    "nextMonth": "próximo mes, agendar ya",
+    "undated": "Sin fecha",
+    "label": "Para {{month}}",
+    "entersOn": "entra el {{date}}"
+  },
+  "row": {
+    "nth": "{{n}}.ª consulta",
+    "firstVisit": "1.ª consulta",
+    "bookedFor": "Agendada para el {{date}}",
+    "seenOn": "Consulta el {{date}}",
+    "with": "con {{name}}",
+    "call": "Llamar",
+    "noPhone": "Sin teléfono",
+    "attempts_zero": "Sin intentos",
+    "attempts_one": "{{count}} intento",
+    "attempts_other": "{{count}} intentos",
+    "lastAttempt": "Último: {{channel}}, {{outcome}}, {{date}}",
+    "notes": "Notas",
+    "notesPlaceholder": "Lo que dijo la familia"
+  },
+  "channel": {
+    "message": "mensaje",
+    "call": "llamada"
+  },
+  "outcome": {
+    "noAnswer": "sin respuesta",
+    "answered": "respondió"
+  },
+  "actions": {
+    "noAnswer": "Sin respuesta",
+    "answered": "Respondió",
+    "booked": "Agendó",
+    "nextReturn": "Próximo retorno",
+    "waitlist": "Lista de espera",
+    "unwaitlist": "Quitar de la lista de espera",
+    "discharge": "Alta",
+    "logged": "Intento registrado."
+  },
+  "nextReturn": {
+    "title": "Próximo retorno",
+    "body": "¿En qué mes quieres volver a ver a {{name}}? Entra en la lista de citas el día 1 del mes anterior.",
+    "from": "Contado desde {{month}}.",
+    "quick_one": "{{count}} mes",
+    "quick_other": "{{count}} meses",
+    "year": "1 año",
+    "month": "Otro mes",
+    "submit": "Guardar retorno",
+    "cancel": "Cancelar",
+    "invalid": "Elige un mes válido.",
+    "bookedAhead": "Ya hay una consulta agendada para el {{date}}. Cuando se haga, define el próximo retorno.",
+    "saved": "Retorno guardado para {{month}}."
+  },
+  "link": {
+    "title": "¿Cuál fue la consulta agendada?",
+    "none": "Todavía no hay consulta agendada con {{name}}.",
+    "openAgenda": "Abrir la agenda",
+    "submit": "Vincular a esta consulta",
+    "cancel": "Cancelar",
+    "saved": "Consulta vinculada."
+  },
+  "discharge": {
+    "title": "Dar el alta del seguimiento",
+    "body": "{{name}} sale de la lista y recepción deja de llamar. Puedes volver a registrar el seguimiento más adelante.",
+    "confirm": "Dar el alta",
+    "cancel": "Cancelar"
+  },
+  "register": {
+    "open": "Registrar seguimiento",
+    "title": "Registrar seguimiento",
+    "patient": "Paciente",
+    "patientPlaceholder": "Buscar por nombre",
+    "clinician": "Médico o terapeuta",
+    "appointment": "Consulta agendada (opcional)",
+    "noAppointment": "Aún sin consulta agendada",
+    "dueMonth": "Mes del retorno (opcional)",
+    "notes": "Notas",
+    "submit": "Registrar",
+    "cancel": "Cancelar",
+    "needOne": "Elige una consulta agendada o un mes de retorno.",
+    "exists": "Ya hay un seguimiento abierto de este paciente con este médico.",
+    "notBookable": "Esta persona no tiene agenda en la organización.",
+    "failed": "No se pudo registrar el seguimiento."
+  },
+  "record": {
+    "title": "Seguimientos",
+    "none": "Este paciente no tiene seguimientos abiertos.",
+    "start": "Hacer seguimiento",
+    "cycle": "{{n}}.º retorno",
+    "requested": "Pidió {{month}}",
+    "closed": "Consulta el {{date}}",
+    "attempts_zero": "Sin intentos",
+    "attempts_one": "{{count}} intento",
+    "attempts_other": "{{count}} intentos",
+    "discharged": "Alta el {{date}}"
+  },
+  "session": {
+    "nextReturn": "Próximo retorno…",
+    "saved": "Retorno guardado."
+  },
+  "errors": {
+    "bookedAhead": "Ya hay una consulta agendada. Define el próximo retorno cuando se haga.",
+    "invalidMonth": "Elige un mes válido.",
+    "followUpExists": "Ya hay un seguimiento abierto de este paciente con este médico.",
+    "failed": "No se pudo guardar."
+  },
+  "inicio": {
+    "title": "Seguimientos",
+    "toBook_zero": "Nada por agendar",
+    "toBook_one": "{{count}} por agendar",
+    "toBook_other": "{{count}} por agendar",
+    "seen_zero": "Ninguno necesita retorno",
+    "seen_one": "{{count}} ya tuvo consulta y falta el retorno",
+    "seen_other": "{{count}} ya tuvieron consulta y falta el retorno",
+    "overdue_zero": "Ninguno atrasado",
+    "overdue_one": "{{count}} atrasado",
+    "overdue_other": "{{count}} atrasados",
+    "open": "Abrir la lista"
+  }
+}

@@ -12,6 +12,7 @@
     "documentos": "Documentos",
     "clientes": "Clientes",
     "espera": "Lista de espera",
+    "seguimentos": "Seguimientos",
     "catalogo": "Catálogo",
     "salas": "Salas",
     "instituicoes": "Instituciones",
@@ -40,5 +41,8 @@
   },
   "tasksBadge_zero": "Nada necesita atención",
   "tasksBadge_one": "{{count}} tarea necesita atención",
-  "tasksBadge_other": "{{count}} tareas necesitan atención"
+  "tasksBadge_other": "{{count}} tareas necesitan atención",
+  "followUpsBadge_zero": "Nada por agendar",
+  "followUpsBadge_one": "{{count}} seguimiento necesita atención",
+  "followUpsBadge_other": "{{count}} seguimientos necesitan atención"
 }
