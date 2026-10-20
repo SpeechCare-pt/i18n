@@ -268,7 +268,36 @@
     "revoke": "Desconectar",
     "revokeConfirm": "Dejarás de ver la agenda en el calendario externo. ¿Continuar?",
     "secret": "Quien tenga este enlace verá los nombres de tus pacientes. No lo compartas.",
-    "failed": "No ha sido posible. Inténtalo otra vez."
+    "failed": "No ha sido posible. Inténtalo otra vez.",
+    "google": {
+      "title": "Google Calendar",
+      "hint": "SINAIA crea en tu Google un calendario con tus sesiones y lo actualiza segundos después de cada cambio.",
+      "email": "Tu dirección de Google",
+      "send": "Enviar invitación",
+      "sending": "Enviando la invitación a {{email}}…",
+      "sent": "Invitación enviada a {{email}}. Abre el correo y acéptala, y el calendario aparecerá en Google.",
+      "preparing": "Las sesiones ya reservadas se están copiando. Puede tardar unos minutos.",
+      "change": "Cambiar dirección",
+      "cancelChange": "Cancelar",
+      "stop": "Dejar de compartir",
+      "stopConfirm": "El calendario dejará de aparecer en {{email}}. ¿Continuar?",
+      "invalidEmail": "Esa dirección no parece válida."
+    },
+    "otherTitle": "Apple, Outlook y otros",
+    "sites": {
+      "title": "Calendarios de los centros",
+      "hint": "Cada centro tiene un calendario con las sesiones de todos los terapeutas. En Google puedes mostrar u ocultar cada uno cuando quieras.",
+      "pick": "Centros",
+      "unsited": "Sin centro",
+      "unsitedNote": "También va el calendario de las sesiones sin centro.",
+      "send": "Enviar invitaciones",
+      "sent": "Invitaciones enviadas a {{email}}. Acepta cada una en el correo.",
+      "none": "Elige al menos un centro.",
+      "shared": "Ya compartidos",
+      "pending": "Enviando…",
+      "closed": "Centro desactivado",
+      "edit": "Añadir centros o cambiar dirección"
+    }
   },
   "filters": {
     "label": "Filtros de la agenda",

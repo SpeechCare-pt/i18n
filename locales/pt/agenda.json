@@ -268,7 +268,36 @@
     "revoke": "Desligar",
     "revokeConfirm": "Deixas de ver a agenda no calendário externo. Continuar?",
     "secret": "Quem tiver esta ligação vê os nomes dos teus pacientes. Não a partilhes.",
-    "failed": "Não foi possível. Tenta outra vez."
+    "failed": "Não foi possível. Tenta outra vez.",
+    "google": {
+      "title": "Google Calendar",
+      "hint": "O SINAIA cria no teu Google um calendário com as tuas sessões e atualiza-o segundos depois de cada mudança.",
+      "email": "O teu endereço Google",
+      "send": "Enviar convite",
+      "sending": "A enviar o convite para {{email}}…",
+      "sent": "Convite enviado para {{email}}. Abre o email e aceita-o, e o calendário aparece no Google.",
+      "preparing": "As sessões já marcadas estão a ser copiadas. Pode levar uns minutos.",
+      "change": "Mudar endereço",
+      "cancelChange": "Cancelar",
+      "stop": "Deixar de partilhar",
+      "stopConfirm": "O calendário deixa de aparecer em {{email}}. Continuar?",
+      "invalidEmail": "Esse endereço não parece válido."
+    },
+    "otherTitle": "Apple, Outlook e outros",
+    "sites": {
+      "title": "Calendários dos locais",
+      "hint": "Cada local tem um calendário com as sessões de todos os terapeutas. No Google mostras ou escondes cada um quando quiseres.",
+      "pick": "Locais",
+      "unsited": "Sem local",
+      "unsitedNote": "Vai também o calendário das sessões sem local.",
+      "send": "Enviar convites",
+      "sent": "Convites enviados para {{email}}. Aceita cada um no email.",
+      "none": "Escolhe pelo menos um local.",
+      "shared": "Já partilhados",
+      "pending": "A enviar…",
+      "closed": "Local desativado",
+      "edit": "Acrescentar locais ou mudar endereço"
+    }
   },
   "filters": {
     "label": "Filtros da agenda",
