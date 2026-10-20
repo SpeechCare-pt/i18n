@@ -281,7 +281,9 @@
       "cancelChange": "Cancelar",
       "stop": "Dejar de compartir",
       "stopConfirm": "El calendario dejará de aparecer en {{email}}. ¿Continuar?",
-      "invalidEmail": "Esa dirección no parece válida."
+      "invalidEmail": "Esa dirección no parece válida.",
+      "privacy": "El calendario lleva los nombres de tus pacientes. Usa una dirección que solo uses tú.",
+      "confirmOther": "{{email}} no es la dirección con la que entras en SINAIA. Recibirá los nombres de tus pacientes. ¿Continuar?"
     },
     "otherTitle": "Apple, Outlook y otros",
     "sites": {
@@ -298,7 +300,11 @@
       "shared": "Ya compartidos",
       "pending": "Enviando…",
       "closed": "Centro desactivado",
-      "edit": "Añadir centros o cambiar dirección"
+      "edit": "Añadir centros o cambiar dirección",
+      "privacy": "Estos calendarios llevan los nombres de los pacientes de todos los terapeutas. Usa una dirección que solo uses tú.",
+      "confirm_one": "{{email}} recibirá las sesiones de {{count}} centro y las sesiones sin centro. ¿Continuar?",
+      "confirm_other": "{{email}} recibirá las sesiones de {{count}} centros y las sesiones sin centro. ¿Continuar?",
+      "stopConfirm": "El calendario de {{site}} dejará de aparecer en {{email}}. ¿Continuar?"
     }
   },
   "filters": {
