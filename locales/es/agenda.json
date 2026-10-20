@@ -290,6 +290,7 @@
       "pick": "Centros",
       "unsited": "Sin centro",
       "unsitedNote": "También va el calendario de las sesiones sin centro.",
+      "send_zero": "Enviar invitaciones",
       "send_one": "Enviar invitación para {{count}} centro",
       "send_other": "Enviar invitaciones para {{count}} centros",
       "sent": "Invitaciones enviadas a {{email}}. Acepta cada una en el correo.",
