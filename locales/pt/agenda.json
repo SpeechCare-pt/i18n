@@ -350,6 +350,7 @@
   "absent": "Ausente",
   "absentPending": "Ausência por aprovar",
   "unbookedSome": "Há terapeutas sem horário definido, por isso o espaço em branco pode não estar livre.",
+  "timeTruncated": "Há demasiados horários para mostrar todos. Alguns terapeutas podem aparecer sem horário.",
   "absences": {
     "title": "Ausências por resolver",
     "empty": "Nada por resolver.",
@@ -369,6 +370,8 @@
     "reasonPreset": "Motivo preenchido: iniciativa da clínica. Podes mudar.",
     "resolved": "Resolvido",
     "truncated": "Há mais sessões do que as mostradas aqui.",
+    "absenceNotApproved": "Esta ausência ainda não foi aprovada.",
+    "familyNotOnList": "Esta família não tem sessões afetadas por esta ausência.",
     "targetAbsent": "Esse terapeuta está ausente a essa hora.",
     "sessionClosed": "Uma dessas sessões já foi realizada ou anulada. Atualiza a lista e tenta outra vez.",
     "failed": "Não foi possível. Tenta outra vez."

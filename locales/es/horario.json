@@ -18,6 +18,9 @@
     "overlap": "Dos horarios del mismo día no pueden solaparse.",
     "range": "La hora de fin tiene que ser posterior a la de inicio.",
     "nextFrom": "Ya hay un horario desde {{date}}. Guardar lo sustituye.",
+    "emptyWeek": "Un horario necesita al menos un bloque. Para quitar a alguien de la agenda, habla con la dirección.",
+    "pastWeek": "Solo la dirección puede cambiar horarios con fecha en el pasado.",
+    "tooManyHourRows": "Este horario tiene demasiados cambios para guardarlos de una vez. Habla con la dirección.",
     "offGrid": "Las horas tienen que ser de 5 en 5 minutos.",
     "failed": "No se pudo guardar. Inténtalo otra vez."
   },
