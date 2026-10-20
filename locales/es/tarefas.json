@@ -1,0 +1,104 @@
+{
+  "title": "Tareas",
+  "tabs": {
+    "board": "Tablero"
+  },
+  "mine": {
+    "title": "Mis solicitudes",
+    "new": "Nueva solicitud",
+    "archive": "Archivo",
+    "empty": "Todavía no has pedido nada a recepción."
+  },
+  "form": {
+    "what": "¿Qué necesitas?",
+    "details": "Detalles",
+    "patient": "Paciente (opcional)",
+    "appointment": "Cita (opcional)",
+    "due": "¿Para cuándo es? (opcional)",
+    "submit": "Enviar solicitud",
+    "cancel": "Cancelar"
+  },
+  "create": {
+    "title": "Nueva tarea",
+    "submit": "Crear tarea"
+  },
+  "board": {
+    "columns": {
+      "requests": "Solicitudes internas",
+      "open": "Por hacer",
+      "doing": "En curso",
+      "pending": "Pendiente",
+      "done": "Hecho"
+    },
+    "emptyColumn": "Nada por aquí."
+  },
+  "status": {
+    "open": "Por hacer",
+    "doing": "En curso",
+    "pending": "Pendiente",
+    "done": "Hecho",
+    "cancelled": "Retirada"
+  },
+  "priority": {
+    "normal": "Normal",
+    "urgent": "Urgente"
+  },
+  "sla": {
+    "warn": "Más de 1 día laborable sin respuesta",
+    "urgent": "2 días laborables sin respuesta",
+    "paused": "En pausa mientras está pendiente"
+  },
+  "due": {
+    "label": "Para el {{date}}",
+    "overdue": "Atrasada desde el {{date}}",
+    "clear": "Sin fecha"
+  },
+  "assign": {
+    "label": "Responsable",
+    "none": "Sin responsable",
+    "me": "Quedármela"
+  },
+  "actions": {
+    "move": "Mover a",
+    "markDone": "Marcar como hecho",
+    "withdraw": "Retirar solicitud",
+    "setNormal": "Volver a normal"
+  },
+  "thread": {
+    "title": "Conversación",
+    "placeholder": "Escribe una respuesta…",
+    "send": "Enviar",
+    "closed": "Solicitud hecha. Ya no recibe respuestas."
+  },
+  "conversations": {
+    "title": "Conversaciones",
+    "empty": "No hay conversaciones sin leer ni solicitudes abiertas.",
+    "replyAbout": "Responder sobre",
+    "changedRequest": "Aquí empieza otra solicitud: {{title}}"
+  },
+  "search": {
+    "placeholder": "Buscar por solicitud, paciente o persona (no se busca en el texto de las conversaciones)",
+    "noResults": "Ninguna tarjeta coincide con la búsqueda."
+  },
+  "unread": "Novedades",
+  "patientHidden": "Paciente fuera de tu lista",
+  "oversight": {
+    "title": "Seguimiento",
+    "unassigned": "Sin responsable",
+    "late": "Atrasadas",
+    "responseTime": "Tiempo de respuesta",
+    "median": "Mediana: {{hours}} h laborables",
+    "p90": "90 %: {{hours}} h laborables",
+    "sample_zero": "Ninguna solicitud en los últimos 30 días",
+    "sample_one": "{{count}} solicitud en los últimos 30 días",
+    "sample_other": "{{count}} solicitudes en los últimos 30 días"
+  },
+  "truncated": "La lista está recortada: muestra los primeros {{count}}.",
+  "errors": {
+    "notOnCareTeam": "Este paciente no está en tu lista.",
+    "taskClosed": "La solicitud ya está hecha y no recibe más respuestas.",
+    "assigneeNotDesk": "Solo quien trabaja en recepción o en coordinación puede quedarse con una tarea.",
+    "tooLong": "El texto es demasiado largo.",
+    "generic": "No se ha podido guardar. Inténtalo otra vez."
+  }
+}
