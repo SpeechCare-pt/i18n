@@ -81,7 +81,9 @@
     },
     "inArrears": "O mês anterior deste paciente não está regularizado. Fala com a receção.",
     "arrearsNotAllowed": "Só a receção ou a direção podem autorizar esta marcação.",
-    "tooManyOccurrences": "Uma série não pode ter mais de 52 consultas. Escolhe uma data final mais próxima."
+    "tooManyOccurrences": "Uma série não pode ter mais de 52 consultas. Escolhe uma data final mais próxima.",
+    "absent": "{{name}} está ausente a esta hora.",
+    "absentConfirm": "Marcar mesmo assim"
   },
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",
@@ -90,7 +92,11 @@
     "patient_one": "{{name}} já tem outra sessão a esta hora",
     "patient_other": "{{name}} já tem outras {{count}} sessões a esta hora",
     "patientHint": "Isto costuma ser engano. Confirma antes de guardar.",
-    "entry": "{{start}}–{{end}}, {{patient}}, com {{technician}}"
+    "entry": "{{start}}–{{end}}, {{patient}}, com {{technician}}",
+    "outsideHours": "{{name}} não trabalha a esta hora.",
+    "otherSite": "{{name}} trabalha noutra unidade a esta hora.",
+    "absent": "{{name}} está ausente a esta hora.",
+    "absentPending": "{{name}} tem uma ausência por aprovar a esta hora."
   },
   "session": {
     "title": "{{start}} · {{patient}}",
@@ -148,14 +154,18 @@
       "moved_one": "{{count}} consulta passou para o novo terapeuta.",
       "moved_other": "{{count}} consultas passaram para o novo terapeuta."
     },
-    "affectsNone": "Nada por realizar a partir desta data."
+    "affectsNone": "Nada por realizar a partir desta data.",
+    "absentWeek": "O terapeuta está ausente nesta semana."
   },
   "chores": {
     "label": "Por tratar",
     "faltas_one": "{{count}} falta por remarcar · faltam {{days}} dias",
     "faltas_other": "{{count}} faltas por remarcar · faltam {{days}} dias",
     "closures_one": "{{count}} consulta em dia de encerramento",
-    "closures_other": "{{count}} consultas em dias de encerramento"
+    "closures_other": "{{count}} consultas em dias de encerramento",
+    "absences_zero": "Nenhuma sessão por resolver (ausências)",
+    "absences_one": "{{count}} sessão por resolver (ausências)",
+    "absences_other": "{{count}} sessões por resolver (ausências)"
   },
   "rebook": {
     "title": "Faltas por remarcar",
@@ -330,5 +340,36 @@
     "previous": "Semana anterior",
     "next": "Semana seguinte",
     "openDay": "Abrir {{day}}"
+  },
+  "hours": {
+    "outside": "Fora do horário",
+    "otherSite": "Noutra unidade",
+    "unset": "Sem horário"
+  },
+  "absent": "Ausente",
+  "absentPending": "Ausência por aprovar",
+  "unbookedSome": "Há terapeutas sem horário definido, por isso o espaço em branco pode não estar livre.",
+  "absences": {
+    "title": "Ausências por resolver",
+    "empty": "Nada por resolver.",
+    "family": "Família",
+    "sessions_zero": "Nenhuma sessão",
+    "sessions_one": "{{count}} sessão",
+    "sessions_other": "{{count}} sessões",
+    "toCall": "Por contactar",
+    "contacted": "Família contactada",
+    "markContacted": "Marcar como contactada",
+    "sessionCancelled": "Anulada",
+    "reassign": "Reatribuir",
+    "reassignTo": "Passar para",
+    "nobodyFree": "Ninguém livre a esta hora.",
+    "move": "Remarcar",
+    "cancel": "Anular",
+    "reasonPreset": "Motivo preenchido: iniciativa da clínica. Podes mudar.",
+    "resolved": "Resolvido",
+    "truncated": "Há mais sessões do que as mostradas aqui.",
+    "targetAbsent": "Esse terapeuta está ausente a essa hora.",
+    "sessionClosed": "Uma dessas sessões já foi realizada ou anulada. Atualiza a lista e tenta outra vez.",
+    "failed": "Não foi possível. Tenta outra vez."
   }
 }

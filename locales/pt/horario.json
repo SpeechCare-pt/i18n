@@ -1,0 +1,68 @@
+{
+  "title": "Horário e ausências",
+  "who": "Terapeuta",
+  "self": "O meu horário",
+  "week": {
+    "title": "Semana de trabalho",
+    "from": "A partir de",
+    "add": "Adicionar horário",
+    "remove": "Tirar",
+    "site": "Unidade",
+    "start": "Das",
+    "end": "Às",
+    "services": "Consultas",
+    "servicesAll": "Todas as que faz",
+    "save": "Guardar horário",
+    "saved": "Horário guardado.",
+    "empty": "Sem horário definido. A agenda usa o dia da clínica, das 8h às 19h.",
+    "overlap": "Dois horários do mesmo dia não se podem sobrepor.",
+    "offGrid": "As horas têm de ser de 5 em 5 minutos.",
+    "failed": "Não foi possível guardar. Tenta outra vez."
+  },
+  "weekday": {
+    "0": "Domingo",
+    "1": "Segunda",
+    "2": "Terça",
+    "3": "Quarta",
+    "4": "Quinta",
+    "5": "Sexta",
+    "6": "Sábado"
+  },
+  "absences": {
+    "title": "Ausências",
+    "new": "Registar ausência",
+    "upcoming": "Próximas",
+    "past": "Passadas",
+    "empty": "Sem ausências registadas.",
+    "kind": {
+      "vacation": "Férias",
+      "illness": "Doença",
+      "training": "Formação",
+      "other": "Outra"
+    },
+    "from": "De",
+    "to": "Até",
+    "allDay": "O dia todo",
+    "note": "Nota",
+    "status": {
+      "requested": "Por aprovar",
+      "approved": "Aprovada",
+      "declined": "Recusada",
+      "withdrawn": "Retirada"
+    },
+    "impact_one": "{{count}} marcação fica por resolver",
+    "impact_other": "{{count}} marcações ficam por resolver",
+    "impactNone": "Nenhuma marcação fica por resolver.",
+    "requestHint": "Fica à espera de aprovação da direção. Até lá, a agenda não fecha.",
+    "save": "Guardar",
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "approve": "Aprovar",
+    "decline": "Recusar",
+    "withdraw": "Retirar",
+    "amend": "Alterar datas",
+    "pendingTitle": "Pedidos por aprovar",
+    "tooLong": "Uma ausência não pode ter mais de um ano.",
+    "overlaps": "Já há uma ausência neste período.",
+    "cannotDecideOwn": "Não podes aprovar o teu próprio pedido."
+  }
+}

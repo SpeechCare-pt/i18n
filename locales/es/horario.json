@@ -1,0 +1,68 @@
+{
+  "title": "Horario y ausencias",
+  "who": "Terapeuta",
+  "self": "Mi horario",
+  "week": {
+    "title": "Semana de trabajo",
+    "from": "A partir de",
+    "add": "Añadir horario",
+    "remove": "Quitar",
+    "site": "Centro",
+    "start": "Desde",
+    "end": "Hasta",
+    "services": "Consultas",
+    "servicesAll": "Todas las que hace",
+    "save": "Guardar horario",
+    "saved": "Horario guardado.",
+    "empty": "Sin horario definido. La agenda usa el día de la clínica, de 8h a 19h.",
+    "overlap": "Dos horarios del mismo día no pueden solaparse.",
+    "offGrid": "Las horas tienen que ser de 5 en 5 minutos.",
+    "failed": "No se pudo guardar. Inténtalo otra vez."
+  },
+  "weekday": {
+    "0": "Domingo",
+    "1": "Lunes",
+    "2": "Martes",
+    "3": "Miércoles",
+    "4": "Jueves",
+    "5": "Viernes",
+    "6": "Sábado"
+  },
+  "absences": {
+    "title": "Ausencias",
+    "new": "Registrar ausencia",
+    "upcoming": "Próximas",
+    "past": "Pasadas",
+    "empty": "Sin ausencias registradas.",
+    "kind": {
+      "vacation": "Vacaciones",
+      "illness": "Enfermedad",
+      "training": "Formación",
+      "other": "Otra"
+    },
+    "from": "Desde",
+    "to": "Hasta",
+    "allDay": "Todo el día",
+    "note": "Nota",
+    "status": {
+      "requested": "Por aprobar",
+      "approved": "Aprobada",
+      "declined": "Rechazada",
+      "withdrawn": "Retirada"
+    },
+    "impact_one": "{{count}} cita queda por resolver",
+    "impact_other": "{{count}} citas quedan por resolver",
+    "impactNone": "Ninguna cita queda por resolver.",
+    "requestHint": "Queda a la espera de que la dirección la apruebe. Hasta entonces, la agenda no se cierra.",
+    "save": "Guardar",
+    "failed": "No se pudo guardar. Inténtalo otra vez.",
+    "approve": "Aprobar",
+    "decline": "Rechazar",
+    "withdraw": "Retirar",
+    "amend": "Cambiar fechas",
+    "pendingTitle": "Solicitudes por aprobar",
+    "tooLong": "Una ausencia no puede durar más de un año.",
+    "overlaps": "Ya hay una ausencia en este periodo.",
+    "cannotDecideOwn": "No puedes aprobar tu propia solicitud."
+  }
+}
