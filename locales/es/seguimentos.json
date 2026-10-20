@@ -150,6 +150,12 @@
     "bookedAhead": "Ya hay una consulta agendada. Define el próximo retorno cuando se haga.",
     "invalidMonth": "Elige un mes válido.",
     "followUpExists": "Ya hay un seguimiento abierto de este paciente con este médico.",
+    "appointmentMismatch": "Esa cita no es de este seguimiento.",
+    "appointmentClosed": "Esa cita ya está cerrada.",
+    "followUpDischarged": "Este seguimiento ya tiene el alta.",
+    "sessionNotStarted": "La sesión todavía no ha empezado.",
+    "tooLong": "El texto es demasiado largo.",
+    "notOnCareTeam": "Este paciente no está en tu lista.",
     "failed": "No se pudo guardar."
   },
   "inicio": {
