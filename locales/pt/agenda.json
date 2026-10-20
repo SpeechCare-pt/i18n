@@ -85,6 +85,7 @@
     "absent": "{{name}} está ausente a esta hora.",
     "absentConfirm": "Marcar mesmo assim"
   },
+  "absentRefusal": "{{name}} está ausente nessa altura. Queres marcar mesmo assim?",
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",
     "therapist_other": "{{name}} já tem {{count}} sessões a esta hora",

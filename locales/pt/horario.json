@@ -16,6 +16,8 @@
     "saved": "Horário guardado.",
     "empty": "Sem horário definido. A agenda usa o dia da clínica, das 8h às 19h.",
     "overlap": "Dois horários do mesmo dia não se podem sobrepor.",
+    "range": "A hora de fim tem de ser depois da de início.",
+    "nextFrom": "Já há um horário marcado a partir de {{date}}. Guardar substitui-o.",
     "offGrid": "As horas têm de ser de 5 em 5 minutos.",
     "failed": "Não foi possível guardar. Tenta outra vez."
   },
@@ -34,6 +36,7 @@
     "upcoming": "Próximas",
     "past": "Passadas",
     "empty": "Sem ausências registadas.",
+    "kindLabel": "Tipo",
     "kind": {
       "vacation": "Férias",
       "illness": "Doença",
