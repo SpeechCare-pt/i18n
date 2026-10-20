@@ -99,6 +99,9 @@
     "taskClosed": "O pedido já está feito e não recebe mais respostas.",
     "assigneeNotDesk": "Só quem trabalha na receção ou na coordenação pode ficar com uma tarefa.",
     "tooLong": "O texto é demasiado comprido.",
+    "emptyText": "Escreve alguma coisa antes de enviar.",
+    "badDueDate": "Essa data não é válida.",
+    "appointmentPatientMismatch": "Essa consulta não é deste paciente.",
     "generic": "Não foi possível guardar. Tenta outra vez."
   }
 }
