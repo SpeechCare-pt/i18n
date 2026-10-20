@@ -16,7 +16,8 @@
     "appointment": "Cita (opcional)",
     "due": "¿Para cuándo es? (opcional)",
     "submit": "Enviar solicitud",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "clearPatient": "Cambiar paciente"
   },
   "create": {
     "title": "Nueva tarea",
@@ -68,7 +69,12 @@
     "title": "Conversación",
     "placeholder": "Escribe una respuesta…",
     "send": "Enviar",
-    "closed": "Solicitud hecha. Ya no recibe respuestas."
+    "closed": "Solicitud hecha. Ya no recibe respuestas.",
+    "empty": "Todavía sin mensajes."
+  },
+  "card": {
+    "from": "De",
+    "owner": "Resp."
   },
   "conversations": {
     "title": "Conversaciones",
@@ -91,7 +97,8 @@
     "p90": "90 %: {{hours}} h laborables",
     "sample_zero": "Ninguna solicitud en los últimos 30 días",
     "sample_one": "{{count}} solicitud en los últimos 30 días",
-    "sample_other": "{{count}} solicitudes en los últimos 30 días"
+    "sample_other": "{{count}} solicitudes en los últimos 30 días",
+    "fewData": "Pocos datos"
   },
   "truncated": "La lista está recortada: muestra los primeros {{count}}.",
   "errors": {
