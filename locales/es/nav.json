@@ -37,5 +37,8 @@
     "none": "Sin accesos para revisar",
     "label_one": "{{count}} acceso para revisar",
     "label_other": "{{count}} accesos para revisar"
-  }
+  },
+  "tasksBadge_zero": "Nada necesita atención",
+  "tasksBadge_one": "{{count}} tarea necesita atención",
+  "tasksBadge_other": "{{count}} tareas necesitan atención"
 }

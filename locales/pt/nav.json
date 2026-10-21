@@ -37,5 +37,8 @@
     "none": "Sem acessos a rever",
     "label_one": "{{count}} acesso a rever",
     "label_other": "{{count}} acessos a rever"
-  }
+  },
+  "tasksBadge_zero": "Nada precisa de atenção",
+  "tasksBadge_one": "{{count}} tarefa precisa de atenção",
+  "tasksBadge_other": "{{count}} tarefas precisam de atenção"
 }
