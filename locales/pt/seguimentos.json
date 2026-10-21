@@ -89,7 +89,7 @@
   },
   "nextReturn": {
     "title": "Próximo retorno",
-    "body": "Em que mês volta {{name}}? Aparece em A marcar a 1 do mês anterior.",
+    "body": "Em que mês volta {{name}}? Aparece na lista A marcar a 1 do mês anterior.",
     "from": "Os meses contam a partir de {{month}}.",
     "quick_one": "{{count}} mês",
     "quick_other": "{{count}} meses",

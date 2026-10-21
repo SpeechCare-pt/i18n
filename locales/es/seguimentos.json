@@ -89,7 +89,7 @@
   },
   "nextReturn": {
     "title": "Próximo retorno",
-    "body": "¿En qué mes vuelve {{name}}? Aparece en Por agendar el día 1 del mes anterior.",
+    "body": "¿En qué mes vuelve {{name}}? Aparece en la lista Por agendar el día 1 del mes anterior.",
     "from": "Los meses cuentan desde {{month}}.",
     "quick_one": "{{count}} mes",
     "quick_other": "{{count}} meses",
