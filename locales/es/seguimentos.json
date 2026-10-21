@@ -64,8 +64,10 @@
     "attempts_one": "{{count}} intento",
     "attempts_other": "{{count}} intentos",
     "lastAttempt": "Último: {{channel}}, {{outcome}}, {{date}}",
+    "lastOutcome": "Último: {{outcome}}",
     "notes": "Notas",
-    "notesPlaceholder": "Lo que dijo la familia"
+    "notesPlaceholder": "Lo que dijo la familia",
+    "saveNotes": "Guardar notas"
   },
   "channel": {
     "message": "mensaje",
@@ -156,6 +158,7 @@
     "sessionNotStarted": "La sesión todavía no ha empezado.",
     "tooLong": "El texto es demasiado largo.",
     "notOnCareTeam": "Este paciente no está en tu lista.",
+    "clinicianNotBookable": "Esa persona no puede tener citas agendadas.",
     "failed": "No se pudo guardar."
   },
   "inicio": {
