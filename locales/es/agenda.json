@@ -166,7 +166,8 @@
     "closures_other": "{{count}} consultas en días de cierre",
     "absences_zero": "Ninguna sesión por resolver (ausencias)",
     "absences_one": "{{count}} sesión por resolver (ausencias)",
-    "absences_other": "{{count}} sesiones por resolver (ausencias)"
+    "absences_other": "{{count}} sesiones por resolver (ausencias)",
+    "absencesCapped": "{{count}}+ sesiones por resolver (ausencias)"
   },
   "rebook": {
     "title": "Ausencias por reprogramar",

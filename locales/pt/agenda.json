@@ -166,7 +166,8 @@
     "closures_other": "{{count}} consultas em dias de encerramento",
     "absences_zero": "Nenhuma sessão por resolver (ausências)",
     "absences_one": "{{count}} sessão por resolver (ausências)",
-    "absences_other": "{{count}} sessões por resolver (ausências)"
+    "absences_other": "{{count}} sessões por resolver (ausências)",
+    "absencesCapped": "{{count}}+ sessões por resolver (ausências)"
   },
   "rebook": {
     "title": "Faltas por remarcar",
