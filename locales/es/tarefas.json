@@ -106,6 +106,7 @@
   "reviews": {
     "title": "Planes por revisar",
     "empty": "No tienes ningún plan por revisar.",
+    "emptyAll": "No hay planes por revisar en la clínica.",
     "open": "Abrir ficha",
     "scopeMine": "Los míos",
     "scopeAll": "Todos",
