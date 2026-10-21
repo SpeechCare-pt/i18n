@@ -2,6 +2,7 @@
   "title": "Horário e ausências",
   "who": "Terapeuta",
   "self": "O meu horário",
+  "noPeople": "Não há terapeutas na lista.",
   "week": {
     "title": "Semana de trabalho",
     "from": "A partir de",
