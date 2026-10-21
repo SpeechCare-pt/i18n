@@ -164,6 +164,7 @@
     "notThisEpisodesClinician": "Solo quien es responsable del episodio, o la coordinación, puede modificarlo.",
     "episodeNotThisPatient": "Ese episodio es de otro paciente.",
     "progressNeedsEpisode": "Falta elegir el episodio.",
+    "motiveRequired": "Elige el motivo del alta.",
     "returnMonthRequired": "Elige el mes del retorno.",
     "returnMonthNotExpected": "Solo hay mes de retorno cuando el retorno está previsto.",
     "returnMonthInPast": "Ese mes ya pasó.",
