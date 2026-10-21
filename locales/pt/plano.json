@@ -25,14 +25,16 @@
     "save": "Abrir episódio",
     "saving": "A abrir…",
     "saved": "Episódio aberto.",
-    "close": "Terminar episódio",
     "closing": "A terminar…",
-    "closed": "Episódio terminado.",
-    "confirmClose": "Terminar este episódio? Os objectivos e as sessões ficam no histórico.",
     "cancel": "Cancelar",
     "sessions_zero": "Nenhuma sessão registada",
     "sessions_one": "{{count}} sessão registada",
-    "sessions_other": "{{count}} sessões registadas"
+    "sessions_other": "{{count}} sessões registadas",
+    "dischargedFor": "Alta: {{motive}}",
+    "recommendations": "Recomendações",
+    "returnIn": "Retorno previsto para {{month}}",
+    "noReturn": "Sem retorno previsto",
+    "closedBeforeAlta": "Terminado antes de existir alta registada"
   },
   "objectives": {
     "title": "Objectivos",
@@ -84,6 +86,64 @@
     "marked_one": "{{count}} objectivo marcado",
     "marked_other": "{{count}} objectivos marcados"
   },
+  "discharge": {
+    "open": "Dar alta",
+    "title": "Dar alta do episódio",
+    "motive": "Motivo da alta",
+    "chooseMotive": "Escolher motivo",
+    "motives": {
+      "goalsAchieved": "Objectivos conseguidos",
+      "familyRequest": "Pedido da família",
+      "droppedOut": "Deixou de vir",
+      "referred": "Encaminhado para outro serviço",
+      "outOfScope": "Fora do que fazemos aqui",
+      "openedInError": "Aberto por engano",
+      "other": "Outro motivo"
+    },
+    "recommendations": "Recomendações",
+    "recommendationsPlaceholder": "O que fica para quem acompanhar o paciente a seguir",
+    "recommendationsHint": "Quem está na equipa do paciente lê isto, mesmo de outra área. O que tem de ficar restrito não se escreve aqui.",
+    "returnExpected": "Há retorno previsto",
+    "returnMonth": "Mês do retorno",
+    "quick": {
+      "m3": "Daqui a 3 meses",
+      "m6": "Daqui a 6 meses",
+      "m12": "Daqui a 12 meses"
+    },
+    "save": "Dar alta",
+    "saving": "A dar alta…",
+    "saved": "Alta dada.",
+    "savedWithReturn": "Alta dada. O seguimento ficou para {{month}}.",
+    "followUpKept": "O seguimento já estava marcado para {{month}} e ficou como estava.",
+    "openFollowUps": "Seguimentos em aberto de {{name}}",
+    "stopCalling": "Deixar de chamar"
+  },
+  "review": {
+    "due": "Rever até {{date}}",
+    "overdue_one": "Revisão em atraso há {{count}} dia",
+    "overdue_other": "Revisão em atraso há {{count}} dias",
+    "soon_zero": "Revisão hoje",
+    "soon_one": "Revisão amanhã",
+    "soon_other": "Revisão daqui a {{count}} dias",
+    "undated": "Sem data de revisão",
+    "record": "Registar revisão",
+    "note": "O que concluíste",
+    "notePlaceholder": "Manter o plano, mudar objectivos, dar alta…",
+    "nextDue": "Próxima revisão",
+    "quick": {
+      "m1": "Daqui a 1 mês",
+      "m3": "Daqui a 3 meses",
+      "m6": "Daqui a 6 meses"
+    },
+    "save": "Gravar revisão",
+    "saving": "A gravar…",
+    "saved": "Revisão gravada.",
+    "last": "Última revisão a {{date}}",
+    "history": "Histórico de revisões",
+    "historyEmpty": "Ainda sem revisões registadas.",
+    "banner_one": "{{count}} episódio com a revisão do plano por fazer",
+    "banner_other": "{{count}} episódios com a revisão do plano por fazer"
+  },
   "errors": {
     "tooShort": "Falta preencher, ou está demasiado curto.",
     "tooLong": "Demasiado longo.",
@@ -104,6 +164,13 @@
     "tooManyOpenEpisodes": "Este paciente tem episódios abertos a mais para verificar.",
     "notThisEpisodesClinician": "Só quem é responsável pelo episódio, ou a coordenação, pode alterá-lo.",
     "episodeNotThisPatient": "Esse episódio é de outro paciente.",
-    "progressNeedsEpisode": "Falta escolher o episódio."
+    "progressNeedsEpisode": "Falta escolher o episódio.",
+    "returnMonthRequired": "Escolhe o mês do retorno.",
+    "returnMonthNotExpected": "Só há mês de retorno quando o retorno está previsto.",
+    "returnMonthInPast": "Esse mês já passou.",
+    "invalidMonth": "Esse mês não é válido.",
+    "reviewDateTooSoon": "A próxima revisão tem de ser a partir de amanhã.",
+    "reviewDateTooFar": "A próxima revisão não pode ser daqui a mais de um ano.",
+    "invalidReviewDate": "Essa data não é válida."
   }
 }

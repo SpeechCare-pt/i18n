@@ -60,5 +60,12 @@
     "waiting_other": "{{count}} en espera ahora",
     "since": "La más antigua llegó a las {{time}}.",
     "open": "Abrir llegadas"
+  },
+  "plans": {
+    "title": "Planes por revisar",
+    "count_zero": "Ningún plan por revisar",
+    "count_one": "{{count}} plan por revisar",
+    "count_other": "{{count}} planes por revisar",
+    "link": "Abrir planes por revisar"
   }
 }

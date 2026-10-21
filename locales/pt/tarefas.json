@@ -103,6 +103,15 @@
     "fewData": "Poucos dados"
   },
   "truncated": "A lista está cortada: mostra os primeiros {{count}}.",
+  "reviews": {
+    "title": "Planos por rever",
+    "empty": "Não tens nenhum plano por rever.",
+    "open": "Abrir ficha",
+    "scopeMine": "Os meus",
+    "scopeAll": "Todos",
+    "truncated": "A lista está cortada: mostra os primeiros {{count}}.",
+    "responsible": "Responsável: {{name}}"
+  },
   "errors": {
     "notOnCareTeam": "Este paciente não está na tua lista.",
     "taskClosed": "O pedido já está feito e não recebe mais respostas.",
