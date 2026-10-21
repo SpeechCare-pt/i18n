@@ -58,6 +58,7 @@
     "tooEarly": "Todavía es pronto para registrar esta llegada.",
     "alreadyArrived": "Este paciente ya ha llegado.",
     "sessionClosed": "Esta consulta se ha anulado.",
+    "sessionCompleted": "Esta cita ya se ha completado.",
     "roomElsewhere": "Esa sala está en otro centro.",
     "notYourSession": "Esta consulta es de otro terapeuta.",
     "notDesk": "Solo recepción o coordinación puede reabrir una atención.",
