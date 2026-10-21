@@ -25,7 +25,6 @@
     "save": "Abrir episodio",
     "saving": "Abriendo…",
     "saved": "Episodio abierto.",
-    "closing": "Terminando…",
     "cancel": "Cancelar",
     "sessions_zero": "Ninguna sesión registrada",
     "sessions_one": "{{count}} sesión registrada",
@@ -171,6 +170,7 @@
     "invalidMonth": "Ese mes no es válido.",
     "reviewDateTooSoon": "La próxima revisión tiene que ser a partir de mañana.",
     "reviewDateTooFar": "La próxima revisión no puede ser dentro de más de un año.",
-    "invalidReviewDate": "Esa fecha no es válida."
+    "invalidReviewDate": "Esa fecha no es válida.",
+    "clinicianNotBookable": "Este responsable ya no puede atender consultas, así que no se puede fijar el retorno. Desmarca «Hay retorno previsto» y da el alta sin retorno."
   }
 }
