@@ -19,7 +19,8 @@
     "financeiro": "Financeiro",
     "honorarios": "Honorários",
     "paineis": "Painéis",
-    "admin": "Admin"
+    "admin": "Admin",
+    "chegadas": "Chegadas"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -44,5 +45,8 @@
   "tasksBadge_other": "{{count}} tarefas precisam de atenção",
   "followUpsBadge_zero": "Nada para marcar",
   "followUpsBadge_one": "{{count}} seguimento precisa de atenção",
-  "followUpsBadge_other": "{{count}} seguimentos precisam de atenção"
+  "followUpsBadge_other": "{{count}} seguimentos precisam de atenção",
+  "arrivalsBadge_zero": "Ninguém à espera",
+  "arrivalsBadge_one": "{{count}} pessoa à espera",
+  "arrivalsBadge_other": "{{count}} pessoas à espera"
 }

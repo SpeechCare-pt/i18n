@@ -112,5 +112,24 @@
     "badDueDate": "Essa data não é válida.",
     "appointmentPatientMismatch": "Essa consulta não é deste paciente.",
     "generic": "Não foi possível guardar. Tenta outra vez."
+  },
+  "inicio": {
+    "title": "Pedidos",
+    "open_zero": "Nenhum por tratar",
+    "open_one": "{{count}} por tratar",
+    "open_other": "{{count}} por tratar",
+    "unassigned_zero": "Nenhum sem responsável",
+    "unassigned_one": "{{count}} sem responsável",
+    "unassigned_other": "{{count}} sem responsável",
+    "late_zero": "Nenhum atrasado",
+    "late_one": "{{count}} atrasado",
+    "late_other": "{{count}} atrasados",
+    "mineOpen_zero": "Nenhum pedido teu em aberto",
+    "mineOpen_one": "{{count}} pedido teu em aberto",
+    "mineOpen_other": "{{count}} pedidos teus em aberto",
+    "mineUnseen_zero": "Nenhum com novidades",
+    "mineUnseen_one": "{{count}} com novidades",
+    "mineUnseen_other": "{{count}} com novidades",
+    "link": "Abrir tarefas"
   }
 }

@@ -113,7 +113,10 @@
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "openSeries": "Ver a série",
     "offer": "Oferecer a vaga",
-    "record": "Registar consulta"
+    "record": "Registar consulta",
+    "arrived": "Chegou",
+    "undoArrival": "Desfazer chegada",
+    "callIn": "Marcar atendido"
   },
   "series": {
     "repeat": "Consulta que se repete",
@@ -376,5 +379,9 @@
     "targetAbsent": "Esse terapeuta está ausente a essa hora.",
     "sessionClosed": "Uma dessas sessões já foi realizada ou anulada. Atualiza a lista e tenta outra vez.",
     "failed": "Não foi possível. Tenta outra vez."
+  },
+  "card": {
+    "waiting": "à espera",
+    "calledIn": "Atendida"
   }
 }

@@ -112,5 +112,24 @@
     "badDueDate": "Esa fecha no es válida.",
     "appointmentPatientMismatch": "Esa cita no es de este paciente.",
     "generic": "No se ha podido guardar. Inténtalo otra vez."
+  },
+  "inicio": {
+    "title": "Solicitudes",
+    "open_zero": "Ninguna por tramitar",
+    "open_one": "{{count}} por tramitar",
+    "open_other": "{{count}} por tramitar",
+    "unassigned_zero": "Ninguna sin responsable",
+    "unassigned_one": "{{count}} sin responsable",
+    "unassigned_other": "{{count}} sin responsable",
+    "late_zero": "Ninguna con retraso",
+    "late_one": "{{count}} con retraso",
+    "late_other": "{{count}} con retraso",
+    "mineOpen_zero": "Ninguna solicitud tuya abierta",
+    "mineOpen_one": "{{count}} solicitud tuya abierta",
+    "mineOpen_other": "{{count}} solicitudes tuyas abiertas",
+    "mineUnseen_zero": "Ninguna con novedades",
+    "mineUnseen_one": "{{count}} con novedades",
+    "mineUnseen_other": "{{count}} con novedades",
+    "link": "Abrir tareas"
   }
 }
