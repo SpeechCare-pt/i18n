@@ -20,7 +20,27 @@
     "doneMine": "Já passaram todas as tuas consultas de hoje.",
     "empty": "Não há consultas marcadas para hoje.",
     "emptyMine": "Não tens consultas marcadas para hoje.",
-    "open": "Ver a agenda"
+    "open": "Ver a agenda",
+    "status": {
+      "expected_zero": "Ninguém por chegar",
+      "expected_one": "{{count}} por chegar",
+      "expected_other": "{{count}} por chegar",
+      "waiting_zero": "Ninguém à espera",
+      "waiting_one": "{{count}} à espera",
+      "waiting_other": "{{count}} à espera",
+      "calledIn_zero": "Nenhuma atendida",
+      "calledIn_one": "{{count}} atendida",
+      "calledIn_other": "{{count}} atendidas",
+      "completed_zero": "Nenhuma concluída",
+      "completed_one": "{{count}} concluída",
+      "completed_other": "{{count}} concluídas",
+      "closed_zero": "Nenhuma anulada ou em falta",
+      "closed_one": "{{count}} anulada ou em falta",
+      "closed_other": "{{count}} anuladas ou em falta"
+    },
+    "site": "{{site}}: {{summary}}",
+    "room": "{{room}}: {{summary}}",
+    "roomsNote": "As salas aparecem quando alguém já chegou a elas."
   },
   "owed": {
     "label": "Por regularizar",
@@ -28,6 +48,17 @@
     "people_other": "{{count}} pessoas",
     "oldest": "A mais antiga espera {{age}}.",
     "none": "Ninguém tem valores por regularizar.",
-    "open": "Ver cobranças"
+    "open": "Ver cobranças",
+    "behind_zero": "Ninguém em atraso",
+    "behind_one": "{{count}} em atraso",
+    "behind_other": "{{count}} em atraso"
+  },
+  "arrivals": {
+    "label": "Chegadas",
+    "waiting_zero": "Ninguém à espera",
+    "waiting_one": "{{count}} à espera agora",
+    "waiting_other": "{{count}} à espera agora",
+    "since": "A mais antiga chegou às {{time}}.",
+    "open": "Abrir chegadas"
   }
 }

@@ -1,0 +1,73 @@
+{
+  "title": "Llegadas de hoy",
+  "titleMine": "Tus llegadas",
+  "dayNav": {
+    "today": "Hoy",
+    "prev": "Día anterior",
+    "next": "Día siguiente"
+  },
+  "sections": {
+    "waiting": "En espera",
+    "expected": "Por llegar",
+    "calledIn": "Atendidos"
+  },
+  "empty": {
+    "day": "Sin llegadas hoy.",
+    "mine": "Todavía no ha llegado ningún paciente tuyo hoy.",
+    "waiting": "Nadie en espera.",
+    "expected": "Ya han llegado todos."
+  },
+  "search": "Buscar paciente o terapeuta",
+  "row": {
+    "with": "con {{name}}",
+    "arrivedAt": "llegó a las {{time}}",
+    "waitingSince": "En espera desde las {{time}}",
+    "waited": "esperó {{wait}}",
+    "calledInAt": "{{from}} → {{to}}",
+    "calledAt": "Atendido a las {{time}}",
+    "startsAt": "a las {{time}}",
+    "started": "empezaba a las {{time}}",
+    "longWait": "Espera larga",
+    "room": "Sala",
+    "noRoom": "Sin sala"
+  },
+  "actions": {
+    "arrived": "Ha llegado",
+    "undoArrival": "Deshacer llegada",
+    "callIn": "Marcar atendido",
+    "checkIn": "Hacer check-in",
+    "reopen": "Reabrir",
+    "skipRoom": "Sin sala"
+  },
+  "summary": {
+    "calledIn_zero": "Ninguno atendido",
+    "calledIn_one": "{{count}} atendido",
+    "calledIn_other": "{{count}} atendidos",
+    "avgWait": "espera media {{wait}}",
+    "waiting_zero": "Nadie en espera",
+    "waiting_one": "{{count}} en espera",
+    "waiting_other": "{{count}} en espera"
+  },
+  "wait": {
+    "minutes": "{{count}} min",
+    "hours": "{{h}}h{{mm}}"
+  },
+  "truncated": "El día tiene más consultas de las que muestra la lista.",
+  "errors": {
+    "notToday": "Solo se pueden registrar llegadas de hoy.",
+    "tooEarly": "Todavía es pronto para registrar esta llegada.",
+    "alreadyArrived": "Este paciente ya ha llegado.",
+    "sessionClosed": "Esta consulta se ha anulado.",
+    "sessionCompleted": "Esta cita ya se ha completado.",
+    "roomElsewhere": "Esa sala está en otro centro.",
+    "roomNotFound": "Esa sala ya no existe.",
+    "roomInactive": "Esa sala está desactivada.",
+    "notArrived": "Este paciente aún no ha llegado.",
+    "notYourSession": "Esta consulta es de otro terapeuta.",
+    "notDesk": "Solo recepción o coordinación puede reabrir una atención.",
+    "calledInFirst": "Ya fue atendido. Reábrelo primero.",
+    "calledIn": "Este paciente ya fue atendido.",
+    "arrivedNotMissed": "Este paciente ha llegado. Deshaz la llegada antes de registrar la falta.",
+    "generic": "No se ha podido guardar. Inténtalo otra vez."
+  }
+}
