@@ -167,7 +167,7 @@
     "toBook_zero": "Nada para marcar",
     "toBook_one": "{{count}} para marcar",
     "toBook_other": "{{count}} para marcar",
-    "seen_zero": "Nenhum sem retorno definido",
+    "seen_zero": "Todos com retorno definido",
     "seen_one": "{{count}} já teve consulta e falta o retorno",
     "seen_other": "{{count}} já tiveram consulta e falta o retorno",
     "overdue_zero": "Nenhum atrasado",

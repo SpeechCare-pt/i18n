@@ -167,7 +167,7 @@
     "toBook_zero": "Nada por agendar",
     "toBook_one": "{{count}} por agendar",
     "toBook_other": "{{count}} por agendar",
-    "seen_zero": "Ninguno sin retorno definido",
+    "seen_zero": "Todos con retorno definido",
     "seen_one": "{{count}} ya tuvo consulta y falta el retorno",
     "seen_other": "{{count}} ya tuvieron consulta y falta el retorno",
     "overdue_zero": "Ninguno atrasado",
