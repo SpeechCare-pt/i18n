@@ -12,7 +12,7 @@
     "start": "Desde",
     "end": "Hasta",
     "services": "Consultas",
-    "servicesAll": "Todas las que hace",
+    "servicesAll": "Todas las consultas",
     "save": "Guardar horario",
     "saved": "Horario guardado.",
     "savedFrom": "Horario guardado. Entra en vigor el {{date}}.",

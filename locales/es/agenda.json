@@ -31,7 +31,7 @@
   "sessionAria": "{{start}} a {{end}}, {{patient}}, {{status}}",
   "therapists_one": "{{count}} terapeuta",
   "therapists_other": "{{count}} terapeutas",
-  "unbooked": "El espacio en blanco es lo que no está agendado, no necesariamente lo que está libre — el horario de cada terapeuta todavía no está en el sistema.",
+  "unbooked": "El espacio en blanco es lo que no está agendado. Puede no estar libre: la semana aún no muestra el horario de cada terapeuta.",
   "book": {
     "new": "Nueva cita",
     "title": "Nueva cita",
