@@ -103,6 +103,16 @@
     "fewData": "Pocos datos"
   },
   "truncated": "La lista está recortada: muestra los primeros {{count}}.",
+  "reviews": {
+    "title": "Planes por revisar",
+    "empty": "No tienes ningún plan por revisar.",
+    "emptyAll": "No hay planes por revisar en la clínica.",
+    "open": "Abrir ficha",
+    "scopeMine": "Los míos",
+    "scopeAll": "Todos",
+    "truncated": "La lista está recortada: muestra los primeros {{count}}.",
+    "responsible": "Responsable: {{name}}"
+  },
   "errors": {
     "notOnCareTeam": "Este paciente no está en tu lista.",
     "taskClosed": "La solicitud ya está hecha y no recibe más respuestas.",

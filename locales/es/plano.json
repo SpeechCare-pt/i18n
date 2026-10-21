@@ -25,14 +25,15 @@
     "save": "Abrir episodio",
     "saving": "Abriendo…",
     "saved": "Episodio abierto.",
-    "close": "Terminar episodio",
-    "closing": "Terminando…",
-    "closed": "Episodio terminado.",
-    "confirmClose": "¿Terminar este episodio? Los objetivos y las sesiones quedan en el historial.",
     "cancel": "Cancelar",
     "sessions_zero": "Ninguna sesión registrada",
     "sessions_one": "{{count}} sesión registrada",
-    "sessions_other": "{{count}} sesiones registradas"
+    "sessions_other": "{{count}} sesiones registradas",
+    "dischargedFor": "Alta: {{motive}}",
+    "recommendations": "Recomendaciones",
+    "returnIn": "Retorno previsto para {{month}}",
+    "noReturn": "Sin retorno previsto",
+    "closedBeforeAlta": "Terminado antes de que existiera el alta registrada"
   },
   "objectives": {
     "title": "Objetivos",
@@ -84,6 +85,64 @@
     "marked_one": "{{count}} objetivo marcado",
     "marked_other": "{{count}} objetivos marcados"
   },
+  "discharge": {
+    "open": "Dar el alta",
+    "title": "Dar el alta del episodio",
+    "motive": "Motivo del alta",
+    "chooseMotive": "Elegir motivo",
+    "motives": {
+      "goalsAchieved": "Objetivos conseguidos",
+      "familyRequest": "Petición de la familia",
+      "droppedOut": "Dejó de venir",
+      "referred": "Derivado a otro servicio",
+      "outOfScope": "Fuera de lo que hacemos aquí",
+      "openedInError": "Abierto por error",
+      "other": "Otro motivo"
+    },
+    "recommendations": "Recomendaciones",
+    "recommendationsPlaceholder": "Lo que queda para quien acompañe al paciente a continuación",
+    "recommendationsHint": "Quien está en el equipo del paciente lee esto, aunque sea de otra área. Lo que deba quedar restringido no se escribe aquí.",
+    "returnExpected": "Hay retorno previsto",
+    "returnMonth": "Mes del retorno",
+    "quick": {
+      "m3": "Dentro de 3 meses",
+      "m6": "Dentro de 6 meses",
+      "m12": "Dentro de 12 meses"
+    },
+    "save": "Dar el alta",
+    "saving": "Dando el alta…",
+    "saved": "Alta dada.",
+    "savedWithReturn": "Alta dada. El seguimiento quedó para {{month}}.",
+    "followUpKept": "El seguimiento ya estaba fijado para {{month}} y se quedó como estaba.",
+    "openFollowUps": "Seguimientos abiertos de {{name}}",
+    "stopCalling": "Dejar de llamar"
+  },
+  "review": {
+    "due": "Revisar antes del {{date}}",
+    "overdue_one": "Revisión con {{count}} día de retraso",
+    "overdue_other": "Revisión con {{count}} días de retraso",
+    "soon_zero": "Revisión hoy",
+    "soon_one": "Revisión mañana",
+    "soon_other": "Revisión dentro de {{count}} días",
+    "undated": "Sin fecha de revisión",
+    "record": "Registrar revisión",
+    "note": "Qué concluiste",
+    "notePlaceholder": "Mantener el plan, cambiar objetivos, dar el alta…",
+    "nextDue": "Próxima revisión",
+    "quick": {
+      "m1": "Dentro de 1 mes",
+      "m3": "Dentro de 3 meses",
+      "m6": "Dentro de 6 meses"
+    },
+    "save": "Guardar revisión",
+    "saving": "Guardando…",
+    "saved": "Revisión guardada.",
+    "last": "Última revisión el {{date}}",
+    "history": "Historial de revisiones",
+    "historyEmpty": "Todavía sin revisiones registradas.",
+    "banner_one": "{{count}} episodio con la revisión del plan pendiente",
+    "banner_other": "{{count}} episodios con la revisión del plan pendiente"
+  },
   "errors": {
     "tooShort": "Falta rellenar, o es demasiado corto.",
     "tooLong": "Demasiado largo.",
@@ -104,6 +163,15 @@
     "tooManyOpenEpisodes": "Este paciente tiene demasiados episodios abiertos para comprobar.",
     "notThisEpisodesClinician": "Solo quien es responsable del episodio, o la coordinación, puede modificarlo.",
     "episodeNotThisPatient": "Ese episodio es de otro paciente.",
-    "progressNeedsEpisode": "Falta elegir el episodio."
+    "progressNeedsEpisode": "Falta elegir el episodio.",
+    "motiveRequired": "Elige el motivo del alta.",
+    "returnMonthRequired": "Elige el mes del retorno.",
+    "returnMonthNotExpected": "Solo hay mes de retorno cuando el retorno está previsto.",
+    "returnMonthInPast": "Ese mes ya pasó.",
+    "invalidMonth": "Ese mes no es válido.",
+    "reviewDateTooSoon": "La próxima revisión tiene que ser a partir de mañana.",
+    "reviewDateTooFar": "La próxima revisión no puede ser dentro de más de un año.",
+    "invalidReviewDate": "Esa fecha no es válida.",
+    "clinicianNotBookable": "Este responsable ya no puede atender consultas, así que no se puede fijar el retorno. Desmarca «Hay retorno previsto» y da el alta sin retorno."
   }
 }
