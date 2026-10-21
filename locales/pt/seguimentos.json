@@ -1,0 +1,178 @@
+{
+  "title": "A marcar",
+  "loading": "A carregar…",
+  "technicianScope": "Só os teus doentes.",
+  "truncated": "A lista é maior do que isto. Estão a faltar seguimentos e as contagens são só dos que aparecem.",
+  "countCapped": "{{count}}+",
+  "search": "Procurar por nome",
+  "filter": {
+    "clinician": "Médico ou terapeuta",
+    "anyClinician": "Todos"
+  },
+  "chips": {
+    "all": "Todos a marcar",
+    "seen": "Falta próximo retorno",
+    "overdue": "Atrasados",
+    "notContacted": "Ainda sem contacto",
+    "awaitingReply": "À espera de resposta",
+    "waitlisted": "Lista de espera",
+    "booked": "Consultas marcadas",
+    "awaiting": "Aguarda retorno",
+    "hints": {
+      "all": "Tudo o que a receção tem de marcar, incluindo os que ainda não têm mês.",
+      "seen": "Já tiveram a consulta e ninguém disse quando voltam.",
+      "overdue": "O mês de retorno já passou. Inclui os que não têm mês.",
+      "notContacted": "Ainda ninguém tentou falar com a família.",
+      "awaitingReply": "Já houve pelo menos uma tentativa e a família ainda não marcou.",
+      "waitlisted": "O médico não tem vaga. Só uma consulta marcada os tira daqui.",
+      "booked": "Têm uma consulta na agenda.",
+      "awaiting": "O retorno é daqui a mais de um mês. Entram na lista a 1 do mês anterior."
+    }
+  },
+  "sections": {
+    "seen": "Consulta feita, falta próximo retorno",
+    "toBook": "A marcar",
+    "waitlisted": "Lista de espera",
+    "booked": "Consultas marcadas",
+    "awaiting": "Aguarda retorno",
+    "archive": "Arquivo",
+    "archiveNote": "Os últimos 100 seguimentos criados.",
+    "empty": {
+      "all": "Nada para marcar. Está tudo em dia.",
+      "filtered": "Nada para marcar com este filtro.",
+      "section": "Nada por aqui.",
+      "archive": "Ainda não há seguimentos com alta."
+    }
+  },
+  "month": {
+    "overdue": "atrasado",
+    "thisMonth": "este mês",
+    "nextMonth": "próximo mês, marcar já",
+    "undated": "Sem data",
+    "label": "Para {{month}}",
+    "entersOn": "entra a {{date}}"
+  },
+  "row": {
+    "nth": "{{n}}.ª consulta",
+    "firstVisit": "1.ª consulta",
+    "bookedFor": "Marcada para {{date}}",
+    "seenOn": "Consulta a {{date}}",
+    "with": "com {{name}}",
+    "call": "Ligar",
+    "noPhone": "Sem telefone",
+    "attempts_zero": "Sem tentativas",
+    "attempts_one": "{{count}} tentativa",
+    "attempts_other": "{{count}} tentativas",
+    "lastAttempt": "Última: {{channel}}, {{outcome}}, {{date}}",
+    "lastOutcome": "Último: {{outcome}}",
+    "notes": "Notas",
+    "notesPlaceholder": "O que a família disse",
+    "saveNotes": "Guardar notas"
+  },
+  "channel": {
+    "message": "mensagem",
+    "call": "chamada"
+  },
+  "outcome": {
+    "noAnswer": "sem resposta",
+    "answered": "respondeu"
+  },
+  "actions": {
+    "noAnswer": "Sem resposta",
+    "answered": "Respondeu",
+    "booked": "Marcou",
+    "nextReturn": "Próximo retorno",
+    "waitlist": "Lista de espera",
+    "unwaitlist": "Tirar da lista de espera",
+    "discharge": "Alta",
+    "logged": "Tentativa registada."
+  },
+  "nextReturn": {
+    "title": "Próximo retorno",
+    "body": "Em que mês volta {{name}}? Aparece na lista A marcar a 1 do mês anterior.",
+    "from": "Os meses contam a partir de {{month}}.",
+    "quick_one": "{{count}} mês",
+    "quick_other": "{{count}} meses",
+    "year": "1 ano",
+    "month": "Outro mês",
+    "submit": "Guardar retorno",
+    "cancel": "Cancelar",
+    "invalid": "Escolhe um mês válido.",
+    "bookedAhead": "Já há uma consulta marcada para {{date}}. Depois de ela acontecer, define o próximo retorno.",
+    "saved": "Retorno guardado para {{month}}."
+  },
+  "link": {
+    "title": "Qual foi a consulta marcada?",
+    "none": "Ainda não há consulta marcada com {{name}}.",
+    "openAgenda": "Abrir a agenda",
+    "submit": "Ligar a esta consulta",
+    "cancel": "Cancelar",
+    "saved": "Consulta ligada."
+  },
+  "discharge": {
+    "title": "Dar alta do seguimento",
+    "body": "{{name}} sai da lista e a receção deixa de ligar. Podes voltar a registar o seguimento mais tarde.",
+    "confirm": "Dar alta",
+    "cancel": "Cancelar"
+  },
+  "register": {
+    "open": "Registar seguimento",
+    "title": "Registar seguimento",
+    "patient": "Paciente",
+    "patientPlaceholder": "Procurar por nome",
+    "clinician": "Médico ou terapeuta",
+    "clinicianPlaceholder": "Escolhe uma pessoa",
+    "appointment": "Consulta marcada (opcional)",
+    "noAppointment": "Ainda sem consulta marcada",
+    "dueMonth": "Mês do retorno",
+    "notes": "Notas",
+    "submit": "Registar",
+    "cancel": "Cancelar",
+    "needOne": "Escolhe o mês do retorno.",
+    "exists": "Já existe um seguimento aberto deste paciente com este médico.",
+    "notBookable": "Esta pessoa não tem agenda na organização.",
+    "failed": "Não foi possível registar o seguimento."
+  },
+  "record": {
+    "title": "Seguimentos",
+    "none": "Este paciente não tem seguimentos abertos.",
+    "start": "Registar seguimento",
+    "cycle": "{{n}}.º retorno",
+    "requested": "Pediu {{month}}",
+    "closed": "Consulta a {{date}}",
+    "attempts_zero": "Sem tentativas",
+    "attempts_one": "{{count}} tentativa",
+    "attempts_other": "{{count}} tentativas",
+    "discharged": "Alta a {{date}}"
+  },
+  "session": {
+    "nextReturn": "Próximo retorno…",
+    "saved": "Retorno guardado."
+  },
+  "errors": {
+    "bookedAhead": "Já há uma consulta marcada. Define o próximo retorno depois de ela acontecer.",
+    "invalidMonth": "Escolhe um mês válido.",
+    "followUpExists": "Já existe um seguimento aberto deste paciente com este médico.",
+    "appointmentMismatch": "Essa consulta não é deste seguimento.",
+    "appointmentClosed": "Essa consulta já está fechada.",
+    "followUpDischarged": "Este seguimento já teve alta.",
+    "sessionNotStarted": "A sessão ainda não começou.",
+    "tooLong": "O texto é demasiado comprido.",
+    "notOnCareTeam": "Este paciente não está na tua lista.",
+    "clinicianNotBookable": "Essa pessoa não pode ter consultas marcadas.",
+    "failed": "Não foi possível guardar."
+  },
+  "inicio": {
+    "title": "Seguimentos",
+    "toBook_zero": "Nada para marcar",
+    "toBook_one": "{{count}} para marcar",
+    "toBook_other": "{{count}} para marcar",
+    "seen_zero": "Todos com retorno definido",
+    "seen_one": "{{count}} já teve consulta e falta o retorno",
+    "seen_other": "{{count}} já tiveram consulta e falta o retorno",
+    "overdue_zero": "Nenhum atrasado",
+    "overdue_one": "{{count}} atrasado",
+    "overdue_other": "{{count}} atrasados",
+    "open": "Abrir a lista"
+  }
+}
