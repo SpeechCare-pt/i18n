@@ -27,7 +27,7 @@
     "columns": {
       "requests": "Pedidos internos",
       "open": "Por fazer",
-      "doing": "A fazer",
+      "doing": "Em curso",
       "pending": "Pendente",
       "done": "Feito"
     },
@@ -35,7 +35,7 @@
   },
   "status": {
     "open": "Por fazer",
-    "doing": "A fazer",
+    "doing": "Em curso",
     "pending": "Pendente",
     "done": "Feito",
     "cancelled": "Retirado"
@@ -83,7 +83,8 @@
     "changedRequest": "Aqui começa outro pedido: {{title}}"
   },
   "search": {
-    "placeholder": "Pesquisar por pedido, paciente ou pessoa (o texto das conversas não é pesquisado)",
+    "placeholder": "Pesquisar pedido, paciente ou pessoa",
+    "hint": "O texto das conversas não é pesquisado.",
     "noResults": "Nenhum cartão corresponde à pesquisa."
   },
   "unread": "Novidades",
@@ -92,9 +93,10 @@
     "title": "Acompanhamento",
     "unassigned": "Sem responsável",
     "late": "Atrasadas",
+    "alsoUnassigned": "Também sem responsável",
     "responseTime": "Tempo de resposta",
     "median": "Mediana: {{hours}} h úteis",
-    "p90": "90%: {{hours}} h úteis",
+    "p90": "90 % respondidos em {{hours}} h úteis",
     "sample_zero": "Nenhum pedido nos últimos 30 dias",
     "sample_one": "{{count}} pedido nos últimos 30 dias",
     "sample_other": "{{count}} pedidos nos últimos 30 dias",

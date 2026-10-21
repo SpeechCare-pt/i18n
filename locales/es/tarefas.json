@@ -83,7 +83,8 @@
     "changedRequest": "Aquí empieza otra solicitud: {{title}}"
   },
   "search": {
-    "placeholder": "Buscar por solicitud, paciente o persona (no se busca en el texto de las conversaciones)",
+    "placeholder": "Buscar solicitud, paciente o persona",
+    "hint": "No se busca en el texto de las conversaciones.",
     "noResults": "Ninguna tarjeta coincide con la búsqueda."
   },
   "unread": "Novedades",
@@ -92,9 +93,10 @@
     "title": "Seguimiento",
     "unassigned": "Sin responsable",
     "late": "Atrasadas",
+    "alsoUnassigned": "También sin responsable",
     "responseTime": "Tiempo de respuesta",
     "median": "Mediana: {{hours}} h laborables",
-    "p90": "90 %: {{hours}} h laborables",
+    "p90": "90 % respondidas en {{hours}} h laborables",
     "sample_zero": "Ninguna solicitud en los últimos 30 días",
     "sample_one": "{{count}} solicitud en los últimos 30 días",
     "sample_other": "{{count}} solicitudes en los últimos 30 días",
