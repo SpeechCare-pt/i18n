@@ -392,6 +392,7 @@
     "byWhen": "{{who}}, {{when}}",
     "legacy": "Sistema anterior",
     "legacyDivider": "Registos do sistema anterior",
+    "beginsAt": "O histórico desta marcação começa a {{date}}.",
     "legacyCreated": "Marcação criada no sistema anterior",
     "legacyMoved": "Mudou de {{from}} para {{to}}",
     "legacyStatus": "O estado passou de {{from}} para {{to}}",

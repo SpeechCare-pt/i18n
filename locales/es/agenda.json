@@ -392,6 +392,7 @@
     "byWhen": "{{who}}, {{when}}",
     "legacy": "Sistema anterior",
     "legacyDivider": "Registros del sistema anterior",
+    "beginsAt": "El historial de esta cita empieza el {{date}}.",
     "legacyCreated": "Cita creada en el sistema anterior",
     "legacyMoved": "Cambió de {{from}} a {{to}}",
     "legacyStatus": "El estado pasó de {{from}} a {{to}}",
