@@ -383,5 +383,86 @@
   "card": {
     "waiting": "en espera",
     "calledIn": "Atendida"
+  },
+  "history": {
+    "title": "Historial de la cita",
+    "open": "Ver historial",
+    "empty": "Todavía sin registros. El historial de esta cita empieza el {{date}}.",
+    "truncated": "Solo los últimos {{count}} registros.",
+    "byWhen": "{{who}}, {{when}}",
+    "legacy": "Sistema anterior",
+    "legacyDivider": "Registros del sistema anterior",
+    "beginsAt": "El historial de esta cita empieza el {{date}}.",
+    "legacyCreated": "Cita creada en el sistema anterior",
+    "legacyMoved": "Cambió de {{from}} a {{to}}",
+    "legacyStatus": "El estado pasó de {{from}} a {{to}}",
+    "created": "Agendada por {{who}}",
+    "createdVia": {
+      "series": "Agendada en una serie por {{who}}",
+      "rebook": "Agendada para recuperar una ausencia, por {{who}}",
+      "waitlist": "Agendada desde la lista de espera, por {{who}}"
+    },
+    "moved": "{{who}} cambió de {{from}} a {{to}}",
+    "movedTherapist": "Pasó de {{from}} a {{to}}",
+    "movedSite": "Cambió de centro: de {{from}} a {{to}}",
+    "arrivalCleared": "La llegada registrada se anuló con el cambio de día",
+    "status": "{{who}} pasó el estado de {{from}} a {{to}}",
+    "cancelled": "{{who}} anuló la sesión: {{reason}}",
+    "noticeAt": "La familia avisó {{when}}",
+    "feeWaived": "Se eximió la tasa",
+    "arrival": {
+      "arrived": "Llegada registrada",
+      "arrivalUndone": "Llegada anulada",
+      "calledIn": "Llamada a la consulta",
+      "calledInUndone": "Llamada anulada"
+    },
+    "familyNotice": {
+      "told": "La familia ya está avisada",
+      "willTell": "Quedó acordado avisar a la familia",
+      "notNeeded": "No hizo falta avisar"
+    },
+    "failed": "No se pudo cargar el historial. Inténtalo otra vez."
+  },
+  "move": {
+    "title": "Mover cita",
+    "summary": "{{patient}}: de {{from}} a {{to}}",
+    "checking": "Comprobando…",
+    "confirm": "Mover",
+    "saving": "Moviendo…",
+    "cancel": "Cancelar",
+    "refused": "No se puede mover aquí",
+    "refusal": {
+      "sessionClosed": "Esta cita ya se realizó o fue anulada.",
+      "technicianNotQualified": "{{name}} no ofrece este servicio.",
+      "notYourSession": "Solo puedes mover tus citas.",
+      "mayNotHandOver": "Para pasar la cita a otro terapeuta, habla con recepción.",
+      "monthChangeNeedsDesk": "Cambiar la cita a otro mes lo hace recepción."
+    },
+    "override": {
+      "technicianAbsent": "{{name}} está ausente a esta hora. Mover igualmente.",
+      "patientInArrears": "El mes anterior está sin regularizar. Autorizar esta cita.",
+      "notAllowed": "Solo recepción y dirección pueden autorizar esto."
+    },
+    "warn": {
+      "closureDay": "Ese día la clínica está cerrada.",
+      "billedElsewhere": "Esta sesión ya está cobrada en el mes de {{month}}.",
+      "arrivalWillClear": "La llegada registrada hoy se anulará.",
+      "callInWillClear": "La llegada y la llamada de hoy se anularán y la consulta vuelve a «{{status}}».",
+      "seriesOnlyThis": "Solo cambia esta sesión. Las demás de la serie quedan como están."
+    },
+    "notice": {
+      "title": "Avisar a la familia",
+      "told": "Ya he avisado",
+      "willTell": "Voy a avisar",
+      "notNeeded": "No hace falta",
+      "required": "Indica si se ha avisado a la familia."
+    },
+    "dragLabel": "Arrastrar para mover la cita de {{patient}}",
+    "hint": "¿Sin ratón? Usa «Reagendar» en el menú de la cita.",
+    "onlyOwn": "Solo puedes mover tus citas.",
+    "lifted": "Moviendo la cita de {{patient}}",
+    "moved": "Cita movida a {{to}}",
+    "cancelled": "Movimiento cancelado",
+    "failed": "No se pudo mover. Inténtalo otra vez."
   }
 }
