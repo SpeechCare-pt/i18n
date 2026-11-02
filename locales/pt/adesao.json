@@ -31,10 +31,10 @@
       "warning": "Aviso",
       "conversation": "Conversa com a coordenação",
       "suspension": "Suspensão da série",
-      "window": "{{count}} faltas ou desmarcações da família nos últimos {{days}} dias",
       "window_zero": "Nenhuma falta nem desmarcação da família nos últimos {{days}} dias",
       "window_one": "{{count}} falta ou desmarcação da família nos últimos {{days}} dias",
-      "noPolicy": "A prática ainda não definiu os níveis de escalada."
+      "noPolicy": "A prática ainda não definiu os níveis de escalada.",
+      "window_other": "{{count}} faltas ou desmarcações da família nos últimos {{days}} dias"
     }
   },
   "policy": {

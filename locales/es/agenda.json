@@ -422,7 +422,7 @@
       "notNeeded": "No hizo falta avisar"
     },
     "failed": "No se pudo cargar el historial. Inténtalo otra vez.",
-    "linked": "{{who}} la marcó como reposición de {{when}}",
+    "linked": "{{who}} marcó esta sesión como reposición",
     "unlinked": "{{who}} dejó de marcarla como reposición"
   },
   "move": {

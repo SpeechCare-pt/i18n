@@ -422,7 +422,7 @@
       "notNeeded": "Não foi preciso avisar"
     },
     "failed": "Não foi possível carregar o histórico. Tenta outra vez.",
-    "linked": "{{who}} marcou como reposição de {{when}}",
+    "linked": "{{who}} marcou esta sessão como reposição",
     "unlinked": "{{who}} deixou de a marcar como reposição"
   },
   "move": {
