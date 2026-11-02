@@ -383,5 +383,84 @@
   "card": {
     "waiting": "à espera",
     "calledIn": "Atendida"
+  },
+  "history": {
+    "title": "Histórico da marcação",
+    "open": "Ver histórico",
+    "empty": "Ainda sem registos. O histórico desta marcação começa em {{date}}.",
+    "truncated": "Só os últimos {{count}} registos.",
+    "byWhen": "{{who}}, {{when}}",
+    "legacy": "Sistema anterior",
+    "legacyDivider": "Registos do sistema anterior",
+    "legacyCreated": "Marcação criada no sistema anterior",
+    "legacyMoved": "Mudou de {{from}} para {{to}}",
+    "legacyStatus": "O estado passou de {{from}} para {{to}}",
+    "created": "Marcada por {{who}}",
+    "createdVia": {
+      "series": "Marcada numa série por {{who}}",
+      "rebook": "Marcada para repor uma falta, por {{who}}",
+      "waitlist": "Marcada a partir da lista de espera, por {{who}}"
+    },
+    "moved": "{{who}} mudou de {{from}} para {{to}}",
+    "movedTherapist": "Passou de {{from}} para {{to}}",
+    "movedSite": "Mudou de unidade: de {{from}} para {{to}}",
+    "arrivalCleared": "A chegada registada foi anulada com a mudança de dia",
+    "status": "{{who}} passou o estado de {{from}} para {{to}}",
+    "cancelled": "{{who}} anulou a sessão: {{reason}}",
+    "noticeAt": "A família avisou {{when}}",
+    "feeWaived": "A taxa foi dispensada",
+    "arrival": {
+      "arrived": "Chegada registada",
+      "arrivalUndone": "Chegada anulada",
+      "calledIn": "Chamada para a consulta",
+      "calledInUndone": "Chamada anulada"
+    },
+    "familyNotice": {
+      "told": "A família já foi avisada",
+      "willTell": "Ficou combinado avisar a família",
+      "notNeeded": "Não foi preciso avisar"
+    },
+    "failed": "Não foi possível carregar o histórico. Tenta outra vez."
+  },
+  "move": {
+    "title": "Mover marcação",
+    "summary": "{{patient}}: de {{from}} para {{to}}",
+    "checking": "A verificar…",
+    "confirm": "Mover",
+    "saving": "A mover…",
+    "cancel": "Cancelar",
+    "refused": "Não dá para mover para aqui",
+    "refusal": {
+      "sessionClosed": "Esta marcação já aconteceu ou foi anulada.",
+      "technicianNotQualified": "{{name}} não dá este serviço.",
+      "notYourSession": "Só podes mover as tuas marcações.",
+      "mayNotHandOver": "Para passar a marcação a outro terapeuta, fala com a receção."
+    },
+    "override": {
+      "technicianAbsent": "{{name}} está ausente a esta hora. Mover mesmo assim.",
+      "patientInArrears": "O mês anterior está por regularizar. Autorizar esta marcação.",
+      "notAllowed": "Só a receção e a direção podem autorizar isto."
+    },
+    "warn": {
+      "closureDay": "Nesse dia a clínica está fechada.",
+      "billedElsewhere": "Esta sessão já está cobrada no mês de {{month}}.",
+      "arrivalWillClear": "A chegada registada hoje vai ser anulada.",
+      "callInWillClear": "A chegada e a chamada de hoje vão ser anuladas e a consulta volta a «{{status}}».",
+      "seriesOnlyThis": "Só esta sessão muda. As outras da série ficam como estão."
+    },
+    "notice": {
+      "title": "Avisar a família",
+      "told": "Já avisei",
+      "willTell": "Vou avisar",
+      "notNeeded": "Não é preciso",
+      "required": "Diz se a família foi avisada."
+    },
+    "dragLabel": "Arrastar para mover a marcação de {{patient}}",
+    "hint": "Sem rato? Usa «Remarcar» no menu da marcação.",
+    "onlyOwn": "Só podes mover as tuas marcações.",
+    "lifted": "A mover a marcação de {{patient}}",
+    "moved": "Marcação movida para {{to}}",
+    "cancelled": "Movimento cancelado",
+    "failed": "Não foi possível mover. Tenta outra vez."
   }
 }
