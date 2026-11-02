@@ -144,7 +144,8 @@
     "attestedBadge": "Declarado pela receção",
     "empty": {
       "missing": "Nenhuma família em falta nestes dias.",
-      "expiring": "Nenhum consentimento a expirar."
+      "expiring": "Nenhum consentimento a expirar.",
+      "declared": "Nenhuma família só com consentimento declarado nestes dias."
     },
     "truncated": "A lista está cortada. Escolhe menos dias.",
     "nextSession": "próxima sessão a {{date}}",

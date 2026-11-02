@@ -144,7 +144,8 @@
     "attestedBadge": "Declarado por recepción",
     "empty": {
       "missing": "Ninguna familia pendiente en estos días.",
-      "expiring": "Ningún consentimiento a punto de caducar."
+      "expiring": "Ningún consentimiento a punto de caducar.",
+      "declared": "Ninguna familia solo con consentimiento declarado en estos días."
     },
     "truncated": "La lista está recortada. Elige menos días.",
     "nextSession": "próxima sesión el {{date}}",
