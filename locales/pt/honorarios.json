@@ -7,6 +7,7 @@
     "later": "Mês seguinte →",
     "summary": "Em {{month}}, {{count}} profissionais a receber, {{total}} no total.",
     "summary_one": "Em {{month}}, 1 profissional a receber, {{total}} no total.",
+    "sessions_zero": "0 sessões",
     "sessions_one": "{{count}} sessão",
     "sessions_other": "{{count}} sessões",
     "cedula": "Cédula {{value}}",

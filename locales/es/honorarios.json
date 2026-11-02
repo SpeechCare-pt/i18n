@@ -7,6 +7,7 @@
     "later": "Mes siguiente →",
     "summary": "En {{month}}, {{count}} profesionales a cobrar, {{total}} en total.",
     "summary_one": "En {{month}}, 1 profesional a cobrar, {{total}} en total.",
+    "sessions_zero": "0 sesiones",
     "sessions_one": "{{count}} sesión",
     "sessions_other": "{{count}} sesiones",
     "cedula": "Colegiado {{value}}",
