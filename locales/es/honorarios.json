@@ -111,8 +111,7 @@
     "remove": "Anular",
     "removed": "anulado",
     "reversal": "Anulación",
-    "locked": "Aprobado. Para tocar los ajustes, devuélvelo primero para ajuste.",
-    "notPerSession": "Quien está a contrato no recibe ajustes."
+    "locked": "Aprobado. Para tocar los ajustes, devuélvelo primero para ajuste."
   },
   "error": {
     "generic": "No se ha podido guardar. Inténtalo otra vez.",
@@ -151,9 +150,6 @@
     "confirm": "¿Aprobar {{total}} para {{name}}?",
     "confirmIban": "Pago al IBAN {{iban}}.",
     "noIban": "Sin IBAN en el perfil. La aprobación queda registrada y el pago solo se podrá hacer cuando el IBAN esté rellenado.",
-    "monthOpen": "El mes todavía no ha terminado.",
-    "unrated": "Hay sesiones sin regla. Define la regla antes de aprobar.",
-    "figureMoved": "El importe ha cambiado entretanto. Ya está actualizado, confirma otra vez.",
     "sending": "Aprobando…",
     "cancel": "Cancelar"
   },

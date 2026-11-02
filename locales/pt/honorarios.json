@@ -111,8 +111,7 @@
     "remove": "Anular",
     "removed": "anulado",
     "reversal": "Anulação",
-    "locked": "Aprovado. Para mexer nos ajustes, devolve primeiro para ajuste.",
-    "notPerSession": "Quem está a contrato não recebe ajustes."
+    "locked": "Aprovado. Para mexer nos ajustes, devolve primeiro para ajuste."
   },
   "error": {
     "generic": "Não foi possível guardar. Tenta outra vez.",
@@ -136,8 +135,8 @@
     "open": "Em aberto",
     "returned": "Devolvido para ajuste",
     "approved": "Aprovado",
-    "approvedOn": "Aprovado a {{on}}",
-    "returnedOn": "Devolvido a {{on}}",
+    "approvedOn": "Aprovado em {{on}}",
+    "returnedOn": "Devolvido em {{on}}",
     "drifted": "Mudou desde a aprovação: antes {{was}}, agora {{now}}",
     "driftedPayee": "O IBAN ou a cédula mudaram desde a aprovação."
   },
@@ -151,9 +150,6 @@
     "confirm": "Aprovar {{total}} para {{name}}?",
     "confirmIban": "Pagamento para o IBAN {{iban}}.",
     "noIban": "Sem IBAN no perfil. A aprovação fica registada e o pagamento só se pode fazer depois de o IBAN estar preenchido.",
-    "monthOpen": "O mês ainda não acabou.",
-    "unrated": "Há sessões sem regra. Define a regra antes de aprovar.",
-    "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
     "sending": "A aprovar…",
     "cancel": "Cancelar"
   },
