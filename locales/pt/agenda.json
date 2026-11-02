@@ -434,7 +434,8 @@
       "sessionClosed": "Esta marcação já aconteceu ou foi anulada.",
       "technicianNotQualified": "{{name}} não dá este serviço.",
       "notYourSession": "Só podes mover as tuas marcações.",
-      "mayNotHandOver": "Para passar a marcação a outro terapeuta, fala com a receção."
+      "mayNotHandOver": "Para passar a marcação a outro terapeuta, fala com a receção.",
+      "monthChangeNeedsDesk": "Mudar a sessão para outro mês fica com a receção."
     },
     "override": {
       "technicianAbsent": "{{name}} está ausente a esta hora. Mover mesmo assim.",

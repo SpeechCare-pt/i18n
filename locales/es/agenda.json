@@ -434,7 +434,8 @@
       "sessionClosed": "Esta cita ya se realizó o fue anulada.",
       "technicianNotQualified": "{{name}} no ofrece este servicio.",
       "notYourSession": "Solo puedes mover tus citas.",
-      "mayNotHandOver": "Para pasar la cita a otro terapeuta, habla con recepción."
+      "mayNotHandOver": "Para pasar la cita a otro terapeuta, habla con recepción.",
+      "monthChangeNeedsDesk": "Cambiar la cita a otro mes lo hace recepción."
     },
     "override": {
       "technicianAbsent": "{{name}} está ausente a esta hora. Mover igualmente.",
