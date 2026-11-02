@@ -101,7 +101,8 @@
       "aria": {
         "sign": "Registar consentimento de {{purpose}}",
         "signAgain": "Registar nova versão de {{purpose}}",
-        "revoke": "Revogar {{purpose}}"
+        "revoke": "Revogar {{purpose}}",
+        "renew": "Renovar {{purpose}}"
       },
       "form": {
         "title": "Registar consentimento",
