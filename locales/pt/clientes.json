@@ -359,7 +359,10 @@
     "deskOnly": "Só a receção e a gestão podem alterar isto.",
     "alreadySet": "Este campo já tem valor. Só a receção o pode alterar.",
     "notOnCaseload": "Só quem acompanha esta criança pode editar os dados.",
-    "failed": "Não foi possível guardar. Tenta outra vez."
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "snsInUse": "Este número de utente não pode ser usado. Pede à receção para verificar.",
+    "payerRequired": "Escolhe primeiro quem paga, ou ninguém, antes de retirar o pagador.",
+    "sharedMember": "Esta pessoa também está noutra ficha e só a receção a pode alterar."
   },
   "household": {
     "title": "Agregado",
@@ -378,7 +381,7 @@
     "signs": "Assina os consentimentos",
     "pays": "Paga",
     "payer": "Quem paga",
-    "payerNone": "Ninguém definido. Paga quem tem a conta.",
+    "payerNone": "Ninguém definido: paga o titular da conta.",
     "payerHint": "Só uma pessoa paga. A fatura ainda não usa esta escolha.",
     "chip": {
       "parent": "Pai/mãe",
@@ -408,7 +411,12 @@
     "cancel": "Cancelar",
     "saved": "Dados guardados.",
     "unchanged": "Nada mudou.",
-    "duplicates": "Estes dados coincidem com outra ficha:"
+    "duplicates": "Estes dados coincidem com outra ficha:",
+    "onFile": "Guardado: {{mask}}",
+    "onFileHint": "Deixa em branco para manter.",
+    "clear": "Apagar este valor",
+    "clearing": "Este valor vai ser apagado.",
+    "keep": "Manter"
   },
   "edits": {
     "title": "Alterações",
@@ -431,7 +439,9 @@
       "insuranceNumber": "o número do seguro",
       "vatNumber": "o NIF",
       "memberPhone": "o telefone de um membro do agregado",
-      "memberEmail": "o email de um membro do agregado"
+      "memberEmail": "o email de um membro do agregado",
+      "memberFirstName": "o nome próprio de um membro do agregado",
+      "memberLastName": "o apelido de um membro do agregado"
     }
   },
   "history": {
