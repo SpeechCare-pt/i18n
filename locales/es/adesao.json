@@ -1,0 +1,124 @@
+{
+  "band": {
+    "title": "Asistencia",
+    "period": "Período",
+    "periodDays": "{{count}} días",
+    "familySide": "Faltas y cancelaciones de la familia",
+    "clinicSide": "Canceladas por la clínica",
+    "unclassified": "Cancelaciones sin motivo",
+    "held": "Sesiones realizadas",
+    "familySideHint": "Faltas registradas y cancelaciones de la familia con motivo.",
+    "clinicSideHint": "Motivos de la clínica y faltas del terapeuta. No cuentan contra el paciente.",
+    "unclassifiedHint": "No sabemos de quién fueron.",
+    "caption": "Solo cuentan las faltas registradas como falta y las cancelaciones de la familia con motivo. De las cancelaciones sin motivo (todo el historial anterior a la migración) no sabemos de quién fueron.",
+    "assiduidade": "Asistencia: {{value}}%",
+    "assiduidadeRange": "Asistencia: entre {{low}}% y {{high}}%",
+    "assiduidadeNone": "Asistencia: sin sesiones programadas en este período.",
+    "none": "Ninguna sesión programada en los últimos {{count}} días.",
+    "truncated": "Solo las {{count}} sesiones más recientes.",
+    "calledOff": "Sesiones que no se realizaron",
+    "rowFalta": "Falta",
+    "rowNoReason": "Sin motivo registrado",
+    "bucket": {
+      "missed": "Falta del paciente",
+      "familyCalledOff": "Cancelada por la familia",
+      "clinicCalledOff": "Cancelada por la clínica",
+      "unclassified": "Sin motivo registrado"
+    },
+    "level": {
+      "label": "Nivel",
+      "none": "Ningún nivel alcanzado",
+      "warning": "Aviso",
+      "conversation": "Conversación con la coordinación",
+      "suspension": "Suspensión de la serie",
+      "window": "{{count}} faltas o cancelaciones de la familia en los últimos {{days}} días",
+      "window_zero": "Ninguna falta ni cancelación de la familia en los últimos {{days}} días",
+      "window_one": "{{count}} falta o cancelación de la familia en los últimos {{days}} días",
+      "noPolicy": "La práctica aún no ha definido los niveles de escalada."
+    }
+  },
+  "policy": {
+    "title": "Niveles de escalada",
+    "hint": "Cuántas faltas y cancelaciones de la familia, dentro del período, llevan a cada nivel. La suspensión de la serie la sigue decidiendo una persona.",
+    "windowDays": "Período, en días",
+    "warnAt": "Aviso a partir de",
+    "conversationAt": "Conversación con la coordinación a partir de",
+    "suspendAt": "Suspensión de la serie a partir de",
+    "save": "Guardar niveles",
+    "saved": "Niveles guardados.",
+    "edit": "Definir los niveles",
+    "errors": {
+      "levelsNotIncreasing": "Cada nivel tiene que pedir más faltas que el anterior, y el primero al menos una.",
+      "windowOutOfRange": "El período va de 7 a 365 días.",
+      "notWhole": "Usa números enteros.",
+      "generic": "No se pudo guardar. Inténtalo otra vez."
+    }
+  },
+  "lost": {
+    "title": "Horas perdidas",
+    "subtitle": "Sesiones programadas que no se realizaron, por trimestre.",
+    "quarter": "Trimestre",
+    "quarterOption": "T{{quarter}} {{year}}",
+    "total": "Perdidas",
+    "hours": "{{hours}} h",
+    "sessions_zero": "ninguna sesión",
+    "sessions_one": "{{count}} sesión",
+    "sessions_other": "{{count}} sesiones",
+    "value": "{{amount}} a precio base",
+    "valueNote": "El valor usa el precio base del servicio. No aplica precios de institución, de paciente ni los de una fecha anterior, y una sesión sin servicio o no facturable cuenta las horas y no el valor.",
+    "madeGood": "Repuestas: {{sessions}} ({{hours}} h). No cuentan como perdidas.",
+    "byReason": "Por motivo",
+    "byTechnician": "Por terapeuta",
+    "byUnit": "Por unidad",
+    "noUnit": "Sin unidad",
+    "empty": "Ninguna sesión perdida en este trimestre.",
+    "reason": {
+      "noReason": "Sin motivo registrado",
+      "noShowPatient": "Falta del paciente",
+      "noShowTechnician": "Falta del terapeuta"
+    },
+    "truncated": "Hay más sesiones de las leídas ({{what}}). Faltan las más antiguas, así que los totales se quedan cortos.",
+    "truncatedStatus": {
+      "cancelled": "canceladas",
+      "noShowPatient": "faltas del paciente",
+      "noShowTechnician": "faltas del terapeuta"
+    },
+    "failed": "No se pudo cargar el informe."
+  },
+  "caseload": {
+    "title": "Adherencia",
+    "subtitle": "Quién puede estar dejando de venir, por persona responsable. No es una lista de toda la práctica.",
+    "responsible": "Responsable",
+    "pick": "Elige una persona",
+    "empty": "Esta persona no tiene planes abiertos.",
+    "nobody": "Elige quién responde por los planes para ver la lista.",
+    "truncated": "Mostrando los primeros {{count}} planes.",
+    "failed": "No se pudo cargar la lista.",
+    "tier": {
+      "high": "Llamar ya",
+      "medium": "Seguir",
+      "low": "Sin señales",
+      "none": "Sin datos"
+    },
+    "reason": {
+      "lowAttendance": "Asistencia baja",
+      "lastTwoMissed": "Las dos últimas sesiones no se hicieron por parte de la familia",
+      "nothingAhead": "Nada programado y hace mucho que no viene",
+      "rhythm": "Hace más tiempo que no viene que su ritmo habitual",
+      "planOverdue": "Plan por revisar",
+      "objectiveStalled": "Un objetivo sin progreso en las últimas 3 sesiones"
+    },
+    "detail": "{{held}} realizadas, {{family}} de la familia, {{unclassified}} sin motivo",
+    "lastSeen_zero": "Última sesión hoy",
+    "lastSeen_one": "Última sesión hace {{count}} día",
+    "lastSeen_other": "Última sesión hace {{count}} días",
+    "nothingBooked": "Nada programado",
+    "open": "Abrir ficha"
+  },
+  "strip": {
+    "title": "Alejándose",
+    "subtitle": "Pacientes tuyos que pueden estar dejando de venir. Aparece aquí, no avisa a nadie.",
+    "truncated": "Mostrando los primeros {{count}} planes tuyos.",
+    "objective": "Un objetivo sin progreso en las últimas 3 sesiones"
+  }
+}

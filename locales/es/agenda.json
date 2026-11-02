@@ -421,7 +421,9 @@
       "willTell": "Quedó acordado avisar a la familia",
       "notNeeded": "No hizo falta avisar"
     },
-    "failed": "No se pudo cargar el historial. Inténtalo otra vez."
+    "failed": "No se pudo cargar el historial. Inténtalo otra vez.",
+    "linked": "{{who}} la marcó como reposición de {{when}}",
+    "unlinked": "{{who}} dejó de marcarla como reposición"
   },
   "move": {
     "title": "Mover cita",
@@ -464,5 +466,32 @@
     "moved": "Cita movida a {{to}}",
     "cancelled": "Movimiento cancelado",
     "failed": "No se pudo mover. Inténtalo otra vez."
+  },
+  "replacement": {
+    "action": "Reposición…",
+    "title": "Reposición",
+    "of": "Reposición de {{when}}",
+    "madeGoodOn": "Repuesta el {{when}}",
+    "markAs": "Marcar como reposición de…",
+    "pick": "Sesión que repone",
+    "pickPlaceholder": "Elige la sesión",
+    "pickOption": "{{when}}, {{status}}",
+    "none": "Este mes no hay sesiones canceladas o con falta por reponer.",
+    "link": "Vincular",
+    "unlink": "Desvincular",
+    "billed": "Cobrar esta sesión",
+    "billedLocked": "El cobro del mes ya se emitió, así que ya no se puede cambiar.",
+    "billedHint": "Por defecto la reposición no se cobra. La tarifa de la sesión original, si la hay, es otra cosa.",
+    "failed": "No se pudo guardar. Inténtalo otra vez.",
+    "errors": {
+      "notMissed": "Esa sesión no quedó sin hacer.",
+      "alreadyRebooked": "Esa sesión ya tiene una reposición.",
+      "outsideTheMonth": "La reposición tiene que ser en el mes de la sesión que repone.",
+      "differentPatient": "Las dos sesiones tienen que ser del mismo paciente.",
+      "replacementClosed": "Esta sesión no se realizó, así que no puede ser reposición.",
+      "alreadyAReplacement": "Esta sesión ya repone otra.",
+      "chargeRaised": "El cobro del mes ya se emitió.",
+      "notAReplacement": "Esta sesión no es una reposición."
+    }
   }
 }
