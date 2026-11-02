@@ -10,15 +10,13 @@
     "familySideHint": "Faltas registradas y cancelaciones de la familia con motivo.",
     "clinicSideHint": "Motivos de la clínica y faltas del terapeuta. No cuentan contra el paciente.",
     "unclassifiedHint": "No sabemos de quién fueron.",
-    "caption": "Solo cuentan las faltas registradas como falta y las cancelaciones de la familia con motivo. De las cancelaciones sin motivo (todo el historial anterior a la migración) no sabemos de quién fueron.",
+    "caption": "Solo cuentan las faltas registradas como falta y las cancelaciones de la familia con motivo. De las cancelaciones sin motivo (sobre todo historial anterior a la migración y series terminadas) no sabemos de quién fueron.",
     "assiduidade": "Asistencia: {{value}}%",
     "assiduidadeRange": "Asistencia: entre {{low}}% y {{high}}%",
     "assiduidadeNone": "Asistencia: sin sesiones programadas en este período.",
     "none": "Ninguna sesión programada en los últimos {{count}} días.",
     "truncated": "Solo las {{count}} sesiones más recientes.",
     "calledOff": "Sesiones que no se realizaron",
-    "rowFalta": "Falta",
-    "rowNoReason": "Sin motivo registrado",
     "bucket": {
       "missed": "Falta del paciente",
       "familyCalledOff": "Cancelada por la familia",
@@ -33,8 +31,8 @@
       "suspension": "Suspensión de la serie",
       "window_zero": "Ninguna falta ni cancelación de la familia en los últimos {{days}} días",
       "window_one": "{{count}} falta o cancelación de la familia en los últimos {{days}} días",
-      "noPolicy": "La práctica aún no ha definido los niveles de escalada.",
-      "window_other": "{{count}} faltas o cancelaciones de la familia en los últimos {{days}} días"
+      "window_other": "{{count}} faltas o cancelaciones de la familia en los últimos {{days}} días",
+      "noPolicy": "La clínica aún no ha definido los niveles de escalada."
     }
   },
   "policy": {
@@ -78,6 +76,9 @@
       "noShowTechnician": "Falta del terapeuta"
     },
     "truncated": "Hay más sesiones de las leídas ({{what}}). Faltan las más antiguas, así que los totales se quedan cortos.",
+    "filteredAfterTruncation": "Los filtros se aplican a las sesiones leídas, así que pueden faltar sesiones del terapeuta o de la unidad elegidos.",
+    "linksTruncated": "No se buscaron todas las reposiciones, así que algunas cuentan como perdidas.",
+    "namesTruncated": "No se leyeron todos los servicios y nombres, así que falta valor o nombre en algunas filas.",
     "truncatedStatus": {
       "cancelled": "canceladas",
       "noShowPatient": "faltas del paciente",
@@ -92,7 +93,9 @@
     "pick": "Elige una persona",
     "empty": "Esta persona no tiene planes abiertos.",
     "nobody": "Elige quién responde por los planes para ver la lista.",
-    "truncated": "Mostrando los primeros {{count}} planes.",
+    "truncated_one": "Mostrando solo el primer plan.",
+    "truncated_other": "Mostrando los primeros {{count}} planes.",
+    "windowTruncated": "Solo se leyeron las sesiones más recientes, así que las cifras pueden quedarse cortas.",
     "failed": "No se pudo cargar la lista.",
     "tier": {
       "high": "Llamar ya",
@@ -106,7 +109,8 @@
       "nothingAhead": "Nada programado y hace mucho que no viene",
       "rhythm": "Hace más tiempo que no viene que su ritmo habitual",
       "planOverdue": "Plan por revisar",
-      "objectiveStalled": "Un objetivo sin progreso en las últimas 3 sesiones"
+      "objectiveStalled": "Un objetivo sin progreso en las últimas 3 sesiones",
+      "staleEpisode": "Episodio abierto sin sesiones desde hace mucho tiempo"
     },
     "detail": "{{held}} realizadas, {{family}} de la familia, {{unclassified}} sin motivo",
     "lastSeen_zero": "Última sesión hoy",
@@ -117,8 +121,9 @@
   },
   "strip": {
     "title": "Alejándose",
-    "subtitle": "Pacientes tuyos que pueden estar dejando de venir. Aparece aquí, no avisa a nadie.",
-    "truncated": "Mostrando los primeros {{count}} planes tuyos.",
-    "objective": "Un objetivo sin progreso en las últimas 3 sesiones"
+    "subtitle": "Pacientes tuyos que pueden estar dejando de venir. La lista sigue la agenda y no avisa a nadie.",
+    "truncated_one": "Mostrando solo el primer plan tuyo.",
+    "truncated_other": "Mostrando los primeros {{count}} planes tuyos.",
+    "checked": "Objetivos comprobados en {{checked}} de {{total}} pacientes."
   }
 }

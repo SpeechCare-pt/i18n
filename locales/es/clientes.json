@@ -279,6 +279,8 @@
   "anulacoes": {
     "title": "Anulaciones",
     "empty": "Ninguna sesión anulada en las últimas {{count}} sesiones.",
+    "rate": "{{cancelled}} anuladas de {{total}} sesiones, {{percent}}%.",
+    "rateHint": "La mediana de la clínica es 9,5%.",
     "truncated": "Solo las {{count}} sesiones más recientes.",
     "noShow": "Falta",
     "noReason": "Sin motivo registrado",

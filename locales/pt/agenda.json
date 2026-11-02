@@ -423,7 +423,9 @@
     },
     "failed": "Não foi possível carregar o histórico. Tenta outra vez.",
     "linked": "{{who}} marcou esta sessão como reposição",
-    "unlinked": "{{who}} deixou de a marcar como reposição"
+    "unlinked": "{{who}} deixou de a marcar como reposição",
+    "billedOn": "{{who}} passou a cobrar esta reposição",
+    "billedOff": "{{who}} deixou de cobrar esta reposição"
   },
   "move": {
     "title": "Mover marcação",
@@ -477,17 +479,18 @@
     "pickPlaceholder": "Escolhe a sessão",
     "pickOption": "{{when}}, {{status}}",
     "none": "Este mês não há sessões anuladas ou em falta por repor.",
-    "link": "Ligar",
-    "unlink": "Desligar",
+    "link": "Associar",
+    "unlink": "Desassociar",
     "billed": "Cobrar esta sessão",
     "billedLocked": "A cobrança do mês já foi emitida, por isso já não se pode mudar.",
-    "billedHint": "Por defeito a reposição não se cobra. A taxa da sessão original, se houver, é outra coisa.",
+    "billedHint": "Por defeito a reposição não se cobra quando a sessão original continua paga (num pacote, com falta ou com taxa) e cobra-se nos outros casos. A taxa da sessão original é outra coisa.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "errors": {
       "notMissed": "Essa sessão não ficou por fazer.",
       "alreadyRebooked": "Essa sessão já tem uma reposição.",
       "outsideTheMonth": "A reposição tem de ser no mês da sessão que repõe.",
       "differentPatient": "As duas sessões têm de ser do mesmo paciente.",
+      "replacementBefore": "A reposição tem de ser depois da sessão que repõe.",
       "replacementClosed": "Esta sessão não aconteceu, por isso não pode ser reposição.",
       "alreadyAReplacement": "Esta sessão já repõe outra.",
       "chargeRaised": "A cobrança do mês já foi emitida.",

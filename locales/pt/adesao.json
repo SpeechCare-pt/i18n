@@ -10,15 +10,13 @@
     "familySideHint": "Faltas registadas e desmarcações da família com motivo.",
     "clinicSideHint": "Motivos da clínica e faltas do terapeuta. Não contam contra o paciente.",
     "unclassifiedHint": "Não sabemos de quem foram.",
-    "caption": "Só contam as faltas registadas como falta e as desmarcações da família com motivo. As desmarcações sem motivo (todo o histórico anterior à migração) não sabemos de quem foram.",
+    "caption": "Só contam as faltas registadas como falta e as desmarcações da família com motivo. As desmarcações sem motivo (sobretudo histórico anterior à migração e séries terminadas) não sabemos de quem foram.",
     "assiduidade": "Assiduidade: {{value}}%",
     "assiduidadeRange": "Assiduidade: entre {{low}}% e {{high}}%",
     "assiduidadeNone": "Assiduidade: sem sessões marcadas neste período.",
     "none": "Nenhuma sessão marcada nos últimos {{count}} dias.",
     "truncated": "Só as {{count}} sessões mais recentes.",
     "calledOff": "Sessões que não aconteceram",
-    "rowFalta": "Falta",
-    "rowNoReason": "Sem motivo registado",
     "bucket": {
       "missed": "Falta do paciente",
       "familyCalledOff": "Desmarcada pela família",
@@ -33,8 +31,8 @@
       "suspension": "Suspensão da série",
       "window_zero": "Nenhuma falta nem desmarcação da família nos últimos {{days}} dias",
       "window_one": "{{count}} falta ou desmarcação da família nos últimos {{days}} dias",
-      "noPolicy": "A prática ainda não definiu os níveis de escalada.",
-      "window_other": "{{count}} faltas ou desmarcações da família nos últimos {{days}} dias"
+      "window_other": "{{count}} faltas ou desmarcações da família nos últimos {{days}} dias",
+      "noPolicy": "A clínica ainda não definiu os níveis de escalada."
     }
   },
   "policy": {
@@ -78,8 +76,11 @@
       "noShowTechnician": "Falta do terapeuta"
     },
     "truncated": "Há mais sessões do que as lidas ({{what}}). Faltam as mais antigas, por isso os totais estão por baixo.",
+    "filteredAfterTruncation": "Os filtros aplicam-se às sessões lidas, por isso podem faltar sessões do terapeuta ou da unidade escolhidos.",
+    "linksTruncated": "Nem todas as repostas foram procuradas, por isso algumas contam como perdidas.",
+    "namesTruncated": "Nem todos os serviços e nomes foram lidos, por isso falta valor ou nome em algumas linhas.",
     "truncatedStatus": {
-      "cancelled": "anuladas",
+      "cancelled": "desmarcadas",
       "noShowPatient": "faltas do paciente",
       "noShowTechnician": "faltas do terapeuta"
     },
@@ -92,7 +93,9 @@
     "pick": "Escolhe uma pessoa",
     "empty": "Esta pessoa não tem planos abertos.",
     "nobody": "Escolhe quem responde pelos planos para ver a lista.",
-    "truncated": "A mostrar os primeiros {{count}} planos.",
+    "truncated_one": "A mostrar só o primeiro plano.",
+    "truncated_other": "A mostrar os primeiros {{count}} planos.",
+    "windowTruncated": "Só as sessões mais recentes foram lidas, por isso os números podem estar por baixo.",
     "failed": "Não foi possível carregar a lista.",
     "tier": {
       "high": "Ligar já",
@@ -106,7 +109,8 @@
       "nothingAhead": "Sem nada marcado e há muito sem vir",
       "rhythm": "Há mais tempo sem vir do que o ritmo habitual",
       "planOverdue": "Plano por rever",
-      "objectiveStalled": "Um objetivo sem progresso nas últimas 3 sessões"
+      "objectiveStalled": "Um objetivo sem progresso nas últimas 3 sessões",
+      "staleEpisode": "Episódio aberto sem sessões há muito tempo"
     },
     "detail": "{{held}} realizadas, {{family}} da família, {{unclassified}} sem motivo",
     "lastSeen_zero": "Última sessão hoje",
@@ -117,8 +121,9 @@
   },
   "strip": {
     "title": "A afastar-se",
-    "subtitle": "Doentes teus que podem estar a deixar de vir. Aparece aqui, não avisa ninguém.",
-    "truncated": "A mostrar os primeiros {{count}} planos teus.",
-    "objective": "Um objetivo sem progresso nas últimas 3 sessões"
+    "subtitle": "Pacientes teus que podem estar a deixar de vir. A lista acompanha a agenda e não avisa ninguém.",
+    "truncated_one": "A mostrar só o primeiro plano teu.",
+    "truncated_other": "A mostrar os primeiros {{count}} planos teus.",
+    "checked": "Objetivos verificados em {{checked}} de {{total}} pacientes."
   }
 }

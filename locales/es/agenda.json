@@ -423,7 +423,9 @@
     },
     "failed": "No se pudo cargar el historial. Inténtalo otra vez.",
     "linked": "{{who}} marcó esta sesión como reposición",
-    "unlinked": "{{who}} dejó de marcarla como reposición"
+    "unlinked": "{{who}} dejó de marcarla como reposición",
+    "billedOn": "{{who}} pasó a cobrar esta reposición",
+    "billedOff": "{{who}} dejó de cobrar esta reposición"
   },
   "move": {
     "title": "Mover cita",
@@ -481,13 +483,14 @@
     "unlink": "Desvincular",
     "billed": "Cobrar esta sesión",
     "billedLocked": "El cobro del mes ya se emitió, así que ya no se puede cambiar.",
-    "billedHint": "Por defecto la reposición no se cobra. La tarifa de la sesión original, si la hay, es otra cosa.",
+    "billedHint": "Por defecto la reposición no se cobra cuando la sesión original sigue pagada (en un pack, con falta o con tarifa) y se cobra en los demás casos. La tarifa de la sesión original es otra cosa.",
     "failed": "No se pudo guardar. Inténtalo otra vez.",
     "errors": {
       "notMissed": "Esa sesión no quedó sin hacer.",
       "alreadyRebooked": "Esa sesión ya tiene una reposición.",
       "outsideTheMonth": "La reposición tiene que ser en el mes de la sesión que repone.",
       "differentPatient": "Las dos sesiones tienen que ser del mismo paciente.",
+      "replacementBefore": "La reposición tiene que ser después de la sesión que repone.",
       "replacementClosed": "Esta sesión no se realizó, así que no puede ser reposición.",
       "alreadyAReplacement": "Esta sesión ya repone otra.",
       "chargeRaised": "El cobro del mes ya se emitió.",
