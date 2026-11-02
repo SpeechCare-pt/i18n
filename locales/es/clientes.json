@@ -201,7 +201,8 @@
       "cancel": "Cancelar",
       "saved": "Modalidad actualizada.",
       "failed": "No se ha podido guardar. Inténtalo de nuevo."
-    }
+    },
+    "requestedSubject": "Especialidad solicitada: {{name}}"
   },
   "gender": {
     "female": "Femenino",
@@ -389,5 +390,51 @@
     "saved": "Hogar actualizado.",
     "removed": "Quitado del hogar.",
     "contactOnly": "Puedes corregir el teléfono y el email."
+  },
+  "details": {
+    "edit": "Editar datos",
+    "title": "Datos personales",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "birthdate": "Fecha de nacimiento",
+    "gender": "Género",
+    "genderNone": "Sin indicar",
+    "snsNumber": "Número de usuario",
+    "insuranceName": "Seguro",
+    "insuranceNumber": "Número del seguro",
+    "vatNumber": "NIF",
+    "addOnly": "Solo puedes rellenar. Lo que ya tiene valor lo cambia recepción.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "saved": "Datos guardados.",
+    "unchanged": "No ha cambiado nada.",
+    "duplicates": "Estos datos coinciden con otra ficha:"
+  },
+  "edits": {
+    "title": "Cambios",
+    "show": "Ver cambios",
+    "hide": "Ocultar cambios",
+    "empty": "Nadie ha cambiado los datos de esta ficha.",
+    "truncated": "Solo los 50 más recientes.",
+    "noValue": "valor no guardado",
+    "cleared": "borrado",
+    "line": "{{actor}} cambió {{field}}",
+    "change": "de {{before}} a {{after}}",
+    "setTo": "a {{after}}",
+    "field": {
+      "firstName": "el nombre",
+      "lastName": "los apellidos",
+      "birthdate": "la fecha de nacimiento",
+      "gender": "el género",
+      "snsNumber": "el número de usuario",
+      "insuranceName": "el seguro",
+      "insuranceNumber": "el número del seguro",
+      "vatNumber": "el NIF",
+      "memberPhone": "el teléfono de un miembro del hogar",
+      "memberEmail": "el email de un miembro del hogar"
+    }
+  },
+  "history": {
+    "approximate": "Algunas notas llevan la fecha en que se escribieron, porque la sesión a la que pertenecen es demasiado antigua para leerla aquí."
   }
 }

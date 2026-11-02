@@ -201,7 +201,8 @@
       "cancel": "Cancelar",
       "saved": "Modalidade atualizada.",
       "failed": "Não foi possível guardar. Tenta outra vez."
-    }
+    },
+    "requestedSubject": "Especialidade pedida: {{name}}"
   },
   "gender": {
     "female": "Feminino",
@@ -389,5 +390,51 @@
     "saved": "Agregado atualizado.",
     "removed": "Retirado do agregado.",
     "contactOnly": "Podes corrigir o telefone e o email."
+  },
+  "details": {
+    "edit": "Editar dados",
+    "title": "Dados pessoais",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "birthdate": "Data de nascimento",
+    "gender": "Género",
+    "genderNone": "Sem indicação",
+    "snsNumber": "Número de utente",
+    "insuranceName": "Seguro",
+    "insuranceNumber": "Número do seguro",
+    "vatNumber": "NIF",
+    "addOnly": "Só podes preencher. Quem já tem valor é alterado pela receção.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "saved": "Dados guardados.",
+    "unchanged": "Nada mudou.",
+    "duplicates": "Estes dados coincidem com outra ficha:"
+  },
+  "edits": {
+    "title": "Alterações",
+    "show": "Ver alterações",
+    "hide": "Esconder alterações",
+    "empty": "Ninguém alterou os dados desta ficha.",
+    "truncated": "Só as 50 mais recentes.",
+    "noValue": "valor não guardado",
+    "cleared": "apagado",
+    "line": "{{actor}} alterou {{field}}",
+    "change": "de {{before}} para {{after}}",
+    "setTo": "para {{after}}",
+    "field": {
+      "firstName": "o nome próprio",
+      "lastName": "o apelido",
+      "birthdate": "a data de nascimento",
+      "gender": "o género",
+      "snsNumber": "o número de utente",
+      "insuranceName": "o seguro",
+      "insuranceNumber": "o número do seguro",
+      "vatNumber": "o NIF",
+      "memberPhone": "o telefone de um membro do agregado",
+      "memberEmail": "o email de um membro do agregado"
+    }
+  },
+  "history": {
+    "approximate": "Algumas notas estão datadas pelo dia em que foram escritas, porque a sessão a que pertencem é demasiado antiga para ser lida aqui."
   }
 }
