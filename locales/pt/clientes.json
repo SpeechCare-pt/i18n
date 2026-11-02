@@ -127,6 +127,42 @@
         "failed": "Não foi possível revogar. Tenta outra vez.",
         "gone": "Já não havia nada para revogar.",
         "done": "Consentimento revogado."
+      },
+      "validUntil": "Válido até {{date}}",
+      "expiresIn_zero": "Expira hoje",
+      "expiresIn_one": "Expira em {{count}} dia",
+      "expiresIn_other": "Expira em {{count}} dias",
+      "expiredAgo_one": "Expirou há {{count}} dia",
+      "expiredAgo_other": "Expirou há {{count}} dias",
+      "renew": "Renovar",
+      "renewHint": "Fica registada uma assinatura nova com o mesmo nome. A anterior mantém-se.",
+      "method": {
+        "paperOnFile": "Papel arquivado, confirmado pela receção a {{date}}"
+      },
+      "attest": {
+        "title": "Já está assinado em papel",
+        "hint": "Fica registado que a receção viu o papel assinado, quem assinou e a edição do papel. O sistema não guarda cópia do papel.",
+        "signer": "Quem assinou",
+        "signerPlaceholder": "Nome completo",
+        "relationship": "Relação com o paciente",
+        "relationshipOptions": {
+          "mother": "Mãe",
+          "father": "Pai",
+          "guardian": "Tutor",
+          "self": "O próprio"
+        },
+        "edition": "Edição do papel",
+        "editionUnknown": "Não sei",
+        "seen": "Vi o papel assinado de {{name}}",
+        "save": "Registar",
+        "saving": "A registar…",
+        "saved": "Registado como papel arquivado.",
+        "cancel": "Cancelar",
+        "errors": {
+          "alreadyCurrent": "Este paciente já tem consentimento de cuidados em vigor.",
+          "kindNotAttestable": "Só o consentimento de cuidados se declara por papel.",
+          "invalidEdition": "Essa edição do papel não existe."
+        }
       }
     },
     "team": "Acompanhado por",

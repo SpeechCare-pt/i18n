@@ -67,5 +67,12 @@
     "count_one": "{{count}} plano por rever",
     "count_other": "{{count}} planos por rever",
     "link": "Abrir planos por rever"
+  },
+  "consents": {
+    "title": "Consentimentos a expirar",
+    "count_zero": "Nenhum a expirar",
+    "count_one": "{{count}} família com um consentimento a expirar",
+    "count_other": "{{count}} famílias com consentimentos a expirar",
+    "link": "Abrir consentimentos"
   }
 }
