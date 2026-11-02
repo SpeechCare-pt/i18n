@@ -121,6 +121,45 @@
     "notPerSession": "Quem está a contrato não recebe ajustes.",
     "amountOutOfRange": "O valor é demasiado grande ou não é válido.",
     "reasonRequired": "Escreve o motivo.",
-    "alreadyReversed": "Este ajuste já foi anulado."
+    "alreadyReversed": "Este ajuste já foi anulado.",
+    "monthOpen": "O mês ainda não acabou, por isso não se pode aprovar.",
+    "hasUnratedSessions": "Há sessões sem regra. Define a regra antes de aprovar.",
+    "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
+    "selfApproval": "Não podes aprovar nem ajustar o teu próprio valor.",
+    "nothingToPay": "Não há nada a pagar a este profissional neste mês.",
+    "figureOutOfRange": "O valor é grande de mais para aprovar."
+  },
+  "status": {
+    "open": "Em aberto",
+    "returned": "Devolvido para ajuste",
+    "approved": "Aprovado",
+    "approvedOn": "Aprovado a {{on}}",
+    "returnedOn": "Devolvido a {{on}}",
+    "drifted": "Mudou desde a aprovação: antes {{was}}, agora {{now}}",
+    "driftedPayee": "O IBAN ou a cédula mudaram desde a aprovação."
+  },
+  "closure": {
+    "summary": "{{approved}} de {{total}} aprovados",
+    "closed": "Período fechado",
+    "open": "Período em aberto"
+  },
+  "approve": {
+    "action": "Aprovar",
+    "confirm": "Aprovar {{total}} para {{name}}?",
+    "confirmIban": "Pagamento para o IBAN {{iban}}.",
+    "noIban": "Sem IBAN no perfil. A aprovação fica registada e o pagamento só se pode fazer depois de o IBAN estar preenchido.",
+    "monthOpen": "O mês ainda não acabou.",
+    "unrated": "Há sessões sem regra. Define a regra antes de aprovar.",
+    "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
+    "sending": "A aprovar…",
+    "cancel": "Cancelar"
+  },
+  "return": {
+    "action": "Devolver para ajuste",
+    "noteLabel": "O que falta ajustar",
+    "noteRequired": "Escreve o que falta ajustar.",
+    "send": "Devolver",
+    "sending": "A devolver…",
+    "cancel": "Cancelar"
   }
 }

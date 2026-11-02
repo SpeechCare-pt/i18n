@@ -121,6 +121,45 @@
     "notPerSession": "Quien está a contrato no recibe ajustes.",
     "amountOutOfRange": "El importe es demasiado grande o no es válido.",
     "reasonRequired": "Escribe el motivo.",
-    "alreadyReversed": "Este ajuste ya se ha anulado."
+    "alreadyReversed": "Este ajuste ya se ha anulado.",
+    "monthOpen": "El mes todavía no ha terminado, así que no se puede aprobar.",
+    "hasUnratedSessions": "Hay sesiones sin regla. Define la regla antes de aprobar.",
+    "figureMoved": "El importe ha cambiado entretanto. Ya está actualizado, confirma otra vez.",
+    "selfApproval": "No puedes aprobar ni ajustar tu propio importe.",
+    "nothingToPay": "No hay nada que pagar a este profesional este mes.",
+    "figureOutOfRange": "El importe es demasiado grande para aprobar."
+  },
+  "status": {
+    "open": "Abierto",
+    "returned": "Devuelto para ajuste",
+    "approved": "Aprobado",
+    "approvedOn": "Aprobado el {{on}}",
+    "returnedOn": "Devuelto el {{on}}",
+    "drifted": "Ha cambiado desde la aprobación: antes {{was}}, ahora {{now}}",
+    "driftedPayee": "El IBAN o la cédula han cambiado desde la aprobación."
+  },
+  "closure": {
+    "summary": "{{approved}} de {{total}} aprobados",
+    "closed": "Periodo cerrado",
+    "open": "Periodo abierto"
+  },
+  "approve": {
+    "action": "Aprobar",
+    "confirm": "¿Aprobar {{total}} para {{name}}?",
+    "confirmIban": "Pago al IBAN {{iban}}.",
+    "noIban": "Sin IBAN en el perfil. La aprobación queda registrada y el pago solo se podrá hacer cuando el IBAN esté rellenado.",
+    "monthOpen": "El mes todavía no ha terminado.",
+    "unrated": "Hay sesiones sin regla. Define la regla antes de aprobar.",
+    "figureMoved": "El importe ha cambiado entretanto. Ya está actualizado, confirma otra vez.",
+    "sending": "Aprobando…",
+    "cancel": "Cancelar"
+  },
+  "return": {
+    "action": "Devolver para ajuste",
+    "noteLabel": "Qué falta ajustar",
+    "noteRequired": "Escribe qué falta ajustar.",
+    "send": "Devolver",
+    "sending": "Devolviendo…",
+    "cancel": "Cancelar"
   }
 }
