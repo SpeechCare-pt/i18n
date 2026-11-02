@@ -27,7 +27,11 @@
       "body": "Ninguém que receba por sessão tem sessões facturadas neste mês.",
       "beforeCutover": "As cobranças antigas não dizem quem fez a sessão, por isso o mapa começa a encher a partir do primeiro mês em que se levanta a cobrança no Financeiro."
     },
-    "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto."
+    "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto.",
+    "payable": "A pagar",
+    "base": "Sessões",
+    "adjustments": "Ajustes",
+    "adjustmentsEmpty": "Sem ajustes"
   },
   "origin": {
     "therapistAndService": "acordo do profissional para este serviço",
@@ -85,5 +89,38 @@
     "saved": "Guardado.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "noPerSession": "Ninguém está marcado como recebendo por sessão, por isso o mapa vem sempre vazio."
+  },
+  "adjust": {
+    "add": "Lançar ajuste",
+    "kind": {
+      "label": "Tipo",
+      "absence": "Falta",
+      "extra": "Extra",
+      "correction": "Correcção"
+    },
+    "amount": "Valor",
+    "amountHint": "Positivo paga mais, negativo paga menos. Por exemplo -12,50.",
+    "badAmount": "Escreve um valor em euros que não seja zero, por exemplo -12,50.",
+    "reason": "Motivo",
+    "session": "Sessão",
+    "noSession": "Nenhuma sessão em particular",
+    "forSession": "Ajuste a esta sessão",
+    "save": "Guardar ajuste",
+    "saving": "A guardar…",
+    "cancel": "Cancelar",
+    "remove": "Anular",
+    "removed": "anulado",
+    "reversal": "Anulação",
+    "locked": "Aprovado. Para mexer nos ajustes, devolve primeiro para ajuste.",
+    "notPerSession": "Quem está a contrato não recebe ajustes."
+  },
+  "error": {
+    "generic": "Não foi possível guardar. Tenta outra vez.",
+    "monthApproved": "Este mês já está aprovado para este profissional. Devolve para ajuste primeiro.",
+    "alreadyApproved": "Este mês já está aprovado para este profissional.",
+    "notPerSession": "Quem está a contrato não recebe ajustes.",
+    "amountOutOfRange": "O valor é demasiado grande ou não é válido.",
+    "reasonRequired": "Escreve o motivo.",
+    "alreadyReversed": "Este ajuste já foi anulado."
   }
 }
