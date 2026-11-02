@@ -127,7 +127,10 @@
     "figureMoved": "El importe ha cambiado entretanto. Ya está actualizado, confirma otra vez.",
     "selfApproval": "No puedes aprobar ni ajustar tu propio importe.",
     "nothingToPay": "No hay nada que pagar a este profesional este mes.",
-    "figureOutOfRange": "El importe es demasiado grande para aprobar."
+    "figureOutOfRange": "El importe es demasiado grande para aprobar.",
+    "monthTruncated": "Este mes tiene más registros de los que la pantalla puede leer, así que el importe no es fiable. No se puede aprobar.",
+    "tooManyAdjustments": "Este profesional ya tiene el máximo de ajustes este mes.",
+    "invalidMonth": "Ese mes no es válido."
   },
   "status": {
     "open": "Abierto",

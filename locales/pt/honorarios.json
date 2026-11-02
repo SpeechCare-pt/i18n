@@ -127,7 +127,10 @@
     "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
     "selfApproval": "Não podes aprovar nem ajustar o teu próprio valor.",
     "nothingToPay": "Não há nada a pagar a este profissional neste mês.",
-    "figureOutOfRange": "O valor é grande de mais para aprovar."
+    "figureOutOfRange": "O valor é grande de mais para aprovar.",
+    "monthTruncated": "Este mês tem mais registos do que o ecrã consegue ler, por isso o valor não é fiável. Não se pode aprovar.",
+    "tooManyAdjustments": "Este profissional já tem o máximo de ajustes neste mês.",
+    "invalidMonth": "Esse mês não é válido."
   },
   "status": {
     "open": "Em aberto",
