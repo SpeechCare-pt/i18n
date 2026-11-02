@@ -202,7 +202,7 @@
       "saved": "Modalidad actualizada.",
       "failed": "No se ha podido guardar. Inténtalo de nuevo."
     },
-    "requestedSubject": "Especialidad solicitada: {{name}}"
+    "requestedSubject": "Especialidad solicitada"
   },
   "gender": {
     "female": "Femenino",
