@@ -359,5 +359,35 @@
     "alreadySet": "Este campo já tem valor. Só a receção o pode alterar.",
     "notOnCaseload": "Só quem acompanha esta criança pode editar os dados.",
     "failed": "Não foi possível guardar. Tenta outra vez."
+  },
+  "household": {
+    "title": "Agregado",
+    "hint": "Quem contactar, quem paga e quem assina.",
+    "empty": "Ainda não há ninguém no agregado.",
+    "add": "Juntar pessoa",
+    "addTitle": "Juntar ao agregado",
+    "edit": "Editar",
+    "remove": "Retirar",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "relationship": "Relação",
+    "phone": "Telefone",
+    "email": "Email",
+    "isParent": "É pai ou mãe",
+    "signs": "Assina os consentimentos",
+    "pays": "Paga",
+    "payer": "Quem paga",
+    "payerNone": "Ninguém definido. Paga quem tem a conta.",
+    "payerHint": "Só uma pessoa paga. A fatura ainda não usa esta escolha.",
+    "chip": {
+      "parent": "Pai/mãe",
+      "pays": "Paga",
+      "signs": "Assina"
+    },
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "saved": "Agregado atualizado.",
+    "removed": "Retirado do agregado.",
+    "contactOnly": "Podes corrigir o telefone e o email."
   }
 }

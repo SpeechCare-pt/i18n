@@ -359,5 +359,35 @@
     "alreadySet": "Este campo ya tiene valor. Solo recepción puede cambiarlo.",
     "notOnCaseload": "Solo quien atiende a este niño puede editar los datos.",
     "failed": "No se ha podido guardar. Inténtalo de nuevo."
+  },
+  "household": {
+    "title": "Hogar",
+    "hint": "A quién contactar, quién paga y quién firma.",
+    "empty": "Todavía no hay nadie en el hogar.",
+    "add": "Añadir persona",
+    "addTitle": "Añadir al hogar",
+    "edit": "Editar",
+    "remove": "Quitar",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "relationship": "Relación",
+    "phone": "Teléfono",
+    "email": "Email",
+    "isParent": "Es padre o madre",
+    "signs": "Firma los consentimientos",
+    "pays": "Paga",
+    "payer": "Quién paga",
+    "payerNone": "Nadie definido. Paga quien tiene la cuenta.",
+    "payerHint": "Solo paga una persona. La factura todavía no usa esta elección.",
+    "chip": {
+      "parent": "Padre/madre",
+      "pays": "Paga",
+      "signs": "Firma"
+    },
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "saved": "Hogar actualizado.",
+    "removed": "Quitado del hogar.",
+    "contactOnly": "Puedes corregir el teléfono y el email."
   }
 }
