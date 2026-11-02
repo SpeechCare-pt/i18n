@@ -288,5 +288,76 @@
     "noticeLate": "registrado después de la hora",
     "fee": "tasa de {{amount}}",
     "waived": "tasa eximida"
+  },
+  "register": {
+    "open": "Nueva ficha",
+    "title": "Nueva ficha",
+    "hint": "Solo hace falta un nombre, alguien a quien contactar y la especialidad solicitada.",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "birthdate": "Fecha de nacimiento",
+    "birthdateHint": "Si no la sabes, déjala en blanco.",
+    "snsNumber": "Número de usuario (opcional)",
+    "contact": {
+      "title": "Persona de contacto",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "relationship": "Quién es",
+      "relationshipOptions": {
+        "mother": "Madre",
+        "father": "Padre",
+        "self": "La propia persona",
+        "other": "Otra persona"
+      },
+      "relationshipOther": "Relación con el niño",
+      "phone": "Teléfono",
+      "email": "Email",
+      "hint": "Teléfono o email, al menos uno."
+    },
+    "subject": "Especialidad solicitada",
+    "subjectPlaceholder": "Elegir especialidad",
+    "submit": "Crear ficha",
+    "saving": "Creando…",
+    "cancel": "Cancelar",
+    "created": "Ficha creada.",
+    "joining": "Se unirá al hogar de {{name}}.",
+    "joinCancel": "No unir"
+  },
+  "duplicate": {
+    "samePerson": "Ya existe una ficha que parece ser la misma persona",
+    "maybe": "Existe una ficha con el mismo nombre y sin fecha de nacimiento",
+    "family": "Esta familia ya está registrada",
+    "open": "Abrir ficha",
+    "join": "Unir a este hogar",
+    "confirm": "Es realmente otra persona",
+    "born": "nació el {{date}}",
+    "reason": {
+      "name": "mismo nombre",
+      "birthdate": "misma fecha de nacimiento",
+      "birthdateUnknown": "falta la fecha de nacimiento",
+      "sns": "mismo número de usuario",
+      "email": "mismo email",
+      "phone": "mismo teléfono",
+      "vat": "mismo NIF"
+    }
+  },
+  "errors": {
+    "contactRequired": "Falta un teléfono o un email de contacto.",
+    "badPhone": "El teléfono no es válido. En Portugal tiene 9 dígitos.",
+    "badEmail": "El email no es válido.",
+    "badVat": "El NIF no es válido.",
+    "badSns": "El número de usuario no es válido.",
+    "badBirthdate": "La fecha de nacimiento no es válida.",
+    "nameRequired": "Falta el nombre.",
+    "possibleDuplicate": "Esta persona puede estar ya registrada. Confirma que es otra persona.",
+    "subjectNotFound": "Esa especialidad ya no existe.",
+    "guardianNotFound": "No encuentro a esa persona en esta organización.",
+    "memberNotFound": "Ese miembro ya no está en el hogar.",
+    "alreadyMember": "Esa persona ya está en el hogar.",
+    "tooManyMembers": "Un hogar tiene como máximo 8 personas.",
+    "deskOnly": "Solo recepción y gestión pueden cambiar esto.",
+    "alreadySet": "Este campo ya tiene valor. Solo recepción puede cambiarlo.",
+    "notOnCaseload": "Solo quien atiende a este niño puede editar los datos.",
+    "failed": "No se ha podido guardar. Inténtalo de nuevo."
   }
 }

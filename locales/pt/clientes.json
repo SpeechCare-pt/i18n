@@ -288,5 +288,76 @@
     "noticeLate": "registado depois da hora",
     "fee": "taxa de {{amount}}",
     "waived": "taxa dispensada"
+  },
+  "register": {
+    "open": "Nova ficha",
+    "title": "Nova ficha",
+    "hint": "Só é preciso um nome, alguém para contactar e a especialidade pedida.",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "birthdate": "Data de nascimento",
+    "birthdateHint": "Se não souberes, deixa em branco.",
+    "snsNumber": "Número de utente (opcional)",
+    "contact": {
+      "title": "Pessoa de contacto",
+      "firstName": "Nome próprio",
+      "lastName": "Apelido",
+      "relationship": "Quem é",
+      "relationshipOptions": {
+        "mother": "Mãe",
+        "father": "Pai",
+        "self": "A própria pessoa",
+        "other": "Outra pessoa"
+      },
+      "relationshipOther": "Relação com a criança",
+      "phone": "Telefone",
+      "email": "Email",
+      "hint": "Telefone ou email, pelo menos um."
+    },
+    "subject": "Especialidade pedida",
+    "subjectPlaceholder": "Escolher especialidade",
+    "submit": "Criar ficha",
+    "saving": "A criar…",
+    "cancel": "Cancelar",
+    "created": "Ficha criada.",
+    "joining": "Vai ser juntada ao agregado de {{name}}.",
+    "joinCancel": "Não juntar"
+  },
+  "duplicate": {
+    "samePerson": "Já existe uma ficha que parece ser a mesma pessoa",
+    "maybe": "Existe uma ficha com o mesmo nome e sem data de nascimento",
+    "family": "Esta família já está registada",
+    "open": "Abrir ficha",
+    "join": "Juntar a este agregado",
+    "confirm": "É mesmo outra pessoa",
+    "born": "nasceu em {{date}}",
+    "reason": {
+      "name": "mesmo nome",
+      "birthdate": "mesma data de nascimento",
+      "birthdateUnknown": "data de nascimento em falta",
+      "sns": "mesmo número de utente",
+      "email": "mesmo email",
+      "phone": "mesmo telefone",
+      "vat": "mesmo NIF"
+    }
+  },
+  "errors": {
+    "contactRequired": "Falta um telefone ou um email de contacto.",
+    "badPhone": "O telefone não é válido. Em Portugal tem 9 dígitos.",
+    "badEmail": "O email não é válido.",
+    "badVat": "O NIF não é válido.",
+    "badSns": "O número de utente não é válido.",
+    "badBirthdate": "A data de nascimento não é válida.",
+    "nameRequired": "Falta o nome.",
+    "possibleDuplicate": "Esta pessoa pode já estar registada. Confirma que é outra pessoa.",
+    "subjectNotFound": "Essa especialidade já não existe.",
+    "guardianNotFound": "Não encontrei essa pessoa nesta organização.",
+    "memberNotFound": "Esse membro já não está no agregado.",
+    "alreadyMember": "Essa pessoa já está no agregado.",
+    "tooManyMembers": "Um agregado tem no máximo 8 pessoas.",
+    "deskOnly": "Só a receção e a gestão podem alterar isto.",
+    "alreadySet": "Este campo já tem valor. Só a receção o pode alterar.",
+    "notOnCaseload": "Só quem acompanha esta criança pode editar os dados.",
+    "failed": "Não foi possível guardar. Tenta outra vez."
   }
 }
