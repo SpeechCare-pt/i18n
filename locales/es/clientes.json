@@ -101,7 +101,8 @@
       "aria": {
         "sign": "Registrar consentimiento de {{purpose}}",
         "signAgain": "Registrar nueva versión de {{purpose}}",
-        "revoke": "Revocar {{purpose}}"
+        "revoke": "Revocar {{purpose}}",
+        "renew": "Renovar {{purpose}}"
       },
       "form": {
         "title": "Registrar consentimiento",
@@ -127,6 +128,42 @@
         "failed": "No se pudo revocar. Inténtalo otra vez.",
         "gone": "Ya no había nada que revocar.",
         "done": "Consentimiento revocado."
+      },
+      "validUntil": "Válido hasta el {{date}}",
+      "expiresIn_zero": "Caduca hoy",
+      "expiresIn_one": "Caduca en {{count}} día",
+      "expiresIn_other": "Caduca en {{count}} días",
+      "expiredAgo_one": "Caducó hace {{count}} día",
+      "expiredAgo_other": "Caducó hace {{count}} días",
+      "renew": "Renovar",
+      "renewHint": "Queda registrada una firma nueva con el mismo nombre. La anterior se mantiene.",
+      "method": {
+        "paperOnFile": "Papel archivado, confirmado por recepción el {{date}}"
+      },
+      "attest": {
+        "title": "Ya está firmado en papel",
+        "hint": "Queda registrado que recepción ha visto el papel firmado, quién firmó y la edición del papel. El sistema no guarda copia del papel.",
+        "signer": "Quién firmó",
+        "signerPlaceholder": "Nombre completo",
+        "relationship": "Relación con el paciente",
+        "relationshipOptions": {
+          "mother": "Madre",
+          "father": "Padre",
+          "guardian": "Tutor",
+          "self": "El propio paciente"
+        },
+        "edition": "Edición del papel",
+        "editionUnknown": "No lo sé",
+        "seen": "He visto el papel firmado de {{name}}",
+        "save": "Registrar",
+        "saving": "Registrando…",
+        "saved": "Registrado como papel archivado.",
+        "cancel": "Cancelar",
+        "errors": {
+          "alreadyCurrent": "Este paciente ya tiene un consentimiento de cuidados vigente.",
+          "kindNotAttestable": "Solo el consentimiento de cuidados se declara en papel.",
+          "invalidEdition": "Esa edición del papel no existe."
+        }
       }
     },
     "team": "Atendido por",

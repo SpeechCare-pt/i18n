@@ -128,5 +128,40 @@
     "notOnCareTeam": "No estás en el equipo de este paciente.",
     "tooShort": "Falta rellenar un campo.",
     "tooLong": "Uno de los campos es demasiado largo."
+  },
+  "pending": {
+    "title": "Consentimientos pendientes de firma",
+    "hint": "Familias que vienen en los próximos días sin consentimiento de cuidados, y consentimientos del colegio a punto de terminar.",
+    "missing": "Faltan",
+    "expiring": "A punto de caducar",
+    "window": {
+      "label": "Ventana",
+      "today": "Hoy",
+      "d3": "3 días",
+      "d7": "7 días"
+    },
+    "attestedOnly": "Solo declarado",
+    "attestedBadge": "Declarado por recepción",
+    "empty": {
+      "missing": "Ninguna familia pendiente en estos días.",
+      "expiring": "Ningún consentimiento a punto de caducar.",
+      "declared": "Ninguna familia solo con consentimiento declarado en estos días."
+    },
+    "truncated": "La lista está recortada. Elige menos días.",
+    "nextSession": "próxima sesión el {{date}}",
+    "noRecord": "Sin consentimiento registrado",
+    "expiresIn_zero": "Caduca hoy",
+    "expiresIn_one": "Caduca en {{count}} día",
+    "expiresIn_other": "Caduca en {{count}} días",
+    "expiredAgo_one": "Caducó hace {{count}} día",
+    "expiredAgo_other": "Caducó hace {{count}} días",
+    "kind": {
+      "careProvision": "Consentimiento de cuidados",
+      "dataProcessing": "Tratamiento de datos",
+      "teamSharing": "Compartir con el equipo",
+      "schoolSharing": "Compartir con el colegio",
+      "imageUse": "Uso de imagen"
+    },
+    "open": "Abrir ficha"
   }
 }

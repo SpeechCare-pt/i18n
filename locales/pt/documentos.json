@@ -128,5 +128,40 @@
     "notOnCareTeam": "Não estás na equipa deste paciente.",
     "tooShort": "Falta preencher um campo.",
     "tooLong": "Um dos campos é comprido demais."
+  },
+  "pending": {
+    "title": "Consentimentos por assinar",
+    "hint": "Famílias que vêm nos próximos dias sem consentimento de cuidados, e consentimentos da escola a acabar.",
+    "missing": "Em falta",
+    "expiring": "A expirar",
+    "window": {
+      "label": "Janela",
+      "today": "Hoje",
+      "d3": "3 dias",
+      "d7": "7 dias"
+    },
+    "attestedOnly": "Só declarado",
+    "attestedBadge": "Declarado pela receção",
+    "empty": {
+      "missing": "Nenhuma família em falta nestes dias.",
+      "expiring": "Nenhum consentimento a expirar.",
+      "declared": "Nenhuma família só com consentimento declarado nestes dias."
+    },
+    "truncated": "A lista está cortada. Escolhe menos dias.",
+    "nextSession": "próxima sessão a {{date}}",
+    "noRecord": "Sem consentimento registado",
+    "expiresIn_zero": "Expira hoje",
+    "expiresIn_one": "Expira em {{count}} dia",
+    "expiresIn_other": "Expira em {{count}} dias",
+    "expiredAgo_one": "Expirou há {{count}} dia",
+    "expiredAgo_other": "Expirou há {{count}} dias",
+    "kind": {
+      "careProvision": "Consentimento de cuidados",
+      "dataProcessing": "Tratamento de dados",
+      "teamSharing": "Partilha com a equipa",
+      "schoolSharing": "Partilha com escola",
+      "imageUse": "Uso de imagem"
+    },
+    "open": "Abrir ficha"
   }
 }

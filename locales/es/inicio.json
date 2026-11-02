@@ -67,5 +67,12 @@
     "count_one": "{{count}} plan por revisar",
     "count_other": "{{count}} planes por revisar",
     "link": "Abrir planes por revisar"
+  },
+  "consents": {
+    "title": "Consentimientos a punto de caducar",
+    "count_zero": "Ninguno a punto de caducar",
+    "count_one": "{{count}} familia con un consentimiento a punto de caducar",
+    "count_other": "{{count}} familias con consentimientos a punto de caducar",
+    "link": "Abrir consentimientos"
   }
 }

@@ -68,6 +68,25 @@
     "calledInFirst": "Já foi atendido. Reabre primeiro.",
     "calledIn": "Este paciente já foi atendido.",
     "arrivedNotMissed": "Este paciente chegou. Desfaz a chegada antes de registar falta.",
-    "generic": "Não foi possível guardar. Tenta outra vez."
+    "generic": "Não foi possível guardar. Tenta outra vez.",
+    "consentAnswerRequired": "Responde primeiro se o consentimento já está assinado.",
+    "consentOpen": "Falta o consentimento. Confirma que queres atender sem ele.",
+    "alreadyCurrent": "Este paciente já tem consentimento de cuidados em vigor.",
+    "kindNotAttestable": "Só o consentimento de cuidados se declara por papel.",
+    "invalidEdition": "Essa edição do papel não existe."
+  },
+  "consent": {
+    "title": "Consentimento",
+    "question": "O consentimento de {{name}} já está assinado?",
+    "yes": "Sim, está assinado",
+    "no": "Ainda não",
+    "cancel": "Cancelar",
+    "missing": "Falta consentimento",
+    "signed": "Assinou ✓",
+    "confirmTitle": "Atender sem consentimento?",
+    "confirmBody": "{{name}} ainda não tem o consentimento assinado. Fica registado que foi atendido sem ele.",
+    "confirmGo": "Atender mesmo assim",
+    "confirmBack": "Voltar",
+    "therapistFlag": "Consentimento por assinar"
   }
 }
