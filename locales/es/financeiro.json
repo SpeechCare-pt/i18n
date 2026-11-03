@@ -1,6 +1,7 @@
 {
   "title": "Finanzas",
   "intro": "Lo que está por cobrar, lo que quedó sin facturar y lo que hay en caja ahora.",
+  "orgWide": "Esta parte es de toda la organización y solo la ve la dirección sin sedes asignadas.",
   "now": {
     "title": "Ahora",
     "inTills": "En caja",

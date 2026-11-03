@@ -1,6 +1,7 @@
 {
   "title": "Financeiro",
   "intro": "O que está por receber, o que ficou por cobrar e o que está em caixa agora.",
+  "orgWide": "Esta parte é da organização inteira e só a gestão sem unidades atribuídas a vê.",
   "now": {
     "title": "Agora",
     "inTills": "Em caixa",
