@@ -172,6 +172,7 @@
     "rows_zero": "Ningún profesional con IBAN, {{total}}",
     "rows_one": "1 profesional, {{total}}",
     "rows_other": "{{count}} profesionales, {{total}}",
+    "waiting": "Todavía hay personas por aprobar, así que el archivo no está disponible.",
     "monthOpen": "El mes todavía no ha terminado, así que el archivo aún no se puede generar.",
     "missingIban": {
       "title": "Sin IBAN, quedan fuera del archivo",

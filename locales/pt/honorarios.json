@@ -172,6 +172,7 @@
     "rows_zero": "Nenhum profissional com IBAN, {{total}}",
     "rows_one": "1 profissional, {{total}}",
     "rows_other": "{{count}} profissionais, {{total}}",
+    "waiting": "Ainda há pessoas por aprovar, por isso o ficheiro não está disponível.",
     "monthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar.",
     "missingIban": {
       "title": "Sem IBAN, ficam fora do ficheiro",
