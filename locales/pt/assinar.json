@@ -11,8 +11,11 @@
   },
   "text": {
     "careProvision": {
-      "short": "Autorizo a prestação de cuidados de saúde ao meu educando, e que os seus dados pessoais e clínicos sejam tratados para esse fim. Posso retirar este consentimento a qualquer momento, falando com a receção.",
-      "fullTextUrl": "/assinar/texto/26-27"
+      "editions": {
+        "26-27": {
+          "short": "Autorizo a prestação de cuidados de saúde ao meu educando, e que os seus dados pessoais e clínicos sejam tratados para esse fim. Posso retirar este consentimento a qualquer momento, falando com a receção."
+        }
+      }
     }
   },
   "done": {
@@ -33,7 +36,8 @@
     "alreadyStanding": "O consentimento já está registado. Não é preciso fazer mais nada.",
     "editionChanged": "O texto mudou desde que a ligação foi enviada. Fala com a receção para receberes uma nova.",
     "notFound": "Esta ligação não existe ou já não está ativa. Fala com a receção.",
-    "tooMany": "Demasiados pedidos. Espera um pouco e tenta outra vez."
+    "tooMany": "Demasiados pedidos. Espera um pouco e tenta outra vez.",
+    "noText": "Não conseguimos mostrar o texto desta edição, por isso não podes responder por aqui. Fala com a receção, que volta a enviar a ligação."
   },
   "network": {
     "failed": "Não foi possível ligar ao servidor. Tenta outra vez.",
@@ -41,12 +45,16 @@
   },
   "fullText": {
     "title": "Consentimento para a prestação de cuidados, edição {{version}}",
-    "paragraphs": [
-      "Autorizo a prestação de cuidados de saúde ao meu educando na clínica, incluindo a avaliação e o acompanhamento.",
-      "Autorizo o tratamento dos dados pessoais e clínicos do meu educando para esse fim, nos termos da política de privacidade da clínica.",
-      "Sei que posso retirar este consentimento a qualquer momento, falando com a receção. Retirá-lo não afeta o que foi feito antes.",
-      "Este é um texto provisório, a rever pelo encarregado de proteção de dados antes de ser usado com famílias."
-    ],
-    "back": "Voltar"
+    "back": "Voltar",
+    "editions": {
+      "26-27": {
+        "paragraphs": [
+          "Autorizo a prestação de cuidados de saúde ao meu educando na clínica, incluindo a avaliação e o acompanhamento.",
+          "Autorizo o tratamento dos dados pessoais e clínicos do meu educando para esse fim, nos termos da política de privacidade da clínica.",
+          "Sei que posso retirar este consentimento a qualquer momento, falando com a receção. Retirá-lo não afeta o que foi feito antes."
+        ],
+        "note": "Este texto ainda está em revisão pela consultora de proteção de dados do centro e pode mudar antes de ser usado em definitivo."
+      }
+    }
   }
 }

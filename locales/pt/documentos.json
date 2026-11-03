@@ -182,7 +182,7 @@
       "mailFailed": "Falhou o envio",
       "withdrawn": "Retirou o consentimento",
       "cancelled": "Cancelado",
-      "emailChanged": "Cancelado: o email mudou",
+      "emailChanged": "Cancelado, o email mudou",
       "replaced": "Substituído"
     },
     "select": "Escolher {{name}}",
@@ -193,7 +193,7 @@
     "cancel": "Cancelar ligação",
     "loadMore": "Carregar mais",
     "loadingMore": "A carregar…",
-    "capacity": "Margem este mês: {{headroom}}. Em fila: {{pending}}. Por enviar: o resto da lista.",
+    "capacity": "Podes enviar mais {{headroom}} este mês. {{pending}} em fila.",
     "result": {
       "sent_one": "{{count}} enviada",
       "sent_other": "{{count}} enviadas",
@@ -203,7 +203,8 @@
       "alreadyCurrent": "{{count}} já assinaram",
       "recentlySent": "{{count}} com ligação recente",
       "notReachable": "{{count}} fora do teu alcance",
-      "mailNotSent": "{{count}} sem envio"
+      "mailNotSent": "{{count}} sem envio",
+      "declined": "{{count}} preferem a receção"
     },
     "guardian": "Para {{name}}",
     "sentAt": "enviado a {{date}}",

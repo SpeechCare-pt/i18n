@@ -139,7 +139,7 @@
       "renewHint": "Fica registada uma assinatura nova com o mesmo nome. A anterior mantém-se.",
       "method": {
         "paperOnFile": "Papel arquivado, confirmado pela receção a {{date}}",
-        "emailLink": "Assinado por email pelo/a {{name}} a {{date}}"
+        "emailLink": "Assinado por email por {{name}} a {{date}}"
       },
       "attest": {
         "title": "Já está assinado em papel",
