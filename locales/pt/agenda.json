@@ -532,12 +532,13 @@
     "menuLabel": "O que mostrar em cada cartão",
     "hint": "Só muda o teu ecrã, neste computador.",
     "name": "O nome do paciente aparece sempre.",
-    "place": "Local",
-    "remote": "Marca de online",
-    "status": "Marca de estado",
-    "series": "Marca de série",
-    "arrears": "Mês anterior por regularizar",
+    "place": "Mostrar o local",
+    "remote": "Mostrar a marca de online",
+    "status": "Mostrar a marca de estado",
+    "series": "Mostrar a marca de série",
+    "arrears": "Mostrar o mês anterior por regularizar",
     "reset": "Repor",
-    "seriesMark": "Sessão de série"
+    "seriesMark": "Sessão de série",
+    "arrearsMark": "Mês anterior por regularizar"
   }
 }
