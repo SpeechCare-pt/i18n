@@ -97,7 +97,8 @@
       "nonBillable": "não factura",
       "total": "Total estimado",
       "totalPartial": "Total das consultas com preço"
-    }
+    },
+    "localTime": "{{time}} em {{city}}"
   },
   "absentRefusal": "{{name}} está ausente nessa altura. Queres marcar mesmo assim?",
   "conflicts": {
@@ -549,5 +550,10 @@
     "seriesMark": "Sessão de série",
     "arrearsMark": "Mês anterior por regularizar",
     "room": "Mostrar a sala"
+  },
+  "holiday": {
+    "shade": "Feriado: {{names}}",
+    "municipal": "Feriado municipal, a unidade abre",
+    "noData": "Calendário de {{calendar}} sem dados para {{year}}"
   }
 }

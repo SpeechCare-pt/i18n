@@ -104,5 +104,34 @@
     "siteNotAllowed": "Esa unidad queda fuera de las tuyas.",
     "idleTimeoutRange": "Indica un número entero entre 1 y 480.",
     "failed": "No se pudo completar. Inténtalo de nuevo."
+  },
+  "units": {
+    "title": "Unidades: moneda, zona horaria y festivos",
+    "hint": "La moneda y la zona horaria se guardan por unidad. La facturación y los horarios de trabajo siguen en la moneda y la hora de la práctica. El calendario decide qué días marca la agenda como festivo.",
+    "unit": "Unidad",
+    "currency": "Moneda",
+    "timeZone": "Zona horaria",
+    "calendar": "Festivos",
+    "unset": "Sin definir",
+    "samePractice": "La misma que la de la práctica",
+    "calendars": {
+      "unset": "Los de la práctica",
+      "PT": "Portugal",
+      "PT-Lisboa": "Lisboa",
+      "PT-Porto": "Oporto",
+      "ES-Madrid": "Madrid",
+      "none": "Sin festivos"
+    },
+    "coverage": "Calendario de Madrid con datos para {{years}}.",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "empty": "Todavía no hay unidades.",
+    "errors": {
+      "invalidTimeZone": "Esa zona horaria no existe.",
+      "invalidCalendar": "Ese calendario no existe.",
+      "invalidCurrency": "Esa moneda no existe.",
+      "notFound": "Esta unidad ya no existe.",
+      "failed": "No se pudo guardar. Inténtalo de nuevo."
+    }
   }
 }
