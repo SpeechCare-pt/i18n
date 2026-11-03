@@ -499,5 +499,18 @@
       "chargeRaised": "El cobro del mes ya se emitió.",
       "notAReplacement": "Esta sesión no es una reposición."
     }
+  },
+  "print": {
+    "button": "Imprimir el día",
+    "title": "Agenda del {{date}}",
+    "printedBy": "Impreso por {{name}} a las {{time}}",
+    "empty": "No hay citas para imprimir este día.",
+    "unassigned": "Sin terapeuta",
+    "columns": {
+      "time": "Hora",
+      "patient": "Paciente",
+      "place": "Lugar",
+      "state": "Estado"
+    }
   }
 }
