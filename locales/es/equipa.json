@@ -24,6 +24,7 @@
     "clinicalOwner": "Responsable clínico"
   },
   "addRole": {
+    "carries": "El nuevo rol queda en estas unidades: {{sites}}.",
     "label": "Añadir rol",
     "choose": "Elige un rol",
     "submit": "Añadir"
@@ -84,6 +85,8 @@
     "outranks": "Esta persona tiene un rol por encima del tuyo.",
     "lastRole": "Es el último rol de esta persona. Márcala como salida.",
     "lastAdmin": "La organización necesita al menos una persona activa con dirección o admin.",
+    "outsideYourSites": "Esta persona trabaja en unidades que no son las tuyas.",
+    "reactivationNotAllowed": "Solo quien tiene un rol por encima del que tenía esta persona puede volver a darle acceso.",
     "self": "No puedes hacerlo contigo mismo.",
     "notFound": "Esta persona ya no está en el equipo.",
     "roleTooSenior": "No puedes dar un rol por encima del tuyo.",

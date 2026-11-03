@@ -381,6 +381,7 @@
     "failed": "No se pudo. Inténtalo otra vez."
   },
   "card": {
+    "left": "profesional ya no está",
     "waiting": "en espera",
     "calledIn": "Atendida"
   },

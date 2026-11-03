@@ -26,6 +26,7 @@
     "invalid": "Este convite não é válido.",
     "used": "Este convite já foi usado ou foi cancelado.",
     "expired": "Este convite expirou. Pede um novo à clínica.",
+    "inviterGone": "Quem te convidou já não pode dar este convite. Pede um novo à clínica.",
     "wrong_email": "Este convite é para outro email. Entra com o email para onde o recebeste."
   }
 }

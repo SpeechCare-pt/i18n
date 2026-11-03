@@ -26,7 +26,8 @@
   "addRole": {
     "label": "Acrescentar papel",
     "choose": "Escolhe um papel",
-    "submit": "Acrescentar"
+    "submit": "Acrescentar",
+    "carries": "O novo papel fica nestas unidades: {{sites}}."
   },
   "removeRole": "Retirar o papel {{role}}",
   "leave": "Marcar como saído",
@@ -85,6 +86,8 @@
     "lastRole": "É o último papel desta pessoa. Marca-a como saída.",
     "lastAdmin": "A organização precisa de pelo menos uma pessoa ativa com direção ou admin.",
     "self": "Não podes fazer isto a ti próprio.",
+    "outsideYourSites": "Esta pessoa trabalha em unidades que não são as tuas.",
+    "reactivationNotAllowed": "Só quem tem um papel acima do que esta pessoa tinha pode voltar a dar-lhe acesso.",
     "notFound": "Esta pessoa já não está na equipa.",
     "roleTooSenior": "Não podes dar um papel acima do teu.",
     "roleNotGrantable": "Esse papel não se pode dar aqui.",
