@@ -88,5 +88,47 @@
       "from": "Dejado en la sesión del {{date}}",
       "prepare": "Material que preparar"
     }
+  },
+  "equipa": {
+    "title": "Equipo",
+    "lede": "Notas y recados para quien acompaña a este paciente.",
+    "visibility": "Lo ve quien acompaña al paciente y está autorizado a leer el registro. Para otra especialidad, solo si la familia autorizó compartir con el equipo. No se puede borrar ni editar.",
+    "loading": "Cargando…",
+    "empty": "Todavía no hay notas para el equipo.",
+    "form": {
+      "kind": "Tipo",
+      "note": "Nota para el equipo",
+      "recado": "Recado para",
+      "recadoTo": "Recado para",
+      "nobody": "Nadie en particular",
+      "body": "Escribe la nota",
+      "placeholder": "Lo que el equipo debe saber.",
+      "restricted": "Restringida",
+      "restrictedHint": "Solo quien tenga autorización explícita puede leerla.",
+      "forSession": "En la consulta del {{date}}",
+      "submit": "Publicar",
+      "saving": "Publicando…",
+      "posted": "Publicado."
+    },
+    "list": {
+      "to": "Para {{name}}",
+      "toMe": "Para ti",
+      "mine": "Escrita por ti",
+      "session": "En la consulta del {{date}}",
+      "restricted": "Restringida"
+    },
+    "banner_one": "{{count}} nota nueva del equipo",
+    "banner_other": "{{count}} notas nuevas del equipo",
+    "errors": {
+      "empty": "Escribe algo antes de publicar.",
+      "tooLong": "La nota es demasiado larga. El límite es {{limit}} caracteres.",
+      "addresseeCannotRead": "Esa persona no puede abrir este registro, así que no puedes dejarle un recado.",
+      "addresseeNotClinical": "Solo puedes dejar recados a quien trabaja en la parte clínica.",
+      "addressedToSelf": "No puedes dejarte un recado a ti mismo.",
+      "wrongPatient": "Esa sesión no es de este paciente.",
+      "siteNotAllowed": "Esa sesión es de una unidad fuera de tu acceso.",
+      "forbidden": "Solo quien acompaña al paciente puede escribir al equipo.",
+      "failed": "No se pudo publicar. Inténtalo de nuevo."
+    }
   }
 }

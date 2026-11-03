@@ -58,5 +58,8 @@
   "workingAs": {
     "label": "Trabajando como",
     "all": "Todos los roles"
-  }
+  },
+  "teamNotesBadge_zero": "Sin notas nuevas del equipo",
+  "teamNotesBadge_one": "{{count}} nota nueva del equipo",
+  "teamNotesBadge_other": "{{count}} notas nuevas del equipo"
 }

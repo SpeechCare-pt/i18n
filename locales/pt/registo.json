@@ -88,5 +88,47 @@
       "from": "Deixado na sessão de {{date}}",
       "prepare": "Material a preparar"
     }
+  },
+  "equipa": {
+    "title": "Equipa",
+    "lede": "Notas e recados para quem acompanha este paciente.",
+    "visibility": "Vê quem acompanha o paciente e está autorizado a ler o registo. Para outra especialidade, só se a família autorizou a partilha com a equipa. Não se pode apagar nem editar.",
+    "loading": "A carregar…",
+    "empty": "Ainda não há notas para a equipa.",
+    "form": {
+      "kind": "Tipo",
+      "note": "Nota para a equipa",
+      "recado": "Recado para",
+      "recadoTo": "Recado para",
+      "nobody": "Ninguém em particular",
+      "body": "Escreve a nota",
+      "placeholder": "O que a equipa deve saber.",
+      "restricted": "Restrita",
+      "restrictedHint": "Só quem tiver autorização explícita consegue ler.",
+      "forSession": "Na consulta de {{date}}",
+      "submit": "Publicar",
+      "saving": "A publicar…",
+      "posted": "Publicado."
+    },
+    "list": {
+      "to": "Para {{name}}",
+      "toMe": "Para ti",
+      "mine": "Escrita por ti",
+      "session": "Na consulta de {{date}}",
+      "restricted": "Restrita"
+    },
+    "banner_one": "{{count}} nota nova da equipa",
+    "banner_other": "{{count}} notas novas da equipa",
+    "errors": {
+      "empty": "Escreve alguma coisa antes de publicar.",
+      "tooLong": "A nota é demasiado longa. O limite é {{limit}} caracteres.",
+      "addresseeCannotRead": "Essa pessoa não consegue abrir este registo, por isso não lhe podes deixar um recado.",
+      "addresseeNotClinical": "Só podes deixar recados a quem trabalha na parte clínica.",
+      "addressedToSelf": "Não podes deixar um recado a ti próprio.",
+      "wrongPatient": "Essa sessão não é deste paciente.",
+      "siteNotAllowed": "Essa sessão é de uma unidade fora do teu acesso.",
+      "forbidden": "Só quem acompanha o paciente pode escrever à equipa.",
+      "failed": "Não foi possível publicar. Tenta outra vez."
+    }
   }
 }
