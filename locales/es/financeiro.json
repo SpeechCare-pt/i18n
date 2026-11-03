@@ -144,7 +144,7 @@
       "issuedAt": "Fecha de emisión",
       "paidAt": "Fecha de pago",
       "institution": "Entidad",
-      "entity": "Entidad legal",
+      "entity": "Entidad emisora",
       "taxId": "NIF"
     },
     "entity": "Entidad: {{name}}"

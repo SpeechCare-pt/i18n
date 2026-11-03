@@ -57,11 +57,13 @@
     "owed": "Por pagar",
     "paid": "Pagado",
     "none": "Ninguna institución tuvo movimiento este mes.",
-    "truncated": "Este mes tiene más sesiones o cobros de los que la pantalla puede leer, así que no mostramos cifras incompletas.",
+    "truncated": "Este mes tiene más sesiones, unidades o instituciones de las que la pantalla puede leer, así que no mostramos cifras incompletas.",
     "counts": {
       "patients": "Niños: quienes tuvieron al menos una sesión realizada en las unidades de la institución, contados una vez.",
       "sessions": "Sesiones: las sesiones realizadas en esas unidades.",
-      "values": "Valores: los cobros dirigidos a la institución y emitidos en el mes, por pagar y pagados. Lo que pagan las familias no entra."
-    }
+      "values": "Valores: los cobros dirigidos a la institución que cubren el mes (o, si no indican mes, emitidos en él). Por pagar es lo que falta tras los pagos parciales. Lo que pagan las familias no entra."
+    },
+    "truncatedValues": "Algunas instituciones tienen demasiados cobros este mes para sumarlos. Los valores de esas filas no aparecen.",
+    "scopedValues": "Los valores no aparecen para quien trabaja solo en algunas unidades. Los recuentos son de sus unidades."
   }
 }

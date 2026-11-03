@@ -123,7 +123,7 @@
     "voidHint": "As caixas voltam a ficar por depositar. O depósito anulado continua na lista.",
     "voidReason": "Motivo",
     "voidSubmit": "Anular depósito",
-    "truncated": "Há mais caixas do que as que este ecrã mostra.",
+    "truncated": "Só se mostram as 50 caixas mais recentes por depositar. Deposita estas e as outras aparecem a seguir.",
     "errors": {
       "failed": "Não foi possível registar o depósito. Tenta outra vez.",
       "voidFailed": "Não foi possível anular o depósito. Tenta outra vez.",
@@ -137,7 +137,10 @@
       "invalidAmount": "O valor tem de ser positivo.",
       "invalidReference": "A referência tem entre 1 e 120 caracteres.",
       "reasonRequired": "Escreve o motivo antes de anular.",
-      "alreadyVoided": "Este depósito já está anulado."
-    }
+      "alreadyVoided": "Este depósito já está anulado.",
+      "invalidNote": "A nota tem no máximo 300 caracteres.",
+      "beforeClose": "A data do depósito não pode ser anterior ao fecho da caixa."
+    },
+    "truncatedList": "Só se mostram os 40 depósitos mais recentes."
   }
 }
