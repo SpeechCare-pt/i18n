@@ -67,6 +67,7 @@
     "busy": "Guardando…"
   },
   "sites": {
+    "elsewhere": "Otra unidad",
     "all": "Todas las unidades",
     "edit": "Cambiar unidades",
     "hint": "Sin elección, la persona ve todas las unidades.",
