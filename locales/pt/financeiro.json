@@ -143,8 +143,11 @@
       "status": "Estado",
       "issuedAt": "Data de emissão",
       "paidAt": "Data de pagamento",
-      "institution": "Entidade"
-    }
+      "institution": "Entidade",
+      "entity": "Entidade emissora",
+      "taxId": "NIF"
+    },
+    "entity": "Entidade: {{name}}"
   },
   "cancellation": {
     "title": "Taxas de cancelamento",
