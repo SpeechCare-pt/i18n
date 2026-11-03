@@ -94,6 +94,7 @@
     "patient_other": "{{name}} já tem outras {{count}} sessões a esta hora",
     "patientHint": "Isto costuma ser engano. Confirma antes de guardar.",
     "entry": "{{start}}–{{end}}, {{patient}}, com {{technician}}",
+    "entryElsewhere": "{{start}}–{{end}}, noutra unidade",
     "outsideHours": "{{name}} não trabalha a esta hora.",
     "otherSite": "{{name}} trabalha noutra unidade a esta hora.",
     "absent": "{{name}} está ausente a esta hora.",
