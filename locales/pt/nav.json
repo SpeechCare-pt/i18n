@@ -73,6 +73,7 @@
     "none": "Sem avisos",
     "bell_one": "{{count}} aviso por ver",
     "bell_other": "{{count}} avisos por ver",
+    "bellMany": "Mais de 99 avisos por ver",
     "unnamed": "um paciente",
     "someone": "Alguém",
     "created_one": "{{who}} marcou-te uma sessão com {{patient}}, a {{when}}",
