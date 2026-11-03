@@ -537,6 +537,7 @@
     "status": "Marca de estado",
     "series": "Marca de serie",
     "arrears": "Mes anterior por regularizar",
-    "reset": "Restablecer"
+    "reset": "Restablecer",
+    "seriesMark": "Sesión de serie"
   }
 }
