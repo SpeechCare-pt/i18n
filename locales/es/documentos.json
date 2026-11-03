@@ -250,7 +250,9 @@
       "badFileType": "Solo se aceptan imágenes PNG y JPEG.",
       "fileTooLarge": "La imagen supera los 512 KB.",
       "storageInUse": "Este archivo ya se usa en otro sitio. Elige otro.",
-      "noProfile": "Todavía no tienes perfil de técnico. Pide a la dirección que lo cree."
+      "noProfile": "Todavía no tienes perfil de técnico. Pide a la dirección que lo cree.",
+      "uploadNotRegistered": "Ese archivo no lo has enviado tú ahora. Elígelo otra vez.",
+      "tooManyUploads": "Tienes demasiados envíos sin terminar. Espera unos minutos e inténtalo otra vez."
     }
   },
   "void": {
@@ -263,7 +265,8 @@
     "errors": {
       "failed": "No se ha podido anular. Inténtalo otra vez.",
       "alreadyVoided": "Este documento ya está anulado.",
-      "reasonLength": "El motivo debe tener entre 3 y 200 caracteres."
+      "reasonLength": "El motivo debe tener entre 3 y 200 caracteres.",
+      "notAllowed": "No puedes anular este documento."
     }
   }
 }

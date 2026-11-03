@@ -250,7 +250,9 @@
       "badFileType": "Só se aceitam imagens PNG e JPEG.",
       "fileTooLarge": "A imagem passa os 512 KB.",
       "storageInUse": "Este ficheiro já está a ser usado noutro sítio. Escolhe outro.",
-      "noProfile": "Ainda não tens perfil de técnico. Pede à direção que o crie."
+      "noProfile": "Ainda não tens perfil de técnico. Pede à direção que o crie.",
+      "uploadNotRegistered": "Esse ficheiro não foi enviado por ti agora. Escolhe-o outra vez.",
+      "tooManyUploads": "Tens envios a mais por acabar. Espera uns minutos e tenta outra vez."
     }
   },
   "void": {
@@ -263,7 +265,8 @@
     "errors": {
       "failed": "Não foi possível anular. Tenta outra vez.",
       "alreadyVoided": "Este documento já está anulado.",
-      "reasonLength": "O motivo tem de ter entre 3 e 200 caracteres."
+      "reasonLength": "O motivo tem de ter entre 3 e 200 caracteres.",
+      "notAllowed": "Não podes anular este documento."
     }
   }
 }
