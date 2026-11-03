@@ -13,7 +13,7 @@
   },
   "status": {
     "active": "Activo",
-    "left": "Salió"
+    "left": "Dado de baja"
   },
   "roles": {
     "technician": "Terapeuta",
@@ -30,7 +30,7 @@
     "submit": "Añadir"
   },
   "removeRole": "Quitar el rol {{role}}",
-  "leave": "Marcar como salido",
+  "leave": "Dar de baja",
   "invite": {
     "open": "Invitar",
     "title": "Invitar al equipo",
@@ -47,7 +47,7 @@
     "close": "Cerrar"
   },
   "offboard": {
-    "title": "Marcar a {{name}} como salido",
+    "title": "Dar de baja a {{name}}",
     "checking": "Comprobando…",
     "lede": "Esto termina el acceso de esta persona a esta organización. Nada de lo que hizo se borra.",
     "nothingReassigned": "No se reasigna nada: lo que queda pendiente sigue a nombre de la persona hasta que alguien lo cambie.",
@@ -59,10 +59,10 @@
       "futureSessions": "Sesiones programadas",
       "sessionsWithoutNote": "Sesiones de los últimos 90 días sin nota"
     },
-    "nothing": "Nada pendiente",
+    "nothing": "nada pendiente",
     "atLeast": "{{count}} o más",
     "shown": "Mostrando los primeros {{count}}",
-    "confirm": "Marcar como salido",
+    "confirm": "Dar de baja",
     "cancel": "Cancelar",
     "busy": "Guardando…"
   },
@@ -76,18 +76,18 @@
     "outside_other": "{{count}} sesiones futuras quedan fuera de estas unidades."
   },
   "idle": {
-    "label": "Cerrar la sesión tras inactividad (minutos)",
+    "label": "Cerrar la sesión de todo el equipo tras inactividad (minutos)",
     "help": "Déjalo vacío para no cerrar nunca. Entre 1 y 480.",
     "save": "Guardar",
     "saved": "Guardado"
   },
   "errors": {
     "outranks": "Esta persona tiene un rol por encima del tuyo.",
-    "lastRole": "Es el último rol de esta persona. Márcala como salida.",
+    "lastRole": "Es el último rol de esta persona. Da de baja su acceso.",
     "lastAdmin": "La organización necesita al menos una persona activa con dirección o admin.",
     "outsideYourSites": "Esta persona trabaja en unidades que no son las tuyas.",
     "reactivationNotAllowed": "Solo quien tiene un rol por encima del que tenía esta persona puede volver a darle acceso.",
-    "self": "No puedes hacerlo contigo mismo.",
+    "self": "No puedes hacer esto con tu propia cuenta.",
     "notFound": "Esta persona ya no está en el equipo.",
     "roleTooSenior": "No puedes dar un rol por encima del tuyo.",
     "roleNotGrantable": "Ese rol no se puede dar aquí.",

@@ -30,7 +30,7 @@
     "carries": "O novo papel fica nestas unidades: {{sites}}."
   },
   "removeRole": "Retirar o papel {{role}}",
-  "leave": "Marcar como saído",
+  "leave": "Retirar o acesso",
   "invite": {
     "open": "Convidar",
     "title": "Convidar para a equipa",
@@ -47,7 +47,7 @@
     "close": "Fechar"
   },
   "offboard": {
-    "title": "Marcar {{name}} como saído",
+    "title": "Retirar o acesso a {{name}}",
     "checking": "A verificar…",
     "lede": "Isto termina o acesso desta pessoa a esta organização. Nada do que fez se apaga.",
     "nothingReassigned": "Nada é reatribuído: o que fica por fazer continua no nome da pessoa até alguém o mudar.",
@@ -59,10 +59,10 @@
       "futureSessions": "Sessões marcadas",
       "sessionsWithoutNote": "Sessões dos últimos 90 dias sem nota"
     },
-    "nothing": "Nada pendente",
+    "nothing": "nada pendente",
     "atLeast": "{{count}} ou mais",
     "shown": "A mostrar os primeiros {{count}}",
-    "confirm": "Marcar como saído",
+    "confirm": "Retirar o acesso",
     "cancel": "Cancelar",
     "busy": "A guardar…"
   },
@@ -76,16 +76,16 @@
     "outside_other": "{{count}} sessões futuras ficam fora destas unidades."
   },
   "idle": {
-    "label": "Terminar a sessão após inatividade (minutos)",
+    "label": "Terminar a sessão de toda a equipa após inatividade (minutos)",
     "help": "Deixa vazio para nunca terminar. Entre 1 e 480.",
     "save": "Guardar",
     "saved": "Guardado"
   },
   "errors": {
     "outranks": "Esta pessoa tem um papel acima do teu.",
-    "lastRole": "É o último papel desta pessoa. Marca-a como saída.",
+    "lastRole": "É o último papel desta pessoa. Retira-lhe o acesso.",
     "lastAdmin": "A organização precisa de pelo menos uma pessoa ativa com direção ou admin.",
-    "self": "Não podes fazer isto a ti próprio.",
+    "self": "Não podes fazer isto à tua própria conta.",
     "outsideYourSites": "Esta pessoa trabalha em unidades que não são as tuas.",
     "reactivationNotAllowed": "Só quem tem um papel acima do que esta pessoa tinha pode voltar a dar-lhe acesso.",
     "notFound": "Esta pessoa já não está na equipa.",

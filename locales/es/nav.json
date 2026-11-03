@@ -53,8 +53,7 @@
   "unit": {
     "label": "Unidad",
     "showing": "Mostrando: {{name}}",
-    "all": "Todas las unidades",
-    "hint": "Elige la unidad que la agenda, la caja y las salas muestran por defecto."
+    "all": "Todas las unidades"
   },
   "workingAs": {
     "label": "Trabajando como",
