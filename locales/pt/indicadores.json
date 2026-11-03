@@ -1,0 +1,117 @@
+{
+  "title": "Indicadores",
+  "subtitle": "O que o SINAIA sabe sobre sessões, horas, valor e ocupação, por mês e por unidade.",
+  "period": {
+    "label": "Período",
+    "month": "Mês",
+    "quarter": "Trimestre",
+    "previous": "Período anterior",
+    "next": "Período seguinte",
+    "today": "Hoje",
+    "quarterOf": "{{quarter}}.º trimestre de {{year}}"
+  },
+  "site": {
+    "label": "Unidade",
+    "all": "Todas as unidades"
+  },
+  "loading": "A carregar…",
+  "tiles": {
+    "held": "Realizadas",
+    "upcoming": "Previstas",
+    "unresolved": "Por fechar",
+    "cancelled": "Desmarcadas",
+    "missed": "Faltas",
+    "cancelRate": "Taxa de desmarcação",
+    "hours": "Horas realizadas",
+    "patients": "Pacientes com sessão",
+    "patientsByMonth": "Pacientes com sessão, por mês",
+    "open": "Ver a lista",
+    "none": "—"
+  },
+  "money": {
+    "title": "Dinheiro",
+    "charged": "Cobrado",
+    "received": "Recebido",
+    "sessionValue": "Valor das sessões",
+    "owedToday": "Por receber hoje",
+    "charges_one": "{{count}} cobrança",
+    "charges_other": "{{count}} cobranças",
+    "scoped": "O dinheiro é da organização inteira e só a gestão sem unidades atribuídas o vê. Aqui só aparecem as sessões das tuas unidades.",
+    "listRaised": "Cobranças emitidas",
+    "listSettled": "Cobranças liquidadas"
+  },
+  "growth": {
+    "up": "+{{percent}} % face a {{year}}",
+    "down": "−{{percent}} % face a {{year}}",
+    "flat": "Igual a {{year}}"
+  },
+  "cut": {
+    "technician": "Por profissional",
+    "location": "Por local",
+    "subject": "Por especialidade",
+    "service": "Por serviço",
+    "room": "Por sala",
+    "columns": {
+      "name": "Nome",
+      "held": "Realizadas",
+      "cancelled": "Desmarcadas",
+      "missed": "Faltas",
+      "rate": "Taxa de desmarcação",
+      "value": "Valor",
+      "occupancy": "Ocupação"
+    },
+    "others": "Outros ({{count}})",
+    "noLocation": "Sem local",
+    "noSubject": "Sem especialidade",
+    "noService": "Sem serviço",
+    "noRoom": "Sem sala",
+    "empty": "Sem sessões neste período.",
+    "countsOnly": "A especialidade e o serviço só têm contagens: não abrem a lista, para não dizer que crianças estão em que especialidade."
+  },
+  "rooms": {
+    "pickSite": "Escolhe uma unidade para ver as salas.",
+    "occupancy": "Minutos marcados sobre minutos disponíveis no mapa de salas.",
+    "unassigned_one": "{{count}} hora sem terapeuta no mapa, que não conta como disponível.",
+    "unassigned_other": "{{count}} horas sem terapeuta no mapa, que não contam como disponíveis.",
+    "mapTruncated": "O mapa de salas desta unidade é maior do que a página lê. Todas as sessões ficam em “Sem sala” e a ocupação não se calcula.",
+    "technicianOccupancy": "Ocupação por profissional"
+  },
+  "notes": {
+    "catalogueValue": "O valor é o preço de catálogo das sessões realizadas. Não é faturação.",
+    "received": "Recebido são as cobranças liquidadas no período. Os pagamentos parciais de cobranças ainda abertas não entram.",
+    "holidays": "Os feriados não estão descontados, por isso a ocupação de um mês com feriado fica um pouco abaixo do real.",
+    "patients": "Pacientes com pelo menos uma sessão realizada no mês. Num trimestre mostram-se os três meses, porque o mesmo paciente não se soma entre meses."
+  },
+  "truncated": "O mês tem mais sessões do que a página lê, por isso os números são no mínimo estes.",
+  "namesTruncated": "Há mais serviços, profissionais ou locais do que a página nomeia. Alguns valores ou nomes podem faltar.",
+  "withoutValue_one": "{{count}} sessão realizada sem serviço, que conta com valor 0.",
+  "withoutValue_other": "{{count}} sessões realizadas sem serviço, que contam com valor 0.",
+  "hours": "{{hours}} h",
+  "drill": {
+    "title": "Sessões: {{what}}",
+    "close": "Fechar",
+    "loading": "A carregar…",
+    "empty": "Nenhuma sessão.",
+    "more": "A mostrar as primeiras {{count}}. Há mais.",
+    "month": "Mês: {{month}}",
+    "columns": {
+      "when": "Quando",
+      "patient": "Paciente",
+      "technician": "Profissional",
+      "status": "Estado"
+    },
+    "status": {
+      "held": "Realizada",
+      "upcoming": "Prevista",
+      "unresolved": "Por fechar",
+      "missed": "Falta",
+      "cancelled": "Desmarcada"
+    },
+    "what": {
+      "all": "todas",
+      "technician": "{{name}}",
+      "location": "{{name}}",
+      "room": "{{name}}"
+    }
+  }
+}
