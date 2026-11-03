@@ -7,6 +7,7 @@
     "later": "Mes siguiente →",
     "summary": "En {{month}}, {{count}} profesionales a cobrar, {{total}} en total.",
     "summary_one": "En {{month}}, 1 profesional a cobrar, {{total}} en total.",
+    "sessions_zero": "0 sesiones",
     "sessions_one": "{{count}} sesión",
     "sessions_other": "{{count}} sesiones",
     "cedula": "Colegiado {{value}}",
@@ -27,7 +28,11 @@
       "body": "Nadie que cobre por sesión tiene sesiones facturadas este mes.",
       "beforeCutover": "Los cobros antiguos no dicen quién hizo la sesión, así que el mapa empieza a llenarse desde el primer mes en que se emite el cobro en Financiero."
     },
-    "truncated": "Este mes tiene más cobros de los que esta pantalla puede leer, así que el mapa puede estar incompleto."
+    "truncated": "Este mes tiene más cobros de los que esta pantalla puede leer, así que el mapa puede estar incompleto.",
+    "payable": "A pagar",
+    "base": "Sesiones",
+    "adjustments": "Ajustes",
+    "adjustmentsEmpty": "Sin ajustes"
   },
   "origin": {
     "therapistAndService": "acuerdo del profesional para este servicio",
@@ -85,5 +90,76 @@
     "saved": "Guardado.",
     "failed": "No se pudo guardar. Inténtalo de nuevo.",
     "noPerSession": "Nadie está marcado como cobrando por sesión, así que el mapa siempre vendrá vacío."
+  },
+  "adjust": {
+    "add": "Añadir ajuste",
+    "kind": {
+      "label": "Tipo",
+      "absence": "Falta",
+      "extra": "Extra",
+      "correction": "Corrección"
+    },
+    "amount": "Importe",
+    "amountHint": "Positivo paga más, negativo paga menos. Por ejemplo -12,50.",
+    "badAmount": "Escribe un importe en euros que no sea cero, por ejemplo -12,50.",
+    "reason": "Motivo",
+    "session": "Sesión",
+    "noSession": "Ninguna sesión en concreto",
+    "forSession": "Ajuste a esta sesión",
+    "save": "Guardar ajuste",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "remove": "Anular",
+    "removed": "anulado",
+    "reversal": "Anulación",
+    "locked": "Aprobado. Para tocar los ajustes, devuélvelo primero para ajuste."
+  },
+  "error": {
+    "generic": "No se ha podido guardar. Inténtalo otra vez.",
+    "monthApproved": "Este mes ya está aprobado para este profesional. Devuélvelo primero para ajuste.",
+    "alreadyApproved": "Este mes ya está aprobado para este profesional.",
+    "notPerSession": "Quien está a contrato no recibe ajustes.",
+    "amountOutOfRange": "El importe es demasiado grande o no es válido.",
+    "reasonRequired": "Escribe el motivo.",
+    "alreadyReversed": "Este ajuste ya se ha anulado.",
+    "monthOpen": "El mes todavía no ha terminado, así que no se puede aprobar.",
+    "hasUnratedSessions": "Hay sesiones sin regla. Define la regla antes de aprobar.",
+    "figureMoved": "El importe ha cambiado entretanto. Ya está actualizado, confirma otra vez.",
+    "selfApproval": "No puedes aprobar ni ajustar tu propio importe.",
+    "nothingToPay": "No hay nada que pagar a este profesional este mes.",
+    "figureOutOfRange": "El importe es demasiado grande para aprobar.",
+    "monthTruncated": "Este mes tiene más registros de los que la pantalla puede leer, así que el importe no es fiable. No se puede aprobar.",
+    "tooManyAdjustments": "Este profesional ya tiene el máximo de ajustes este mes.",
+    "invalidMonth": "Ese mes no es válido."
+  },
+  "status": {
+    "open": "Abierto",
+    "returned": "Devuelto para ajuste",
+    "approved": "Aprobado",
+    "approvedOn": "Aprobado el {{on}}",
+    "returnedOn": "Devuelto el {{on}}",
+    "drifted": "Ha cambiado desde la aprobación: antes {{was}}, ahora {{now}}",
+    "driftedPayee": "El IBAN o la cédula han cambiado desde la aprobación."
+  },
+  "closure": {
+    "summary": "{{approved}} de {{total}} aprobados",
+    "closed": "Periodo cerrado",
+    "open": "Periodo abierto"
+  },
+  "approve": {
+    "action": "Aprobar",
+    "confirm": "¿Aprobar {{total}} para {{name}}?",
+    "confirmIban": "Pago al IBAN {{iban}}.",
+    "noIban": "Sin IBAN en el perfil. La aprobación queda registrada y el pago solo se podrá hacer cuando el IBAN esté rellenado.",
+    "sending": "Aprobando…",
+    "cancel": "Cancelar"
+  },
+  "return": {
+    "action": "Devolver para ajuste",
+    "noteLabel": "Qué falta ajustar",
+    "noteRequired": "Escribe qué falta ajustar.",
+    "send": "Devolver",
+    "sending": "Devolviendo…",
+    "cancel": "Cancelar"
   }
 }

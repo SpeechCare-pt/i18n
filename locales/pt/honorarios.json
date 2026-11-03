@@ -7,6 +7,7 @@
     "later": "Mês seguinte →",
     "summary": "Em {{month}}, {{count}} profissionais a receber, {{total}} no total.",
     "summary_one": "Em {{month}}, 1 profissional a receber, {{total}} no total.",
+    "sessions_zero": "0 sessões",
     "sessions_one": "{{count}} sessão",
     "sessions_other": "{{count}} sessões",
     "cedula": "Cédula {{value}}",
@@ -27,7 +28,11 @@
       "body": "Ninguém que receba por sessão tem sessões facturadas neste mês.",
       "beforeCutover": "As cobranças antigas não dizem quem fez a sessão, por isso o mapa começa a encher a partir do primeiro mês em que se levanta a cobrança no Financeiro."
     },
-    "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto."
+    "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto.",
+    "payable": "A pagar",
+    "base": "Sessões",
+    "adjustments": "Ajustes",
+    "adjustmentsEmpty": "Sem ajustes"
   },
   "origin": {
     "therapistAndService": "acordo do profissional para este serviço",
@@ -85,5 +90,76 @@
     "saved": "Guardado.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "noPerSession": "Ninguém está marcado como recebendo por sessão, por isso o mapa vem sempre vazio."
+  },
+  "adjust": {
+    "add": "Lançar ajuste",
+    "kind": {
+      "label": "Tipo",
+      "absence": "Falta",
+      "extra": "Extra",
+      "correction": "Correcção"
+    },
+    "amount": "Valor",
+    "amountHint": "Positivo paga mais, negativo paga menos. Por exemplo -12,50.",
+    "badAmount": "Escreve um valor em euros que não seja zero, por exemplo -12,50.",
+    "reason": "Motivo",
+    "session": "Sessão",
+    "noSession": "Nenhuma sessão em particular",
+    "forSession": "Ajuste a esta sessão",
+    "save": "Guardar ajuste",
+    "saving": "A guardar…",
+    "cancel": "Cancelar",
+    "remove": "Anular",
+    "removed": "anulado",
+    "reversal": "Anulação",
+    "locked": "Aprovado. Para mexer nos ajustes, devolve primeiro para ajuste."
+  },
+  "error": {
+    "generic": "Não foi possível guardar. Tenta outra vez.",
+    "monthApproved": "Este mês já está aprovado para este profissional. Devolve para ajuste primeiro.",
+    "alreadyApproved": "Este mês já está aprovado para este profissional.",
+    "notPerSession": "Quem está a contrato não recebe ajustes.",
+    "amountOutOfRange": "O valor é demasiado grande ou não é válido.",
+    "reasonRequired": "Escreve o motivo.",
+    "alreadyReversed": "Este ajuste já foi anulado.",
+    "monthOpen": "O mês ainda não acabou, por isso não se pode aprovar.",
+    "hasUnratedSessions": "Há sessões sem regra. Define a regra antes de aprovar.",
+    "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
+    "selfApproval": "Não podes aprovar nem ajustar o teu próprio valor.",
+    "nothingToPay": "Não há nada a pagar a este profissional neste mês.",
+    "figureOutOfRange": "O valor é grande de mais para aprovar.",
+    "monthTruncated": "Este mês tem mais registos do que o ecrã consegue ler, por isso o valor não é fiável. Não se pode aprovar.",
+    "tooManyAdjustments": "Este profissional já tem o máximo de ajustes neste mês.",
+    "invalidMonth": "Esse mês não é válido."
+  },
+  "status": {
+    "open": "Em aberto",
+    "returned": "Devolvido para ajuste",
+    "approved": "Aprovado",
+    "approvedOn": "Aprovado em {{on}}",
+    "returnedOn": "Devolvido em {{on}}",
+    "drifted": "Mudou desde a aprovação: antes {{was}}, agora {{now}}",
+    "driftedPayee": "O IBAN ou a cédula mudaram desde a aprovação."
+  },
+  "closure": {
+    "summary": "{{approved}} de {{total}} aprovados",
+    "closed": "Período fechado",
+    "open": "Período em aberto"
+  },
+  "approve": {
+    "action": "Aprovar",
+    "confirm": "Aprovar {{total}} para {{name}}?",
+    "confirmIban": "Pagamento para o IBAN {{iban}}.",
+    "noIban": "Sem IBAN no perfil. A aprovação fica registada e o pagamento só se pode fazer depois de o IBAN estar preenchido.",
+    "sending": "A aprovar…",
+    "cancel": "Cancelar"
+  },
+  "return": {
+    "action": "Devolver para ajuste",
+    "noteLabel": "O que falta ajustar",
+    "noteRequired": "Escreve o que falta ajustar.",
+    "send": "Devolver",
+    "sending": "A devolver…",
+    "cancel": "Cancelar"
   }
 }
