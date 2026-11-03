@@ -367,7 +367,10 @@
       "email": "mesmo email",
       "phone": "mesmo telefone",
       "vat": "mesmo NIF"
-    }
+    },
+    "openRequest": "Há um pedido em aberto desta família",
+    "openRequestLink": "Abrir pedido",
+    "openRequestConfirm": "Registar mesmo assim"
   },
   "errors": {
     "contactRequired": "Falta um telefone ou um email de contacto.",
