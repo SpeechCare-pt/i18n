@@ -45,6 +45,7 @@
     "save": "Guardar niveles",
     "saved": "Niveles guardados.",
     "edit": "Definir los niveles",
+    "change": "Cambiar los niveles",
     "errors": {
       "levelsNotIncreasing": "Cada nivel tiene que pedir más faltas que el anterior, y el primero al menos una.",
       "windowOutOfRange": "El período va de 7 a 365 días.",
@@ -112,7 +113,9 @@
       "objectiveStalled": "Un objetivo sin progreso en las últimas 3 sesiones",
       "staleEpisode": "Episodio abierto sin sesiones desde hace mucho tiempo"
     },
-    "detail": "{{held}} realizadas, {{family}} de la familia, {{unclassified}} sin motivo",
+    "detail_zero": "Ninguna realizada, {{family}} de la familia, {{unclassified}} sin motivo",
+    "detail_one": "{{count}} realizada, {{family}} de la familia, {{unclassified}} sin motivo",
+    "detail_other": "{{count}} realizadas, {{family}} de la familia, {{unclassified}} sin motivo",
     "lastSeen_zero": "Última sesión hoy",
     "lastSeen_one": "Última sesión hace {{count}} día",
     "lastSeen_other": "Última sesión hace {{count}} días",

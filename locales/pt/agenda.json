@@ -483,7 +483,8 @@
     "unlink": "Desassociar",
     "billed": "Cobrar esta sessão",
     "billedLocked": "A cobrança do mês já foi emitida, por isso já não se pode mudar.",
-    "billedHint": "Por defeito a reposição não se cobra quando a sessão original continua paga (num pacote, com falta ou com taxa) e cobra-se nos outros casos. A taxa da sessão original é outra coisa.",
+    "billedHint": "Sem escolha, só se cobra se a sessão original não ficou paga.",
+    "saved": "Guardado.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "errors": {
       "notMissed": "Essa sessão não ficou por fazer.",

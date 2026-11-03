@@ -279,7 +279,9 @@
   "anulacoes": {
     "title": "Anulações",
     "empty": "Nenhuma sessão anulada nas últimas {{count}} sessões.",
-    "rate": "{{cancelled}} anuladas em {{total}} sessões, {{percent}}%.",
+    "rate_zero": "Nenhuma anulada em {{total}} sessões, {{percent}}%.",
+    "rate_one": "{{count}} anulada em {{total}} sessões, {{percent}}%.",
+    "rate_other": "{{count}} anuladas em {{total}} sessões, {{percent}}%.",
     "rateHint": "A mediana da prática é 9,5%.",
     "truncated": "Só as {{count}} sessões mais recentes.",
     "noShow": "Falta",
