@@ -11,7 +11,7 @@
   },
   "done": {
     "title": "Convite aceite",
-    "body": "A tua conta está associada."
+    "body": "A tua conta está associada. Já podes entrar na SINAIA Suite."
   },
   "invalid": {
     "title": "Convite inválido",
@@ -19,7 +19,8 @@
   },
   "verify": {
     "title": "Confirma o teu email",
-    "body": "Para aceitares o convite precisas de confirmar o teu email. O envio de confirmação ainda não está disponível e vai ser ativado em breve."
+    "body": "Para aceitares o convite tens de confirmar o email. Enviámos um link para o teu email, abre-o e voltas a esta página.",
+    "resend": "Enviar o link outra vez"
   },
   "errors": {
     "generic": "Não foi possível aceitar o convite. Tenta novamente ou contacta a clínica.",
