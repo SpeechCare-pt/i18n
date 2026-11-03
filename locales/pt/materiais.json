@@ -3,7 +3,7 @@
   "lede": "Fichas, jogos e ligações que a equipa usa nas sessões.",
   "noPatientData": "Não carregues dados de pacientes.",
   "loading": "A carregar…",
-  "empty": "Ainda não há materiais com estes filtros.",
+  "empty": "Ainda não há materiais.",
   "truncated": "A lista mostra só uma parte dos materiais.",
   "filters": {
     "subject": "Especialidade",
@@ -23,9 +23,9 @@
   "retire": "Retirar",
   "retiring": "A retirar…",
   "retireConfirm": "Retirar este material? Um ficheiro apaga-se de vez.",
-  "ageRange": "{{from}} a {{to}} anos",
-  "ageFrom": "a partir dos {{from}} anos",
-  "ageTo": "até aos {{to}} anos",
+  "ageRange": "{{from}} a {{to}}",
+  "ageFrom": "a partir de {{from}}",
+  "ageTo": "até {{to}}",
   "anyAge": "Qualquer idade",
   "add": {
     "title": "Adicionar material",
@@ -64,6 +64,17 @@
     "badTags": "Há etiquetas a mais ou demasiado compridas.",
     "cannotRetire": "Só quem o criou ou a coordenação pode retirar este material.",
     "uploadFailed": "O envio do ficheiro falhou. Tenta outra vez.",
-    "failed": "Não foi possível guardar. Tenta outra vez."
-  }
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "uploadNotRegistered": "O ficheiro não ficou registado. Escolhe-o outra vez.",
+    "storageInUse": "Esse ficheiro já está em uso.",
+    "uploadTooOld": "O envio demorou demasiado. Escolhe o ficheiro outra vez.",
+    "tooManyUploads": "Tens demasiados envios por usar. Guarda os materiais pendentes ou espera um dia."
+  },
+  "emptyFiltered": "Nenhum material com estes filtros.",
+  "filteredTruncated": "Só estamos a ver parte dos materiais, por isso o filtro pode deixar alguns de fora.",
+  "subjectsAll": "Todas as especialidades",
+  "ageYears_one": "{{count}} ano",
+  "ageYears_other": "{{count}} anos",
+  "ageMonths_one": "{{count}} mês",
+  "ageMonths_other": "{{count}} meses"
 }

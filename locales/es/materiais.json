@@ -3,7 +3,7 @@
   "lede": "Fichas, juegos y enlaces que el equipo usa en las sesiones.",
   "noPatientData": "No subas datos de pacientes.",
   "loading": "Cargando…",
-  "empty": "Todavía no hay materiales con estos filtros.",
+  "empty": "Todavía no hay materiales.",
   "truncated": "La lista muestra solo una parte de los materiales.",
   "filters": {
     "subject": "Especialidad",
@@ -23,9 +23,9 @@
   "retire": "Retirar",
   "retiring": "Retirando…",
   "retireConfirm": "¿Retirar este material? Un archivo se borra del todo.",
-  "ageRange": "{{from}} a {{to}} años",
-  "ageFrom": "desde los {{from}} años",
-  "ageTo": "hasta los {{to}} años",
+  "ageRange": "{{from}} a {{to}}",
+  "ageFrom": "desde {{from}}",
+  "ageTo": "hasta {{to}}",
   "anyAge": "Cualquier edad",
   "add": {
     "title": "Añadir material",
@@ -64,6 +64,17 @@
     "badTags": "Hay demasiadas etiquetas o son demasiado largas.",
     "cannotRetire": "Solo quien lo creó o la coordinación puede retirar este material.",
     "uploadFailed": "Falló la subida del archivo. Inténtalo de nuevo.",
-    "failed": "No se pudo guardar. Inténtalo de nuevo."
-  }
+    "failed": "No se pudo guardar. Inténtalo de nuevo.",
+    "uploadNotRegistered": "El archivo no quedó registrado. Elígelo otra vez.",
+    "storageInUse": "Ese archivo ya está en uso.",
+    "uploadTooOld": "El envío tardó demasiado. Elige el archivo otra vez.",
+    "tooManyUploads": "Tienes demasiados envíos sin usar. Guarda los materiales pendientes o espera un día."
+  },
+  "emptyFiltered": "Ningún material con estos filtros.",
+  "filteredTruncated": "Solo vemos una parte de los materiales, así que el filtro puede dejar alguno fuera.",
+  "subjectsAll": "Todas las especialidades",
+  "ageYears_one": "{{count}} año",
+  "ageYears_other": "{{count}} años",
+  "ageMonths_one": "{{count}} mes",
+  "ageMonths_other": "{{count}} meses"
 }

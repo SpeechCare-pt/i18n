@@ -75,19 +75,26 @@
     "workPlaceholder": "Lo que quedó a medias o merece retomarse.",
     "prepare": "Material que preparar",
     "preparePlaceholder": "Cartas, juegos, fichas.",
-    "restricted": "Marcar como restringido",
+    "restricted": "Restringida",
     "submit": "Guardar para la siguiente",
     "saving": "Guardando…",
     "saved": "Dejado para la próxima sesión.",
-    "empty": "Escribe qué queda por trabajar.",
     "tooLong": "El texto del material es demasiado largo. El límite es {{limit}} caracteres.",
-    "needsSession": "Solo se deja algo para la siguiente desde una sesión.",
-    "failed": "No se pudo guardar. Inténtalo de nuevo.",
     "band": {
       "title": "Para esta sesión",
       "from": "Dejado en la sesión del {{date}}",
       "prepare": "Material que preparar"
-    }
+    },
+    "errors": {
+      "emptyNote": "Escribe qué queda por trabajar.",
+      "handoverNeedsSession": "Solo se deja algo para la siguiente desde una sesión.",
+      "failed": "No se pudo guardar. Inténtalo de nuevo.",
+      "appointmentNotThisPatient": "Esa sesión no es de este paciente.",
+      "noSpecialty": "No tienes ninguna especialidad registrada, así que no puedes dejar nada para la siguiente. Habla con coordinación.",
+      "chooseSpecialty": "Elige la especialidad.",
+      "specialtyNotYours": "Esa no es una de tus especialidades."
+    },
+    "specialty": "Especialidad"
   },
   "equipa": {
     "title": "Equipo",
@@ -96,39 +103,41 @@
     "loading": "Cargando…",
     "empty": "Todavía no hay notas para el equipo.",
     "form": {
-      "kind": "Tipo",
-      "note": "Nota para el equipo",
       "recado": "Recado para",
-      "recadoTo": "Recado para",
       "nobody": "Nadie en particular",
       "body": "Escribe la nota",
       "placeholder": "Lo que el equipo debe saber.",
       "restricted": "Restringida",
       "restrictedHint": "Solo quien tenga autorización explícita puede leerla.",
-      "forSession": "En la consulta del {{date}}",
+      "forSession": "En la sesión del {{date}}",
       "submit": "Publicar",
       "saving": "Publicando…",
-      "posted": "Publicado."
+      "posted": "Publicado.",
+      "specialty": "Especialidad de la nota"
     },
     "list": {
       "to": "Para {{name}}",
       "toMe": "Para ti",
       "mine": "Escrita por ti",
-      "session": "En la consulta del {{date}}",
+      "session": "En la sesión del {{date}}",
       "restricted": "Restringida"
     },
     "banner_one": "{{count}} nota nueva del equipo",
     "banner_other": "{{count}} notas nuevas del equipo",
     "errors": {
-      "empty": "Escribe algo antes de publicar.",
       "tooLong": "La nota es demasiado larga. El límite es {{limit}} caracteres.",
       "addresseeCannotRead": "Esa persona no puede abrir este registro, así que no puedes dejarle un recado.",
       "addresseeNotClinical": "Solo puedes dejar recados a quien trabaja en la parte clínica.",
       "addressedToSelf": "No puedes dejarte un recado a ti mismo.",
-      "wrongPatient": "Esa sesión no es de este paciente.",
       "siteNotAllowed": "Esa sesión es de una unidad fuera de tu acceso.",
       "forbidden": "Solo quien acompaña al paciente puede escribir al equipo.",
-      "failed": "No se pudo publicar. Inténtalo de nuevo."
-    }
+      "failed": "No se pudo publicar. Inténtalo de nuevo.",
+      "emptyNote": "Escribe algo antes de publicar.",
+      "appointmentNotThisPatient": "Esa sesión no es de este paciente.",
+      "noSpecialty": "No tienes ninguna especialidad registrada, así que no puedes escribir al equipo. Habla con coordinación.",
+      "chooseSpecialty": "Elige la especialidad de la nota.",
+      "specialtyNotYours": "Esa no es una de tus especialidades."
+    },
+    "banner_zero": "Sin notas nuevas del equipo"
   }
 }
