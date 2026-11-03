@@ -47,5 +47,21 @@
   "error": "Não foi possível guardar. Tenta outra vez.",
   "needsName": "A instituição precisa de um nome.",
   "termInverted": "O contrato não pode acabar antes de começar.",
-  "readOnly": "Só a coordenação e a direção alteram as instituições."
+  "readOnly": "Só a coordenação e a direção alteram as instituições.",
+  "consolidation": {
+    "title": "Consolidação",
+    "hint": "O que cada instituição trouxe no mês: quantas crianças, quantas sessões e quanto lhe foi cobrado.",
+    "month": "Mês",
+    "patients": "Crianças",
+    "sessions": "Sessões",
+    "owed": "Por pagar",
+    "paid": "Pago",
+    "none": "Nenhuma instituição teve movimento neste mês.",
+    "truncated": "Este mês tem mais sessões ou cobranças do que o ecrã consegue ler, por isso não mostramos números incompletos.",
+    "counts": {
+      "patients": "Crianças: quem teve pelo menos uma sessão realizada nas unidades da instituição, contada uma vez.",
+      "sessions": "Sessões: as sessões realizadas nessas unidades.",
+      "values": "Valores: as cobranças dirigidas à instituição e emitidas no mês, por pagar e pagas. O que as famílias pagam não entra."
+    }
+  }
 }
