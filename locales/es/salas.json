@@ -82,6 +82,7 @@
     "chipLabel": "{{stretch}}, {{room}}, {{day}}. Cambiar o liberar",
     "addLabel": "Añadir franja en {{room}}, {{day}}",
     "scheduled": "Ya hay un cambio programado a partir del {{date}}.",
+    "truncated": "El mapa es demasiado grande para mostrarlo entero. Avisa a coordinación.",
     "readOnly": "Solo la coordinación y la dirección cambian el mapa.",
     "saved": "Franja guardada.",
     "ended": "Franja liberada.",

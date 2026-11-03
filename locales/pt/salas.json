@@ -82,6 +82,7 @@
     "chipLabel": "{{stretch}}, {{room}}, {{day}}. Mudar ou libertar",
     "addLabel": "Adicionar faixa em {{room}}, {{day}}",
     "scheduled": "Já há uma mudança marcada a partir de {{date}}.",
+    "truncated": "O mapa é demasiado grande para ser mostrado todo. Avisa a coordenação.",
     "readOnly": "Só a coordenação e a direção mudam o mapa.",
     "saved": "Faixa guardada.",
     "ended": "Faixa libertada.",
