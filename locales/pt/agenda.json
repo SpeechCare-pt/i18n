@@ -83,7 +83,21 @@
     "arrearsNotAllowed": "Só a receção ou a direção podem autorizar esta marcação.",
     "tooManyOccurrences": "Uma série não pode ter mais de 52 consultas. Escolhe uma data final mais próxima.",
     "absent": "{{name}} está ausente a esta hora.",
-    "absentConfirm": "Marcar mesmo assim"
+    "absentConfirm": "Marcar mesmo assim",
+    "estimate": {
+      "title": "Estimativa",
+      "hint": "O preço de cada consulta, com os acordos que já se aplicam a este paciente.",
+      "assessment": "Avaliação",
+      "followUp": "Acompanhamento",
+      "pickFollowUp": "Consulta de acompanhamento",
+      "pickPlaceholder": "Escolher consulta",
+      "agreement": "Acordo aplicado",
+      "noAgreement": "sem acordo",
+      "unset": "preço por definir",
+      "nonBillable": "não factura",
+      "total": "Total estimado",
+      "totalPartial": "Total das consultas com preço"
+    }
   },
   "absentRefusal": "{{name}} está ausente nessa altura. Queres marcar mesmo assim?",
   "conflicts": {

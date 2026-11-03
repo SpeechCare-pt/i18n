@@ -83,7 +83,21 @@
     "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita.",
     "tooManyOccurrences": "Una serie no puede tener más de 52 consultas. Elige una fecha final más cercana.",
     "absent": "{{name}} está ausente a esta hora.",
-    "absentConfirm": "Agendar igual"
+    "absentConfirm": "Agendar igual",
+    "estimate": {
+      "title": "Estimación",
+      "hint": "El precio de cada cita, con los acuerdos que ya se aplican a este paciente.",
+      "assessment": "Evaluación",
+      "followUp": "Seguimiento",
+      "pickFollowUp": "Cita de seguimiento",
+      "pickPlaceholder": "Elegir cita",
+      "agreement": "Acuerdo aplicado",
+      "noAgreement": "sin acuerdo",
+      "unset": "precio por definir",
+      "nonBillable": "no se factura",
+      "total": "Total estimado",
+      "totalPartial": "Total de las citas con precio"
+    }
   },
   "absentRefusal": "{{name}} está ausente en ese momento. ¿Quieres agendar igual?",
   "conflicts": {
