@@ -356,9 +356,10 @@
     "week": "Semana",
     "weekNeedsOne": "Escolhe um terapeuta para ver a semana.",
     "byRoom": "Por sala",
+    "byRoomLegend": "Cinzento: ninguém tem a sala a essa hora.",
     "byRoomNeedsSite": "Escolhe uma unidade para ver as salas.",
     "noRoom": "Sem sala",
-    "roomMapTruncated": "O mapa de salas é demasiado grande para ser lido todo, por isso as salas não aparecem."
+    "roomMapTruncated": "As salas não aparecem: o mapa é demasiado grande. Avisa a coordenação."
   },
   "week": {
     "previous": "Semana anterior",
@@ -403,7 +404,7 @@
     "left": "profissional saiu",
     "waiting": "à espera",
     "calledIn": "Atendida",
-    "room": "Sala: {{name}}",
+    "room": "{{name}}",
     "arrivalRoom": "Sala de hoje: {{name}}",
     "mapRoom": "Sala do mapa: {{name}}"
   },

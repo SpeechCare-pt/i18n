@@ -95,18 +95,18 @@
       "labelHint": "Fica visível quando não há terapeuta ligado.",
       "note": "Nota",
       "from": "A partir de",
-      "end_from": "Libertar a partir de"
+      "endFrom": "Libertar a partir de"
     },
     "errors": {
-      "roomOverlap": "A sala já está ocupada nesse horário.",
-      "technicianOverlap": "Essa pessoa já está noutra sala nesse horário.",
+      "roomOverlap": "A sala já está ocupada nesse horário: {{day}}, das {{from}} às {{to}}.",
+      "technicianOverlap": "Essa pessoa já tem outra sala nesse horário: {{day}}, das {{from}} às {{to}}.",
       "pastDate": "A data não pode ser anterior a hoje.",
       "roomNotClinical": "Essa sala não é clínica.",
       "weekdayOutOfRange": "O mapa vai de segunda a sexta.",
       "hoursOffGrid": "As horas têm de ser múltiplas de 5 minutos.",
       "hoursOutOfRange": "O fim tem de ser depois do início.",
       "alreadyEnded": "Essa faixa já terminou.",
-      "roomHasStretches": "Há terapeutas com faixas nesta sala no mapa. Muda-as primeiro.",
+      "roomHasStretches": "Há terapeutas com horário nesta sala no mapa. Muda-os primeiro.",
       "failed": "Não foi possível guardar."
     }
   }
