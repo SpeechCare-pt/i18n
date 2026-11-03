@@ -164,6 +164,31 @@
           "kindNotAttestable": "Solo el consentimiento de cuidados se declara en papel.",
           "invalidEdition": "Esa edición del papel no existe."
         }
+      },
+      "void": {
+        "action": "Anular",
+        "aria": "Anular {{purpose}}",
+        "actionDated": "Anular ({{date}})",
+        "ariaDated": "Anular {{purpose}} firmado el {{date}}",
+        "title": "¿Anular {{purpose}}?",
+        "body": "Usa esto solo si el registro se hizo por error. La línea queda en el historial, con la fecha, quién la anuló y el motivo. Quien firmó no retiró nada.",
+        "reason": "Motivo",
+        "reasonPlaceholder": "Ej.: registrado en el paciente equivocado",
+        "reasonHint": "Sin nombres ni datos de salud. Solo recepción y gestión ven el motivo.",
+        "reasonTooShort": "Motivo (mínimo 3 letras)",
+        "reasonTooLong": "El motivo es demasiado largo (máximo 200 letras).",
+        "submit": "Anular",
+        "cancel": "Mantener",
+        "done": "Registro anulado.",
+        "failed": "No se pudo anular. Inténtalo otra vez.",
+        "voided": "Anulado por error el {{date}} por {{name}}",
+        "voidedOn": "Anulado el {{date}}",
+        "voidedReason": "Motivo: {{reason}}",
+        "errors": {
+          "alreadyRevoked": "Este consentimiento ya lo revocó la familia. No se anula.",
+          "alreadyVoided": "Este registro ya está anulado.",
+          "noSuchConsent": "Este registro ya no existe."
+        }
       }
     },
     "team": "Atendido por",

@@ -18,6 +18,14 @@
       "body_one": "{{actor}} tocou em {{count}} ficha a {{day}}.",
       "body_other": "{{actor}} tocou em {{count}} fichas a {{day}}."
     },
+    "consentVoid": {
+      "label": "Consentimento anulado",
+      "body": "{{actor}} anulou um consentimento de {{patient}} registado por engano.",
+      "bodyNoPatient": "{{actor}} anulou um consentimento registado por engano.",
+      "reason": "Motivo: {{reason}}",
+      "noReason": "Sem motivo registado.",
+      "resigned": "Foi assinado outro da mesma finalidade nos 7 dias seguintes."
+    },
     "seeTrail": "Ver o que fez"
   },
   "trail": {
@@ -53,6 +61,7 @@
       "share": "Deu acesso à ficha",
       "consentGrant": "Registou consentimento",
       "consentRevoke": "Revogou um consentimento",
+      "consentVoid": "Anulou um consentimento registado por engano",
       "shareRevoke": "Retirou o acesso à ficha",
       "breakGlass": "Abriu a ficha por urgência",
       "migrationSeed": "Veio da migração"

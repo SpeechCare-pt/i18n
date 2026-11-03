@@ -83,7 +83,21 @@
     "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita.",
     "tooManyOccurrences": "Una serie no puede tener más de 52 consultas. Elige una fecha final más cercana.",
     "absent": "{{name}} está ausente a esta hora.",
-    "absentConfirm": "Agendar igual"
+    "absentConfirm": "Agendar igual",
+    "estimate": {
+      "title": "Estimación",
+      "hint": "El precio de cada cita, con los acuerdos que ya se aplican a este paciente.",
+      "assessment": "Evaluación",
+      "followUp": "Seguimiento",
+      "pickFollowUp": "Cita de seguimiento",
+      "pickPlaceholder": "Elegir cita",
+      "agreement": "Acuerdo aplicado",
+      "noAgreement": "sin acuerdo",
+      "unset": "precio por definir",
+      "nonBillable": "no se factura",
+      "total": "Total estimado",
+      "totalPartial": "Total de las citas con precio"
+    }
   },
   "absentRefusal": "{{name}} está ausente en ese momento. ¿Quieres agendar igual?",
   "conflicts": {
@@ -499,5 +513,32 @@
       "chargeRaised": "El cobro del mes ya se emitió.",
       "notAReplacement": "Esta sesión no es una reposición."
     }
+  },
+  "print": {
+    "button": "Imprimir el día",
+    "title": "Agenda del {{date}}",
+    "printedBy": "Impreso por {{name}} a las {{time}}",
+    "empty": "No hay citas para imprimir este día.",
+    "unassigned": "Sin terapeuta",
+    "columns": {
+      "time": "Hora",
+      "patient": "Paciente",
+      "place": "Lugar",
+      "state": "Estado"
+    }
+  },
+  "cardOptions": {
+    "label": "Tarjetas",
+    "menuLabel": "Qué mostrar en cada tarjeta",
+    "hint": "Solo cambia tu pantalla, en este ordenador.",
+    "name": "El nombre del paciente aparece siempre.",
+    "place": "Mostrar el lugar",
+    "remote": "Mostrar la marca de en línea",
+    "status": "Mostrar la marca de estado",
+    "series": "Mostrar la marca de serie",
+    "arrears": "Marcar las tarjetas con el mes anterior sin pagar",
+    "reset": "Restablecer",
+    "seriesMark": "Sesión de serie",
+    "arrearsMark": "Mes anterior por regularizar"
   }
 }
