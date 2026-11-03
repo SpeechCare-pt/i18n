@@ -1,6 +1,5 @@
 {
   "title": "Consentimiento",
-  "loading": "Abriendo…",
   "ready": {
     "greeting": "Hola, {{guardian}}.",
     "intro": "{{org}} te pide tu consentimiento para prestar cuidados a {{child}}.",
@@ -8,8 +7,7 @@
     "validUntil": "Este enlace vale hasta el {{date}}.",
     "readFull": "Leer el texto completo",
     "accept": "Acepto",
-    "decline": "Prefiero en recepción",
-    "sending": "Enviando…"
+    "decline": "Prefiero en recepción"
   },
   "text": {
     "careProvision": {
