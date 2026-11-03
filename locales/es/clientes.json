@@ -168,7 +168,7 @@
       "void": {
         "action": "Anular",
         "aria": "Anular {{purpose}}",
-        "actionDated": "Anular la del {{date}}",
+        "actionDated": "Anular ({{date}})",
         "ariaDated": "Anular {{purpose}} firmado el {{date}}",
         "title": "¿Anular {{purpose}}?",
         "body": "Usa esto solo si el registro se hizo por error. La línea queda en el historial, con la fecha, quién la anuló y el motivo. Quien firmó no retiró nada.",
