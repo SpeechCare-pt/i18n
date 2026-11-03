@@ -202,6 +202,8 @@
   "expiring": {
     "title": "Vão ser apagados nos próximos {{days}} dias",
     "hint": "Seis meses depois do último contacto, o pedido e a ficha da criança são apagados. Um contacto registado faz o prazo recomeçar.",
+    "count_one": "{{count}} pedido a apagar nos próximos {{days}} dias",
+    "count_other": "{{count}} pedidos a apagar nos próximos {{days}} dias",
     "empty": "Nada para apagar neste período.",
     "deleteOn": "será apagado a {{date}}",
     "noContact": "sem contacto registado",
