@@ -536,7 +536,7 @@
     "remote": "Mostrar a marca de online",
     "status": "Mostrar a marca de estado",
     "series": "Mostrar a marca de série",
-    "arrears": "Mostrar o mês anterior por regularizar",
+    "arrears": "Marcar os cartões com o mês anterior por pagar",
     "reset": "Repor",
     "seriesMark": "Sessão de série",
     "arrearsMark": "Mês anterior por regularizar"
