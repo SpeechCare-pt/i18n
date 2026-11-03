@@ -130,7 +130,9 @@
     "figureOutOfRange": "El importe es demasiado grande para aprobar.",
     "monthTruncated": "Este mes tiene más registros de los que la pantalla puede leer, así que el importe no es fiable. No se puede aprobar.",
     "tooManyAdjustments": "Este profesional ya tiene el máximo de ajustes este mes.",
-    "invalidMonth": "Ese mes no es válido."
+    "invalidMonth": "Ese mes no es válido.",
+    "monthNotApproved": "No todas las personas con importe a pagar están aprobadas, así que no hay archivo. La pantalla ya está actualizada.",
+    "payoutMonthOpen": "El mes todavía no ha terminado, así que el archivo aún no se puede generar."
   },
   "status": {
     "open": "Abierto",
@@ -161,5 +163,25 @@
     "send": "Devolver",
     "sending": "Devolviendo…",
     "cancel": "Cancelar"
+  },
+  "payout": {
+    "title": "Archivo de pago",
+    "hint": "El archivo solo sale cuando todas las personas con importe a pagar están aprobadas; lleva el importe y el IBAN aprobados.",
+    "download": "Descargar CSV",
+    "downloading": "Descargando…",
+    "rows_zero": "Ningún profesional con IBAN, {{total}}",
+    "rows_one": "1 profesional, {{total}}",
+    "rows_other": "{{count}} profesionales, {{total}}",
+    "monthOpen": "El mes todavía no ha terminado, así que el archivo aún no se puede generar.",
+    "missingIban": {
+      "title": "Sin IBAN, quedan fuera del archivo",
+      "line": "{{name}}: {{amount}}",
+      "fix": "Rellena el IBAN en el perfil, devuélvelo para ajuste y apruébalo otra vez."
+    },
+    "csv": {
+      "name": "nombre",
+      "iban": "iban",
+      "amount": "importe"
+    }
   }
 }
