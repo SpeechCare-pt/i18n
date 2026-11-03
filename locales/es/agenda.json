@@ -512,5 +512,17 @@
       "place": "Lugar",
       "state": "Estado"
     }
+  },
+  "cardOptions": {
+    "label": "Tarjetas",
+    "menuLabel": "Qué mostrar en cada tarjeta",
+    "hint": "Solo cambia tu pantalla, en este ordenador.",
+    "name": "El nombre del paciente aparece siempre.",
+    "place": "Lugar",
+    "remote": "Marca de en línea",
+    "status": "Marca de estado",
+    "series": "Marca de serie",
+    "arrears": "Mes anterior por regularizar",
+    "reset": "Restablecer"
   }
 }
