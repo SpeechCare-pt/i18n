@@ -88,5 +88,11 @@
     "days_one": "{{count}} dia",
     "days_other": "{{count}} dias",
     "underADay": "menos de um dia"
+  },
+  "tabs": {
+    "label": "Secções",
+    "access": "Acessos",
+    "hours": "Horas perdidas",
+    "adherence": "Adesão"
   }
 }
