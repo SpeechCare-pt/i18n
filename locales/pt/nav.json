@@ -20,7 +20,8 @@
     "honorarios": "Honorários",
     "paineis": "Painéis",
     "admin": "Admin",
-    "chegadas": "Chegadas"
+    "chegadas": "Chegadas",
+    "equipa": "Equipa"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -48,5 +49,15 @@
   "followUpsBadge_other": "{{count}} seguimentos precisam de atenção",
   "arrivalsBadge_zero": "Ninguém à espera",
   "arrivalsBadge_one": "{{count}} pessoa à espera",
-  "arrivalsBadge_other": "{{count}} pessoas à espera"
+  "arrivalsBadge_other": "{{count}} pessoas à espera",
+  "unit": {
+    "label": "Unidade",
+    "showing": "A mostrar: {{name}}",
+    "all": "Todas as unidades",
+    "hint": "Escolhe a unidade que a agenda, a caixa e as salas mostram por defeito."
+  },
+  "workingAs": {
+    "label": "A trabalhar como",
+    "all": "Todos os papéis"
+  }
 }
