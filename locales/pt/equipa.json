@@ -1,0 +1,99 @@
+{
+  "title": "Equipa",
+  "lede": "Quem trabalha na clínica, com que papéis e em que unidades.",
+  "loading": "A carregar…",
+  "empty": "Ainda não há ninguém na equipa.",
+  "truncated": "A lista mostra só uma parte da equipa.",
+  "columns": {
+    "name": "Nome",
+    "roles": "Papéis",
+    "sites": "Unidades",
+    "status": "Estado",
+    "actions": "Ações"
+  },
+  "status": {
+    "active": "Ativo",
+    "left": "Saiu"
+  },
+  "roles": {
+    "technician": "Terapeuta",
+    "reception": "Receção",
+    "coordination": "Coordenação",
+    "direction": "Direção",
+    "admin": "Admin",
+    "clinicalOwner": "Responsável clínico"
+  },
+  "addRole": {
+    "label": "Acrescentar papel",
+    "choose": "Escolhe um papel",
+    "submit": "Acrescentar",
+    "carries": "O novo papel fica nestas unidades: {{sites}}."
+  },
+  "removeRole": "Retirar o papel {{role}}",
+  "leave": "Retirar o acesso",
+  "invite": {
+    "open": "Convidar",
+    "title": "Convidar para a equipa",
+    "email": "Email",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "role": "Papel",
+    "submit": "Criar convite",
+    "busy": "A criar…",
+    "linkLabel": "Link do convite",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "note": "Não é enviado nenhum email. Copia o link e entrega-o à pessoa.",
+    "close": "Fechar"
+  },
+  "offboard": {
+    "title": "Retirar o acesso a {{name}}",
+    "checking": "A verificar…",
+    "lede": "Isto termina o acesso desta pessoa a esta organização. Nada do que fez se apaga.",
+    "nothingReassigned": "Nada é reatribuído: o que fica por fazer continua no nome da pessoa até alguém o mudar.",
+    "lists": {
+      "episodes": "Processos abertos",
+      "assignments": "Utentes atribuídos",
+      "followUps": "Seguimentos abertos",
+      "tasks": "Tarefas atribuídas",
+      "futureSessions": "Sessões marcadas",
+      "sessionsWithoutNote": "Sessões dos últimos 90 dias sem nota"
+    },
+    "nothing": "nada pendente",
+    "atLeast": "{{count}} ou mais",
+    "shown": "A mostrar os primeiros {{count}}",
+    "confirm": "Retirar o acesso",
+    "cancel": "Cancelar",
+    "busy": "A guardar…"
+  },
+  "sites": {
+    "elsewhere": "Outra unidade",
+    "all": "Todas as unidades",
+    "edit": "Alterar unidades",
+    "hint": "Sem escolha, a pessoa vê todas as unidades.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "outside_one": "{{count}} sessão futura fica fora destas unidades.",
+    "outside_other": "{{count}} sessões futuras ficam fora destas unidades."
+  },
+  "idle": {
+    "label": "Terminar a sessão de toda a equipa após inatividade (minutos)",
+    "help": "Deixa vazio para nunca terminar. Entre 1 e 480.",
+    "save": "Guardar",
+    "saved": "Guardado"
+  },
+  "errors": {
+    "outranks": "Esta pessoa tem um papel acima do teu.",
+    "lastRole": "É o último papel desta pessoa. Retira-lhe o acesso.",
+    "lastAdmin": "A organização precisa de pelo menos uma pessoa ativa com direção ou admin.",
+    "self": "Não podes fazer isto à tua própria conta.",
+    "outsideYourSites": "Esta pessoa trabalha em unidades que não são as tuas.",
+    "reactivationNotAllowed": "Só quem tem um papel acima do que esta pessoa tinha pode voltar a dar-lhe acesso.",
+    "notFound": "Esta pessoa já não está na equipa.",
+    "roleTooSenior": "Não podes dar um papel acima do teu.",
+    "roleNotGrantable": "Esse papel não se pode dar aqui.",
+    "siteNotAllowed": "Essa unidade está fora das tuas.",
+    "idleTimeoutRange": "Indica um número inteiro entre 1 e 480.",
+    "failed": "Não foi possível concluir. Tenta novamente."
+  }
+}

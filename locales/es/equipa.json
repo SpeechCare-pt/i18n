@@ -1,0 +1,99 @@
+{
+  "title": "Equipo",
+  "lede": "Quién trabaja en la clínica, con qué roles y en qué unidades.",
+  "loading": "Cargando…",
+  "empty": "Todavía no hay nadie en el equipo.",
+  "truncated": "La lista muestra solo una parte del equipo.",
+  "columns": {
+    "name": "Nombre",
+    "roles": "Roles",
+    "sites": "Unidades",
+    "status": "Estado",
+    "actions": "Acciones"
+  },
+  "status": {
+    "active": "Activo",
+    "left": "Dado de baja"
+  },
+  "roles": {
+    "technician": "Terapeuta",
+    "reception": "Recepción",
+    "coordination": "Coordinación",
+    "direction": "Dirección",
+    "admin": "Admin",
+    "clinicalOwner": "Responsable clínico"
+  },
+  "addRole": {
+    "carries": "El nuevo rol queda en estas unidades: {{sites}}.",
+    "label": "Añadir rol",
+    "choose": "Elige un rol",
+    "submit": "Añadir"
+  },
+  "removeRole": "Quitar el rol {{role}}",
+  "leave": "Dar de baja",
+  "invite": {
+    "open": "Invitar",
+    "title": "Invitar al equipo",
+    "email": "Correo",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "role": "Rol",
+    "submit": "Crear invitación",
+    "busy": "Creando…",
+    "linkLabel": "Enlace de la invitación",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "note": "No se envía ningún correo. Copia el enlace y entrégaselo a la persona.",
+    "close": "Cerrar"
+  },
+  "offboard": {
+    "title": "Dar de baja a {{name}}",
+    "checking": "Comprobando…",
+    "lede": "Esto termina el acceso de esta persona a esta organización. Nada de lo que hizo se borra.",
+    "nothingReassigned": "No se reasigna nada: lo que queda pendiente sigue a nombre de la persona hasta que alguien lo cambie.",
+    "lists": {
+      "episodes": "Procesos abiertos",
+      "assignments": "Pacientes asignados",
+      "followUps": "Seguimientos abiertos",
+      "tasks": "Tareas asignadas",
+      "futureSessions": "Sesiones programadas",
+      "sessionsWithoutNote": "Sesiones de los últimos 90 días sin nota"
+    },
+    "nothing": "nada pendiente",
+    "atLeast": "{{count}} o más",
+    "shown": "Mostrando los primeros {{count}}",
+    "confirm": "Dar de baja",
+    "cancel": "Cancelar",
+    "busy": "Guardando…"
+  },
+  "sites": {
+    "elsewhere": "Otra unidad",
+    "all": "Todas las unidades",
+    "edit": "Cambiar unidades",
+    "hint": "Sin elección, la persona ve todas las unidades.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "outside_one": "{{count}} sesión futura queda fuera de estas unidades.",
+    "outside_other": "{{count}} sesiones futuras quedan fuera de estas unidades."
+  },
+  "idle": {
+    "label": "Cerrar la sesión de todo el equipo tras inactividad (minutos)",
+    "help": "Déjalo vacío para no cerrar nunca. Entre 1 y 480.",
+    "save": "Guardar",
+    "saved": "Guardado"
+  },
+  "errors": {
+    "outranks": "Esta persona tiene un rol por encima del tuyo.",
+    "lastRole": "Es el último rol de esta persona. Da de baja su acceso.",
+    "lastAdmin": "La organización necesita al menos una persona activa con dirección o admin.",
+    "outsideYourSites": "Esta persona trabaja en unidades que no son las tuyas.",
+    "reactivationNotAllowed": "Solo quien tiene un rol por encima del que tenía esta persona puede volver a darle acceso.",
+    "self": "No puedes hacer esto con tu propia cuenta.",
+    "notFound": "Esta persona ya no está en el equipo.",
+    "roleTooSenior": "No puedes dar un rol por encima del tuyo.",
+    "roleNotGrantable": "Ese rol no se puede dar aquí.",
+    "siteNotAllowed": "Esa unidad queda fuera de las tuyas.",
+    "idleTimeoutRange": "Indica un número entero entre 1 y 480.",
+    "failed": "No se pudo completar. Inténtalo de nuevo."
+  }
+}

@@ -20,7 +20,8 @@
     "honorarios": "Honorarios",
     "paineis": "Paneles",
     "admin": "Admin",
-    "chegadas": "Llegadas"
+    "chegadas": "Llegadas",
+    "equipa": "Equipo"
   },
   "search": "Buscar…",
   "orgLabel": "Organización",
@@ -48,5 +49,14 @@
   "followUpsBadge_other": "{{count}} seguimientos necesitan atención",
   "arrivalsBadge_zero": "Nadie en espera",
   "arrivalsBadge_one": "{{count}} persona en espera",
-  "arrivalsBadge_other": "{{count}} personas en espera"
+  "arrivalsBadge_other": "{{count}} personas en espera",
+  "unit": {
+    "label": "Unidad",
+    "showing": "Mostrando: {{name}}",
+    "all": "Todas las unidades"
+  },
+  "workingAs": {
+    "label": "Trabajando como",
+    "all": "Todos los roles"
+  }
 }
