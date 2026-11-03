@@ -19,8 +19,7 @@
   },
   "verify": {
     "title": "Confirma tu correo",
-    "body": "Para aceptar la invitación tienes que confirmar el correo. Hemos enviado un enlace a tu correo, ábrelo y vuelves a esta página.",
-    "resend": "Enviar el enlace otra vez"
+    "body": "Para aceptar la invitación tienes que confirmar el correo. Te hemos enviado un enlace: ábrelo y vuelve a esta página."
   },
   "errors": {
     "generic": "No se pudo aceptar la invitación. Inténtalo de nuevo o contacta con la clínica.",

@@ -19,8 +19,7 @@
   },
   "verify": {
     "title": "Confirma o teu email",
-    "body": "Para aceitares o convite tens de confirmar o email. Enviámos um link para o teu email, abre-o e voltas a esta página.",
-    "resend": "Enviar o link outra vez"
+    "body": "Para aceitares o convite tens de confirmar o email. Enviámos-te um link: abre-o e volta a esta página."
   },
   "errors": {
     "generic": "Não foi possível aceitar o convite. Tenta novamente ou contacta a clínica.",
