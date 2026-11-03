@@ -163,5 +163,64 @@
       "imageUse": "Uso de imagem"
     },
     "open": "Abrir ficha"
+  },
+  "link": {
+    "tabs": {
+      "label": "Listas",
+      "soon": "Chegam em breve",
+      "all": "Todas as famílias sem consentimento",
+      "sent": "Ligações enviadas"
+    },
+    "state": {
+      "none": "Nada enviado",
+      "sent": "Enviado",
+      "opened": "Aberto",
+      "signed": "Assinado",
+      "declined": "Prefere na receção",
+      "expired": "Expirado",
+      "noEmail": "Sem email",
+      "mailFailed": "Falhou o envio",
+      "withdrawn": "Retirou o consentimento",
+      "cancelled": "Cancelado",
+      "emailChanged": "Cancelado: o email mudou",
+      "replaced": "Substituído"
+    },
+    "select": "Escolher {{name}}",
+    "send_one": "Enviar ligação a {{count}} família",
+    "send_other": "Enviar ligação a {{count}} famílias",
+    "sending": "A enviar…",
+    "resend": "Reenviar",
+    "cancel": "Cancelar ligação",
+    "loadMore": "Carregar mais",
+    "loadingMore": "A carregar…",
+    "capacity": "Margem este mês: {{headroom}}. Em fila: {{pending}}. Por enviar: o resto da lista.",
+    "result": {
+      "sent_one": "{{count}} enviada",
+      "sent_other": "{{count}} enviadas",
+      "held": "{{count}} em espera por limite do mês",
+      "noEmail": "{{count}} sem email",
+      "withdrawn": "{{count}} retiraram o consentimento",
+      "alreadyCurrent": "{{count}} já assinaram",
+      "recentlySent": "{{count}} com ligação recente",
+      "notReachable": "{{count}} fora do teu alcance",
+      "mailNotSent": "{{count}} sem envio"
+    },
+    "guardian": "Para {{name}}",
+    "sentAt": "enviado a {{date}}",
+    "openedAt": "aberto a {{date}}",
+    "respondedAt": "respondido a {{date}}",
+    "emptyAll": "Todas as famílias têm consentimento.",
+    "emptySent": "Ainda não foi enviada nenhuma ligação.",
+    "failed": "Não foi possível enviar. Tenta outra vez.",
+    "resent": "Nova ligação enviada.",
+    "cancelled": "Ligação cancelada.",
+    "errors": {
+      "held": "O limite de emails deste mês está atingido. Tenta amanhã ou no próximo mês.",
+      "withdrawn": "A família retirou o consentimento. Pergunta-lhe na receção.",
+      "alreadyCurrent": "Esta família já tem consentimento.",
+      "noEmail": "Sem email de um responsável que assine.",
+      "mailNotSent": "O email não foi posto em fila. Tenta outra vez.",
+      "notReachable": "Não tens acesso a esta família."
+    }
   }
 }

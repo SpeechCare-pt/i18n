@@ -138,7 +138,8 @@
       "renew": "Renovar",
       "renewHint": "Queda registrada una firma nueva con el mismo nombre. La anterior se mantiene.",
       "method": {
-        "paperOnFile": "Papel archivado, confirmado por recepción el {{date}}"
+        "paperOnFile": "Papel archivado, confirmado por recepción el {{date}}",
+        "emailLink": "Firmado por correo por {{name}} el {{date}}"
       },
       "attest": {
         "title": "Ya está firmado en papel",
@@ -187,7 +188,8 @@
         "errors": {
           "alreadyRevoked": "Este consentimiento ya lo revocó la familia. No se anula.",
           "alreadyVoided": "Este registro ya está anulado.",
-          "noSuchConsent": "Este registro ya no existe."
+          "noSuchConsent": "Este registro ya no existe.",
+          "signedByFamily": "Lo firmó la propia familia, por correo. No se anula. Si hace falta, revócalo."
         }
       }
     },

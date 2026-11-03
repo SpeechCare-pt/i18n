@@ -138,7 +138,8 @@
       "renew": "Renovar",
       "renewHint": "Fica registada uma assinatura nova com o mesmo nome. A anterior mantém-se.",
       "method": {
-        "paperOnFile": "Papel arquivado, confirmado pela receção a {{date}}"
+        "paperOnFile": "Papel arquivado, confirmado pela receção a {{date}}",
+        "emailLink": "Assinado por email pelo/a {{name}} a {{date}}"
       },
       "attest": {
         "title": "Já está assinado em papel",
@@ -187,7 +188,8 @@
         "errors": {
           "alreadyRevoked": "Este consentimento já foi revogado pela família. Não se anula.",
           "alreadyVoided": "Este registo já foi anulado.",
-          "noSuchConsent": "Este registo já não existe."
+          "noSuchConsent": "Este registo já não existe.",
+          "signedByFamily": "Foi a própria família que assinou, por email. Não se anula. Se for preciso, revoga."
         }
       }
     },
