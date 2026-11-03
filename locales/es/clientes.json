@@ -448,5 +448,10 @@
   },
   "history": {
     "approximate": "Algunas notas llevan la fecha en que se escribieron, porque la sesión a la que pertenecen es demasiado antigua para leerla aquí."
+  },
+  "sns": {
+    "copy": "Copiar nº de historia",
+    "copied": "Copiado",
+    "copyFailed": "No se pudo copiar. El número quedó seleccionado, solo tienes que copiarlo."
   }
 }
