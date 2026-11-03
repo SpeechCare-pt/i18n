@@ -102,14 +102,21 @@
     "issuedAt": "emitido a {{date}}",
     "issuedBy": "por {{name}}",
     "covers": "cobre {{from}} a {{to}}",
-    "open": "Abrir"
+    "open": "Abrir",
+    "reference": "ref. {{reference}}",
+    "voided": "anulado"
   },
   "page": {
     "back": "Voltar à ficha",
     "print": "Imprimir",
     "issuedOn": "Emitido a {{date}}",
     "professionalId": "Cédula profissional {{id}}",
-    "notFound": "Documento não encontrado."
+    "notFound": "Documento não encontrado.",
+    "reference": "Referência {{reference}}",
+    "voided": "ANULADO",
+    "voidedOn": "Anulado a {{date}}",
+    "voidReason": "Motivo: {{reason}}",
+    "signatureAlt": "Assinatura de {{name}}"
   },
   "errors": {
     "failed": "Não foi possível gravar. Tenta outra vez.",
@@ -127,7 +134,8 @@
     "documentOutOfSpecialty": "Este documento é de outra área clínica.",
     "notOnCareTeam": "Não estás na equipa deste paciente.",
     "tooShort": "Falta preencher um campo.",
-    "tooLong": "Um dos campos é comprido demais."
+    "tooLong": "Um dos campos é comprido demais.",
+    "reportNotReadable": "Não tens acesso para emitir este relatório. Pede acesso ao paciente a quem o coordena."
   },
   "pending": {
     "title": "Consentimentos por assinar",
@@ -222,6 +230,40 @@
       "noEmail": "Sem email de um responsável que assine.",
       "mailNotSent": "O email não foi posto em fila. Tenta outra vez.",
       "notReachable": "Não tens acesso a esta família."
+    }
+  },
+  "signature": {
+    "title": "A minha assinatura",
+    "hint": "Imagem PNG ou JPEG, até 512 KB. Fica no relatório que emitires; trocá-la depois não muda os que já saíram.",
+    "none": "Sem imagem. O relatório sai com o teu nome e a cédula.",
+    "choose": "Escolher imagem",
+    "replace": "Trocar imagem",
+    "remove": "Retirar",
+    "uploading": "A enviar…",
+    "saved": "Assinatura guardada.",
+    "removed": "Assinatura retirada.",
+    "alt": "A tua assinatura",
+    "errors": {
+      "failed": "Não foi possível guardar a assinatura. Tenta outra vez.",
+      "fileMissing": "O ficheiro não chegou. Escolhe-o outra vez.",
+      "uploadTooOld": "O envio demorou demasiado. Escolhe o ficheiro outra vez.",
+      "badFileType": "Só se aceitam imagens PNG e JPEG.",
+      "fileTooLarge": "A imagem passa os 512 KB.",
+      "storageInUse": "Este ficheiro já está a ser usado noutro sítio. Escolhe outro.",
+      "noProfile": "Ainda não tens perfil de técnico. Pede à direção que o crie."
+    }
+  },
+  "void": {
+    "action": "Anular",
+    "reason": "Motivo",
+    "reasonHint": "Entre 3 e 200 caracteres. Não escrevas nomes nem dados de saúde.",
+    "confirm": "Anular documento",
+    "cancel": "Cancelar",
+    "note": "O número fica usado e o texto não muda. Para corrigir, emite um novo.",
+    "errors": {
+      "failed": "Não foi possível anular. Tenta outra vez.",
+      "alreadyVoided": "Este documento já está anulado.",
+      "reasonLength": "O motivo tem de ter entre 3 e 200 caracteres."
     }
   }
 }
