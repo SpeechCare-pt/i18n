@@ -448,5 +448,20 @@
   },
   "history": {
     "approximate": "Algumas notas estão datadas pelo dia em que foram escritas, porque a sessão a que pertencem é demasiado antiga para ser lida aqui."
+  },
+  "sns": {
+    "copy": "Copiar nº de utente",
+    "copied": "Copiado",
+    "copyFailed": "Não deu para copiar. O número ficou selecionado, é só copiares."
+  },
+  "recados": {
+    "title": "Notas novas da equipa",
+    "patient_one": "{{count}} nota nova",
+    "patient_other": "{{count}} notas novas",
+    "forYou_one": "{{count}} para ti",
+    "forYou_other": "{{count}} para ti",
+    "truncated": "Há mais notas novas do que as que aqui cabem.",
+    "patient_zero": "Sem notas novas",
+    "forYou_zero": "Nenhuma para ti"
   }
 }

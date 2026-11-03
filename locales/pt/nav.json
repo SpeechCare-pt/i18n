@@ -21,7 +21,8 @@
     "paineis": "Painéis",
     "admin": "Admin",
     "chegadas": "Chegadas",
-    "equipa": "Equipa"
+    "equipa": "Equipa",
+    "materiais": "Materiais"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -58,5 +59,8 @@
   "workingAs": {
     "label": "A trabalhar como",
     "all": "Todos os papéis"
-  }
+  },
+  "teamNotesBadge_zero": "Sem notas novas da equipa",
+  "teamNotesBadge_one": "{{count}} nota nova da equipa",
+  "teamNotesBadge_other": "{{count}} notas novas da equipa"
 }

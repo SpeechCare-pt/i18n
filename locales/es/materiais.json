@@ -1,0 +1,80 @@
+{
+  "title": "Materiales",
+  "lede": "Fichas, juegos y enlaces que el equipo usa en las sesiones.",
+  "noPatientData": "No subas datos de pacientes.",
+  "loading": "Cargando…",
+  "empty": "Todavía no hay materiales.",
+  "truncated": "La lista muestra solo una parte de los materiales.",
+  "filters": {
+    "subject": "Especialidad",
+    "anySubject": "Todas",
+    "age": "Edad del paciente (años)",
+    "tag": "Buscar por etiqueta"
+  },
+  "groups": {
+    "mine": "Míos",
+    "team": "Del equipo"
+  },
+  "kind": {
+    "file": "Archivo",
+    "link": "Enlace"
+  },
+  "open": "Abrir",
+  "retire": "Retirar",
+  "retiring": "Retirando…",
+  "retireConfirm": "¿Retirar este material? Un archivo se borra del todo.",
+  "ageRange": "{{from}} a {{to}}",
+  "ageFrom": "desde {{from}}",
+  "ageTo": "hasta {{to}}",
+  "anyAge": "Cualquier edad",
+  "add": {
+    "title": "Añadir material",
+    "open": "Añadir",
+    "titleLabel": "Título",
+    "source": "Origen",
+    "file": "Archivo (PDF o imagen, hasta 15 MB)",
+    "link": "Enlace (https)",
+    "subjects": "Especialidades",
+    "subjectsHint": "Si no marcas ninguna, sirve para todas.",
+    "ageFrom": "Edad mínima (años)",
+    "ageTo": "Edad máxima (años)",
+    "tags": "Etiquetas",
+    "tagsHint": "Separadas por comas.",
+    "share": "Compartir con el equipo",
+    "shareHint": "Sin esto, solo lo ves tú.",
+    "submit": "Guardar material",
+    "saving": "Guardando…",
+    "saved": "Material guardado.",
+    "cancel": "Cancelar"
+  },
+  "session": {
+    "title": "Materiales",
+    "summary": "Materiales para la edad de este paciente",
+    "empty": "No hay materiales para esta edad."
+  },
+  "errors": {
+    "needsOneSource": "Elige un archivo o escribe un enlace, solo uno de los dos.",
+    "badFileType": "Solo se aceptan PDF, PNG, JPEG y WebP.",
+    "fileTooLarge": "El archivo supera los 15 MB.",
+    "fileMissing": "La subida no terminó. Inténtalo de nuevo.",
+    "badLink": "El enlace debe empezar por https://.",
+    "badTitle": "Pon un título al material, de hasta 120 caracteres.",
+    "badAgeRange": "La edad mínima no puede ser mayor que la máxima.",
+    "subjectNotInOrg": "Esa especialidad no existe.",
+    "badTags": "Hay demasiadas etiquetas o son demasiado largas.",
+    "cannotRetire": "Solo quien lo creó o la coordinación puede retirar este material.",
+    "uploadFailed": "Falló la subida del archivo. Inténtalo de nuevo.",
+    "failed": "No se pudo guardar. Inténtalo de nuevo.",
+    "uploadNotRegistered": "El archivo no quedó registrado. Elígelo otra vez.",
+    "storageInUse": "Ese archivo ya está en uso.",
+    "uploadTooOld": "El envío tardó demasiado. Elige el archivo otra vez.",
+    "tooManyUploads": "Tienes demasiados envíos sin usar. Guarda los materiales pendientes o espera un día."
+  },
+  "emptyFiltered": "Ningún material con estos filtros.",
+  "filteredTruncated": "Solo vemos una parte de los materiales, así que el filtro puede dejar alguno fuera.",
+  "subjectsAll": "Todas las especialidades",
+  "ageYears_one": "{{count}} año",
+  "ageYears_other": "{{count}} años",
+  "ageMonths_one": "{{count}} mes",
+  "ageMonths_other": "{{count}} meses"
+}

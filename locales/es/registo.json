@@ -59,11 +59,86 @@
       "diagnosis": "Diagnóstico",
       "journal": "Diario",
       "assessment": "Evaluación",
-      "objectiveProgress": "Objetivos"
+      "objectiveProgress": "Objetivos",
+      "handover": "Para la siguiente",
+      "teamNote": "Equipo"
     },
     "noText": "Sin texto.",
     "expand": "Ver todo",
     "collapse": "Ver menos",
     "noAccess": "No puedes leer el registro clínico de este paciente. Necesitas autorización de acceso."
+  },
+  "handover": {
+    "toggle": "Dejar para la siguiente",
+    "hint": "Queda a la vista de quien abra la próxima sesión de este paciente.",
+    "work": "Qué queda por trabajar",
+    "workPlaceholder": "Lo que quedó a medias o merece retomarse.",
+    "prepare": "Material que preparar",
+    "preparePlaceholder": "Cartas, juegos, fichas.",
+    "restricted": "Restringida",
+    "submit": "Guardar para la siguiente",
+    "saving": "Guardando…",
+    "saved": "Dejado para la próxima sesión.",
+    "tooLong": "El texto del material es demasiado largo. El límite es {{limit}} caracteres.",
+    "band": {
+      "title": "Para esta sesión",
+      "from": "Dejado en la sesión del {{date}}",
+      "prepare": "Material que preparar"
+    },
+    "errors": {
+      "emptyNote": "Escribe qué queda por trabajar.",
+      "handoverNeedsSession": "Solo se deja algo para la siguiente desde una sesión.",
+      "failed": "No se pudo guardar. Inténtalo de nuevo.",
+      "appointmentNotThisPatient": "Esa sesión no es de este paciente.",
+      "noSpecialty": "No tienes ninguna especialidad registrada, así que no puedes dejar nada para la siguiente. Habla con coordinación.",
+      "chooseSpecialty": "Elige la especialidad.",
+      "specialtyNotYours": "Esa no es una de tus especialidades."
+    },
+    "specialty": "Especialidad"
+  },
+  "equipa": {
+    "title": "Equipo",
+    "lede": "Notas y recados para quien acompaña a este paciente.",
+    "visibility": "Lo ve quien acompaña al paciente y está autorizado a leer el registro. Para otra especialidad, solo si la familia autorizó compartir con el equipo. No se puede borrar ni editar.",
+    "loading": "Cargando…",
+    "empty": "Todavía no hay notas para el equipo.",
+    "form": {
+      "recado": "Recado para",
+      "nobody": "Nadie en particular",
+      "body": "Escribe la nota",
+      "placeholder": "Lo que el equipo debe saber.",
+      "restricted": "Restringida",
+      "restrictedHint": "Solo quien tenga autorización explícita puede leerla.",
+      "forSession": "En la sesión del {{date}}",
+      "submit": "Publicar",
+      "saving": "Publicando…",
+      "posted": "Publicado.",
+      "specialty": "Especialidad de la nota"
+    },
+    "list": {
+      "to": "Para {{name}}",
+      "toMe": "Para ti",
+      "mine": "Escrita por ti",
+      "session": "En la sesión del {{date}}",
+      "restricted": "Restringida"
+    },
+    "banner_one": "{{count}} nota nueva del equipo",
+    "banner_other": "{{count}} notas nuevas del equipo",
+    "errors": {
+      "tooLong": "La nota es demasiado larga. El límite es {{limit}} caracteres.",
+      "addresseeCannotRead": "Esa persona no puede abrir este registro, así que no puedes dejarle un recado.",
+      "addresseeNotClinical": "Solo puedes dejar recados a quien trabaja en la parte clínica.",
+      "addressedToSelf": "No puedes dejarte un recado a ti mismo.",
+      "siteNotAllowed": "Esa sesión es de una unidad fuera de tu acceso.",
+      "forbidden": "Solo quien acompaña al paciente puede escribir al equipo.",
+      "failed": "No se pudo publicar. Inténtalo de nuevo.",
+      "emptyNote": "Escribe algo antes de publicar.",
+      "appointmentNotThisPatient": "Esa sesión no es de este paciente.",
+      "noSpecialty": "No tienes ninguna especialidad registrada, así que no puedes escribir al equipo. Habla con coordinación.",
+      "chooseSpecialty": "Elige la especialidad de la nota.",
+      "specialtyNotYours": "Esa no es una de tus especialidades.",
+      "markSeenFailed": "No se pudieron marcar las notas como leídas. Vuelve a abrir al paciente."
+    },
+    "banner_zero": "Sin notas nuevas del equipo"
   }
 }

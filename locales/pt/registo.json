@@ -59,11 +59,86 @@
       "diagnosis": "Diagnóstico",
       "journal": "Diário",
       "assessment": "Avaliação",
-      "objectiveProgress": "Objectivos"
+      "objectiveProgress": "Objectivos",
+      "handover": "Para a seguinte",
+      "teamNote": "Equipa"
     },
     "noText": "Sem texto.",
     "expand": "Ver tudo",
     "collapse": "Ver menos",
     "noAccess": "Não consegues ler o registo clínico deste paciente. Precisas de autorização de acesso."
+  },
+  "handover": {
+    "toggle": "Deixar para a seguinte",
+    "hint": "Fica à vista de quem abrir a próxima sessão deste paciente.",
+    "work": "O que fica para trabalhar",
+    "workPlaceholder": "O que ficou a meio ou vale a pena retomar.",
+    "prepare": "Material a preparar",
+    "preparePlaceholder": "Cartas, jogos, fichas.",
+    "restricted": "Restrita",
+    "submit": "Guardar para a seguinte",
+    "saving": "A guardar…",
+    "saved": "Deixado para a próxima sessão.",
+    "tooLong": "O texto do material é demasiado longo. O limite é {{limit}} caracteres.",
+    "band": {
+      "title": "Para esta sessão",
+      "from": "Deixado na sessão de {{date}}",
+      "prepare": "Material a preparar"
+    },
+    "errors": {
+      "emptyNote": "Escreve o que fica para trabalhar.",
+      "handoverNeedsSession": "Só se deixa algo para a seguinte a partir de uma sessão.",
+      "failed": "Não foi possível guardar. Tenta outra vez.",
+      "appointmentNotThisPatient": "Essa sessão não é deste paciente.",
+      "noSpecialty": "Não tens nenhuma especialidade registada, por isso não podes deixar nada para a seguinte. Fala com a coordenação.",
+      "chooseSpecialty": "Escolhe a especialidade.",
+      "specialtyNotYours": "Essa não é uma das tuas especialidades."
+    },
+    "specialty": "Especialidade"
+  },
+  "equipa": {
+    "title": "Equipa",
+    "lede": "Notas e recados para quem acompanha este paciente.",
+    "visibility": "Vê quem acompanha o paciente e está autorizado a ler o registo. Para outra especialidade, só se a família autorizou a partilha com a equipa. Não se pode apagar nem editar.",
+    "loading": "A carregar…",
+    "empty": "Ainda não há notas para a equipa.",
+    "form": {
+      "recado": "Recado para",
+      "nobody": "Ninguém em particular",
+      "body": "Escreve a nota",
+      "placeholder": "O que a equipa deve saber.",
+      "restricted": "Restrita",
+      "restrictedHint": "Só quem tiver autorização explícita consegue ler.",
+      "forSession": "Na sessão de {{date}}",
+      "submit": "Publicar",
+      "saving": "A publicar…",
+      "posted": "Publicado.",
+      "specialty": "Especialidade da nota"
+    },
+    "list": {
+      "to": "Para {{name}}",
+      "toMe": "Para ti",
+      "mine": "Escrita por ti",
+      "session": "Na sessão de {{date}}",
+      "restricted": "Restrita"
+    },
+    "banner_one": "{{count}} nota nova da equipa",
+    "banner_other": "{{count}} notas novas da equipa",
+    "errors": {
+      "tooLong": "A nota é demasiado longa. O limite é {{limit}} caracteres.",
+      "addresseeCannotRead": "Essa pessoa não consegue abrir este registo, por isso não lhe podes deixar um recado.",
+      "addresseeNotClinical": "Só podes deixar recados a quem trabalha na parte clínica.",
+      "addressedToSelf": "Não podes deixar um recado a ti próprio.",
+      "siteNotAllowed": "Essa sessão é de uma unidade fora do teu acesso.",
+      "forbidden": "Só quem acompanha o paciente pode escrever à equipa.",
+      "failed": "Não foi possível publicar. Tenta outra vez.",
+      "emptyNote": "Escreve alguma coisa antes de publicar.",
+      "appointmentNotThisPatient": "Essa sessão não é deste paciente.",
+      "noSpecialty": "Não tens nenhuma especialidade registada, por isso não podes escrever à equipa. Fala com a coordenação.",
+      "chooseSpecialty": "Escolhe a especialidade da nota.",
+      "specialtyNotYours": "Essa não é uma das tuas especialidades.",
+      "markSeenFailed": "Não foi possível marcar as notas como lidas. Volta a abrir o paciente."
+    },
+    "banner_zero": "Sem notas novas da equipa"
   }
 }
