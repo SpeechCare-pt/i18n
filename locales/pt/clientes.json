@@ -168,6 +168,8 @@
       "void": {
         "action": "Anular",
         "aria": "Anular {{purpose}}",
+        "actionDated": "Anular a de {{date}}",
+        "ariaDated": "Anular {{purpose}} assinado a {{date}}",
         "title": "Anular {{purpose}}?",
         "body": "Usa isto só se o registo foi feito por engano. A linha fica no histórico, com a data, quem a anulou e o motivo. Quem assinou não retirou nada.",
         "reason": "Motivo",
@@ -180,7 +182,7 @@
         "done": "Registo anulado.",
         "failed": "Não foi possível anular. Tenta outra vez.",
         "voided": "Anulado por engano a {{date}} por {{name}}",
-        "voidedBy": "Anulado em {{date}}",
+        "voidedOn": "Anulado em {{date}}",
         "voidedReason": "Motivo: {{reason}}",
         "errors": {
           "alreadyRevoked": "Este consentimento já foi revogado pela família. Não se anula.",

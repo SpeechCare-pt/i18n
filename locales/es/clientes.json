@@ -168,6 +168,8 @@
       "void": {
         "action": "Anular",
         "aria": "Anular {{purpose}}",
+        "actionDated": "Anular la del {{date}}",
+        "ariaDated": "Anular {{purpose}} firmado el {{date}}",
         "title": "¿Anular {{purpose}}?",
         "body": "Usa esto solo si el registro se hizo por error. La línea queda en el historial, con la fecha, quién la anuló y el motivo. Quien firmó no retiró nada.",
         "reason": "Motivo",
@@ -180,7 +182,7 @@
         "done": "Registro anulado.",
         "failed": "No se pudo anular. Inténtalo otra vez.",
         "voided": "Anulado por error el {{date}} por {{name}}",
-        "voidedBy": "Anulado el {{date}}",
+        "voidedOn": "Anulado el {{date}}",
         "voidedReason": "Motivo: {{reason}}",
         "errors": {
           "alreadyRevoked": "Este consentimiento ya lo revocó la familia. No se anula.",
