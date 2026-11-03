@@ -59,11 +59,34 @@
       "diagnosis": "Diagnóstico",
       "journal": "Diário",
       "assessment": "Avaliação",
-      "objectiveProgress": "Objectivos"
+      "objectiveProgress": "Objectivos",
+      "handover": "Para a seguinte",
+      "teamNote": "Equipa"
     },
     "noText": "Sem texto.",
     "expand": "Ver tudo",
     "collapse": "Ver menos",
     "noAccess": "Não consegues ler o registo clínico deste paciente. Precisas de autorização de acesso."
+  },
+  "handover": {
+    "toggle": "Deixar para a seguinte",
+    "hint": "Fica à vista de quem abrir a próxima sessão deste paciente.",
+    "work": "O que fica para trabalhar",
+    "workPlaceholder": "O que ficou a meio ou vale a pena retomar.",
+    "prepare": "Material a preparar",
+    "preparePlaceholder": "Cartas, jogos, fichas.",
+    "restricted": "Marcar como restrito",
+    "submit": "Deixar para a seguinte",
+    "saving": "A guardar…",
+    "saved": "Deixado para a próxima sessão.",
+    "empty": "Escreve o que fica para trabalhar.",
+    "tooLong": "O texto do material é demasiado longo. O limite é {{limit}} caracteres.",
+    "needsSession": "Só se deixa algo para a seguinte a partir de uma sessão.",
+    "failed": "Não foi possível guardar. Tenta outra vez.",
+    "band": {
+      "title": "Para esta sessão",
+      "from": "Deixado na sessão de {{date}}",
+      "prepare": "Material a preparar"
+    }
   }
 }
