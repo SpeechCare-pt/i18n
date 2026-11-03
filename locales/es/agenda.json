@@ -354,7 +354,11 @@
     "label": "Vista",
     "day": "Día",
     "week": "Semana",
-    "weekNeedsOne": "Elige un terapeuta para ver la semana."
+    "weekNeedsOne": "Elige un terapeuta para ver la semana.",
+    "byRoom": "Por sala",
+    "byRoomNeedsSite": "Elige una unidad para ver las salas.",
+    "noRoom": "Sin sala",
+    "roomMapTruncated": "El mapa de salas es demasiado grande para leerlo entero, por eso no aparecen las salas."
   },
   "week": {
     "previous": "Semana anterior",
@@ -398,7 +402,10 @@
   "card": {
     "left": "profesional ya no está",
     "waiting": "en espera",
-    "calledIn": "Atendida"
+    "calledIn": "Atendida",
+    "room": "Sala: {{name}}",
+    "arrivalRoom": "Sala de hoy: {{name}}",
+    "mapRoom": "Sala del mapa: {{name}}"
   },
   "history": {
     "title": "Historial de la cita",
@@ -539,6 +546,7 @@
     "arrears": "Marcar las tarjetas con el mes anterior sin pagar",
     "reset": "Restablecer",
     "seriesMark": "Sesión de serie",
-    "arrearsMark": "Mes anterior por regularizar"
+    "arrearsMark": "Mes anterior por regularizar",
+    "room": "Mostrar la sala"
   }
 }
