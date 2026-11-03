@@ -8,7 +8,8 @@
     "previous": "Periodo anterior",
     "next": "Periodo siguiente",
     "today": "Hoy",
-    "quarterOf": "{{quarter}}.º trimestre de {{year}}"
+    "quarterOf": "{{quarter}}.º trimestre de {{year}}",
+    "view": "Vista"
   },
   "site": {
     "label": "Sede",
@@ -106,12 +107,6 @@
       "unresolved": "Por cerrar",
       "missed": "Falta",
       "cancelled": "Cancelada"
-    },
-    "what": {
-      "all": "todas",
-      "technician": "{{name}}",
-      "location": "{{name}}",
-      "room": "{{name}}"
     }
   }
 }

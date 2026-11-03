@@ -8,7 +8,8 @@
     "previous": "Período anterior",
     "next": "Período seguinte",
     "today": "Hoje",
-    "quarterOf": "{{quarter}}.º trimestre de {{year}}"
+    "quarterOf": "{{quarter}}.º trimestre de {{year}}",
+    "view": "Vista"
   },
   "site": {
     "label": "Unidade",
@@ -47,7 +48,7 @@
   },
   "cut": {
     "technician": "Por profissional",
-    "location": "Por local",
+    "location": "Por unidade",
     "subject": "Por especialidade",
     "service": "Por serviço",
     "room": "Por sala",
@@ -61,7 +62,7 @@
       "occupancy": "Ocupação"
     },
     "others": "Outros ({{count}})",
-    "noLocation": "Sem local",
+    "noLocation": "Sem unidade",
     "noSubject": "Sem especialidade",
     "noService": "Sem serviço",
     "noRoom": "Sem sala",
@@ -106,12 +107,6 @@
       "unresolved": "Por fechar",
       "missed": "Falta",
       "cancelled": "Desmarcada"
-    },
-    "what": {
-      "all": "todas",
-      "technician": "{{name}}",
-      "location": "{{name}}",
-      "room": "{{name}}"
     }
   }
 }
