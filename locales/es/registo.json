@@ -136,7 +136,8 @@
       "appointmentNotThisPatient": "Esa sesión no es de este paciente.",
       "noSpecialty": "No tienes ninguna especialidad registrada, así que no puedes escribir al equipo. Habla con coordinación.",
       "chooseSpecialty": "Elige la especialidad de la nota.",
-      "specialtyNotYours": "Esa no es una de tus especialidades."
+      "specialtyNotYours": "Esa no es una de tus especialidades.",
+      "markSeenFailed": "No se pudieron marcar las notas como leídas. Vuelve a abrir al paciente."
     },
     "banner_zero": "Sin notas nuevas del equipo"
   }
