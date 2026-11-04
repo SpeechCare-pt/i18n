@@ -1,6 +1,7 @@
 {
   "title": "Finanzas",
   "intro": "Lo que está por cobrar, lo que quedó sin facturar y lo que hay en caja ahora.",
+  "orgWide": "Esta parte es de toda la organización y solo la ve la dirección sin sedes asignadas.",
   "now": {
     "title": "Ahora",
     "inTills": "En caja",
@@ -44,7 +45,12 @@
     "title": "Realizado y no cobrado",
     "earlier": "← Mes anterior",
     "later": "Mes siguiente →",
-    "summary": "En {{month}} se realizaron {{held}} sesiones facturables a {{seen}} pacientes.",
+    "summary_zero": "En {{month}} no se realizó ninguna sesión facturable.",
+    "summary_one": "En {{month}} se realizó {{count}} sesión facturable a {{patients}}.",
+    "summary_other": "En {{month}} se realizaron {{count}} sesiones facturables a {{patients}}.",
+    "patientsSeen_zero": "ningún paciente",
+    "patientsSeen_one": "{{count}} paciente",
+    "patientsSeen_other": "{{count}} pacientes",
     "lede_one": "{{count}} paciente fue visto este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
     "lede_other": "{{count}} pacientes fueron vistos este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
     "sessions_one": "{{count}} sesión",
