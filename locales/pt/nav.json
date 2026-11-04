@@ -23,7 +23,8 @@
     "admin": "Admin",
     "chegadas": "Chegadas",
     "equipa": "Equipa",
-    "materiais": "Materiais"
+    "materiais": "Materiais",
+    "pedidos": "Pedidos"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -52,6 +53,9 @@
   "arrivalsBadge_zero": "Ninguém à espera",
   "arrivalsBadge_one": "{{count}} pessoa à espera",
   "arrivalsBadge_other": "{{count}} pessoas à espera",
+  "pedidosBadge_zero": "Nenhum pedido atrasado",
+  "pedidosBadge_one": "{{count}} pedido atrasado",
+  "pedidosBadge_other": "{{count}} pedidos atrasados",
   "unit": {
     "label": "Unidade",
     "showing": "A mostrar: {{name}}",
