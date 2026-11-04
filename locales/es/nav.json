@@ -24,7 +24,8 @@
     "chegadas": "Llegadas",
     "equipa": "Equipo",
     "materiais": "Materiales",
-    "pedidos": "Solicitudes"
+    "pedidos": "Solicitudes",
+    "prazos": "Plazos"
   },
   "search": "Buscar…",
   "orgLabel": "Organización",
@@ -92,6 +93,33 @@
     "seen": "Visto",
     "close": "Cerrar",
     "more": "Hay avisos más antiguos que los que se muestran aquí.",
-    "loading": "Cargando…"
+    "loading": "Cargando…",
+    "provisionalExpired_one": "La reserva provisional de {{patient}}, el {{when}}, caducó y se canceló",
+    "provisionalExpired_other": "{{count}} reservas provisionales caducaron y se cancelaron, la primera el {{when}}",
+    "offerLapsed_one": "La oferta para el hueco del {{when}} caducó",
+    "offerLapsed_other": "{{count}} ofertas caducaron, la primera para el hueco del {{when}}",
+    "paymentHold_one": "Pago pendiente: sesión online de {{patient}}, el {{when}}",
+    "paymentHold_other": "Pago pendiente en {{count}} sesiones online, la primera el {{when}}"
+  },
+  "deadlines": {
+    "title": "Plazos",
+    "intro": "Lo que está a punto de caducar. Nada de esto contacta con las familias: decide recepción.",
+    "loading": "Cargando…",
+    "truncated": "Hay más que esto. Solo se muestran las primeras {{count}}.",
+    "provisional": {
+      "title": "Reservas provisionales",
+      "empty": "Ninguna reserva provisional abierta.",
+      "row": "Caduca {{until}} · sesión el {{start}}"
+    },
+    "offers": {
+      "title": "Ofertas de la lista de espera",
+      "empty": "Ninguna oferta abierta.",
+      "row": "Caduca {{until}} · hueco del {{start}}"
+    },
+    "holds": {
+      "title": "Sesiones online sin pagar",
+      "empty": "Ninguna sesión online con pago pendiente.",
+      "row": "Sesión el {{start}} · con {{technician}}"
+    }
   }
 }

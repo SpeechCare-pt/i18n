@@ -53,6 +53,7 @@
     "atLocation": "en {{name}}",
     "withdraw": "Quitar",
     "withdrawFailed": "No se pudo quitar. Inténtalo otra vez.",
-    "born": "n. {{date}}"
+    "born": "n. {{date}}",
+    "offered": "Oferta abierta hasta {{when}}"
   }
 }

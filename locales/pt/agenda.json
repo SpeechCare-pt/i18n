@@ -243,7 +243,15 @@
     "passed": "Esta hora já passou, por isso não há vaga para oferecer.",
     "slotPassed": "Esta hora já passou.",
     "reopen": "Oferecer a vaga",
-    "truncated": "A lista de espera é maior do que isto, por isso pode faltar aqui alguém que sirva."
+    "truncated": "A lista de espera é maior do que isto, por isso pode faltar aqui alguém que sirva.",
+    "record": "Registar oferta",
+    "open": "Oferecida, responde até {{when}}",
+    "accepted": "Aceitou",
+    "declined": "Recusou",
+    "slotOffered": "Esta vaga já está oferecida a outra família.",
+    "alreadyOffered": "Esta família já tem uma oferta aberta.",
+    "offerClosed": "Esta oferta já está fechada.",
+    "recordFailed": "Não foi possível registar a oferta. Tenta outra vez."
   },
   "cancel": {
     "title": "Anular a sessão",
@@ -256,7 +264,8 @@
       "technicianIllness": "Doença do técnico",
       "clinicInitiative": "Iniciativa da clínica",
       "bookingError": "Erro de marcação",
-      "externalConditions": "Condições externas"
+      "externalConditions": "Condições externas",
+      "provisionalExpired": "Provisória expirada"
     },
     "noticeDate": "A família avisou a",
     "noticeTime": "às",
@@ -456,7 +465,8 @@
     "linked": "{{who}} marcou esta sessão como reposição",
     "unlinked": "{{who}} deixou de a marcar como reposição",
     "billedOn": "{{who}} passou a cobrar esta reposição",
-    "billedOff": "{{who}} deixou de cobrar esta reposição"
+    "billedOff": "{{who}} deixou de cobrar esta reposição",
+    "provisionalExpired": "A marcação provisória expirou e foi cancelada sozinha, sem taxa"
   },
   "move": {
     "title": "Mover marcação",
@@ -573,5 +583,16 @@
     "followUp": "seguimento",
     "reassessment": "reavaliação",
     "line": "{{name}}: {{what}} para {{month}}"
+  },
+  "provisional": {
+    "label": "Marcação provisória",
+    "hint": "Se ninguém a confirmar, expira sozinha e liberta a vaga. O prazo aparece no cartão.",
+    "soon": "A sessão é daqui a menos de um dia, por isso o prazo acaba uma hora antes dela.",
+    "mark": "Provisória",
+    "title": "Provisória até {{when}}"
+  },
+  "paymentHold": {
+    "mark": "Pagamento por receber",
+    "title": "Sessão online sem pagamento a menos de 24 horas. A vaga mantém-se e a receção decide."
   }
 }

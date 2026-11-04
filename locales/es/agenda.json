@@ -243,7 +243,15 @@
     "passed": "Esta hora ya pasó, así que no hay hueco que ofrecer.",
     "slotPassed": "Esta hora ya pasó.",
     "reopen": "Ofrecer el hueco",
-    "truncated": "La lista de espera es más larga que esto, así que puede faltar aquí alguien que sirva."
+    "truncated": "La lista de espera es más larga que esto, así que puede faltar aquí alguien que sirva.",
+    "record": "Registrar oferta",
+    "open": "Ofrecida, responde hasta {{when}}",
+    "accepted": "Aceptó",
+    "declined": "Rechazó",
+    "slotOffered": "Este hueco ya está ofrecido a otra familia.",
+    "alreadyOffered": "Esta familia ya tiene una oferta abierta.",
+    "offerClosed": "Esta oferta ya está cerrada.",
+    "recordFailed": "No se pudo registrar la oferta. Inténtalo de nuevo."
   },
   "cancel": {
     "title": "Anular la sesión",
@@ -256,7 +264,8 @@
       "technicianIllness": "Enfermedad del técnico",
       "clinicInitiative": "Iniciativa de la clínica",
       "bookingError": "Error de agenda",
-      "externalConditions": "Condiciones externas"
+      "externalConditions": "Condiciones externas",
+      "provisionalExpired": "Provisional caducada"
     },
     "noticeDate": "La familia avisó el",
     "noticeTime": "a las",
@@ -456,7 +465,8 @@
     "linked": "{{who}} marcó esta sesión como reposición",
     "unlinked": "{{who}} dejó de marcarla como reposición",
     "billedOn": "{{who}} pasó a cobrar esta reposición",
-    "billedOff": "{{who}} dejó de cobrar esta reposición"
+    "billedOff": "{{who}} dejó de cobrar esta reposición",
+    "provisionalExpired": "La reserva provisional caducó y se canceló sola, sin tasa"
   },
   "move": {
     "title": "Mover cita",
@@ -573,5 +583,16 @@
     "followUp": "seguimiento",
     "reassessment": "reevaluación",
     "line": "{{name}}: {{what}} para {{month}}"
+  },
+  "provisional": {
+    "label": "Reserva provisional",
+    "hint": "Si nadie la confirma, caduca sola y libera el hueco. El plazo aparece en la tarjeta.",
+    "soon": "La sesión es dentro de menos de un día, así que el plazo termina una hora antes.",
+    "mark": "Provisional",
+    "title": "Provisional hasta {{when}}"
+  },
+  "paymentHold": {
+    "mark": "Pago pendiente",
+    "title": "Sesión online sin pagar a menos de 24 horas. El hueco se mantiene y decide recepción."
   }
 }
