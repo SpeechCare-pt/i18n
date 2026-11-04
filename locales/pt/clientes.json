@@ -229,6 +229,16 @@
       "saved": "Modalidade atualizada.",
       "failed": "Não foi possível guardar. Tenta outra vez."
     },
+    "frequency": {
+      "label": "Periodicidade",
+      "weekly": "Semanal",
+      "fortnightly": "Quinzenal",
+      "monthly": "Mensal",
+      "occasional": "Pontual",
+      "unset": "Por definir",
+      "saved": "Periodicidade atualizada.",
+      "failed": "Não foi possível guardar. Tenta outra vez."
+    },
     "requestedSubject": "Especialidade pedida",
     "accessRequest": {
       "title": "Pedidos de acesso",
@@ -877,7 +887,8 @@
       "memberPhone": "o telefone de um membro do agregado",
       "memberEmail": "o email de um membro do agregado",
       "memberFirstName": "o nome próprio de um membro do agregado",
-      "memberLastName": "o apelido de um membro do agregado"
+      "memberLastName": "o apelido de um membro do agregado",
+      "frequency": "a periodicidade"
     }
   },
   "history": {
