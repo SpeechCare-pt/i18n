@@ -114,5 +114,34 @@
       "missed": "Falta",
       "cancelled": "Desmarcada"
     }
+  },
+  "course": {
+    "title": "Duração dos acompanhamentos",
+    "caveat": "Só entram acompanhamentos que já terminaram. Os que ainda decorrem, e a última linha de cada paciente, ficam de fora, por isso a duração média sai mais curta do que a real.",
+    "counted_one": "{{count}} acompanhamento terminado",
+    "counted_other": "{{count}} acompanhamentos terminados",
+    "withSessions_one": "{{count}} com sessões registadas",
+    "withSessions_other": "{{count}} com sessões registadas",
+    "bySubject": "Por especialidade",
+    "byTrack": "Por linha de cuidado",
+    "columns": {
+      "name": "Nome",
+      "count": "Terminados",
+      "meanDays": "Duração média (dias)",
+      "medianDays": "Mediana (dias)",
+      "meanSessions": "Sessões em média"
+    },
+    "ends": {
+      "title": "Sessões realizadas quando terminou",
+      "b1": "1 a 4",
+      "b2": "5 a 12",
+      "b3": "13 a 24",
+      "b4": "25 ou mais",
+      "share": "{{percent}} %"
+    },
+    "empty": "Ainda não há acompanhamentos terminados.",
+    "truncated": "Há mais acompanhamentos terminados do que a página lê. Os números são dos primeiros {{count}}.",
+    "scoped": "A duração dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
+    "loading": "A carregar…"
   }
 }
