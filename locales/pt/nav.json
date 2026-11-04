@@ -71,6 +71,7 @@
   "notices": {
     "title": "Avisos",
     "none": "Sem avisos",
+    "noneSessions": "Sem alterações às tuas sessões",
     "bell_one": "{{count}} aviso por ver",
     "bell_other": "{{count}} avisos por ver",
     "bellMany": "Mais de 99 avisos por ver",
