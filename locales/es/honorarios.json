@@ -89,6 +89,8 @@
     "cancel": "Cancelar",
     "saved": "Guardado.",
     "failed": "No se pudo guardar. Inténtalo de nuevo.",
+    "invalidIban": "Este IBAN no es correcto. Comprueba los dígitos e inténtalo de nuevo.",
+    "monthsUnsettled": "Todavía hay un mes sin decidir para esta persona. Aprueba o resuelve el mes pasado y el actual antes de pasarla a contrato.",
     "noPerSession": "Nadie está marcado como cobrando por sesión, así que el mapa siempre vendrá vacío."
   },
   "adjust": {
