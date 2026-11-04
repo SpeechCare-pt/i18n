@@ -79,7 +79,10 @@
       "user": "cuenta",
       "invite": "invitación",
       "accessRequest": "solicitud de acceso",
-      "reassessment": "reevaluación"
+      "reassessment": "reevaluación",
+      "episode": "episodio",
+      "waitlistEntry": "entrada en la lista de espera",
+      "cashSession": "caja"
     }
   },
   "waits": {
