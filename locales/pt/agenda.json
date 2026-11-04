@@ -589,5 +589,9 @@
     "soon": "A sessão é daqui a menos de um dia, por isso o prazo acaba uma hora antes dela.",
     "mark": "Provisória",
     "title": "Provisória até {{when}}"
+  },
+  "paymentHold": {
+    "mark": "Pagamento por receber",
+    "title": "Sessão online sem pagamento a menos de 24 horas. A vaga mantém-se e a receção decide."
   }
 }

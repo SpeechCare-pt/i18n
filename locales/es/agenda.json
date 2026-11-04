@@ -589,5 +589,9 @@
     "soon": "La sesión es dentro de menos de un día, así que el plazo termina una hora antes.",
     "mark": "Provisional",
     "title": "Provisional hasta {{when}}"
+  },
+  "paymentHold": {
+    "mark": "Pago pendiente",
+    "title": "Sesión online sin pagar a menos de 24 horas. El hueco se mantiene y decide recepción."
   }
 }
