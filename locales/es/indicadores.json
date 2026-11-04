@@ -151,7 +151,8 @@
     "technician": "Profesional",
     "allSubjects": "Todas",
     "allTechnicians": "Todos",
-    "notFollowed": "El dinero y la ocupación de las salas no siguen estos filtros."
+    "notFollowed": "El dinero y la ocupación de las salas no siguen estos filtros.",
+    "oneAtATime": "La especialidad y el profesional no se combinan. Quita uno para elegir el otro."
   },
   "areas": {
     "operational": "Operativa",
