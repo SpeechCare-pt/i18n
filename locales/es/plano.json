@@ -125,7 +125,6 @@
       "m6": "Dentro de 6 meses",
       "m12": "Dentro de 12 meses"
     },
-    "save": "Confirmar",
     "saving": "Guardando…",
     "saved": "Alta dada.",
     "savedWithReturn": "Alta dada. El seguimiento quedó para {{month}}.",

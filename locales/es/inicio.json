@@ -75,5 +75,15 @@
     "count_one": "{{count}} familia con un consentimiento a punto de caducar",
     "count_other": "{{count}} familias con consentimientos a punto de caducar",
     "link": "Abrir consentimientos"
+  },
+  "reassessments": {
+    "title": "Reevaluaciones",
+    "open": "Abrir las reevaluaciones",
+    "pending_one": "{{count}} por agendar",
+    "pending_other": "{{count}} por agendar",
+    "overdue_one": "{{count}} atrasada",
+    "overdue_other": "{{count}} atrasadas",
+    "pending_zero": "Ninguna por agendar",
+    "overdue_zero": "Ninguna atrasada"
   }
 }
