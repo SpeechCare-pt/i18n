@@ -90,7 +90,7 @@
     "saved": "Guardado.",
     "failed": "No se pudo guardar. Inténtalo de nuevo.",
     "invalidIban": "Este IBAN no es correcto. Comprueba los dígitos e inténtalo de nuevo.",
-    "monthsUnsettled": "Todavía hay un mes sin decidir para esta persona. Aprueba o resuelve el mes pasado y el actual antes de pasarla a contrato.",
+    "monthsUnsettled": "Todavía hay un mes sin decidir para esta persona. Aprueba el mes pasado y espera a que acabe el actual antes de pasarla a contrato.",
     "noPerSession": "Nadie está marcado como cobrando por sesión, así que el mapa siempre vendrá vacío."
   },
   "adjust": {
@@ -175,6 +175,7 @@
     "rows_one": "1 profesional, {{total}}",
     "rows_other": "{{count}} profesionales, {{total}}",
     "waiting": "Todavía hay personas por aprobar, así que el archivo no está disponible.",
+    "loading": "Preparando la lista de pago…",
     "monthOpen": "El mes todavía no ha terminado, así que el archivo aún no se puede generar.",
     "missingIban": {
       "title": "Sin IBAN, quedan fuera del archivo",

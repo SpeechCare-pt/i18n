@@ -90,7 +90,7 @@
     "saved": "Guardado.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "invalidIban": "Este IBAN não está certo. Confirma os dígitos e tenta outra vez.",
-    "monthsUnsettled": "Ainda há um mês por decidir para esta pessoa. Aprova ou resolve o mês passado e o atual antes de a passar a contrato.",
+    "monthsUnsettled": "Ainda há um mês por decidir para esta pessoa. Aprova o mês passado e espera que o mês atual acabe antes de a passar a contrato.",
     "noPerSession": "Ninguém está marcado como recebendo por sessão, por isso o mapa vem sempre vazio."
   },
   "adjust": {
@@ -175,6 +175,7 @@
     "rows_one": "1 profissional, {{total}}",
     "rows_other": "{{count}} profissionais, {{total}}",
     "waiting": "Ainda há pessoas por aprovar, por isso o ficheiro não está disponível.",
+    "loading": "A preparar a lista de pagamento…",
     "monthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar.",
     "missingIban": {
       "title": "Sem IBAN, ficam fora do ficheiro",
