@@ -1,0 +1,60 @@
+{
+  "title": "Consentimiento",
+  "ready": {
+    "greeting": "Hola, {{guardian}}.",
+    "intro": "{{org}} te pide tu consentimiento para prestar cuidados a {{child}}.",
+    "edition": "Edición {{version}}",
+    "validUntil": "Este enlace vale hasta el {{date}}.",
+    "readFull": "Leer el texto completo",
+    "accept": "Acepto",
+    "decline": "Prefiero en recepción"
+  },
+  "text": {
+    "careProvision": {
+      "editions": {
+        "26-27": {
+          "short": "Autorizo la prestación de cuidados de salud a mi representado, y que sus datos personales y clínicos se traten con ese fin. Puedo retirar este consentimiento en cualquier momento hablando con recepción."
+        }
+      }
+    }
+  },
+  "done": {
+    "title": "Gracias",
+    "body": "El consentimiento ha quedado registrado.",
+    "close": "Puedes cerrar esta página."
+  },
+  "declined": {
+    "title": "Sin problema",
+    "body": "Te lo preguntaremos a la llegada.",
+    "close": "Puedes cerrar esta página."
+  },
+  "closed": {
+    "signed": "Este enlace ya se ha usado y el consentimiento está registrado.",
+    "declined": "Este enlace ya se ha usado. Te lo preguntaremos a la llegada.",
+    "expired": "Este enlace ha caducado. Habla con recepción para recibir otro.",
+    "replaced": "Este enlace se ha sustituido por uno más reciente. Usa el del correo más reciente o habla con recepción.",
+    "alreadyStanding": "El consentimiento ya está registrado. No hace falta hacer nada más.",
+    "editionChanged": "El texto ha cambiado desde que se envió el enlace. Habla con recepción para recibir uno nuevo.",
+    "notFound": "Este enlace no existe o ya no está activo. Habla con recepción.",
+    "tooMany": "Demasiadas peticiones. Espera un poco e inténtalo otra vez.",
+    "noText": "No hemos podido mostrar el texto de esta edición, así que no puedes responder por aquí. Habla con recepción, que vuelve a enviar el enlace."
+  },
+  "network": {
+    "failed": "No se ha podido conectar con el servidor. Inténtalo otra vez.",
+    "retry": "Intentar otra vez"
+  },
+  "fullText": {
+    "title": "Consentimiento para la prestación de cuidados, edición {{version}}",
+    "back": "Volver",
+    "editions": {
+      "26-27": {
+        "paragraphs": [
+          "Autorizo la prestación de cuidados de salud a mi representado en la clínica, incluida la evaluación y el seguimiento.",
+          "Autorizo el tratamiento de los datos personales y clínicos de mi representado con ese fin, según la política de privacidad de la clínica.",
+          "Sé que puedo retirar este consentimiento en cualquier momento hablando con recepción. Retirarlo no afecta a lo ya hecho."
+        ],
+        "note": "Este texto todavía está en revisión por la consultora de protección de datos del centro y puede cambiar antes de usarse de forma definitiva."
+      }
+    }
+  }
+}

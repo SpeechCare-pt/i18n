@@ -1,0 +1,60 @@
+{
+  "title": "Consentimento",
+  "ready": {
+    "greeting": "Olá, {{guardian}}.",
+    "intro": "A {{org}} pede o teu consentimento para prestar cuidados a {{child}}.",
+    "edition": "Edição {{version}}",
+    "validUntil": "Esta ligação vale até {{date}}.",
+    "readFull": "Ler o texto completo",
+    "accept": "Aceito",
+    "decline": "Prefiro na receção"
+  },
+  "text": {
+    "careProvision": {
+      "editions": {
+        "26-27": {
+          "short": "Autorizo a prestação de cuidados de saúde ao meu educando, e que os seus dados pessoais e clínicos sejam tratados para esse fim. Posso retirar este consentimento a qualquer momento, falando com a receção."
+        }
+      }
+    }
+  },
+  "done": {
+    "title": "Obrigado",
+    "body": "O consentimento ficou registado.",
+    "close": "Podes fechar esta página."
+  },
+  "declined": {
+    "title": "Sem problema",
+    "body": "Perguntamos-te à chegada.",
+    "close": "Podes fechar esta página."
+  },
+  "closed": {
+    "signed": "Esta ligação já foi usada e o consentimento está registado.",
+    "declined": "Esta ligação já foi usada. Perguntamos-te à chegada.",
+    "expired": "Esta ligação expirou. Fala com a receção para receberes outra.",
+    "replaced": "Esta ligação foi substituída por uma mais recente. Usa a do email mais recente ou fala com a receção.",
+    "alreadyStanding": "O consentimento já está registado. Não é preciso fazer mais nada.",
+    "editionChanged": "O texto mudou desde que a ligação foi enviada. Fala com a receção para receberes uma nova.",
+    "notFound": "Esta ligação não existe ou já não está ativa. Fala com a receção.",
+    "tooMany": "Demasiados pedidos. Espera um pouco e tenta outra vez.",
+    "noText": "Não conseguimos mostrar o texto desta edição, por isso não podes responder por aqui. Fala com a receção, que volta a enviar a ligação."
+  },
+  "network": {
+    "failed": "Não foi possível ligar ao servidor. Tenta outra vez.",
+    "retry": "Tentar outra vez"
+  },
+  "fullText": {
+    "title": "Consentimento para a prestação de cuidados, edição {{version}}",
+    "back": "Voltar",
+    "editions": {
+      "26-27": {
+        "paragraphs": [
+          "Autorizo a prestação de cuidados de saúde ao meu educando na clínica, incluindo a avaliação e o acompanhamento.",
+          "Autorizo o tratamento dos dados pessoais e clínicos do meu educando para esse fim, nos termos da política de privacidade da clínica.",
+          "Sei que posso retirar este consentimento a qualquer momento, falando com a receção. Retirá-lo não afeta o que foi feito antes."
+        ],
+        "note": "Este texto ainda está em revisão pela consultora de proteção de dados do centro e pode mudar antes de ser usado em definitivo."
+      }
+    }
+  }
+}

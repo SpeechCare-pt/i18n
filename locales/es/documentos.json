@@ -163,5 +163,65 @@
       "imageUse": "Uso de imagen"
     },
     "open": "Abrir ficha"
+  },
+  "link": {
+    "tabs": {
+      "label": "Listas",
+      "soon": "Llegan pronto",
+      "all": "Todas las familias sin consentimiento",
+      "sent": "Enlaces enviados"
+    },
+    "state": {
+      "none": "Nada enviado",
+      "sent": "Enviado",
+      "opened": "Abierto",
+      "signed": "Firmado",
+      "declined": "Prefiere en recepción",
+      "expired": "Caducado",
+      "noEmail": "Sin correo",
+      "mailFailed": "Falló el envío",
+      "withdrawn": "Retiró el consentimiento",
+      "cancelled": "Cancelado",
+      "emailChanged": "Cancelado, el correo cambió",
+      "replaced": "Sustituido"
+    },
+    "select": "Elegir {{name}}",
+    "send_one": "Enviar enlace a {{count}} familia",
+    "send_other": "Enviar enlace a {{count}} familias",
+    "sending": "Enviando…",
+    "resend": "Reenviar",
+    "cancel": "Cancelar enlace",
+    "loadMore": "Cargar más",
+    "loadingMore": "Cargando…",
+    "capacity": "Puedes enviar {{headroom}} más este mes. {{pending}} en cola.",
+    "result": {
+      "sent_one": "{{count}} enviada",
+      "sent_other": "{{count}} enviadas",
+      "held": "{{count}} en espera por el límite del mes",
+      "noEmail": "{{count}} sin correo",
+      "withdrawn": "{{count}} retiraron el consentimiento",
+      "alreadyCurrent": "{{count}} ya firmaron",
+      "recentlySent": "{{count}} con enlace reciente",
+      "notReachable": "{{count}} fuera de tu alcance",
+      "mailNotSent": "{{count}} sin envío",
+      "declined": "{{count}} prefieren recepción"
+    },
+    "guardian": "Para {{name}}",
+    "sentAt": "enviado el {{date}}",
+    "openedAt": "abierto el {{date}}",
+    "respondedAt": "respondido el {{date}}",
+    "emptyAll": "Todas las familias tienen consentimiento.",
+    "emptySent": "Todavía no se ha enviado ningún enlace.",
+    "failed": "No se ha podido enviar. Inténtalo otra vez.",
+    "resent": "Nuevo enlace enviado.",
+    "cancelled": "Enlace cancelado.",
+    "errors": {
+      "held": "Se ha alcanzado el límite de correos de este mes. Prueba mañana o el mes que viene.",
+      "withdrawn": "La familia retiró el consentimiento. Pregúntale en recepción.",
+      "alreadyCurrent": "Esta familia ya tiene consentimiento.",
+      "noEmail": "Sin correo de un responsable que firme.",
+      "mailNotSent": "El correo no se puso en cola. Inténtalo otra vez.",
+      "notReachable": "No tienes acceso a esta familia."
+    }
   }
 }
