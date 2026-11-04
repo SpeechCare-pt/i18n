@@ -11,7 +11,10 @@
   },
   "done": {
     "title": "Invitación aceptada",
-    "body": "Tu cuenta está asociada. Ya puedes entrar en SINAIA Suite."
+    "body": "Tu cuenta está asociada. Ya puedes entrar en SINAIA Suite.",
+    "joined": "Has entrado en {{org}} como {{roles}}.",
+    "units": "Unidades: {{units}}.",
+    "allUnits": "todas las unidades"
   },
   "invalid": {
     "title": "Invitación no válida",
