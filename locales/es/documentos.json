@@ -102,14 +102,21 @@
     "issuedAt": "emitido el {{date}}",
     "issuedBy": "por {{name}}",
     "covers": "cubre del {{from}} al {{to}}",
-    "open": "Abrir"
+    "open": "Abrir",
+    "reference": "ref. {{reference}}",
+    "voided": "anulado"
   },
   "page": {
     "back": "Volver a la ficha",
     "print": "Imprimir",
     "issuedOn": "Emitido el {{date}}",
     "professionalId": "Número de colegiado {{id}}",
-    "notFound": "Documento no encontrado."
+    "notFound": "Documento no encontrado.",
+    "reference": "Referencia {{reference}}",
+    "voided": "ANULADO",
+    "voidedOn": "Anulado el {{date}}",
+    "voidReason": "Motivo: {{reason}}",
+    "signatureAlt": "Firma de {{name}}"
   },
   "errors": {
     "failed": "No se ha podido guardar. Inténtalo otra vez.",
@@ -127,7 +134,9 @@
     "documentOutOfSpecialty": "Este documento es de otra área clínica.",
     "notOnCareTeam": "No estás en el equipo de este paciente.",
     "tooShort": "Falta rellenar un campo.",
-    "tooLong": "Uno de los campos es demasiado largo."
+    "tooLong": "Uno de los campos es demasiado largo.",
+    "draftFailed": "No se pudo abrir el borrador de este informe. Inténtalo de nuevo.",
+    "reportNotReadable":"No tienes acceso para emitir este informe. Pide acceso al paciente a quien lo coordina."
   },
   "pending": {
     "title": "Consentimientos pendientes de firma",
@@ -222,6 +231,43 @@
       "noEmail": "Sin correo de un responsable que firme.",
       "mailNotSent": "El correo no se puso en cola. Inténtalo otra vez.",
       "notReachable": "No tienes acceso a esta familia."
+    }
+  },
+  "signature": {
+    "title": "Mi firma",
+    "hint": "Imagen PNG o JPEG, hasta 512 KB. Queda en el informe que emitas; cambiarla después no modifica los que ya salieron.",
+    "none": "Sin imagen. El informe sale con tu nombre y el número de colegiado.",
+    "choose": "Elegir imagen",
+    "replace": "Cambiar imagen",
+    "remove": "Quitar",
+    "uploading": "Enviando…",
+    "saved": "Firma guardada.",
+    "removed": "Firma quitada.",
+    "alt": "Tu firma",
+    "errors": {
+      "failed": "No se ha podido guardar la firma. Inténtalo otra vez.",
+      "fileMissing": "El archivo no llegó. Elígelo otra vez.",
+      "uploadTooOld": "El envío tardó demasiado. Elige el archivo otra vez.",
+      "badFileType": "Solo se aceptan imágenes PNG y JPEG.",
+      "fileTooLarge": "La imagen supera los 512 KB.",
+      "storageInUse": "Este archivo ya se usa en otro sitio. Elige otro.",
+      "noProfile": "Todavía no tienes perfil de técnico. Pide a la dirección que lo cree.",
+      "uploadNotRegistered": "Ese archivo no lo has enviado tú ahora. Elígelo otra vez.",
+      "tooManyUploads": "Tienes demasiados envíos sin terminar. Espera unos minutos e inténtalo otra vez."
+    }
+  },
+  "void": {
+    "action": "Anular",
+    "reason": "Motivo",
+    "reasonHint": "Entre 3 y 200 caracteres. No escribas nombres ni datos de salud.",
+    "confirm": "Anular documento",
+    "cancel": "Cancelar",
+    "note": "El número queda usado y el texto no cambia. Para corregir, emite uno nuevo.",
+    "errors": {
+      "failed": "No se ha podido anular. Inténtalo otra vez.",
+      "alreadyVoided": "Este documento ya está anulado.",
+      "reasonLength": "El motivo debe tener entre 3 y 200 caracteres.",
+      "notAllowed": "No puedes anular este documento."
     }
   }
 }
