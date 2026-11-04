@@ -28,6 +28,8 @@
     "startsAt": "às {{time}}",
     "started": "começava às {{time}}",
     "longWait": "Espera longa",
+    "unpaid": "Por pagar",
+    "unpaidTitle": "Sessão da clínica marcada e ainda sem pagamento.",
     "room": "Sala",
     "noRoom": "Sem sala"
   },
@@ -53,6 +55,7 @@
     "hours": "{{h}}h{{mm}}"
   },
   "truncated": "O dia tem mais consultas do que a lista mostra.",
+  "unpaidTruncated": "O dia tem mais consultas do que dá para conferir. As marcas «Por pagar» não aparecem.",
   "errors": {
     "notToday": "Só dá para registar chegadas de hoje.",
     "tooEarly": "Ainda é cedo para registar esta chegada.",

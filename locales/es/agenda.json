@@ -9,6 +9,11 @@
     "body": "No hay citas este día."
   },
   "capped": "Mostrando las primeras {{count}} citas de este día.",
+  "unpaid": {
+    "mark": "Por pagar",
+    "title": "Sesión de la clínica reservada y todavía sin pago.",
+    "truncated": "El día tiene más citas de las que se pueden comprobar. Las marcas «Por pagar» no aparecen."
+  },
   "remote": "En línea",
   "noLocation": "Sin lugar",
   "count_one": "{{count}} cita",
