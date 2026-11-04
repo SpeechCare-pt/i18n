@@ -130,7 +130,9 @@
     "figureOutOfRange": "O valor é grande de mais para aprovar.",
     "monthTruncated": "Este mês tem mais registos do que o ecrã consegue ler, por isso o valor não é fiável. Não se pode aprovar.",
     "tooManyAdjustments": "Este profissional já tem o máximo de ajustes neste mês.",
-    "invalidMonth": "Esse mês não é válido."
+    "invalidMonth": "Esse mês não é válido.",
+    "monthNotApproved": "Nem todas as pessoas com valor a pagar estão aprovadas, por isso não há ficheiro. O ecrã já está actualizado.",
+    "payoutMonthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar."
   },
   "status": {
     "open": "Em aberto",
@@ -161,5 +163,26 @@
     "send": "Devolver",
     "sending": "A devolver…",
     "cancel": "Cancelar"
+  },
+  "payout": {
+    "title": "Ficheiro de pagamento",
+    "hint": "O ficheiro só sai quando todas as pessoas com valor a pagar estão aprovadas; leva o valor e o IBAN aprovados.",
+    "download": "Descarregar CSV",
+    "downloading": "A descarregar…",
+    "rows_zero": "Nenhum profissional com IBAN, {{total}}",
+    "rows_one": "1 profissional, {{total}}",
+    "rows_other": "{{count}} profissionais, {{total}}",
+    "waiting": "Ainda há pessoas por aprovar, por isso o ficheiro não está disponível.",
+    "monthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar.",
+    "missingIban": {
+      "title": "Sem IBAN, ficam fora do ficheiro",
+      "line": "{{name}}: {{amount}}",
+      "fix": "Preenche o IBAN no perfil, devolve para ajuste e aprova outra vez."
+    },
+    "csv": {
+      "name": "nome",
+      "iban": "iban",
+      "amount": "valor"
+    }
   }
 }
