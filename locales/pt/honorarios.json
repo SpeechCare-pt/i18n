@@ -89,6 +89,8 @@
     "cancel": "Cancelar",
     "saved": "Guardado.",
     "failed": "Não foi possível guardar. Tenta outra vez.",
+    "invalidIban": "Este IBAN não está certo. Confirma os dígitos e tenta outra vez.",
+    "monthsUnsettled": "Ainda há um mês por decidir para esta pessoa. Aprova o mês passado e espera que o mês atual acabe antes de a passar a contrato.",
     "noPerSession": "Ninguém está marcado como recebendo por sessão, por isso o mapa vem sempre vazio."
   },
   "adjust": {
@@ -124,14 +126,14 @@
     "alreadyReversed": "Este ajuste já foi anulado.",
     "monthOpen": "O mês ainda não acabou, por isso não se pode aprovar.",
     "hasUnratedSessions": "Há sessões sem regra. Define a regra antes de aprovar.",
-    "figureMoved": "O valor mudou entretanto. Já está actualizado, confirma outra vez.",
+    "figureMoved": "O valor mudou entretanto. Já está atualizado, confirma outra vez.",
     "selfApproval": "Não podes aprovar nem ajustar o teu próprio valor.",
     "nothingToPay": "Não há nada a pagar a este profissional neste mês.",
     "figureOutOfRange": "O valor é grande de mais para aprovar.",
     "monthTruncated": "Este mês tem mais registos do que o ecrã consegue ler, por isso o valor não é fiável. Não se pode aprovar.",
     "tooManyAdjustments": "Este profissional já tem o máximo de ajustes neste mês.",
     "invalidMonth": "Esse mês não é válido.",
-    "monthNotApproved": "Nem todas as pessoas com valor a pagar estão aprovadas, por isso não há ficheiro. O ecrã já está actualizado.",
+    "monthNotApproved": "Nem todas as pessoas com valor a pagar estão aprovadas, por isso não há ficheiro. O ecrã já está atualizado.",
     "payoutMonthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar."
   },
   "status": {
@@ -173,6 +175,7 @@
     "rows_one": "1 profissional, {{total}}",
     "rows_other": "{{count}} profissionais, {{total}}",
     "waiting": "Ainda há pessoas por aprovar, por isso o ficheiro não está disponível.",
+    "loading": "A preparar a lista de pagamento…",
     "monthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar.",
     "missingIban": {
       "title": "Sem IBAN, ficam fora do ficheiro",
