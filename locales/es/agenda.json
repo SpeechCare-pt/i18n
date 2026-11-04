@@ -465,7 +465,8 @@
     "linked": "{{who}} marcó esta sesión como reposición",
     "unlinked": "{{who}} dejó de marcarla como reposición",
     "billedOn": "{{who}} pasó a cobrar esta reposición",
-    "billedOff": "{{who}} dejó de cobrar esta reposición"
+    "billedOff": "{{who}} dejó de cobrar esta reposición",
+    "provisionalExpired": "La reserva provisional caducó y se canceló sola, sin tasa"
   },
   "move": {
     "title": "Mover cita",

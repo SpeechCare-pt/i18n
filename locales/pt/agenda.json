@@ -465,7 +465,8 @@
     "linked": "{{who}} marcou esta sessão como reposição",
     "unlinked": "{{who}} deixou de a marcar como reposição",
     "billedOn": "{{who}} passou a cobrar esta reposição",
-    "billedOff": "{{who}} deixou de cobrar esta reposição"
+    "billedOff": "{{who}} deixou de cobrar esta reposição",
+    "provisionalExpired": "A marcação provisória expirou e foi cancelada sozinha, sem taxa"
   },
   "move": {
     "title": "Mover marcação",
