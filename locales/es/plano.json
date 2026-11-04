@@ -43,7 +43,10 @@
       "transferToService": "Transferido a {{service}}",
       "transferToSomeone": "Transferido a un colega"
     },
-    "closureNote": "Observaciones: {{note}}"
+    "closureNote": "Observaciones: {{note}}",
+    "origin": {
+      "legacy": "Sistema anterior"
+    }
   },
   "objectives": {
     "title": "Objetivos",
