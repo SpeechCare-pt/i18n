@@ -407,7 +407,8 @@
     "calledIn": "Atendida",
     "room": "{{name}}",
     "arrivalRoom": "Sala de hoy: {{name}}",
-    "mapRoom": "Sala del mapa: {{name}}"
+    "mapRoom": "Sala del mapa: {{name}}",
+    "specialty": "{{name}}"
   },
   "history": {
     "title": "Historial de la cita",
@@ -549,7 +550,8 @@
     "reset": "Restablecer",
     "seriesMark": "Sesión de serie",
     "arrearsMark": "Mes anterior por regularizar",
-    "room": "Mostrar la sala"
+    "room": "Mostrar la sala",
+    "specialty": "Mostrar la especialidad"
   },
   "holiday": {
     "shade": "Festivo: {{names}}",
