@@ -77,7 +77,8 @@
       "appointment": "sessão",
       "formResponse": "formulário",
       "user": "conta",
-      "invite": "convite"
+      "invite": "convite",
+      "accessRequest": "pedido de acesso"
     }
   },
   "waits": {
@@ -103,5 +104,13 @@
     "access": "Acessos",
     "hours": "Horas perdidas",
     "adherence": "Adesão"
+  },
+  "accessRequests": {
+    "pending": {
+      "title": "Pedidos de acesso em aberto",
+      "empty": "Nenhum pedido de acesso em aberto.",
+      "open": "Abrir",
+      "received": "Recebido a {{date}}"
+    }
   }
 }
