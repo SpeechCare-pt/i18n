@@ -256,7 +256,8 @@
       "technicianIllness": "Doença do técnico",
       "clinicInitiative": "Iniciativa da clínica",
       "bookingError": "Erro de marcação",
-      "externalConditions": "Condições externas"
+      "externalConditions": "Condições externas",
+      "provisionalExpired": "Provisória expirada"
     },
     "noticeDate": "A família avisou a",
     "noticeTime": "às",
@@ -573,5 +574,12 @@
     "followUp": "seguimento",
     "reassessment": "reavaliação",
     "line": "{{name}}: {{what}} para {{month}}"
+  },
+  "provisional": {
+    "label": "Marcação provisória",
+    "hint": "Se ninguém a confirmar, expira sozinha e liberta a vaga. O prazo aparece no cartão.",
+    "soon": "A sessão é daqui a menos de um dia, por isso o prazo acaba uma hora antes dela.",
+    "mark": "Provisória",
+    "title": "Provisória até {{when}}"
   }
 }

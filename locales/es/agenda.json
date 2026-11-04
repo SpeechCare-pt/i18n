@@ -256,7 +256,8 @@
       "technicianIllness": "Enfermedad del técnico",
       "clinicInitiative": "Iniciativa de la clínica",
       "bookingError": "Error de agenda",
-      "externalConditions": "Condiciones externas"
+      "externalConditions": "Condiciones externas",
+      "provisionalExpired": "Provisional caducada"
     },
     "noticeDate": "La familia avisó el",
     "noticeTime": "a las",
@@ -573,5 +574,12 @@
     "followUp": "seguimiento",
     "reassessment": "reevaluación",
     "line": "{{name}}: {{what}} para {{month}}"
+  },
+  "provisional": {
+    "label": "Reserva provisional",
+    "hint": "Si nadie la confirma, caduca sola y libera el hueco. El plazo aparece en la tarjeta.",
+    "soon": "La sesión es dentro de menos de un día, así que el plazo termina una hora antes.",
+    "mark": "Provisional",
+    "title": "Provisional hasta {{when}}"
   }
 }

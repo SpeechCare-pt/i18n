@@ -24,7 +24,8 @@
     "chegadas": "Llegadas",
     "equipa": "Equipo",
     "materiais": "Materiales",
-    "pedidos": "Solicitudes"
+    "pedidos": "Solicitudes",
+    "prazos": "Plazos"
   },
   "search": "Buscar…",
   "orgLabel": "Organización",
@@ -92,6 +93,19 @@
     "seen": "Visto",
     "close": "Cerrar",
     "more": "Hay avisos más antiguos que los que se muestran aquí.",
-    "loading": "Cargando…"
+    "loading": "Cargando…",
+    "provisionalExpired_one": "La reserva provisional de {{patient}}, el {{when}}, caducó y se canceló",
+    "provisionalExpired_other": "{{count}} reservas provisionales caducaron y se cancelaron, la primera el {{when}}"
+  },
+  "deadlines": {
+    "title": "Plazos",
+    "intro": "Lo que está a punto de caducar. Nada de esto contacta con las familias: decide recepción.",
+    "loading": "Cargando…",
+    "truncated": "Hay más que esto. Solo se muestran las primeras {{count}}.",
+    "provisional": {
+      "title": "Reservas provisionales",
+      "empty": "Ninguna reserva provisional abierta.",
+      "row": "Caduca {{until}} · sesión el {{start}}"
+    }
   }
 }

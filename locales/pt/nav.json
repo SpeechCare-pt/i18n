@@ -24,7 +24,8 @@
     "chegadas": "Chegadas",
     "equipa": "Equipa",
     "materiais": "Materiais",
-    "pedidos": "Pedidos"
+    "pedidos": "Pedidos",
+    "prazos": "Prazos"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -92,6 +93,19 @@
     "seen": "Visto",
     "close": "Fechar",
     "more": "Há mais avisos antigos do que os que se mostram aqui.",
-    "loading": "A carregar…"
+    "loading": "A carregar…",
+    "provisionalExpired_one": "A marcação provisória de {{patient}}, a {{when}}, expirou e foi cancelada",
+    "provisionalExpired_other": "{{count}} marcações provisórias expiraram e foram canceladas, a primeira a {{when}}"
+  },
+  "deadlines": {
+    "title": "Prazos",
+    "intro": "O que está a acabar o prazo. Nada disto contacta famílias: a receção decide o que fazer.",
+    "loading": "A carregar…",
+    "truncated": "Há mais do que isto. Só se mostram as primeiras {{count}}.",
+    "provisional": {
+      "title": "Marcações provisórias",
+      "empty": "Nenhuma marcação provisória em aberto.",
+      "row": "Expira {{until}} · sessão a {{start}}"
+    }
   }
 }
