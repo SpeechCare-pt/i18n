@@ -85,5 +85,9 @@
     "overdue_zero": "Nenhuma atrasada",
     "overdue_one": "{{count}} atrasada",
     "overdue_other": "{{count}} atrasadas"
+  },
+  "sides": {
+    "title": "Os teus cancelamentos e faltas",
+    "hint": "Últimos {{days}} dias, por quem ficou a falha."
   }
 }

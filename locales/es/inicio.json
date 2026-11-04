@@ -85,5 +85,9 @@
     "overdue_other": "{{count}} atrasadas",
     "pending_zero": "Ninguna por agendar",
     "overdue_zero": "Ninguna atrasada"
+  },
+  "sides": {
+    "title": "Tus cancelaciones y ausencias",
+    "hint": "Últimos {{days}} días, según de quién fue el fallo."
   }
 }

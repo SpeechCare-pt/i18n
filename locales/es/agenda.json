@@ -9,6 +9,11 @@
     "body": "No hay citas este día."
   },
   "capped": "Mostrando las primeras {{count}} citas de este día.",
+  "unpaid": {
+    "mark": "Por pagar",
+    "title": "Sesión de la clínica reservada y todavía sin pago.",
+    "truncated": "El día tiene más citas de las que se pueden comprobar. Las marcas «Por pagar» no aparecen."
+  },
   "remote": "En línea",
   "noLocation": "Sin lugar",
   "count_one": "{{count}} cita",
@@ -407,7 +412,8 @@
     "calledIn": "Atendida",
     "room": "{{name}}",
     "arrivalRoom": "Sala de hoy: {{name}}",
-    "mapRoom": "Sala del mapa: {{name}}"
+    "mapRoom": "Sala del mapa: {{name}}",
+    "specialty": "{{name}}"
   },
   "history": {
     "title": "Historial de la cita",
@@ -549,7 +555,8 @@
     "reset": "Restablecer",
     "seriesMark": "Sesión de serie",
     "arrearsMark": "Mes anterior por regularizar",
-    "room": "Mostrar la sala"
+    "room": "Mostrar la sala",
+    "specialty": "Mostrar la especialidad"
   },
   "holiday": {
     "shade": "Festivo: {{names}}",

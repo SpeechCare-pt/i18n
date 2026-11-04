@@ -9,6 +9,11 @@
     "body": "Não há consultas neste dia."
   },
   "capped": "A mostrar as primeiras {{count}} consultas deste dia.",
+  "unpaid": {
+    "mark": "Por pagar",
+    "title": "Sessão da clínica marcada e ainda sem pagamento.",
+    "truncated": "O dia tem mais consultas do que dá para conferir. As marcas «Por pagar» não aparecem."
+  },
   "remote": "Online",
   "noLocation": "Sem local",
   "count_one": "{{count}} consulta",
@@ -407,7 +412,8 @@
     "calledIn": "Atendida",
     "room": "{{name}}",
     "arrivalRoom": "Sala de hoje: {{name}}",
-    "mapRoom": "Sala do mapa: {{name}}"
+    "mapRoom": "Sala do mapa: {{name}}",
+    "specialty": "{{name}}"
   },
   "history": {
     "title": "Histórico da marcação",
@@ -549,7 +555,8 @@
     "reset": "Repor",
     "seriesMark": "Sessão de série",
     "arrearsMark": "Mês anterior por regularizar",
-    "room": "Mostrar a sala"
+    "room": "Mostrar a sala",
+    "specialty": "Mostrar a especialidade"
   },
   "holiday": {
     "shade": "Feriado: {{names}}",

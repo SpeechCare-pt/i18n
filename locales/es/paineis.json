@@ -107,7 +107,8 @@
     "label": "Secciones",
     "access": "Accesos",
     "hours": "Horas perdidas",
-    "adherence": "Adherencia"
+    "adherence": "Adherencia",
+    "sides": "Cancelaciones"
   },
   "accessRequests": {
     "pending": {
@@ -126,5 +127,25 @@
     "reassessments_zero": "Ninguna reevaluación por agendar",
     "reassessments_one": "{{count}} reevaluación por agendar",
     "reassessments_other": "{{count}} reevaluaciones por agendar"
+  },
+  "sides": {
+    "title": "Cancelaciones y ausencias por terapeuta",
+    "subtitle": "Últimos {{days}} días, según de quién fue el fallo. Solo recuentos.",
+    "patient": "Del paciente",
+    "therapist": "Del terapeuta",
+    "clinic": "De la clínica",
+    "noReason": "Cancelada sin motivo registrado",
+    "empty": "Ninguna cancelación ni ausencia en este periodo.",
+    "truncated": "Hay más sesiones de las que lee la lista. Faltan las más antiguas.",
+    "reasons": {
+      "familyInitiative": "Canceló la familia",
+      "patientIllness": "Enfermedad del paciente",
+      "noShowPatient": "Ausencia del paciente",
+      "technicianIllness": "Enfermedad del terapeuta",
+      "noShowTechnician": "Ausencia del terapeuta",
+      "clinicInitiative": "Canceló la clínica",
+      "bookingError": "Error de reserva",
+      "externalConditions": "Condiciones externas"
+    }
   }
 }
