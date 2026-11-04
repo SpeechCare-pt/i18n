@@ -78,7 +78,8 @@
       "formResponse": "formulario",
       "user": "cuenta",
       "invite": "invitación",
-      "accessRequest": "solicitud de acceso"
+      "accessRequest": "solicitud de acceso",
+      "reassessment": "reevaluación"
     }
   },
   "waits": {
