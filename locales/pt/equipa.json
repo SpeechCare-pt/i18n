@@ -104,5 +104,34 @@
     "siteNotAllowed": "Essa unidade está fora das tuas.",
     "idleTimeoutRange": "Indica um número inteiro entre 1 e 480.",
     "failed": "Não foi possível concluir. Tenta novamente."
+  },
+  "units": {
+    "title": "Unidades: moeda, fuso e feriados",
+    "hint": "A moeda e o fuso ficam registados por unidade. A faturação e os horários de trabalho continuam na moeda e na hora da prática. O calendário decide que dias a agenda dá como feriado.",
+    "unit": "Unidade",
+    "currency": "Moeda",
+    "timeZone": "Fuso horário",
+    "calendar": "Feriados",
+    "unset": "Por definir",
+    "samePractice": "Igual ao da prática",
+    "calendars": {
+      "unset": "Os da prática",
+      "PT": "Portugal",
+      "PT-Lisboa": "Lisboa",
+      "PT-Porto": "Porto",
+      "ES-Madrid": "Madrid",
+      "none": "Sem feriados"
+    },
+    "coverage": "Calendário de Madrid com dados para {{years}}.",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "empty": "Ainda não há unidades.",
+    "errors": {
+      "invalidTimeZone": "Esse fuso horário não existe.",
+      "invalidCalendar": "Esse calendário não existe.",
+      "invalidCurrency": "Essa moeda não existe.",
+      "notFound": "Esta unidade já não existe.",
+      "failed": "Não foi possível guardar. Tenta novamente."
+    }
   }
 }
