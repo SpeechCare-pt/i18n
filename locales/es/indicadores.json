@@ -89,7 +89,13 @@
   "withoutValue_other": "{{count}} sesiones realizadas sin servicio, que cuentan con valor 0.",
   "hours": "{{hours}} h",
   "drill": {
-    "title": "Sesiones: {{what}}",
+    "titleOf": {
+      "held": "Sesiones realizadas",
+      "upcoming": "Sesiones previstas",
+      "unresolved": "Sesiones por cerrar",
+      "missed": "Faltas",
+      "cancelled": "Sesiones canceladas"
+    },
     "close": "Cerrar",
     "loading": "Cargando…",
     "empty": "Ninguna sesión.",
