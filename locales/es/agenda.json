@@ -555,5 +555,16 @@
     "shade": "Festivo: {{names}}",
     "municipal": "Festivo municipal, la unidad abre",
     "noData": "Calendario de {{calendar}} sin datos para {{year}}"
+  },
+  "due": {
+    "title": "Por agendar contigo",
+    "count_one": "{{count}} paciente tuyo por agendar.",
+    "count_other": "{{count}} pacientes tuyos por agendar.",
+    "atLeast_one": "Al menos {{count}} paciente tuyo por agendar.",
+    "atLeast_other": "Al menos {{count}} pacientes tuyos por agendar.",
+    "open": "Abrir los seguimientos",
+    "followUp": "seguimiento",
+    "reassessment": "reevaluación",
+    "line": "{{name}}: {{what}} para {{month}}"
   }
 }

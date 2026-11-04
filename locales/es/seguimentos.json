@@ -183,7 +183,8 @@
     "pending": "Por agendar",
     "booked": "Agendada",
     "done": "Realizada",
-    "cancelled": "Cancelada"
+    "cancelled": "Cancelada",
+    "seenDetail": "Realizado, falta el próximo retorno"
   },
   "reassessment": {
     "tab": "Reevaluaciones por agendar",

@@ -183,7 +183,8 @@
     "pending": "Por marcar",
     "booked": "Marcada",
     "done": "Realizada",
-    "cancelled": "Cancelada"
+    "cancelled": "Cancelada",
+    "seenDetail": "Realizado, falta o próximo retorno"
   },
   "reassessment": {
     "tab": "Reavaliações por marcar",
