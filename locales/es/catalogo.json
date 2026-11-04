@@ -42,14 +42,16 @@
     "ages": "Franja de edad",
     "ageMin": "Edad mínima",
     "ageMax": "Edad máxima",
-    "nonBillable": "Ocupa agenda sin facturar"
+    "nonBillable": "Ocupa agenda sin facturar",
+    "assessment": "Servicio de evaluación"
   },
   "hints": {
     "equipment": "Sepáralo por comas.",
     "ages": "En años. Déjalo en blanco para no limitar.",
     "roomType": "Como la clínica la llama. Usa el mismo nombre en los servicios que necesitan la misma sala.",
     "equipmentKnown": "Sepáralo por comas. Ya en uso: {{list}}.",
-    "nonBillable": "Para reunión de equipo, supervisión, desplazamiento y tiempo administrativo. Ocupa la agenda y la sala y no genera documento de facturación."
+    "nonBillable": "Para reunión de equipo, supervisión, desplazamiento y tiempo administrativo. Ocupa la agenda y la sala y no genera documento de facturación.",
+    "assessment": "Es una primera evaluación. Los Indicadores siguen a los pacientes evaluados por primera vez desde aquí."
   },
   "modality": {
     "any": "Presencial u online",

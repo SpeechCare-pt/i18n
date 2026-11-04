@@ -59,7 +59,9 @@
       "missed": "Faltas",
       "rate": "Taxa de desmarcação",
       "value": "Valor",
-      "occupancy": "Ocupação"
+      "occupancy": "Ocupação",
+      "free": "Horas livres",
+      "perHour": "Valor por hora mapeada"
     },
     "others": "Outros ({{count}})",
     "noLocation": "Sem unidade",
@@ -143,5 +145,117 @@
     "truncated": "Há mais acompanhamentos terminados do que a página lê. Os números são dos primeiros {{count}}.",
     "scoped": "A duração dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
     "loading": "A carregar…"
+  },
+  "filters": {
+    "subject": "Especialidade",
+    "technician": "Profissional",
+    "allSubjects": "Todas",
+    "allTechnicians": "Todos",
+    "notFollowed": "O dinheiro e a ocupação das salas não seguem estes filtros.",
+    "oneAtATime": "A especialidade e o profissional não se combinam. Limpa um para escolher o outro."
+  },
+  "areas": {
+    "operational": "Operacional",
+    "clinical": "Clínica",
+    "commercial": "Comercial",
+    "resources": "Recursos",
+    "financial": "Financeira",
+    "none": "Esta conta não tem acesso a nenhuma área de indicadores."
+  },
+  "continuity": {
+    "title": "Continuidade depois da avaliação",
+    "intro": "Pacientes avaliados pela primeira vez. Começar acompanhamento é ter uma consulta realizada, de um serviço que não é de avaliação, nos 90 dias seguintes.",
+    "assessed": "Avaliados",
+    "started": "Começaram acompanhamento",
+    "startedRate": "{{percent}} dos que já passaram os 90 dias",
+    "maturing": "Ainda no prazo de 90 dias",
+    "maturingNote": "Não entram na percentagem.",
+    "meanDays": "Tempo médio em acompanhamento",
+    "days": "{{count}} dias",
+    "meanSessions": "Consultas em média",
+    "atLeast": "pelo menos {{value}}",
+    "noRate": "Há semanas com mais pacientes do que a página lê, mesmo dia a dia. Mostram-se só as contagens das que vieram inteiras, no mínimo, e não há percentagem.",
+    "capped": "Lê-se até 70 consultas por paciente. Quem chega ao limite faz subir a média só até aí, por isso a média é no mínimo esta.",
+    "ongoing_one": "{{count}} paciente tem consulta marcada depois da última realizada.",
+    "ongoing_other": "{{count}} pacientes têm consulta marcada depois da última realizada.",
+    "notNew_one": "{{count}} paciente já tinha consultas antes e não conta como novo.",
+    "notNew_other": "{{count}} pacientes já tinham consultas antes e não contam como novos.",
+    "differs": "Segue os pacientes avaliados a partir da avaliação. A duração dos acompanhamentos mais abaixo é a média dos que já terminaram.",
+    "noServices": "Nenhum serviço está marcado como avaliação, por isso não há nada para seguir.",
+    "noServicesLink": "Marcar serviços de avaliação no Catálogo",
+    "tooManyServices": "Há mais de 25 serviços de avaliação. A página não os lê todos, por isso os números são no mínimo estes.",
+    "empty": "Sem pacientes avaliados pela primeira vez neste período.",
+    "loading": "A carregar…"
+  },
+  "clinical": {
+    "title": "Percurso clínico",
+    "careNow": "Pacientes com acompanhamento aberto hoje",
+    "careNowNote": "É uma posição de hoje, não do período.",
+    "admissions": "Admissões",
+    "discharges": "Altas",
+    "dropouts": "Desistências",
+    "interruptions": "Interrupções",
+    "interruptionsDroppedOut": "dos quais por desistência: {{count}}",
+    "transfers": "Transferências",
+    "vsYear": "{{count}} em {{year}}",
+    "bySubject": "Por especialidade",
+    "columns": {
+      "name": "Especialidade",
+      "admissions": "Admissões",
+      "discharges": "Altas",
+      "dropouts": "Desistências",
+      "interruptions": "Interrupções",
+      "transfers": "Transferências"
+    },
+    "migrated": "Inclui dados migrados do sistema anterior.",
+    "note": "Altas, desistências, interrupções e transferências não se repetem: somam os acompanhamentos que terminaram no período.",
+    "unitNotApplicable": "A unidade não se aplica à clínica: um acompanhamento não tem unidade.",
+    "scoped": "O percurso clínico é da organização inteira e só a gestão sem unidades atribuídas o vê.",
+    "truncated": "O período tem mais registos do que a página lê, por isso os números são no mínimo estes.",
+    "empty": "Sem admissões nem fins de acompanhamento neste período."
+  },
+  "commercial": {
+    "title": "Contactos e avaliações",
+    "newContacts": "Novos contactos",
+    "byChannel": "Por canal",
+    "converted": "Convertidos em acompanhamento",
+    "convertedRate": "{{percent}} dos novos contactos",
+    "stillOpen": "Ainda em aberto",
+    "notProgressed": "Sem avanço",
+    "responseTitle": "Tempo de resposta",
+    "meanResponse": "Média em horas úteis",
+    "hoursValue": "{{hours}} h",
+    "inTime": "Dentro do prazo",
+    "inTimeRate": "{{percent}} dos respondidos",
+    "neverAnswered": "Sem resposta",
+    "onlyKept": "Só contam os pedidos ainda guardados: os que não avançaram apagam-se seis meses depois do último contacto.",
+    "channels": {
+      "phone": "Telefone",
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "website": "Site",
+      "desk": "Balcão",
+      "referral": "Referenciação",
+      "other": "Outro"
+    },
+    "assessments": "Avaliações marcadas",
+    "booked": "Por realizar",
+    "held": "Realizadas",
+    "cancelled": "Desmarcadas",
+    "missed": "Faltas",
+    "atLeast": "pelo menos {{value}}",
+    "noServices": "Nenhum serviço está marcado como avaliação.",
+    "noServicesLink": "Marcar serviços de avaliação no Catálogo",
+    "empty": "Sem novos contactos neste período.",
+    "truncated": "O período tem mais pedidos do que a página lê, por isso os números são no mínimo estes."
+  },
+  "resources": {
+    "title": "Recursos",
+    "note": "Horas livres são as horas do mapa de salas menos as marcadas. A produtividade é o valor de catálogo das sessões realizadas por hora do mapa.",
+    "productivity": "Produtividade: valor das sessões",
+    "freeHoursValue": "{{hours}} h"
+  },
+  "hidden": {
+    "financial": "A área financeira só está disponível para a direção."
   }
 }

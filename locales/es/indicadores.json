@@ -59,7 +59,9 @@
       "missed": "Faltas",
       "rate": "Tasa de cancelación",
       "value": "Valor",
-      "occupancy": "Ocupación"
+      "occupancy": "Ocupación",
+      "free": "Horas libres",
+      "perHour": "Valor por hora del mapa"
     },
     "others": "Otros ({{count}})",
     "noLocation": "Sin sede",
@@ -143,5 +145,117 @@
     "truncated": "Hay más acompañamientos terminados de los que lee la página. Las cifras son de los primeros {{count}}.",
     "scoped": "La duración de los acompañamientos es de toda la organización y solo la ve la gestión sin sedes asignadas.",
     "loading": "Cargando…"
+  },
+  "filters": {
+    "subject": "Especialidad",
+    "technician": "Profesional",
+    "allSubjects": "Todas",
+    "allTechnicians": "Todos",
+    "notFollowed": "El dinero y la ocupación de las salas no siguen estos filtros.",
+    "oneAtATime": "La especialidad y el profesional no se combinan. Quita uno para elegir el otro."
+  },
+  "areas": {
+    "operational": "Operativa",
+    "clinical": "Clínica",
+    "commercial": "Comercial",
+    "resources": "Recursos",
+    "financial": "Financiera",
+    "none": "Esta cuenta no tiene acceso a ningún área de indicadores."
+  },
+  "continuity": {
+    "title": "Continuidad tras la evaluación",
+    "intro": "Pacientes evaluados por primera vez. Empezar el seguimiento es tener una sesión realizada, de un servicio que no es de evaluación, en los 90 días siguientes.",
+    "assessed": "Evaluados",
+    "started": "Empezaron seguimiento",
+    "startedRate": "{{percent}} de los que ya pasaron los 90 días",
+    "maturing": "Aún dentro de los 90 días",
+    "maturingNote": "No entran en el porcentaje.",
+    "meanDays": "Tiempo medio en seguimiento",
+    "days": "{{count}} días",
+    "meanSessions": "Sesiones de media",
+    "atLeast": "al menos {{value}}",
+    "noRate": "Hay semanas con más pacientes de los que la página lee, incluso día a día. Se muestran solo los recuentos de las que llegaron completas, como mínimo, y no hay porcentaje.",
+    "capped": "Se leen hasta 70 sesiones por paciente. Quien llega al límite sube la media solo hasta ahí, así que la media es como mínimo esta.",
+    "ongoing_one": "{{count}} paciente tiene una sesión reservada después de la última realizada.",
+    "ongoing_other": "{{count}} pacientes tienen una sesión reservada después de la última realizada.",
+    "notNew_one": "{{count}} paciente ya tenía sesiones antes y no cuenta como nuevo.",
+    "notNew_other": "{{count}} pacientes ya tenían sesiones antes y no cuentan como nuevos.",
+    "differs": "Sigue a los pacientes evaluados desde la evaluación. La duración de los seguimientos más abajo es la media de los que ya terminaron.",
+    "noServices": "Ningún servicio está marcado como evaluación, así que no hay nada que seguir.",
+    "noServicesLink": "Marcar servicios de evaluación en el Catálogo",
+    "tooManyServices": "Hay más de 25 servicios de evaluación. La página no los lee todos, así que las cifras son como mínimo estas.",
+    "empty": "Sin pacientes evaluados por primera vez en este periodo.",
+    "loading": "Cargando…"
+  },
+  "clinical": {
+    "title": "Recorrido clínico",
+    "careNow": "Pacientes con seguimiento abierto hoy",
+    "careNowNote": "Es una posición de hoy, no del periodo.",
+    "admissions": "Admisiones",
+    "discharges": "Altas",
+    "dropouts": "Abandonos",
+    "interruptions": "Interrupciones",
+    "interruptionsDroppedOut": "de las cuales por abandono: {{count}}",
+    "transfers": "Traslados",
+    "vsYear": "{{count}} en {{year}}",
+    "bySubject": "Por especialidad",
+    "columns": {
+      "name": "Especialidad",
+      "admissions": "Admisiones",
+      "discharges": "Altas",
+      "dropouts": "Abandonos",
+      "interruptions": "Interrupciones",
+      "transfers": "Traslados"
+    },
+    "migrated": "Incluye datos migrados del sistema anterior.",
+    "note": "Altas, abandonos, interrupciones y traslados no se repiten: suman los seguimientos que terminaron en el periodo.",
+    "unitNotApplicable": "La sede no se aplica a la clínica: un seguimiento no tiene sede.",
+    "scoped": "El recorrido clínico es de toda la organización y solo la gestión sin sedes asignadas lo ve.",
+    "truncated": "El periodo tiene más registros de los que la página lee, así que las cifras son como mínimo estas.",
+    "empty": "Sin admisiones ni fines de seguimiento en este periodo."
+  },
+  "commercial": {
+    "title": "Contactos y evaluaciones",
+    "newContacts": "Nuevos contactos",
+    "byChannel": "Por canal",
+    "converted": "Convertidos en seguimiento",
+    "convertedRate": "{{percent}} de los nuevos contactos",
+    "stillOpen": "Aún abiertos",
+    "notProgressed": "Sin avance",
+    "responseTitle": "Tiempo de respuesta",
+    "meanResponse": "Media en horas laborables",
+    "hoursValue": "{{hours}} h",
+    "inTime": "Dentro de plazo",
+    "inTimeRate": "{{percent}} de los respondidos",
+    "neverAnswered": "Sin respuesta",
+    "onlyKept": "Solo cuentan las solicitudes que aún se guardan: las que no avanzaron se borran seis meses después del último contacto.",
+    "channels": {
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "email": "Correo",
+      "website": "Web",
+      "desk": "Recepción",
+      "referral": "Derivación",
+      "other": "Otro"
+    },
+    "assessments": "Evaluaciones reservadas",
+    "booked": "Por realizar",
+    "held": "Realizadas",
+    "cancelled": "Canceladas",
+    "missed": "Faltas",
+    "atLeast": "al menos {{value}}",
+    "noServices": "Ningún servicio está marcado como evaluación.",
+    "noServicesLink": "Marcar servicios de evaluación en el Catálogo",
+    "empty": "Sin nuevos contactos en este periodo.",
+    "truncated": "El periodo tiene más solicitudes de las que la página lee, así que las cifras son como mínimo estas."
+  },
+  "resources": {
+    "title": "Recursos",
+    "note": "Las horas libres son las horas del mapa de salas menos las reservadas. La productividad es el valor de catálogo de las sesiones realizadas por hora del mapa.",
+    "productivity": "Productividad: valor de las sesiones",
+    "freeHoursValue": "{{hours}} h"
+  },
+  "hidden": {
+    "financial": "El área financiera solo está disponible para la dirección."
   }
 }
