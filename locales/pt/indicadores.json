@@ -182,7 +182,7 @@
     "differs": "Segue os pacientes avaliados a partir da avaliação. A duração dos acompanhamentos mais abaixo é a média dos que já terminaram.",
     "noServices": "Nenhum serviço está marcado como avaliação, por isso não há nada para seguir.",
     "noServicesLink": "Marcar serviços de avaliação no Catálogo",
-    "tooManyServices": "Há mais de 20 serviços de avaliação. A página não os lê todos, por isso os números são no mínimo estes.",
+    "tooManyServices": "Há mais de 25 serviços de avaliação. A página não os lê todos, por isso os números são no mínimo estes.",
     "empty": "Sem pacientes avaliados pela primeira vez neste período.",
     "loading": "A carregar…"
   },

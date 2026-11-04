@@ -182,7 +182,7 @@
     "differs": "Sigue a los pacientes evaluados desde la evaluación. La duración de los seguimientos más abajo es la media de los que ya terminaron.",
     "noServices": "Ningún servicio está marcado como evaluación, así que no hay nada que seguir.",
     "noServicesLink": "Marcar servicios de evaluación en el Catálogo",
-    "tooManyServices": "Hay más de 20 servicios de evaluación. La página no los lee todos, así que las cifras son como mínimo estas.",
+    "tooManyServices": "Hay más de 25 servicios de evaluación. La página no los lee todos, así que las cifras son como mínimo estas.",
     "empty": "Sin pacientes evaluados por primera vez en este periodo.",
     "loading": "Cargando…"
   },
