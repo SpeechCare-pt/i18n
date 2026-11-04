@@ -95,7 +95,9 @@
     "more": "Há mais avisos antigos do que os que se mostram aqui.",
     "loading": "A carregar…",
     "provisionalExpired_one": "A marcação provisória de {{patient}}, a {{when}}, expirou e foi cancelada",
-    "provisionalExpired_other": "{{count}} marcações provisórias expiraram e foram canceladas, a primeira a {{when}}"
+    "provisionalExpired_other": "{{count}} marcações provisórias expiraram e foram canceladas, a primeira a {{when}}",
+    "offerLapsed_one": "A oferta para a vaga de {{when}} caducou",
+    "offerLapsed_other": "{{count}} ofertas caducaram, a primeira para a vaga de {{when}}"
   },
   "deadlines": {
     "title": "Prazos",
@@ -106,6 +108,11 @@
       "title": "Marcações provisórias",
       "empty": "Nenhuma marcação provisória em aberto.",
       "row": "Expira {{until}} · sessão a {{start}}"
+    },
+    "offers": {
+      "title": "Ofertas da lista de espera",
+      "empty": "Nenhuma oferta em aberto.",
+      "row": "Caduca {{until}} · vaga de {{start}}"
     }
   }
 }

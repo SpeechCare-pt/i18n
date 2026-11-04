@@ -243,7 +243,15 @@
     "passed": "Esta hora já passou, por isso não há vaga para oferecer.",
     "slotPassed": "Esta hora já passou.",
     "reopen": "Oferecer a vaga",
-    "truncated": "A lista de espera é maior do que isto, por isso pode faltar aqui alguém que sirva."
+    "truncated": "A lista de espera é maior do que isto, por isso pode faltar aqui alguém que sirva.",
+    "record": "Registar oferta",
+    "open": "Oferecida, responde até {{when}}",
+    "accepted": "Aceitou",
+    "declined": "Recusou",
+    "slotOffered": "Esta vaga já está oferecida a outra família.",
+    "alreadyOffered": "Esta família já tem uma oferta aberta.",
+    "offerClosed": "Esta oferta já está fechada.",
+    "recordFailed": "Não foi possível registar a oferta. Tenta outra vez."
   },
   "cancel": {
     "title": "Anular a sessão",

@@ -243,7 +243,15 @@
     "passed": "Esta hora ya pasó, así que no hay hueco que ofrecer.",
     "slotPassed": "Esta hora ya pasó.",
     "reopen": "Ofrecer el hueco",
-    "truncated": "La lista de espera es más larga que esto, así que puede faltar aquí alguien que sirva."
+    "truncated": "La lista de espera es más larga que esto, así que puede faltar aquí alguien que sirva.",
+    "record": "Registrar oferta",
+    "open": "Ofrecida, responde hasta {{when}}",
+    "accepted": "Aceptó",
+    "declined": "Rechazó",
+    "slotOffered": "Este hueco ya está ofrecido a otra familia.",
+    "alreadyOffered": "Esta familia ya tiene una oferta abierta.",
+    "offerClosed": "Esta oferta ya está cerrada.",
+    "recordFailed": "No se pudo registrar la oferta. Inténtalo de nuevo."
   },
   "cancel": {
     "title": "Anular la sesión",
