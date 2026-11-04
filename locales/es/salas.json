@@ -29,7 +29,8 @@
     "roomType": "Tipo de sala",
     "capacity": "Aforo",
     "equipment": "Equipamiento fijo",
-    "specialties": "Especialidades"
+    "specialties": "Especialidades",
+    "clinical": "Sala clínica"
   },
   "hints": {
     "roomType": "Como la llama la clínica. Usa el mismo nombre que piden los servicios.",
@@ -37,7 +38,8 @@
     "capacity": "Cuántas personas caben.",
     "equipment": "Separa por comas.",
     "equipmentKnown": "Separa por comas. Ya en uso: {{list}}.",
-    "specialties": "Sin ninguna marcada, cualquier especialidad puede trabajar aquí."
+    "specialties": "Sin ninguna marcada, cualquier especialidad puede trabajar aquí.",
+    "clinical": "Desmarca si aquí no se hacen consultas."
   },
   "chips": {
     "capacity_one": "{{count}} persona",
@@ -60,5 +62,53 @@
     "equipment": "«{{name}}» pide {{list}} y ninguna sala lo tiene.",
     "both": "«{{name}}» pide una {{roomType}} con {{list}}, y no la hay.",
     "combination": "«{{name}}» lo pide todo junto en la misma sala. Existe todo, pero repartido."
+  },
+  "map": {
+    "title": "Mapa de la semana",
+    "on": "Mapa del",
+    "room": "Sala",
+    "nonClinical": "No clínica",
+    "noTherapist": "Sin terapeuta",
+    "stretch": "Franja",
+    "openLabel": "Abrir el mapa de la semana de {{name}}",
+    "closeLabel": "Cerrar el mapa de la semana de {{name}}",
+    "weekday": {
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes"
+    },
+    "chipLabel": "{{stretch}}, {{room}}, {{day}}. Cambiar o liberar",
+    "addLabel": "Añadir franja en {{room}}, {{day}}",
+    "scheduled": "Ya hay un cambio programado a partir del {{date}}.",
+    "truncated": "El mapa es demasiado grande para mostrarlo entero. Avisa a coordinación.",
+    "readOnly": "Solo la coordinación y la dirección cambian el mapa.",
+    "saved": "Franja guardada.",
+    "ended": "Franja liberada.",
+    "form": {
+      "room": "Sala",
+      "weekday": "Día",
+      "start": "Inicio",
+      "end": "Fin",
+      "therapist": "Terapeuta",
+      "label": "Nombre en el mapa antiguo",
+      "labelHint": "Se ve cuando no hay terapeuta vinculado.",
+      "note": "Nota",
+      "from": "A partir del",
+      "endFrom": "Liberar a partir del"
+    },
+    "errors": {
+      "roomOverlap": "La sala ya está ocupada en ese horario: {{day}}, de {{from}} a {{to}}.",
+      "technicianOverlap": "Esa persona ya tiene otra sala en ese horario: {{day}}, de {{from}} a {{to}}.",
+      "pastDate": "La fecha no puede ser anterior a hoy.",
+      "roomNotClinical": "Esa sala no es clínica.",
+      "weekdayOutOfRange": "El mapa va de lunes a viernes.",
+      "hoursOffGrid": "Las horas tienen que ser múltiplos de 5 minutos.",
+      "hoursOutOfRange": "El fin tiene que ser posterior al inicio.",
+      "alreadyEnded": "Esa franja ya terminó.",
+      "roomHasStretches": "Hay terapeutas con horario en esta sala en el mapa. Cámbialos primero.",
+      "failed": "No se pudo guardar."
+    }
   }
 }

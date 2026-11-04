@@ -40,7 +40,8 @@
     },
     "site": "{{site}}: {{summary}}",
     "room": "{{room}}: {{summary}}",
-    "roomsNote": "As salas aparecem quando alguém já chegou a elas."
+    "roomsNote": "As salas aparecem quando alguém já chegou a elas.",
+    "inRoom": "{{name}}"
   },
   "owed": {
     "label": "Por regularizar",
