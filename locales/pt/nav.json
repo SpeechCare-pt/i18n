@@ -67,5 +67,31 @@
   },
   "teamNotesBadge_zero": "Sem notas novas da equipa",
   "teamNotesBadge_one": "{{count}} nota nova da equipa",
-  "teamNotesBadge_other": "{{count}} notas novas da equipa"
+  "teamNotesBadge_other": "{{count}} notas novas da equipa",
+  "notices": {
+    "title": "Avisos",
+    "none": "Sem avisos",
+    "noneSessions": "Sem alterações às tuas sessões",
+    "bell_one": "{{count}} aviso por ver",
+    "bell_other": "{{count}} avisos por ver",
+    "bellMany": "Mais de 99 avisos por ver",
+    "unnamed": "um paciente",
+    "someone": "Alguém",
+    "created_one": "{{who}} marcou-te uma sessão com {{patient}}, a {{when}}",
+    "created_other": "{{who}} marcou-te {{count}} sessões novas, a primeira a {{when}}",
+    "moved_one": "{{who}} remarcou a tua sessão com {{patient}} de {{before}} para {{when}}",
+    "moved_other": "{{who}} remarcou {{count}} sessões tuas, a primeira para {{when}}",
+    "reassigned_one": "{{who}} passou-te a sessão com {{patient}} de {{when}}",
+    "reassigned_other": "{{who}} passou-te {{count}} sessões, a primeira de {{when}}",
+    "movedAway_one": "{{who}} passou para outra pessoa a tua sessão de {{when}}",
+    "movedAway_other": "{{who}} passou {{count}} sessões tuas para outras pessoas, a primeira de {{when}}",
+    "cancelled_one": "{{who}} cancelou a tua sessão com {{patient}}, a {{when}}",
+    "cancelled_other": "{{who}} cancelou {{count}} sessões tuas, a primeira a {{when}}",
+    "seeInAgenda": "Ver na agenda",
+    "markAllSeen": "Marcar tudo como visto",
+    "seen": "Visto",
+    "close": "Fechar",
+    "more": "Há mais avisos antigos do que os que se mostram aqui.",
+    "loading": "A carregar…"
+  }
 }
