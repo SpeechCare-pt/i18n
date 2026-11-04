@@ -43,8 +43,17 @@
     "linkLabel": "Enlace de la invitación",
     "copy": "Copiar",
     "copied": "Copiado",
-    "note": "No se envía ningún correo. Copia el enlace y entrégaselo a la persona.",
-    "close": "Cerrar"
+    "note": "Si el correo no llega, copia el enlace y entrégaselo a la persona.",
+    "close": "Cerrar",
+    "sentTo": "Hemos enviado la invitación a {{email}}.",
+    "resend": "Enviar otra vez",
+    "resent": "Enviado otra vez.",
+    "mail": {
+      "sending": "Enviando…",
+      "sent": "Enviado",
+      "failed": "No se pudo enviar"
+    },
+    "specialties": "Especialidades"
   },
   "offboard": {
     "title": "Dar de baja a {{name}}",

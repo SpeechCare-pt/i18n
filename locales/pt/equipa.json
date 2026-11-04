@@ -43,8 +43,17 @@
     "linkLabel": "Link do convite",
     "copy": "Copiar",
     "copied": "Copiado",
-    "note": "Não é enviado nenhum email. Copia o link e entrega-o à pessoa.",
-    "close": "Fechar"
+    "note": "Se o email não chegar, copia o link e entrega-o à pessoa.",
+    "close": "Fechar",
+    "sentTo": "Enviámos o convite para {{email}}.",
+    "resend": "Enviar outra vez",
+    "resent": "Enviado outra vez.",
+    "mail": {
+      "sending": "A enviar…",
+      "sent": "Enviado",
+      "failed": "Não foi possível enviar"
+    },
+    "specialties": "Especialidades"
   },
   "offboard": {
     "title": "Retirar o acesso a {{name}}",
