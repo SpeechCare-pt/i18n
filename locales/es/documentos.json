@@ -135,7 +135,8 @@
     "notOnCareTeam": "No estás en el equipo de este paciente.",
     "tooShort": "Falta rellenar un campo.",
     "tooLong": "Uno de los campos es demasiado largo.",
-    "reportNotReadable": "No tienes acceso para emitir este informe. Pide acceso al paciente a quien lo coordina."
+    "draftFailed": "No se pudo abrir el borrador de este informe. Inténtalo de nuevo.",
+    "reportNotReadable":"No tienes acceso para emitir este informe. Pide acceso al paciente a quien lo coordina."
   },
   "pending": {
     "title": "Consentimientos pendientes de firma",

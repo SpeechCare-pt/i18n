@@ -120,6 +120,7 @@
   },
   "errors": {
     "failed": "Não foi possível gravar. Tenta outra vez.",
+    "draftFailed": "Não foi possível abrir o rascunho deste relatório. Tenta outra vez.",
     "badSections": "Há secções por corrigir.",
     "tooManySections": "São secções a mais.",
     "badTemplateKey": "Este nome não dá um identificador válido.",
