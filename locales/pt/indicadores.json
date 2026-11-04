@@ -250,7 +250,9 @@
   },
   "resources": {
     "title": "Recursos",
-    "note": "Horas livres são as horas do mapa de salas menos as marcadas. A produtividade é o valor de catálogo das sessões realizadas por hora do mapa."
+    "note": "Horas livres são as horas do mapa de salas menos as marcadas. A produtividade é o valor de catálogo das sessões realizadas por hora do mapa.",
+    "productivity": "Produtividade: valor das sessões",
+    "freeHoursValue": "{{hours}} h"
   },
   "hidden": {
     "financial": "A área financeira só está disponível para a direção."

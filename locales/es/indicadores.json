@@ -250,7 +250,9 @@
   },
   "resources": {
     "title": "Recursos",
-    "note": "Las horas libres son las horas del mapa de salas menos las reservadas. La productividad es el valor de catálogo de las sesiones realizadas por hora del mapa."
+    "note": "Las horas libres son las horas del mapa de salas menos las reservadas. La productividad es el valor de catálogo de las sesiones realizadas por hora del mapa.",
+    "productivity": "Productividad: valor de las sesiones",
+    "freeHoursValue": "{{hours}} h"
   },
   "hidden": {
     "financial": "El área financiera solo está disponible para la dirección."
