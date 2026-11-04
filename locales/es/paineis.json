@@ -78,7 +78,11 @@
       "formResponse": "formulario",
       "user": "cuenta",
       "invite": "invitación",
-      "accessRequest": "solicitud de acceso"
+      "accessRequest": "solicitud de acceso",
+      "reassessment": "reevaluación",
+      "episode": "episodio",
+      "waitlistEntry": "entrada en la lista de espera",
+      "cashSession": "caja"
     }
   },
   "waits": {
@@ -112,5 +116,15 @@
       "open": "Abrir",
       "received": "Recibida el {{date}}"
     }
+  },
+  "pending": {
+    "title": "Por agendar",
+    "open": "Abrir los seguimientos",
+    "followUps_zero": "Ningún seguimiento por agendar",
+    "followUps_one": "{{count}} seguimiento por agendar",
+    "followUps_other": "{{count}} seguimientos por agendar",
+    "reassessments_zero": "Ninguna reevaluación por agendar",
+    "reassessments_one": "{{count}} reevaluación por agendar",
+    "reassessments_other": "{{count}} reevaluaciones por agendar"
   }
 }

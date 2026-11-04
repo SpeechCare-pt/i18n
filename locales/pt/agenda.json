@@ -555,5 +555,16 @@
     "shade": "Feriado: {{names}}",
     "municipal": "Feriado municipal, a unidade abre",
     "noData": "Calendário de {{calendar}} sem dados para {{year}}"
+  },
+  "due": {
+    "title": "Por marcar contigo",
+    "count_one": "{{count}} paciente teu por marcar.",
+    "count_other": "{{count}} pacientes teus por marcar.",
+    "atLeast_one": "Pelo menos {{count}} paciente teu por marcar.",
+    "atLeast_other": "Pelo menos {{count}} pacientes teus por marcar.",
+    "open": "Abrir os seguimentos",
+    "followUp": "seguimento",
+    "reassessment": "reavaliação",
+    "line": "{{name}}: {{what}} para {{month}}"
   }
 }

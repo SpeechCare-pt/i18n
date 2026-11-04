@@ -78,7 +78,11 @@
       "formResponse": "formulário",
       "user": "conta",
       "invite": "convite",
-      "accessRequest": "pedido de acesso"
+      "accessRequest": "pedido de acesso",
+      "reassessment": "reavaliação",
+      "episode": "episódio",
+      "waitlistEntry": "entrada na lista de espera",
+      "cashSession": "caixa"
     }
   },
   "waits": {
@@ -112,5 +116,15 @@
       "open": "Abrir",
       "received": "Recebido a {{date}}"
     }
+  },
+  "pending": {
+    "title": "Por marcar",
+    "open": "Abrir os seguimentos",
+    "followUps_zero": "Nenhum seguimento por marcar",
+    "followUps_one": "{{count}} seguimento por marcar",
+    "followUps_other": "{{count}} seguimentos por marcar",
+    "reassessments_zero": "Nenhuma reavaliação por marcar",
+    "reassessments_one": "{{count}} reavaliação por marcar",
+    "reassessments_other": "{{count}} reavaliações por marcar"
   }
 }

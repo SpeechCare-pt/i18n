@@ -33,7 +33,17 @@
     "recommendations": "Recomendações",
     "returnIn": "Retorno previsto para {{month}}",
     "noReturn": "Sem retorno previsto",
-    "closedBeforeAlta": "Terminado antes de existir alta registada"
+    "closedBeforeAlta": "Terminado antes de existir alta registada",
+    "closedFor": "{{kind}}: {{motive}}",
+    "kindLine": {
+      "discharge": "Alta",
+      "interruption": "Interrompido",
+      "transfer": "Transferido",
+      "transferToColleague": "Transferido para {{name}}",
+      "transferToService": "Transferido para {{service}}",
+      "transferToSomeone": "Transferido para um colega"
+    },
+    "closureNote": "Observações: {{note}}"
   },
   "objectives": {
     "title": "Objectivos",
@@ -86,9 +96,9 @@
     "marked_other": "{{count}} objectivos marcados"
   },
   "discharge": {
-    "open": "Dar alta",
-    "title": "Dar alta do episódio",
-    "motive": "Motivo da alta",
+    "open": "Terminar, suspender ou passar",
+    "title": "Terminar o acompanhamento",
+    "motive": "Motivo",
     "chooseMotive": "Escolher motivo",
     "motives": {
       "goalsAchieved": "Objectivos conseguidos",
@@ -97,7 +107,13 @@
       "referred": "Encaminhado para outro serviço",
       "outOfScope": "Fora do que fazemos aqui",
       "openedInError": "Aberto por engano",
-      "other": "Outro motivo"
+      "other": "Outro motivo",
+      "clinicalDecision": "Alta por decisão clínica",
+      "familyWithdrew": "Desistência comunicada pela família",
+      "lostContact": "Abandono ou perda de contacto",
+      "referredInternal": "Encaminhamento interno",
+      "referredExternal": "Encaminhamento externo",
+      "relocation": "Mudança de residência ou impossibilidade logística"
     },
     "recommendations": "Recomendações",
     "recommendationsPlaceholder": "O que fica para quem acompanhar o paciente a seguir",
@@ -109,13 +125,32 @@
       "m6": "Daqui a 6 meses",
       "m12": "Daqui a 12 meses"
     },
-    "save": "Dar alta",
-    "saving": "A dar alta…",
+    "saving": "A guardar…",
     "saved": "Alta dada.",
     "savedWithReturn": "Alta dada. O seguimento ficou para {{month}}.",
     "followUpKept": "O seguimento já estava marcado para {{month}} e ficou como estava.",
     "openFollowUps": "Seguimentos em aberto de {{name}}",
-    "stopCalling": "Deixar de chamar"
+    "stopCalling": "Deixar de chamar",
+    "kind": "O que acontece ao acompanhamento",
+    "kinds": {
+      "discharge": "Dar alta",
+      "interruption": "Suspender",
+      "transfer": "Passar para outro"
+    },
+    "kindHints": {
+      "discharge": "O acompanhamento acaba. Se a criança voltar, abre-se um episódio novo.",
+      "interruption": "Fica em pausa e pode ser retomado no mesmo episódio.",
+      "transfer": "Fecha este episódio. Quem recebe abre o seu."
+    },
+    "closureNote": "Observações",
+    "closureNoteRequired": "Observações (obrigatório)",
+    "closureNotePlaceholder": "O que é preciso saber sobre este motivo",
+    "transferToUser": "Colega que fica com o paciente",
+    "chooseColleague": "Escolher colega",
+    "transferToService": "Serviço de destino",
+    "transferToServicePlaceholder": "Nome do serviço ou da instituição",
+    "savedInterruption": "Acompanhamento suspenso.",
+    "savedTransfer": "Acompanhamento passado. Quem recebe abre o seu episódio."
   },
   "review": {
     "due": "Rever até {{date}}",
@@ -172,6 +207,33 @@
     "reviewDateTooSoon": "A próxima revisão tem de ser a partir de amanhã.",
     "reviewDateTooFar": "A próxima revisão não pode ser daqui a mais de um ano.",
     "invalidReviewDate": "Essa data não é válida.",
-    "clinicianNotBookable": "Este responsável já não pode receber consultas, por isso não dá para marcar o retorno. Tira a marca de «Há retorno previsto» e dá a alta sem retorno."
+    "clinicianNotBookable": "Este responsável já não pode receber consultas, por isso não dá para marcar o retorno. Tira a marca de «Há retorno previsto» e dá a alta sem retorno.",
+    "motiveNotForKind": "Esse motivo não serve para este tipo de encerramento.",
+    "motiveRetired": "Esse motivo já não se usa. Escolhe outro da lista.",
+    "closureNoteRequired": "«Outro motivo» precisa de observações.",
+    "transferTargetMismatch": "Indica o colega ou o serviço, conforme o motivo.",
+    "transferTargetRequired": "Indica para onde passa o paciente.",
+    "transferToSelf": "O colega tem de ser outra pessoa que não o responsável.",
+    "episodeNotInterrupted": "Só se retoma um acompanhamento suspenso.",
+    "returnNotExpectedOnTransfer": "Uma passagem para outro não tem retorno previsto."
+  },
+  "resume": {
+    "open": "Retomar",
+    "title": "Retomar o acompanhamento",
+    "body": "O episódio volta a abrir com o mesmo plano.",
+    "reviewDue": "Próxima revisão do plano",
+    "reviewDueHint": "Em branco, fica daqui a 90 dias.",
+    "save": "Retomar",
+    "saving": "A retomar…",
+    "saved": "Acompanhamento retomado."
+  },
+  "closures": {
+    "show": "Ver histórico de encerramentos",
+    "hide": "Esconder histórico",
+    "title": "Histórico de encerramentos",
+    "loading": "A carregar…",
+    "empty": "Sem encerramentos registados.",
+    "closed": "{{kind}}: {{motive}}, a {{date}}, por {{name}}",
+    "resumed": "Retomado a {{date}}, por {{name}}"
   }
 }

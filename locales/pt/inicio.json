@@ -75,5 +75,15 @@
     "count_one": "{{count}} família com um consentimento a expirar",
     "count_other": "{{count}} famílias com consentimentos a expirar",
     "link": "Abrir consentimentos"
+  },
+  "reassessments": {
+    "title": "Reavaliações",
+    "open": "Abrir as reavaliações",
+    "pending_zero": "Nenhuma por marcar",
+    "pending_one": "{{count}} por marcar",
+    "pending_other": "{{count}} por marcar",
+    "overdue_zero": "Nenhuma atrasada",
+    "overdue_one": "{{count}} atrasada",
+    "overdue_other": "{{count}} atrasadas"
   }
 }

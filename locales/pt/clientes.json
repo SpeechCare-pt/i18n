@@ -483,7 +483,11 @@
           "vatNumber": "NIF",
           "voidReason": "Motivo da anulação",
           "voidedAt": "Anulado a",
-          "voidedByName": "Anulado por"
+          "voidedByName": "Anulado por",
+          "closureKind": "Tipo de encerramento",
+          "closureNote": "Observações do encerramento",
+          "transferToName": "Passou para (colega)",
+          "transferToService": "Passou para (serviço)"
         },
         "value": {
           "accessGrant": "acesso",
@@ -618,7 +622,15 @@
           "view": "abriu",
           "void": "anulada",
           "waitlistEntry": "lista de espera",
-          "workingHours": "horário"
+          "workingHours": "horário",
+          "discharge": "alta",
+          "interruption": "interrupção",
+          "clinicalDecision": "alta por decisão clínica",
+          "familyWithdrew": "desistência comunicada pela família",
+          "lostContact": "abandono ou perda de contacto",
+          "referredInternal": "encaminhamento interno",
+          "referredExternal": "encaminhamento externo",
+          "relocation": "mudança de residência ou impossibilidade logística"
         }
       }
     }

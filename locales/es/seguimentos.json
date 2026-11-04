@@ -174,5 +174,70 @@
     "overdue_one": "{{count}} atrasado",
     "overdue_other": "{{count}} atrasados",
     "open": "Abrir la lista"
+  },
+  "tabs": {
+    "followUps": "Seguimientos",
+    "reassessments": "Reevaluaciones"
+  },
+  "status": {
+    "pending": "Por agendar",
+    "booked": "Agendada",
+    "done": "Realizada",
+    "cancelled": "Cancelada",
+    "seenDetail": "Realizado, falta el próximo retorno"
+  },
+  "reassessment": {
+    "tab": "Reevaluaciones por agendar",
+    "pendingHint": "Reevaluaciones por agendar, desde el mes anterior al previsto.",
+    "empty": "Ninguna reevaluación abierta.",
+    "truncated": "Hay más reevaluaciones de las que aparecen. El recuento es solo de las que aparecen.",
+    "row": {
+      "forMonth": "Para {{month}}"
+    },
+    "record": {
+      "title": "Reevaluaciones previstas",
+      "empty": "Sin reevaluaciones previstas."
+    },
+    "actions": {
+      "change": "Cambiar",
+      "cancel": "Cancelar reevaluación",
+      "markDone": "Marcar como realizada",
+      "doneSaved": "Reevaluación marcada como realizada.",
+      "cancelSaved": "Reevaluación cancelada."
+    },
+    "form": {
+      "open": "Prever reevaluación",
+      "title": "Prever reevaluación",
+      "changeTitle": "Cambiar reevaluación",
+      "month": "Mes",
+      "clinician": "Terapeuta previsto",
+      "chooseClinician": "Elegir terapeuta",
+      "clinicianLocked": "Con una consulta enlazada, el terapeuta no cambia.",
+      "reason": "Motivo",
+      "reasonPlaceholder": "Por qué hay que reevaluar el plan",
+      "submit": "Guardar",
+      "saving": "Guardando…",
+      "cancel": "Cancelar",
+      "needAll": "Elige el mes y el terapeuta.",
+      "saved": "Reevaluación prevista.",
+      "changed": "Reevaluación cambiada."
+    },
+    "errors": {
+      "failed": "No se ha podido guardar. Inténtalo otra vez.",
+      "reassessmentClosed": "Esta reevaluación ya está cerrada.",
+      "dueMonthInPast": "Ese mes ya pasó.",
+      "invalidMonth": "Ese mes no es válido.",
+      "tooShort": "Falta el motivo, o es demasiado corto.",
+      "tooLong": "El texto es demasiado largo.",
+      "tooManyOpen": "Este paciente ya tiene demasiadas reevaluaciones abiertas.",
+      "appointmentLinked": "Con una consulta enlazada, el terapeuta no cambia.",
+      "noConsultation": "Falta enlazar la consulta en la que se hizo la reevaluación.",
+      "consultationAhead": "La consulta todavía no ha tenido lugar.",
+      "clinicianNotBookable": "Esa persona no puede tener consultas agendadas.",
+      "appointmentMismatch": "Esa consulta no es de este paciente y terapeuta.",
+      "appointmentClosed": "Esa consulta ya está cerrada.",
+      "notOnCareTeam": "Este paciente no está en tu lista.",
+      "siteNotAllowed": "Esa consulta es de una unidad a la que no tienes acceso."
+    }
   }
 }
