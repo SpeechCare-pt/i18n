@@ -150,6 +150,8 @@
     "submit": "Excluir",
     "covered": "También excluye a {{names}}",
     "done": "Excluido: {{names}}",
+    "doneCount_one": "Excluido 1 paciente.",
+    "doneCount_other": "Excluidos {{count}} pacientes de la misma familia.",
     "lift": "Levantar exclusión"
   },
   "errors": {
