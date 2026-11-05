@@ -827,7 +827,11 @@
     "failed": "Não foi possível guardar. Tenta outra vez.",
     "snsInUse": "Este número de utente não pode ser usado. Pede à receção para verificar.",
     "payerRequired": "Escolhe primeiro quem paga, ou ninguém, antes de retirar o pagador.",
-    "sharedMember": "Esta pessoa também está noutra ficha e só a receção a pode alterar."
+    "sharedMember": "Esta pessoa também está noutra ficha e só a receção a pode alterar.",
+    "duplicateInAnotherUnit": "Já existe uma ficha desta pessoa noutra unidade. Pede à direção para a mudar para a tua.",
+    "familyInAnotherUnit": "Esta família já tem uma ficha noutra unidade. Pede à direção para registar este irmão na mesma família.",
+    "duplicatesElsewhere_one": "Há {{count}} ficha parecida noutra unidade.",
+    "duplicatesElsewhere_other": "Há {{count}} fichas parecidas noutras unidades."
   },
   "household": {
     "title": "Agregado",
@@ -977,5 +981,12 @@
       "invalidDecision": "Esta escolha não serve para este grupo. Atualiza a página e tenta outra vez.",
       "failed": "Não foi possível guardar. Tenta outra vez."
     }
+  },
+  "unit": {
+    "label": "Unidade",
+    "none": "Sem unidade",
+    "change": "Mudar de unidade",
+    "saved": "Unidade alterada.",
+    "required": "Escolhe a unidade deste paciente."
   }
 }
