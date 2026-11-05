@@ -20,6 +20,9 @@
     "link": "Enlace"
   },
   "open": "Abrir",
+  "download": "Descargar",
+  "downloading": "Preparando…",
+  "downloadFailed": "No se ha podido descargar. Inténtalo otra vez.",
   "retire": "Retirar",
   "retiring": "Retirando…",
   "retireConfirm": "¿Retirar este material? Un archivo se borra del todo.",

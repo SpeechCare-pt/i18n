@@ -541,6 +541,7 @@
           "diagnosis": "diagnóstico",
           "direction": "direção",
           "document": "documento",
+          "download": "descarregou",
           "droppedOut": "desistência",
           "emailLink": "ligação por email",
           "emerging": "a emergir",
@@ -638,11 +639,24 @@
           "clinicalDecision": "alta por decisão clínica",
           "familyWithdrew": "desistência comunicada pela família",
           "lostContact": "abandono ou perda de contacto",
+          "material": "material",
           "referredInternal": "encaminhamento interno",
           "referredExternal": "encaminhamento externo",
           "relocation": "mudança de residência ou impossibilidade logística"
         }
       }
+    },
+    "files": {
+      "title": "Ficheiros",
+      "empty": "Sem ficheiros.",
+      "folderRoot": "Sem pasta",
+      "open": "Descarregar",
+      "opening": "A preparar…",
+      "missing": "Ficheiro ainda por migrar",
+      "tooLarge": "Demasiado grande para descarregar aqui (mais de 100 MB)",
+      "notFound": "Este ficheiro já não está disponível para ti.",
+      "failed": "Não foi possível descarregar. Tenta outra vez.",
+      "truncated": "Mostram-se os primeiros {{count}} ficheiros."
     }
   },
   "gender": {

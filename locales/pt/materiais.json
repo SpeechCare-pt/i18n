@@ -20,6 +20,9 @@
     "link": "Ligação"
   },
   "open": "Abrir",
+  "download": "Descarregar",
+  "downloading": "A preparar…",
+  "downloadFailed": "Não foi possível descarregar. Tenta outra vez.",
   "retire": "Retirar",
   "retiring": "A retirar…",
   "retireConfirm": "Retirar este material? Um ficheiro apaga-se de vez.",
