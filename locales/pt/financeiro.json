@@ -21,6 +21,7 @@
   "aging": {
     "title": "Antiguidade",
     "hint": "As cobranças por regularizar, pela idade. As duas colunas nunca se somam.",
+    "homeUnit": "Conta só as famílias que pertencem às unidades que estás a ver, mesmo quando tiveram sessões noutra.",
     "owed": "Por regularizar",
     "lapsed": "Links expirados",
     "inCurrency": "Em {{currency}}",
