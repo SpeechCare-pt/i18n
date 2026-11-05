@@ -49,6 +49,7 @@
     "byPerson": "Ver tudo o que esta pessoa fez",
     "byPatient": "Ver tudo o que se fez nesta ficha",
     "noPatient": "Sem ficha associada",
+    "file": "«{{name}}»",
     "action": {
       "view": "Consultou",
       "create": "Criou",
@@ -64,6 +65,7 @@
       "consentVoid": "Anulou um consentimento registado por engano",
       "shareRevoke": "Retirou o acesso à ficha",
       "breakGlass": "Abriu a ficha por urgência",
+      "download": "Descarregou",
       "migrationSeed": "Veio da migração"
     },
     "resource": {
@@ -82,7 +84,8 @@
       "reassessment": "reavaliação",
       "episode": "episódio",
       "waitlistEntry": "entrada na lista de espera",
-      "cashSession": "caixa"
+      "cashSession": "caixa",
+      "material": "material"
     }
   },
   "waits": {
