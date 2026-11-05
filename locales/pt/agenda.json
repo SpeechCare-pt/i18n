@@ -104,7 +104,8 @@
       "totalPartial": "Total das consultas com preço"
     },
     "localTime": "{{time}} em {{city}}",
-    "notBookable": "Este serviço não se marca na agenda."
+    "notBookable": "Este serviço não se marca na agenda.",
+    "yourTime": "{{time}} na tua hora"
   },
   "absentRefusal": "{{name}} está ausente nessa altura. Queres marcar mesmo assim?",
   "conflicts": {

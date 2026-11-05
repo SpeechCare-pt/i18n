@@ -104,7 +104,8 @@
       "totalPartial": "Total de las citas con precio"
     },
     "localTime": "{{time}} en {{city}}",
-    "notBookable": "Este servicio no se agenda."
+    "notBookable": "Este servicio no se agenda.",
+    "yourTime": "{{time}} en tu hora"
   },
   "absentRefusal": "{{name}} está ausente en ese momento. ¿Quieres agendar igual?",
   "conflicts": {
