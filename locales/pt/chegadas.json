@@ -29,7 +29,7 @@
     "started": "começava às {{time}}",
     "longWait": "Espera longa",
     "unpaid": "Por pagar",
-    "unpaidTitle": "Sessão da clínica marcada e ainda sem pagamento.",
+    "unpaidTitle": "Sessão marcada e ainda sem pagamento.",
     "room": "Sala",
     "noRoom": "Sem sala"
   },

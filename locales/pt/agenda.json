@@ -11,7 +11,7 @@
   "capped": "A mostrar as primeiras {{count}} consultas deste dia.",
   "unpaid": {
     "mark": "Por pagar",
-    "title": "Sessão da clínica marcada e ainda sem pagamento.",
+    "title": "Sessão marcada e ainda sem pagamento.",
     "truncated": "O dia tem mais consultas do que dá para conferir. As marcas «Por pagar» não aparecem."
   },
   "remote": "Online",
