@@ -25,7 +25,8 @@
     "equipa": "Equipo",
     "materiais": "Materiales",
     "pedidos": "Solicitudes",
-    "prazos": "Plazos"
+    "prazos": "Plazos",
+    "automacoes": "Automatizaciones"
   },
   "search": "Buscar…",
   "orgLabel": "Organización",
@@ -98,7 +99,14 @@
     "offerLapsed_one": "La oferta para el hueco del {{when}} caducó",
     "offerLapsed_other": "{{count}} ofertas caducaron, la primera para el hueco del {{when}}",
     "paymentHold_one": "Pago pendiente: sesión online de {{patient}}, el {{when}}",
-    "paymentHold_other": "Pago pendiente en {{count}} sesiones online, la primera el {{when}}"
+    "paymentHold_other": "Pago pendiente en {{count}} sesiones online, la primera el {{when}}",
+    "automation": {
+      "sessionCancelled": "«{{rule}}»: sesión de {{patient}} del {{when}} cancelada",
+      "consentExpiring": "«{{rule}}»: el consentimiento de {{patient}} termina el {{when}}",
+      "planReviewOverdue": "«{{rule}}»: revisión del plan de {{patient}} pendiente desde el {{when}}",
+      "unnamed": "un registro",
+      "noRule": "una regla"
+    }
   },
   "deadlines": {
     "title": "Plazos",

@@ -25,7 +25,8 @@
     "equipa": "Equipa",
     "materiais": "Materiais",
     "pedidos": "Pedidos",
-    "prazos": "Prazos"
+    "prazos": "Prazos",
+    "automacoes": "Automações"
   },
   "search": "Pesquisar…",
   "orgLabel": "Organização",
@@ -98,7 +99,14 @@
     "offerLapsed_one": "A oferta para a vaga de {{when}} caducou",
     "offerLapsed_other": "{{count}} ofertas caducaram, a primeira para a vaga de {{when}}",
     "paymentHold_one": "Pagamento por receber: sessão online de {{patient}}, a {{when}}",
-    "paymentHold_other": "Pagamento por receber em {{count}} sessões online, a primeira a {{when}}"
+    "paymentHold_other": "Pagamento por receber em {{count}} sessões online, a primeira a {{when}}",
+    "automation": {
+      "sessionCancelled": "«{{rule}}»: sessão de {{patient}} de {{when}} cancelada",
+      "consentExpiring": "«{{rule}}»: o consentimento de {{patient}} termina a {{when}}",
+      "planReviewOverdue": "«{{rule}}»: revisão do plano de {{patient}} por fazer desde {{when}}",
+      "unnamed": "um registo",
+      "noRule": "uma regra"
+    }
   },
   "deadlines": {
     "title": "Prazos",
