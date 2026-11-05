@@ -107,6 +107,10 @@
       "quiet": "Não houve sessões realizadas neste mês."
     },
     "truncated": "Este mês tem mais sessões do que este ecrã consegue ler de uma vez, por isso não é possível levantar as cobranças com segurança.",
+    "tooLarge_one": "1 família fica de fora: tem mais marcações neste mês do que uma cobrança consegue ler.",
+    "tooLarge_other": "{{count}} famílias ficam de fora: têm mais marcações neste mês do que uma cobrança consegue ler.",
+    "notRaised_one": "1 família ficou por cobrar. Abre a ficha para ver o que falta:",
+    "notRaised_other": "{{count}} famílias ficaram por cobrar. Abre a ficha de cada uma para ver o que falta:",
     "origin": {
       "patient": "acordo da família",
       "institution": "acordo da instituição",

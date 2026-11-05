@@ -107,6 +107,10 @@
       "quiet": "No hubo sesiones realizadas este mes."
     },
     "truncated": "Este mes tiene más sesiones de las que esta pantalla puede leer de una vez, así que no es posible emitir los cobros con seguridad.",
+    "tooLarge_one": "1 familia queda fuera: tiene más citas este mes de las que un cobro puede leer.",
+    "tooLarge_other": "{{count}} familias quedan fuera: tienen más citas este mes de las que un cobro puede leer.",
+    "notRaised_one": "1 familia quedó sin cobrar. Abre su ficha para ver qué falta:",
+    "notRaised_other": "{{count}} familias quedaron sin cobrar. Abre la ficha de cada una para ver qué falta:",
     "origin": {
       "patient": "acuerdo de la familia",
       "institution": "acuerdo de la institución",
