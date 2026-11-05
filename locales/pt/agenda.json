@@ -85,6 +85,8 @@
       "authorise": "Autorizo esta marcação"
     },
     "inArrears": "O mês anterior deste paciente não está regularizado. Fala com a receção.",
+    "notOnCareTeam": "Esta criança não está na tua lista. Fala com a receção para a marcar.",
+    "mayNotHandOver": "Só a receção marca consultas para outro terapeuta.",
     "arrearsNotAllowed": "Só a receção ou a direção podem autorizar esta marcação.",
     "tooManyOccurrences": "Uma série não pode ter mais de 52 consultas. Escolhe uma data final mais próxima.",
     "absent": "{{name}} está ausente a esta hora.",

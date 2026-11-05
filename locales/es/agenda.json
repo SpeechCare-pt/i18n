@@ -85,6 +85,8 @@
       "authorise": "Autorizo esta cita"
     },
     "inArrears": "El mes anterior de este paciente no está regularizado. Habla con recepción.",
+    "notOnCareTeam": "Este niño no está en tu lista. Habla con recepción para reservar.",
+    "mayNotHandOver": "Solo recepción reserva sesiones para otro terapeuta.",
     "arrearsNotAllowed": "Solo recepción o dirección pueden autorizar esta cita.",
     "tooManyOccurrences": "Una serie no puede tener más de 52 consultas. Elige una fecha final más cercana.",
     "absent": "{{name}} está ausente a esta hora.",
