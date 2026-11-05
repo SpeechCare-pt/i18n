@@ -20,7 +20,8 @@
     "history": "Ver versões",
     "hideHistory": "Esconder versões",
     "newVersion": "Nova versão",
-    "retire": "Retirar"
+    "retire": "Retirar",
+    "billable": "Facturável"
   },
   "builder": {
     "titleNew": "Novo modelo",
@@ -48,7 +49,12 @@
     "addSection": "Adicionar secção",
     "removeSection": "Remover",
     "publish": "Publicar",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "billing": {
+      "label": "Cobrança",
+      "none": "Gratuito",
+      "hint": "Ao emitir, lança na conta da família o preço deste serviço em vigor nesse dia."
+    }
   },
   "field": {
     "patientName": "Nome do paciente",
@@ -93,7 +99,8 @@
     "partial": "Há mais sessões no período do que as que foram contadas.",
     "submit": "Emitir",
     "cancel": "Cancelar",
-    "done": "Documento emitido."
+    "done": "Documento emitido.",
+    "chargeNotice": "Este relatório é facturável: ao emitir, fica na conta da família ao preço da tabela."
   },
   "patient": {
     "title": "Documentos emitidos",
@@ -136,7 +143,12 @@
     "notOnCareTeam": "Não estás na equipa deste paciente.",
     "tooShort": "Falta preencher um campo.",
     "tooLong": "Um dos campos é comprido demais.",
-    "reportNotReadable": "Não tens acesso para emitir este relatório. Pede acesso ao paciente a quem o coordena."
+    "reportNotReadable": "Não tens acesso para emitir este relatório. Pede acesso ao paciente a quem o coordena.",
+    "reportPriceUnset": "O serviço de cobrança deste modelo não tem preço. Define-o no Catálogo antes de emitir.",
+    "serviceNotFound": "Esse serviço não existe neste consultório.",
+    "serviceNotBillable": "Esse serviço está marcado como não facturável.",
+    "billingNotForDeclaration": "Só os relatórios podem ser cobrados; uma declaração não.",
+    "servicePriceUnset": "Esse serviço ainda não tem preço. Define-o no Catálogo primeiro."
   },
   "pending": {
     "title": "Consentimentos por assinar",
@@ -268,6 +280,12 @@
       "alreadyVoided": "Este documento já está anulado.",
       "reasonLength": "O motivo tem de ter entre 3 e 200 caracteres.",
       "notAllowed": "Não podes anular este documento."
+    },
+    "charge": {
+      "voided": "A cobrança deste relatório também foi anulada.",
+      "partPaid": "A cobrança deste relatório já tem pagamentos, por isso fica. Trata-a no Financeiro.",
+      "paid": "A cobrança deste relatório já está paga, por isso fica. Uma devolução trata-se no Financeiro.",
+      "alreadyClosed": "A cobrança deste relatório já estava fechada."
     }
   }
 }

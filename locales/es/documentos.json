@@ -20,7 +20,8 @@
     "history": "Ver versiones",
     "hideHistory": "Ocultar versiones",
     "newVersion": "Nueva versión",
-    "retire": "Retirar"
+    "retire": "Retirar",
+    "billable": "Facturable"
   },
   "builder": {
     "titleNew": "Nuevo modelo",
@@ -48,7 +49,12 @@
     "addSection": "Añadir sección",
     "removeSection": "Quitar",
     "publish": "Publicar",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "billing": {
+      "label": "Cobro",
+      "none": "Gratuito",
+      "hint": "Al emitir, carga en la cuenta de la familia el precio de este servicio vigente ese día."
+    }
   },
   "field": {
     "patientName": "Nombre del paciente",
@@ -93,7 +99,8 @@
     "partial": "Hay más sesiones en el periodo de las que se han contado.",
     "submit": "Emitir",
     "cancel": "Cancelar",
-    "done": "Documento emitido."
+    "done": "Documento emitido.",
+    "chargeNotice": "Este informe es facturable: al emitir, queda en la cuenta de la familia al precio de la tarifa."
   },
   "patient": {
     "title": "Documentos emitidos",
@@ -136,7 +143,12 @@
     "tooShort": "Falta rellenar un campo.",
     "tooLong": "Uno de los campos es demasiado largo.",
     "draftFailed": "No se pudo abrir el borrador de este informe. Inténtalo de nuevo.",
-    "reportNotReadable":"No tienes acceso para emitir este informe. Pide acceso al paciente a quien lo coordina."
+    "reportNotReadable": "No tienes acceso para emitir este informe. Pide acceso al paciente a quien lo coordina.",
+    "reportPriceUnset": "El servicio de cobro de este modelo no tiene precio. Defínelo en el Catálogo antes de emitir.",
+    "serviceNotFound": "Ese servicio no existe en esta consulta.",
+    "serviceNotBillable": "Ese servicio está marcado como no facturable.",
+    "billingNotForDeclaration": "Solo los informes pueden cobrarse; una declaración no.",
+    "servicePriceUnset": "Ese servicio aún no tiene precio. Defínelo primero en el Catálogo."
   },
   "pending": {
     "title": "Consentimientos pendientes de firma",
@@ -268,6 +280,12 @@
       "alreadyVoided": "Este documento ya está anulado.",
       "reasonLength": "El motivo debe tener entre 3 y 200 caracteres.",
       "notAllowed": "No puedes anular este documento."
+    },
+    "charge": {
+      "voided": "El cobro de este informe también se ha anulado.",
+      "partPaid": "El cobro de este informe ya tiene pagos, así que se mantiene. Gestiónalo en Finanzas.",
+      "paid": "El cobro de este informe ya está pagado, así que se mantiene. Una devolución se gestiona en Finanzas.",
+      "alreadyClosed": "El cobro de este informe ya estaba cerrado."
     }
   }
 }
