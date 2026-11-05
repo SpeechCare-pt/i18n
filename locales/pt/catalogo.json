@@ -134,6 +134,7 @@
       "mergeIntoSelf": "Um serviço não se junta a si próprio.",
       "alreadyMerged": "Este serviço já foi junto a outro.",
       "targetMerged": "Esse serviço também já foi junto a outro. Escolhe o que ficou.",
+      "targetNotBookable": "Esse serviço não se marca na agenda, por isso as consultas não podem passar para ele.",
       "tooManyFutureSessions": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez. Fala com quem faz a manutenção.",
       "failed": "Não foi possível juntar. Tenta outra vez."
     },
