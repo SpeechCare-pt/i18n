@@ -103,7 +103,8 @@
       "total": "Total estimado",
       "totalPartial": "Total das consultas com preço"
     },
-    "localTime": "{{time}} em {{city}}"
+    "localTime": "{{time}} em {{city}}",
+    "notBookable": "Este serviço não se marca na agenda."
   },
   "absentRefusal": "{{name}} está ausente nessa altura. Queres marcar mesmo assim?",
   "conflicts": {

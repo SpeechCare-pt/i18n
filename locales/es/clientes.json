@@ -719,7 +719,8 @@
     "paidLine": "{{month}} · {{amount}}",
     "paidOn": "pagado el {{on}}",
     "partPaid": "de {{amount}}, {{paid}} pagados",
-    "partPaidNote": "Este cobro está pagado en parte. Se cierra solo cuando entre el resto."
+    "partPaidNote": "Este cobro está pagado en parte. Se cierra solo cuando entre el resto.",
+    "reportLine": "Informe · {{amount}}"
   },
   "anulacoes": {
     "title": "Anulaciones",
