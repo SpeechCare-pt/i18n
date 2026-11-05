@@ -118,7 +118,7 @@
     }
   },
   "course": {
-    "title": "Duração dos acompanhamentos",
+    "title": "Duração das linhas de cuidado terminadas",
     "caveat": "Só entram acompanhamentos que já terminaram. Os que ainda decorrem, e a última linha de cada paciente, ficam de fora, por isso a duração média sai mais curta do que a real.",
     "counted_one": "{{count}} acompanhamento terminado",
     "counted_other": "{{count}} acompanhamentos terminados",
@@ -144,6 +144,61 @@
     "empty": "Ainda não há acompanhamentos terminados.",
     "truncated": "Há mais acompanhamentos terminados do que a página lê. Os números são dos primeiros {{count}}.",
     "scoped": "A duração dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
+    "loading": "A carregar…"
+  },
+  "retention": {
+    "title": "Retenção e abandono",
+    "cohort": "Início do acompanhamento em",
+    "cohortHint": "Conta os acompanhamentos que começaram nesse ano.",
+    "courses_one": "{{count}} acompanhamento começado",
+    "courses_other": "{{count}} acompanhamentos começados",
+    "horizon_3": "Aos 3 meses",
+    "horizon_6": "Aos 6 meses",
+    "horizon_12": "Aos 12 meses",
+    "retained": "{{percent}} % ainda em acompanhamento",
+    "noRate": "Ainda sem acompanhamentos com tempo para contar",
+    "ofMature_one": "de {{count}} com tempo para contar",
+    "ofMature_other": "de {{count}} com tempo para contar",
+    "running_one": "{{count}} a decorrer",
+    "running_other": "{{count}} a decorrer",
+    "duration": {
+      "title": "Duração de quem já saiu",
+      "mean": "{{days}} dias em média",
+      "median": "metade saiu até ao {{month}}.º mês",
+      "none": "Ainda ninguém saiu destes acompanhamentos.",
+      "running_one": "{{count}} ainda em acompanhamento, fora da média",
+      "running_other": "{{count}} ainda em acompanhamento, fora da média"
+    },
+    "dropout": {
+      "title": "Em que mês de acompanhamento deixaram de vir",
+      "recorded": "Desistência registada",
+      "stopped": "Sem sessões há mais de 90 dias, sem alta",
+      "month": "{{month}}.º mês",
+      "month12": "13.º a 18.º mês",
+      "month18": "19.º a 24.º mês",
+      "month24": "Depois de 2 anos",
+      "peak": "Mais frequente: {{month}}",
+      "none": "Nenhum destes acompanhamentos terminou em abandono."
+    },
+    "columns": {
+      "subject": "Especialidade",
+      "courses": "Acompanhamentos",
+      "r3": "3 meses",
+      "r6": "6 meses",
+      "r12": "12 meses",
+      "meanDays": "Duração média (dias)",
+      "peak": "Abandono mais frequente"
+    },
+    "caveat": "Um acompanhamento conta como ainda em curso num ponto quando teve uma sessão realizada depois dele, e só entra na percentagem quando já passou tempo suficiente para saber. O 1.º mês inclui crianças que só vieram à avaliação (ver \"Continuidade depois da avaliação\"). Os acompanhamentos migrados nunca têm motivo de saída, por isso todos os seus abandonos aparecem como \"sem sessões há mais de 90 dias\". Um acompanhamento migrado conta na especialidade da sua linha de cuidado, por isso uma sessão de outra especialidade nessa linha conta para a da linha. Um acompanhamento em pausa (interrupção sem desistência) não entra na duração.",
+    "left_out": "Fora das contas: {{transfers}} mudanças de linha, {{noSession}} sem nenhuma sessão realizada, {{undetermined}} sem dados suficientes.",
+    "paused_one": "{{count}} em pausa (interrupção), fora da duração.",
+    "paused_other": "{{count}} em pausa (interrupção), fora da duração.",
+    "notFiltered": "Este bloco mostra todas as especialidades e não segue o filtro de especialidade nem de profissional.",
+    "truncated": "Há meses com mais inícios do que a página lê ({{months}}). Nesses meses, as contagens são pelo menos estas e as percentagens só cobrem os primeiros {{cap}} inícios.",
+    "servicesTruncated": "Algumas sessões não puderam ser ligadas a uma especialidade e não contam como atividade.",
+    "cohort2023": "Em 2023 o sistema anterior entrou em funcionamento e registou como início a data em que cada criança passou para lá. Os acompanhamentos que já vinham de trás aparecem como começados nesse ano.",
+    "empty": "Ainda não há acompanhamentos com início nesse ano.",
+    "scoped": "A retenção dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
     "loading": "A carregar…"
   },
   "filters": {

@@ -118,7 +118,7 @@
     }
   },
   "course": {
-    "title": "Duración de los acompañamientos",
+    "title": "Duración de las líneas de atención terminadas",
     "caveat": "Solo entran acompañamientos que ya terminaron. Los que siguen en curso, y la última línea de cada paciente, quedan fuera, así que la duración media sale más corta que la real.",
     "counted_one": "{{count}} acompañamiento terminado",
     "counted_other": "{{count}} acompañamientos terminados",
@@ -144,6 +144,61 @@
     "empty": "Todavía no hay acompañamientos terminados.",
     "truncated": "Hay más acompañamientos terminados de los que lee la página. Las cifras son de los primeros {{count}}.",
     "scoped": "La duración de los acompañamientos es de toda la organización y solo la ve la gestión sin sedes asignadas.",
+    "loading": "Cargando…"
+  },
+  "retention": {
+    "title": "Retención y abandono",
+    "cohort": "Inicio del acompañamiento en",
+    "cohortHint": "Cuenta los acompañamientos que empezaron ese año.",
+    "courses_one": "{{count}} acompañamiento empezado",
+    "courses_other": "{{count}} acompañamientos empezados",
+    "horizon_3": "A los 3 meses",
+    "horizon_6": "A los 6 meses",
+    "horizon_12": "A los 12 meses",
+    "retained": "{{percent}} % todavía en acompañamiento",
+    "noRate": "Todavía sin acompañamientos con tiempo para contar",
+    "ofMature_one": "de {{count}} con tiempo para contar",
+    "ofMature_other": "de {{count}} con tiempo para contar",
+    "running_one": "{{count}} en curso",
+    "running_other": "{{count}} en curso",
+    "duration": {
+      "title": "Duración de quienes ya salieron",
+      "mean": "{{days}} días de media",
+      "median": "la mitad salió antes del final del {{month}}.º mes",
+      "none": "Todavía nadie ha salido de estos acompañamientos.",
+      "running_one": "{{count}} todavía en acompañamiento, fuera de la media",
+      "running_other": "{{count}} todavía en acompañamiento, fuera de la media"
+    },
+    "dropout": {
+      "title": "En qué mes de acompañamiento dejaron de venir",
+      "recorded": "Abandono registrado",
+      "stopped": "Sin sesiones desde hace más de 90 días, sin alta",
+      "month": "{{month}}.º mes",
+      "month12": "13.º a 18.º mes",
+      "month18": "19.º a 24.º mes",
+      "month24": "Después de 2 años",
+      "peak": "Más frecuente: {{month}}",
+      "none": "Ninguno de estos acompañamientos terminó en abandono."
+    },
+    "columns": {
+      "subject": "Especialidad",
+      "courses": "Acompañamientos",
+      "r3": "3 meses",
+      "r6": "6 meses",
+      "r12": "12 meses",
+      "meanDays": "Duración media (días)",
+      "peak": "Abandono más frecuente"
+    },
+    "caveat": "Un acompañamiento cuenta como todavía en curso en un punto cuando tuvo una sesión realizada después de él, y solo entra en el porcentaje cuando ya ha pasado tiempo suficiente para saberlo. El 1.º mes incluye a niños que solo vinieron a la evaluación (ver \"Continuidad tras la evaluación\"). Los acompañamientos migrados nunca tienen motivo de salida, así que todos sus abandonos aparecen como \"sin sesiones desde hace más de 90 días\". Un acompañamiento migrado cuenta en la especialidad de su línea de atención, así que una sesión de otra especialidad en esa línea cuenta para la de la línea. Un acompañamiento en pausa (interrupción sin abandono) no entra en la duración.",
+    "left_out": "Fuera de las cuentas: {{transfers}} cambios de línea, {{noSession}} sin ninguna sesión realizada, {{undetermined}} sin datos suficientes.",
+    "paused_one": "{{count}} en pausa (interrupción), fuera de la duración.",
+    "paused_other": "{{count}} en pausa (interrupción), fuera de la duración.",
+    "notFiltered": "Este bloque muestra todas las especialidades y no sigue el filtro de especialidad ni de profesional.",
+    "truncated": "Hay meses con más inicios de los que lee la página ({{months}}). En esos meses, las cifras son como mínimo estas y los porcentajes solo cubren los primeros {{cap}} inicios.",
+    "servicesTruncated": "Algunas sesiones no se pudieron vincular a una especialidad y no cuentan como actividad.",
+    "cohort2023": "En 2023 el sistema anterior empezó a funcionar y registró como inicio la fecha en que cada niño pasó a él. Los acompañamientos que ya venían de antes aparecen como empezados ese año.",
+    "empty": "Todavía no hay acompañamientos con inicio ese año.",
+    "scoped": "La retención de los acompañamientos es de toda la organización y solo la ve la gestión sin sedes asignadas.",
     "loading": "Cargando…"
   },
   "filters": {
