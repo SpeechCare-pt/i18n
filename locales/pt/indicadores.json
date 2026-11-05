@@ -15,6 +15,9 @@
     "label": "Unidade",
     "all": "Todas as unidades"
   },
+  "homeUnit": {
+    "note": "Conta só as famílias que pertencem às unidades que estás a ver, mesmo quando tiveram sessões noutra."
+  },
   "loading": "A carregar…",
   "tiles": {
     "held": "Realizadas",
@@ -37,7 +40,7 @@
     "owedToday": "Por receber hoje",
     "charges_one": "{{count}} cobrança",
     "charges_other": "{{count}} cobranças",
-    "scoped": "O dinheiro é da organização inteira e só a gestão sem unidades atribuídas o vê. Aqui só aparecem as sessões das tuas unidades.",
+    "noList": "A lista das cobranças é da organização inteira e não abre aqui.",
     "listRaised": "Cobranças emitidas",
     "listSettled": "Cobranças liquidadas"
   },
@@ -143,7 +146,6 @@
     },
     "empty": "Ainda não há acompanhamentos terminados.",
     "truncated": "Há mais acompanhamentos terminados do que a página lê. Os números são dos primeiros {{count}}.",
-    "scoped": "A duração dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
     "loading": "A carregar…"
   },
   "retention": {
@@ -198,7 +200,6 @@
     "servicesTruncated": "Algumas sessões não puderam ser ligadas a uma especialidade e não contam como atividade.",
     "cohort2023": "Em 2023 o sistema anterior entrou em funcionamento e registou como início a data em que cada criança passou para lá. Os acompanhamentos que já vinham de trás aparecem como começados nesse ano.",
     "empty": "Ainda não há acompanhamentos com início nesse ano.",
-    "scoped": "A retenção dos acompanhamentos é da organização inteira e só a gestão sem unidades atribuídas a vê.",
     "loading": "A carregar…"
   },
   "filters": {
@@ -245,7 +246,9 @@
   "clinical": {
     "title": "Percurso clínico",
     "careNow": "Pacientes com acompanhamento aberto hoje",
-    "careNowNote": "É uma posição de hoje, não do período.",
+    "careNowNote": "É uma posição de hoje: quem começou há menos de 90 dias ou teve sessão nos últimos 90.",
+    "careNowStopped_one": "{{count}} acompanhamento aberto sem sessões há mais de 90 dias fica de fora",
+    "careNowStopped_other": "{{count}} acompanhamentos abertos sem sessões há mais de 90 dias ficam de fora",
     "admissions": "Admissões",
     "discharges": "Altas",
     "dropouts": "Desistências",
@@ -264,8 +267,6 @@
     },
     "migrated": "Inclui dados migrados do sistema anterior.",
     "note": "Altas, desistências, interrupções e transferências não se repetem: somam os acompanhamentos que terminaram no período.",
-    "unitNotApplicable": "A unidade não se aplica à clínica: um acompanhamento não tem unidade.",
-    "scoped": "O percurso clínico é da organização inteira e só a gestão sem unidades atribuídas o vê.",
     "truncated": "O período tem mais registos do que a página lê, por isso os números são no mínimo estes.",
     "empty": "Sem admissões nem fins de acompanhamento neste período."
   },

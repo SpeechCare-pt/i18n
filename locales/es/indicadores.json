@@ -15,6 +15,9 @@
     "label": "Sede",
     "all": "Todas las sedes"
   },
+  "homeUnit": {
+    "note": "Solo cuenta las familias que pertenecen a las sedes que estás viendo, aunque hayan tenido sesiones en otra."
+  },
   "loading": "Cargando…",
   "tiles": {
     "held": "Realizadas",
@@ -37,7 +40,7 @@
     "owedToday": "Pendiente hoy",
     "charges_one": "{{count}} cobro",
     "charges_other": "{{count}} cobros",
-    "scoped": "El dinero es de toda la organización y solo lo ve la dirección sin sedes asignadas. Aquí solo aparecen las sesiones de tus sedes.",
+    "noList": "La lista de cobros es de toda la organización y no se abre aquí.",
     "listRaised": "Cobros emitidos",
     "listSettled": "Cobros liquidados"
   },
@@ -143,7 +146,6 @@
     },
     "empty": "Todavía no hay acompañamientos terminados.",
     "truncated": "Hay más acompañamientos terminados de los que lee la página. Las cifras son de los primeros {{count}}.",
-    "scoped": "La duración de los acompañamientos es de toda la organización y solo la ve la gestión sin sedes asignadas.",
     "loading": "Cargando…"
   },
   "retention": {
@@ -198,7 +200,6 @@
     "servicesTruncated": "Algunas sesiones no se pudieron vincular a una especialidad y no cuentan como actividad.",
     "cohort2023": "En 2023 el sistema anterior empezó a funcionar y registró como inicio la fecha en que cada niño pasó a él. Los acompañamientos que ya venían de antes aparecen como empezados ese año.",
     "empty": "Todavía no hay acompañamientos con inicio ese año.",
-    "scoped": "La retención de los acompañamientos es de toda la organización y solo la ve la gestión sin sedes asignadas.",
     "loading": "Cargando…"
   },
   "filters": {
@@ -245,7 +246,9 @@
   "clinical": {
     "title": "Recorrido clínico",
     "careNow": "Pacientes con seguimiento abierto hoy",
-    "careNowNote": "Es una posición de hoy, no del periodo.",
+    "careNowNote": "Es una posición de hoy: quien empezó hace menos de 90 días o tuvo sesión en los últimos 90.",
+    "careNowStopped_one": "{{count}} seguimiento abierto sin sesiones desde hace más de 90 días queda fuera",
+    "careNowStopped_other": "{{count}} seguimientos abiertos sin sesiones desde hace más de 90 días quedan fuera",
     "admissions": "Admisiones",
     "discharges": "Altas",
     "dropouts": "Abandonos",
@@ -264,8 +267,6 @@
     },
     "migrated": "Incluye datos migrados del sistema anterior.",
     "note": "Altas, abandonos, interrupciones y traslados no se repiten: suman los seguimientos que terminaron en el periodo.",
-    "unitNotApplicable": "La sede no se aplica a la clínica: un seguimiento no tiene sede.",
-    "scoped": "El recorrido clínico es de toda la organización y solo la gestión sin sedes asignadas lo ve.",
     "truncated": "El periodo tiene más registros de los que la página lee, así que las cifras son como mínimo estas.",
     "empty": "Sin admisiones ni fines de seguimiento en este periodo."
   },
