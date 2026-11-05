@@ -106,12 +106,19 @@
     "failed": "No se pudo completar. Inténtalo de nuevo."
   },
   "units": {
-    "title": "Unidades: moneda, zona horaria y festivos",
-    "hint": "La moneda y la zona horaria se guardan por unidad. La facturación y los horarios de trabajo siguen en la moneda y la hora de la práctica. El calendario decide qué días marca la agenda como festivo.",
+    "title": "Unidades: moneda, zona horaria, formato de fecha y festivos",
+    "hint": "La moneda y la zona horaria se guardan por unidad. La facturación y los horarios de trabajo siguen en la moneda y la hora de la práctica. El calendario decide qué días marca la agenda como festivo. El formato de fecha decide cómo se muestran las fechas a quien está viendo esa unidad.",
     "unit": "Unidad",
     "currency": "Moneda",
     "timeZone": "Zona horaria",
     "calendar": "Festivos",
+    "dateFormat": "Formato de fecha",
+    "dateFormats": {
+      "unset": "Día primero (dd/mm/aaaa)",
+      "dmy": "dd/mm/aaaa",
+      "mdy": "mm/dd/aaaa",
+      "ymd": "aaaa-mm-dd"
+    },
     "unset": "Sin definir",
     "samePractice": "La misma que la de la práctica",
     "calendars": {

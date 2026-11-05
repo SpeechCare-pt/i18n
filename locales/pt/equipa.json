@@ -106,12 +106,19 @@
     "failed": "Não foi possível concluir. Tenta novamente."
   },
   "units": {
-    "title": "Unidades: moeda, fuso e feriados",
-    "hint": "A moeda e o fuso ficam registados por unidade. A faturação e os horários de trabalho continuam na moeda e na hora da prática. O calendário decide que dias a agenda dá como feriado.",
+    "title": "Unidades: moeda, fuso, formato de data e feriados",
+    "hint": "A moeda e o fuso ficam registados por unidade. A faturação e os horários de trabalho continuam na moeda e na hora da prática. O calendário decide que dias a agenda dá como feriado. O formato de data decide como aparecem as datas a quem está a ver essa unidade.",
     "unit": "Unidade",
     "currency": "Moeda",
     "timeZone": "Fuso horário",
     "calendar": "Feriados",
+    "dateFormat": "Formato de data",
+    "dateFormats": {
+      "unset": "Dia primeiro (dd/mm/aaaa)",
+      "dmy": "dd/mm/aaaa",
+      "mdy": "mm/dd/aaaa",
+      "ymd": "aaaa-mm-dd"
+    },
     "unset": "Por definir",
     "samePractice": "Igual ao da prática",
     "calendars": {
