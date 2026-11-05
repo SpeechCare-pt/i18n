@@ -828,10 +828,7 @@
     "snsInUse": "Este número de usuario no se puede usar. Pide a recepción que lo verifique.",
     "payerRequired": "Elige primero quién paga, o nadie, antes de retirar al pagador.",
     "sharedMember": "Esta persona también está en otra ficha y solo recepción puede cambiarla.",
-    "duplicateInAnotherUnit": "Ya existe una ficha de esta persona en otra unidad. Pide a la dirección que la pase a la tuya.",
-    "familyInAnotherUnit": "Esta familia ya tiene una ficha en otra unidad. Pide a la dirección que registre a este hermano en la misma familia.",
-    "duplicatesElsewhere_one": "Hay {{count}} ficha parecida en otra unidad.",
-    "duplicatesElsewhere_other": "Hay {{count}} fichas parecidas en otras unidades."
+    "registerThroughDirection": "No se puede registrar a esta persona desde aquí. Pide a la dirección que se encargue del registro."
   },
   "household": {
     "title": "Hogar",
