@@ -53,7 +53,8 @@
     "reasons": "Motivos",
     "reasonsHint": "Sin ninguno elegido, vale cualquier motivo.",
     "lateNoticeHours": "Avisada con menos de (horas)",
-    "lateNoticeHint": "Avisada con menos de {{hours}} horas. Vacío: cualquier aviso.",
+    "lateNoticeHint": "Avisada con menos de {{hours}} horas.",
+    "lateNoticeAny": "Sin horas, vale cualquier aviso.",
     "locations": "Centros",
     "locationsHint": "Sin ninguno elegido, vale cualquier centro.",
     "subjects": "Especialidades",
@@ -63,6 +64,10 @@
     "daysBeforeHint": "{{days}} días antes de terminar",
     "daysOverdue": "Días después de la fecha de revisión",
     "daysOverdueHint": "{{days}} días después de la fecha"
+  },
+  "summary": {
+    "any": "Cualquiera",
+    "lateNotice": "Antelación"
   },
   "reasons": {
     "familyInitiative": "Iniciativa de la familia",
@@ -86,10 +91,13 @@
     "title": "Lo que haría esta regla",
     "loading": "Simulando…",
     "invalid": "Completa la regla para ver la simulación.",
+    "past_zero": "En los últimos 30 días no habría avisado sobre ningún registro",
     "past_one": "En los últimos 30 días habría avisado sobre {{count}} registro",
     "past_other": "En los últimos 30 días habría avisado sobre {{count}} registros",
+    "future_zero": "En los próximos 30 días no avisará sobre ningún registro",
     "future_one": "En los próximos 30 días avisará sobre {{count}} registro",
     "future_other": "En los próximos 30 días avisará sobre {{count}} registros",
+    "notices_zero": "Ningún aviso en la campana",
     "notices_one": "{{count}} aviso en la campana",
     "notices_other": "{{count}} avisos en la campana",
     "tasks": "0 tareas",
@@ -115,6 +123,7 @@
     "unnamed": "un registro",
     "by": "por {{name}}",
     "kinds": {
+      "acted_zero": "No avisó a nadie sobre {{patient}}",
       "acted_one": "Avisó a {{count}} persona sobre {{patient}}",
       "acted_other": "Avisó a {{count}} personas sobre {{patient}}",
       "skipped": "No avisó sobre {{patient}}: {{detail}}",

@@ -53,7 +53,8 @@
     "reasons": "Motivos",
     "reasonsHint": "Sem nenhum escolhido, serve qualquer motivo.",
     "lateNoticeHours": "Avisada com menos de (horas)",
-    "lateNoticeHint": "Avisada com menos de {{hours}} horas. Vazio: qualquer aviso.",
+    "lateNoticeHint": "Avisada com menos de {{hours}} horas.",
+    "lateNoticeAny": "Sem horas, serve qualquer aviso.",
     "locations": "Unidades",
     "locationsHint": "Sem nenhuma escolhida, serve qualquer unidade.",
     "subjects": "Especialidades",
@@ -63,6 +64,10 @@
     "daysBeforeHint": "{{days}} dias antes de terminar",
     "daysOverdue": "Dias depois da data de revisão",
     "daysOverdueHint": "{{days}} dias depois da data"
+  },
+  "summary": {
+    "any": "Qualquer",
+    "lateNotice": "Antecedência"
   },
   "reasons": {
     "familyInitiative": "Iniciativa da família",
@@ -86,10 +91,13 @@
     "title": "O que esta regra faria",
     "loading": "A simular…",
     "invalid": "Completa a regra para ver a simulação.",
+    "past_zero": "Nos últimos 30 dias não teria avisado sobre nenhum registo",
     "past_one": "Nos últimos 30 dias teria avisado sobre {{count}} registo",
     "past_other": "Nos últimos 30 dias teria avisado sobre {{count}} registos",
+    "future_zero": "Nos próximos 30 dias não vai avisar sobre nenhum registo",
     "future_one": "Nos próximos 30 dias vai avisar sobre {{count}} registo",
     "future_other": "Nos próximos 30 dias vai avisar sobre {{count}} registos",
+    "notices_zero": "Nenhum aviso no sino",
     "notices_one": "{{count}} aviso no sino",
     "notices_other": "{{count}} avisos no sino",
     "tasks": "0 tarefas",
@@ -115,6 +123,7 @@
     "unnamed": "um registo",
     "by": "por {{name}}",
     "kinds": {
+      "acted_zero": "Não avisou ninguém sobre {{patient}}",
       "acted_one": "Avisou {{count}} pessoa sobre {{patient}}",
       "acted_other": "Avisou {{count}} pessoas sobre {{patient}}",
       "skipped": "Não avisou sobre {{patient}}: {{detail}}",
