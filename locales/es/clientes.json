@@ -927,5 +927,55 @@
     "truncated": "Hay más notas nuevas de las que caben aquí.",
     "patient_zero": "Sin notas nuevas",
     "forYou_zero": "Ninguna para ti"
+  },
+  "legacyDuplicates": {
+    "title": "Duplicados del sistema antiguo",
+    "intro": "Fichas del sistema antiguo que pueden ser el mismo niño. Lo que decidas aquí se aplica cuando los datos pasen a SINAIA.",
+    "back": "Volver a Clientes",
+    "progress": "{{decided}} de {{total}} decididos",
+    "tier": {
+      "samePerson": "Parece la misma persona",
+      "maybe": "Puede ser la misma persona"
+    },
+    "reason": {
+      "sns": "mismo número de usuario",
+      "nameAndBirthdate": "mismo nombre y fecha de nacimiento",
+      "birthdateUnknown": "mismo nombre, falta la fecha de nacimiento"
+    },
+    "col": {
+      "id": "Nº antiguo",
+      "name": "Nombre",
+      "birthdate": "Nacimiento",
+      "sns": "Usuario",
+      "appointments": "Citas",
+      "paymentRequests": "Solicitudes de pago",
+      "documents": "Documentos",
+      "lastAppointment": "Última cita"
+    },
+    "unknownBirthdate": "sin fecha",
+    "stays": "Se queda",
+    "joins": "Se une",
+    "merge_zero": "Unir",
+    "merge_one": "Unir {{count}} ficha",
+    "merge_other": "Unir {{count}} fichas",
+    "keepAll": "Mantener todas separadas",
+    "undo": "Deshacer",
+    "decided": {
+      "merge_one": "Une {{count}} ficha a esta",
+      "merge_other": "Une {{count}} fichas a esta",
+      "keep": "Se quedan todas separadas"
+    },
+    "pending": "Por decidir",
+    "birthdatesDiffer": "Las fichas marcadas tienen fechas de nacimiento distintas. Únelas solo si sabes que una está mal.",
+    "applied": "La migración ya cargó estas decisiones el {{date}}.",
+    "empty": "No hay duplicados del sistema antiguo.",
+    "link_zero": "Duplicados del sistema antiguo",
+    "link_one": "Duplicados del sistema antiguo: {{count}} por decidir",
+    "link_other": "Duplicados del sistema antiguo: {{count}} por decidir",
+    "error": {
+      "alreadyLoaded": "La migración ya aplicó esta decisión y ya no puedes cambiarla.",
+      "invalidDecision": "Esta elección no sirve para este grupo. Actualiza la página e inténtalo de nuevo.",
+      "failed": "No se ha podido guardar. Inténtalo de nuevo."
+    }
   }
 }

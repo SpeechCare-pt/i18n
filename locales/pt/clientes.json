@@ -927,5 +927,55 @@
     "truncated": "Há mais notas novas do que as que aqui cabem.",
     "patient_zero": "Sem notas novas",
     "forYou_zero": "Nenhuma para ti"
+  },
+  "legacyDuplicates": {
+    "title": "Duplicados do sistema antigo",
+    "intro": "Fichas do sistema antigo que podem ser a mesma criança. O que decidires aqui é aplicado quando os dados passarem para a SINAIA.",
+    "back": "Voltar a Clientes",
+    "progress": "{{decided}} de {{total}} decididos",
+    "tier": {
+      "samePerson": "Parece a mesma pessoa",
+      "maybe": "Pode ser a mesma pessoa"
+    },
+    "reason": {
+      "sns": "mesmo nº de utente",
+      "nameAndBirthdate": "mesmo nome e data de nascimento",
+      "birthdateUnknown": "mesmo nome, data de nascimento em falta"
+    },
+    "col": {
+      "id": "Nº antigo",
+      "name": "Nome",
+      "birthdate": "Nascimento",
+      "sns": "Utente",
+      "appointments": "Consultas",
+      "paymentRequests": "Pedidos de pagamento",
+      "documents": "Documentos",
+      "lastAppointment": "Última consulta"
+    },
+    "unknownBirthdate": "sem data",
+    "stays": "Fica",
+    "joins": "Junta",
+    "merge_zero": "Juntar",
+    "merge_one": "Juntar {{count}} ficha",
+    "merge_other": "Juntar {{count}} fichas",
+    "keepAll": "Manter todas separadas",
+    "undo": "Desfazer",
+    "decided": {
+      "merge_one": "Junta {{count}} ficha a esta",
+      "merge_other": "Junta {{count}} fichas a esta",
+      "keep": "Ficam todas separadas"
+    },
+    "pending": "Por decidir",
+    "birthdatesDiffer": "As fichas marcadas têm datas de nascimento diferentes. Junta-as só se souberes que uma delas está errada.",
+    "applied": "A migração já carregou estas decisões em {{date}}.",
+    "empty": "Não há duplicados do sistema antigo.",
+    "link_zero": "Duplicados do sistema antigo",
+    "link_one": "Duplicados do sistema antigo: {{count}} por decidir",
+    "link_other": "Duplicados do sistema antigo: {{count}} por decidir",
+    "error": {
+      "alreadyLoaded": "A migração já aplicou esta decisão e já não a podes mudar.",
+      "invalidDecision": "Esta escolha não serve para este grupo. Atualiza a página e tenta outra vez.",
+      "failed": "Não foi possível guardar. Tenta outra vez."
+    }
   }
 }
