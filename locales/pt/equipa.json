@@ -66,7 +66,17 @@
       "followUps": "Seguimentos abertos",
       "tasks": "Tarefas atribuídas",
       "futureSessions": "Sessões marcadas",
-      "sessionsWithoutNote": "Sessões dos últimos 90 dias sem nota"
+      "sessionsWithoutNote": "Sessões dos últimos 90 dias sem nota",
+      "roomStretches": "Horários de sala a partir de hoje"
+    },
+    "roomStretch": "{{room}} ({{site}}), {{day}} {{from}}–{{to}}",
+    "roomStretchesNote": "Os horários de sala ficam com esta pessoa e a sala continua ocupada. Para a libertar, termina-os ou passa-os a outra pessoa no mapa de salas.",
+    "weekday": {
+      "1": "segunda",
+      "2": "terça",
+      "3": "quarta",
+      "4": "quinta",
+      "5": "sexta"
     },
     "nothing": "nada pendente",
     "atLeast": "{{count}} ou mais",
