@@ -133,8 +133,7 @@
     "monthTruncated": "Este mês tem mais registos do que o ecrã consegue ler, por isso o valor não é fiável. Não se pode aprovar.",
     "tooManyAdjustments": "Este profissional já tem o máximo de ajustes neste mês.",
     "invalidMonth": "Esse mês não é válido.",
-    "monthNotApproved": "Nem todas as pessoas com valor a pagar estão aprovadas, por isso não há ficheiro. O ecrã já está atualizado.",
-    "payoutMonthOpen": "O mês ainda não acabou, por isso o ficheiro ainda não se pode gerar."
+    "monthNotApproved": "Nem todas as pessoas com valor a pagar estão aprovadas, por isso não há ficheiro. O ecrã já está atualizado."
   },
   "status": {
     "open": "Em aberto",

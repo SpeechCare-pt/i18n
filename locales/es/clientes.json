@@ -301,12 +301,12 @@
         "patientNotAdult": "Solo un paciente adulto pide su propio expediente.",
         "receivedInFuture": "No puede ser un día que aún no ha llegado.",
         "badDate": "Esa fecha no existe.",
-        "checkNoteLength": "La nota de la verificación tiene entre 3 y 200 caracteres.",
+        "checkNoteLength": "La nota de la verificación tiene entre {{min}} y {{max}} caracteres.",
         "alreadyClosed": "Esta solicitud ya está cerrada.",
         "closedBeforeReceived": "El cierre no puede ser anterior a la recepción.",
         "closeNoteLength": "La nota es demasiado larga.",
-        "exportTooLarge": "El archivo es demasiado grande para generarse de una vez. Habla con ingeniería.",
-        "exportIncomplete": "Hay un episodio con demasiados registros para salir completo. Habla con ingeniería.",
+        "exportTooLarge": "El archivo es demasiado grande para generarse de una vez. Habla con quien hace el mantenimiento.",
+        "exportIncomplete": "Hay un episodio con demasiados registros para salir completo. Habla con quien hace el mantenimiento.",
         "generic": "No se pudo. Inténtalo de nuevo."
       },
       "page": {
@@ -389,7 +389,6 @@
         "voided": "Anulado el {{date}}",
         "restricted": "Restringido",
         "attachment": "Archivo adjunto, no incluido",
-        "amount": "{{amount}}",
         "lines": "Líneas",
         "field": {
           "actingRole": "Función",
