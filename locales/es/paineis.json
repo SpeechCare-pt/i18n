@@ -64,6 +64,7 @@
       "consentRevoke": "Revocó un consentimiento",
       "consentVoid": "Anuló un consentimiento registrado por error",
       "shareRevoke": "Retiró el acceso a la ficha",
+      "careTeamEnd": "Quitó a alguien del equipo de atención",
       "breakGlass": "Abrió la ficha por urgencia",
       "download": "Descargó",
       "migrationSeed": "Viene de la migración"
