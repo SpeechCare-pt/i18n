@@ -215,6 +215,8 @@
     "loadMore": "Carregar mais",
     "loadingMore": "A carregar…",
     "capacity": "Podes enviar mais {{headroom}} este mês. {{pending}} em fila.",
+    "refresh": "Atualizar estados",
+    "loadFailed": "Não foi possível carregar os estados. Tenta outra vez.",
     "result": {
       "sent_one": "{{count}} enviada",
       "sent_other": "{{count}} enviadas",
