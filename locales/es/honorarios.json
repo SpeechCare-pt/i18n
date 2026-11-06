@@ -133,8 +133,7 @@
     "monthTruncated": "Este mes tiene más registros de los que la pantalla puede leer, así que el importe no es fiable. No se puede aprobar.",
     "tooManyAdjustments": "Este profesional ya tiene el máximo de ajustes este mes.",
     "invalidMonth": "Ese mes no es válido.",
-    "monthNotApproved": "No todas las personas con importe a pagar están aprobadas, así que no hay archivo. La pantalla ya está actualizada.",
-    "payoutMonthOpen": "El mes todavía no ha terminado, así que el archivo aún no se puede generar."
+    "monthNotApproved": "No todas las personas con importe a pagar están aprobadas, así que no hay archivo. La pantalla ya está actualizada."
   },
   "status": {
     "open": "Abierto",
