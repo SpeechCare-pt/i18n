@@ -1,4 +1,12 @@
 {
+  "groups": {
+    "day": "Dia a dia",
+    "clinical": "Clínico",
+    "queues": "Por tratar",
+    "billing": "Faturação",
+    "setup": "Configuração",
+    "management": "Gestão"
+  },
   "items": {
     "inicio": "Início",
     "agenda": "Agenda",
