@@ -20,9 +20,9 @@
   "add": "Añadir sala",
   "addLabel": "Añadir sala en {{name}}",
   "namePlaceholder": "Nombre de la sala",
-  "edit": "Definir",
+  "edit": "Editar",
   "close": "Cerrar",
-  "editLabel": "Definir {{name}}",
+  "editLabel": "Editar {{name}}",
   "closeLabel": "Cerrar {{name}}",
   "fields": {
     "name": "Nombre",

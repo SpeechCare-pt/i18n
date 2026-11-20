@@ -151,17 +151,17 @@
     "servicePriceUnset": "Ese servicio aún no tiene precio. Defínelo primero en el Catálogo."
   },
   "pending": {
-    "title": "Consentimientos pendientes de firma",
+    "title": "Documentos pendientes de firma",
     "hint": "Familias que vienen en los próximos días sin consentimiento de cuidados, y consentimientos del colegio a punto de terminar.",
     "missing": "Faltan",
     "expiring": "A punto de caducar",
     "window": {
-      "label": "Ventana",
+      "label": "Periodo",
       "today": "Hoy",
       "d3": "3 días",
       "d7": "7 días"
     },
-    "attestedOnly": "Solo declarado",
+    "attestedOnly": "Declarados por recepción",
     "attestedBadge": "Declarado por recepción",
     "empty": {
       "missing": "Ninguna familia pendiente en estos días.",
@@ -214,7 +214,7 @@
     "cancel": "Cancelar enlace",
     "loadMore": "Cargar más",
     "loadingMore": "Cargando…",
-    "capacity": "Puedes enviar {{headroom}} más este mes. {{pending}} en cola.",
+    "capacity": "Puedes enviar {{headroom}} enlaces más este mes. {{pending}} esperando envío.",
     "refresh": "Actualizar estados",
     "loadFailed": "No se han podido cargar los estados. Inténtalo otra vez.",
     "result": {

@@ -124,7 +124,7 @@
     "generic": "Não foi possível guardar. Tenta outra vez."
   },
   "inicio": {
-    "title": "Pedidos",
+    "title": "Tarefas",
     "open_zero": "Nenhum por tratar",
     "open_one": "{{count}} por tratar",
     "open_other": "{{count}} por tratar",

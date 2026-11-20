@@ -1,6 +1,6 @@
 {
   "title": "Honorários",
-  "intro": "O que a prática deve a quem fez o trabalho, a partir do que foi faturado.",
+  "intro": "Calculados a partir do que foi faturado.",
   "period": {
     "title": "Mapa do período",
     "earlier": "← Mês anterior",
@@ -24,9 +24,9 @@
     "basis": "faturado {{value}}",
     "noRate": "sem regra",
     "empty": {
-      "title": "Não há nada a pagar neste mês",
-      "body": "Ninguém que receba por sessão tem sessões faturadas neste mês.",
-      "beforeCutover": "As cobranças antigas não dizem quem fez a sessão, por isso o mapa começa a encher a partir do primeiro mês em que se levanta a cobrança no Financeiro."
+      "title": "Nada a pagar neste mês:",
+      "body": "ninguém que receba por sessão tem sessões faturadas.",
+      "beforeCutover": "As cobranças antigas não dizem quem fez a sessão. O mapa só enche a partir do primeiro mês com cobrança levantada no Financeiro."
     },
     "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto.",
     "payable": "A pagar",

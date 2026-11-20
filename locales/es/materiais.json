@@ -1,6 +1,6 @@
 {
   "title": "Materiales",
-  "lede": "Fichas, juegos y enlaces que el equipo usa en las sesiones.",
+  "lede": "Fichas, juegos y enlaces para las sesiones.",
   "noPatientData": "No subas datos de pacientes.",
   "loading": "Cargando…",
   "empty": "Todavía no hay materiales.",
@@ -12,8 +12,8 @@
     "tag": "Buscar por etiqueta"
   },
   "groups": {
-    "mine": "Míos",
-    "team": "Del equipo"
+    "mine": "Los míos",
+    "team": "Compartidos por el equipo"
   },
   "kind": {
     "file": "Archivo",

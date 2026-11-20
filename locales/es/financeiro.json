@@ -23,11 +23,11 @@
     "hint": "Los cobros pendientes, por antigüedad. Las dos columnas nunca se suman.",
     "homeUnit": "Solo cuenta las familias que pertenecen a las sedes que estás viendo, aunque hayan tenido sesiones en otra.",
     "owed": "Pendientes",
-    "lapsed": "Enlaces caducados",
+    "lapsed": "Enlaces de pago caducados",
     "inCurrency": "En {{currency}}",
     "charges_one": "{{count}} cobro",
     "charges_other": "{{count}} cobros",
-    "lapsedNote": "Un enlace caducado es un enlace de pago que dejó de funcionar. Eso no dice si el dinero sigue pendiente. Por eso estos importes van aparte y no se suman a los pendientes.",
+    "lapsedNote": "Un enlace de pago caducado dejó de funcionar, y eso no dice si el dinero sigue pendiente. Por eso estos importes van aparte y no se suman a los pendientes.",
     "bands": {
       "d0_30": "Hasta 30 días",
       "d31_60": "31 a 60 días",
@@ -38,7 +38,7 @@
     },
     "empty": {
       "title": "No hay nada pendiente",
-      "body": "Ni cobros pendientes ni enlaces caducados."
+      "body": "Ni cobros pendientes ni enlaces de pago caducados."
     },
     "truncated": "Hay más cobros de los que esta pantalla puede leer, así que los totales son un mínimo."
   },
@@ -86,8 +86,8 @@
     "selectAll": "Seleccionar todas",
     "selectNone": "No seleccionar ninguna",
     "refresh": "Actualizar la lista",
-    "raise_other": "Emitir {{count}} cobros · {{total}}",
-    "raise_one": "Emitir 1 cobro · {{total}}",
+    "raise_other": "Emitir {{count}} cobros ({{total}})",
+    "raise_one": "Emitir 1 cobro ({{total}})",
     "raiseNone": "Elige al menos una familia",
     "raising": "Emitiendo…",
     "raised_one": "Emitido 1 cobro, con {{lines}}.",
@@ -135,7 +135,7 @@
       "pack": "Pack",
       "perSession": "Por consulta"
     },
-    "lapsed": "Pack fuera de plazo · a precio de consulta suelta",
+    "lapsed": "Pack fuera de plazo, a precio de consulta suelta",
     "credited": "{{total}} de crédito por sesiones pagadas y no realizadas el mes anterior.",
     "applied": "{{total}} de crédito descontados en estos cargos."
   },

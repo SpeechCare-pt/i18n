@@ -168,12 +168,12 @@
     "toBook_one": "{{count}} por agendar",
     "toBook_other": "{{count}} por agendar",
     "seen_zero": "Todos con retorno definido",
-    "seen_one": "{{count}} ya tuvo consulta y falta el retorno",
-    "seen_other": "{{count}} ya tuvieron consulta y falta el retorno",
+    "seen_one": "{{count}} ya visto, sin retorno definido",
+    "seen_other": "{{count}} ya vistos, sin retorno definido",
     "overdue_zero": "Ninguno atrasado",
     "overdue_one": "{{count}} atrasado",
     "overdue_other": "{{count}} atrasados",
-    "open": "Abrir la lista"
+    "open": "Abrir seguimientos"
   },
   "tabs": {
     "followUps": "Seguimientos",

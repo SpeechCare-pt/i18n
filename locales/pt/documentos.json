@@ -151,17 +151,17 @@
     "servicePriceUnset": "Esse serviço ainda não tem preço. Define-o no Catálogo primeiro."
   },
   "pending": {
-    "title": "Consentimentos por assinar",
+    "title": "Documentos por assinar",
     "hint": "Famílias que vêm nos próximos dias sem consentimento de cuidados, e consentimentos da escola a acabar.",
     "missing": "Em falta",
     "expiring": "A expirar",
     "window": {
-      "label": "Janela",
+      "label": "Período",
       "today": "Hoje",
       "d3": "3 dias",
       "d7": "7 dias"
     },
-    "attestedOnly": "Só declarado",
+    "attestedOnly": "Declarados pela receção",
     "attestedBadge": "Declarado pela receção",
     "empty": {
       "missing": "Nenhuma família em falta nestes dias.",
@@ -214,7 +214,7 @@
     "cancel": "Cancelar ligação",
     "loadMore": "Carregar mais",
     "loadingMore": "A carregar…",
-    "capacity": "Podes enviar mais {{headroom}} este mês. {{pending}} em fila.",
+    "capacity": "Podes enviar mais {{headroom}} ligações este mês. {{pending}} à espera de envio.",
     "refresh": "Atualizar estados",
     "loadFailed": "Não foi possível carregar os estados. Tenta outra vez.",
     "result": {

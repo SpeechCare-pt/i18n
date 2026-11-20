@@ -4,7 +4,7 @@
   "tabs": {
     "queue": "Cola",
     "closed": "Cerradas",
-    "expiring": "Por borrar",
+    "expiring": "Se van a borrar",
     "outcomes": "Motivos"
   },
   "unit": {
@@ -115,7 +115,7 @@
     "reopened_other": "Reabierta {{count}} veces",
     "attemptsTitle": "Intentos de contacto",
     "noAttempts": "Todavía nadie ha contactado con esta familia.",
-    "attemptLine": "{{when}} · {{channel}} · {{result}} · {{name}}",
+    "attemptLine": "{{when}}, {{channel}}: {{result}} ({{name}})",
     "attemptChannel": "Cómo",
     "attemptResult": "Resultado",
     "addAttempt": "Registrar intento",

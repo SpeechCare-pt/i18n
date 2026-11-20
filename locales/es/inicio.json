@@ -20,7 +20,7 @@
     "doneMine": "Ya han pasado todas tus consultas de hoy.",
     "empty": "No hay consultas para hoy.",
     "emptyMine": "No tienes consultas para hoy.",
-    "open": "Ver la agenda",
+    "open": "Abrir agenda",
     "status": {
       "expected_zero": "Nadie por llegar",
       "expected_one": "{{count}} por llegar",
@@ -45,11 +45,11 @@
   },
   "owed": {
     "label": "Pendiente",
-    "people_one": "{{count}} persona",
-    "people_other": "{{count}} personas",
+    "people_one": "{{count}} niño",
+    "people_other": "{{count}} niños",
     "oldest": "La más antigua espera {{age}}.",
     "none": "Nadie tiene importes pendientes.",
-    "open": "Ver cobros",
+    "open": "Abrir facturación",
     "behind_zero": "Nadie con retraso",
     "behind_one": "{{count}} con retraso",
     "behind_other": "{{count}} con retraso"
@@ -78,7 +78,7 @@
   },
   "reassessments": {
     "title": "Reevaluaciones",
-    "open": "Abrir las reevaluaciones",
+    "open": "Abrir reevaluaciones",
     "pending_one": "{{count}} por agendar",
     "pending_other": "{{count}} por agendar",
     "overdue_one": "{{count}} atrasada",

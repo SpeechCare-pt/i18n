@@ -23,11 +23,11 @@
     "hint": "As cobranças por regularizar, pela idade. As duas colunas nunca se somam.",
     "homeUnit": "Conta só as famílias que pertencem às unidades que estás a ver, mesmo quando tiveram sessões noutra.",
     "owed": "Por regularizar",
-    "lapsed": "Links expirados",
+    "lapsed": "Ligações de pagamento expiradas",
     "inCurrency": "Em {{currency}}",
     "charges_one": "{{count}} cobrança",
     "charges_other": "{{count}} cobranças",
-    "lapsedNote": "Um link expirado é um link de pagamento que deixou de funcionar. Isso não diz se o dinheiro ainda está em dívida. Por isso estes valores aparecem à parte e não se somam ao que está por regularizar.",
+    "lapsedNote": "Uma ligação de pagamento expirada deixou de funcionar, e isso não diz se o dinheiro ainda está em dívida. Por isso estes valores aparecem à parte e não se somam ao que está por regularizar.",
     "bands": {
       "d0_30": "Até 30 dias",
       "d31_60": "31 a 60 dias",
@@ -38,7 +38,7 @@
     },
     "empty": {
       "title": "Não há nada por regularizar",
-      "body": "Nem cobranças pendentes nem links expirados."
+      "body": "Nem cobranças pendentes nem ligações de pagamento expiradas."
     },
     "truncated": "Há mais cobranças do que este ecrã consegue ler, por isso os totais são um mínimo."
   },
@@ -86,8 +86,8 @@
     "selectAll": "Escolher todas",
     "selectNone": "Não escolher nenhuma",
     "refresh": "Atualizar a lista",
-    "raise_other": "Levantar {{count}} cobranças · {{total}}",
-    "raise_one": "Levantar 1 cobrança · {{total}}",
+    "raise_other": "Levantar {{count}} cobranças ({{total}})",
+    "raise_one": "Levantar 1 cobrança ({{total}})",
     "raiseNone": "Escolhe pelo menos uma família",
     "raising": "A levantar…",
     "raised_one": "Levantada 1 cobrança, com {{lines}}.",
@@ -135,7 +135,7 @@
       "pack": "Pack",
       "perSession": "À consulta"
     },
-    "lapsed": "Pack fora de prazo · ao preço de consulta avulsa",
+    "lapsed": "Pack fora de prazo, ao preço de consulta avulsa",
     "credited": "{{total}} de crédito por sessões pagas e não realizadas no mês anterior.",
     "applied": "{{total}} de crédito descontados nestas cobranças."
   },

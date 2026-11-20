@@ -1,6 +1,6 @@
 {
   "title": "Materiais",
-  "lede": "Fichas, jogos e ligações que a equipa usa nas sessões.",
+  "lede": "Fichas, jogos e ligações para as sessões.",
   "noPatientData": "Não carregues dados de pacientes.",
   "loading": "A carregar…",
   "empty": "Ainda não há materiais.",
@@ -12,8 +12,8 @@
     "tag": "Procurar por etiqueta"
   },
   "groups": {
-    "mine": "Meus",
-    "team": "Da equipa"
+    "mine": "Os meus",
+    "team": "Partilhados pela equipa"
   },
   "kind": {
     "file": "Ficheiro",

@@ -4,7 +4,7 @@
   "tabs": {
     "queue": "Fila",
     "closed": "Fechados",
-    "expiring": "A apagar",
+    "expiring": "Vão ser apagados",
     "outcomes": "Motivos"
   },
   "unit": {
@@ -115,7 +115,7 @@
     "reopened_other": "Reaberto {{count}} vezes",
     "attemptsTitle": "Tentativas de contacto",
     "noAttempts": "Ainda ninguém contactou esta família.",
-    "attemptLine": "{{when}} · {{channel}} · {{result}} · {{name}}",
+    "attemptLine": "{{when}}, {{channel}}: {{result}} ({{name}})",
     "attemptChannel": "Como",
     "attemptResult": "Resultado",
     "addAttempt": "Registar tentativa",

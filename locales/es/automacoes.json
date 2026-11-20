@@ -1,6 +1,6 @@
 {
   "title": "Automatizaciones",
-  "intro": "Reglas que avisan al equipo en la campana cuando pasa algo. Ninguna crea tareas ni envía mensajes a las familias.",
+  "intro": "Avisan al equipo en la campana. Ninguna regla crea tareas ni envía mensajes a las familias.",
   "loading": "Cargando…",
   "new": "Nueva regla",
   "empty": "Todavía no hay reglas. Crea la primera con «Nueva regla».",
@@ -11,8 +11,8 @@
     "today": "Hoy",
     "last": "Último resultado"
   },
-  "today": "{{count}} de {{max}}",
-  "lastRun": "Se ejecutó {{when}}",
+  "today": "{{count}} de {{max}} avisos hoy",
+  "lastRun": "Última ejecución: {{when}}",
   "neverRan": "Todavía no se ha ejecutado",
   "flagged_one": "Señalada: falló en la última ejecución",
   "flagged_other": "Señalada: falló en las últimas {{count}} ejecuciones",

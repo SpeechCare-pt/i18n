@@ -1,20 +1,20 @@
 {
   "title": "Catálogo",
   "summary": {
-    "pending_one": "{{count}} servicio todavía no dice lo que necesita.",
-    "pending_other": "{{count}} servicios todavía no dicen lo que necesitan.",
-    "done": "Todos los servicios dicen lo que necesitan."
+    "pending_one": "{{count}} servicio todavía sin requisitos (sala, equipamiento, modalidad, edades o márgenes).",
+    "pending_other": "{{count}} servicios todavía sin requisitos (sala, equipamiento, modalidad, edades o márgenes).",
+    "done": "Todos los servicios tienen requisitos."
   },
   "filter": {
     "label": "Mostrar",
     "all": "Todos",
-    "pending": "Solo los que faltan"
+    "pending": "Solo sin requisitos"
   },
   "search": {
     "label": "Buscar servicio",
     "placeholder": "Nombre del servicio",
     "none": "Ningún servicio con «{{term}}».",
-    "hiddenByFilter": "«{{term}}» no está entre los que faltan. Pulsa «Todos» para verlo."
+    "hiddenByFilter": "«{{term}}» no está entre los servicios sin requisitos. Pulsa «Todos» para verlo."
   },
   "empty": {
     "title": "Todavía no hay servicios",
@@ -22,13 +22,13 @@
   },
   "allDone": {
     "title": "Está todo definido",
-    "body": "Ningún servicio está esperando reglas."
+    "body": "Ningún servicio está sin requisitos."
   },
   "row": {
     "undefined": "Por definir",
-    "edit": "Definir",
+    "edit": "Editar",
     "close": "Cerrar",
-    "editLabel": "Definir {{name}}",
+    "editLabel": "Editar {{name}}",
     "closeLabel": "Cerrar {{name}}",
     "archived": "Archivado"
   },

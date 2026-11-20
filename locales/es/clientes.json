@@ -47,7 +47,7 @@
     "institution": {
       "label": "Institución",
       "none": "Paga la familia",
-      "hint": "Quién recibe la factura de este paciente. Sin institución, la factura va a la familia.",
+      "hint": "Sin institución, la factura va a la familia.",
       "edit": "Cambiar",
       "choose": "Institución asociada",
       "family": "Paga la familia",
@@ -719,7 +719,7 @@
   },
   "acordo": {
     "title": "Acuerdo de precio",
-    "hint": "Lo que paga esta familia, cuando es distinto de la tarifa. Gana a cualquier acuerdo de institución o de unidad.",
+    "hint": "Lo que paga esta familia cuando es distinto de la tarifa. Prevalece sobre los acuerdos de institución y de unidad.",
     "empty": "Esta familia paga la tarifa normal.",
     "add": "Nuevo acuerdo",
     "service": "Servicio",
@@ -746,7 +746,7 @@
   },
   "pagamento": {
     "title": "Estado de pago",
-    "upToDate": "Esta familia está al día.",
+    "upToDate": "Al día.",
     "never": "Nunca se registró un pago.",
     "lastPaid": "Último pago el {{on}}.",
     "openCount_one": "{{count}} cobro abierto",
@@ -764,7 +764,7 @@
     "familyOwes": "De esta familia: {{amount}}",
     "balanceOwed": "Saldo: {{amount}} a pagar",
     "balanceFavour": "Saldo: {{amount}} a favor de la familia",
-    "balanceSettled": "Está todo saldado.",
+    "balanceSettled": "Saldo a cero.",
     "balanceUnknown": "No hay saldo porque los cargos están en monedas distintas.",
     "creditHeld": "Crédito sin usar: {{amount}}. Entra en el próximo cargo.",
     "openingCredit": "Entró en SINAIA con {{amount}} de crédito del sistema anterior, el {{on}}.",
@@ -773,11 +773,11 @@
     "openingCharged": "{{amount}} quedó en un cargo de apertura.",
     "paidTitle": "Pagos",
     "paidNone": "Todavía no hay cargos pagados.",
-    "paidLine": "{{month}} · {{amount}}",
+    "paidLine": "{{month}}: {{amount}}",
     "paidOn": "pagado el {{on}}",
     "partPaid": "de {{amount}}, {{paid}} pagados",
     "partPaidNote": "Este cobro está pagado en parte. Se cierra solo cuando entre el resto.",
-    "reportLine": "Informe · {{amount}}"
+    "reportLine": "Informe: {{amount}}"
   },
   "anulacoes": {
     "title": "Anulaciones",
@@ -930,9 +930,9 @@
     "keep": "Mantener"
   },
   "edits": {
-    "title": "Cambios",
-    "show": "Ver cambios",
-    "hide": "Ocultar cambios",
+    "title": "Cambios en los datos",
+    "show": "Ver cambios en los datos",
+    "hide": "Ocultar cambios en los datos",
     "empty": "Nadie ha cambiado los datos de esta ficha.",
     "truncated": "Solo los 50 más recientes.",
     "noValue": "valor no mostrado",

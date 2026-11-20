@@ -1,6 +1,6 @@
 {
   "title": "Indicadores",
-  "subtitle": "O que o SINAIA sabe sobre sessões, horas, valor e ocupação, por mês e por unidade.",
+  "subtitle": "Sessões, horas, valor e ocupação, por mês e por unidade.",
   "period": {
     "label": "Período",
     "month": "Mês",
@@ -45,9 +45,9 @@
     "listSettled": "Cobranças liquidadas"
   },
   "growth": {
-    "up": "+{{percent}} % face a {{year}}",
-    "down": "−{{percent}} % face a {{year}}",
-    "flat": "Igual a {{year}}"
+    "up": "+{{percent}} % face ao mesmo período de {{year}}",
+    "down": "−{{percent}} % face ao mesmo período de {{year}}",
+    "flat": "Igual ao mesmo período de {{year}}"
   },
   "cut": {
     "technician": "Por profissional",
@@ -84,9 +84,9 @@
   },
   "notes": {
     "catalogueValue": "O valor é o preço de catálogo das sessões realizadas. Não é faturação.",
-    "received": "Recebido são as cobranças liquidadas no período. Os pagamentos parciais de cobranças ainda abertas não entram.",
+    "received": "Recebido: cobranças liquidadas no período, sem os pagamentos parciais de cobranças ainda abertas.",
     "holidays": "Os feriados não estão descontados, por isso a ocupação de um mês com feriado fica um pouco abaixo do real.",
-    "patients": "Pacientes com pelo menos uma sessão realizada no mês. Num trimestre mostram-se os três meses, porque o mesmo paciente não se soma entre meses."
+    "patients": "Pacientes com pelo menos uma sessão realizada no mês. Num trimestre, cada mês conta à parte."
   },
   "truncated": "O mês tem mais sessões do que a página lê, por isso os números são no mínimo estes.",
   "namesTruncated": "Há mais serviços, profissionais ou locais do que a página nomeia. Alguns valores ou nomes podem faltar.",
@@ -307,7 +307,7 @@
   },
   "resources": {
     "title": "Recursos",
-    "note": "Horas livres são as horas do mapa de salas menos as marcadas. A produtividade é o valor de catálogo das sessões realizadas por hora do mapa.",
+    "note": "Horas livres: horas do mapa de salas menos as marcadas. Produtividade: valor de catálogo das sessões realizadas por hora do mapa.",
     "productivity": "Produtividade: valor das sessões",
     "freeHoursValue": "{{hours}} h"
   },

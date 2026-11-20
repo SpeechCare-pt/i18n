@@ -1,9 +1,9 @@
 {
   "title": "Cobrança",
-  "summary_one": "{{count}} pessoa com valores por regularizar · {{total}}",
-  "summary_other": "{{count}} pessoas com valores por regularizar · {{total}}",
-  "summaryNoTotal_one": "{{count}} pessoa com valores por regularizar",
-  "summaryNoTotal_other": "{{count}} pessoas com valores por regularizar",
+  "summary_one": "{{count}} criança com {{total}} por regularizar",
+  "summary_other": "{{count}} crianças com {{total}} por regularizar",
+  "summaryNoTotal_one": "{{count}} criança com valores por regularizar",
+  "summaryNoTotal_other": "{{count}} crianças com valores por regularizar",
   "empty": {
     "title": "Não há valores por regularizar.",
     "body": "Quando um pagamento ficar por liquidar, aparece aqui."
@@ -16,8 +16,8 @@
     "recent": "Esta semana"
   },
   "band": {
-    "people_one": "{{count}} pessoa",
-    "people_other": "{{count}} pessoas",
+    "people_one": "{{count}} criança",
+    "people_other": "{{count}} crianças",
     "share": "{{percent}}% de tudo o que está por regularizar"
   },
   "age": {
@@ -69,12 +69,12 @@
   },
   "expired": {
     "title": "Ligações de pagamento expiradas",
-    "summary_one": "{{count}} valor · {{total}}",
-    "summary_other": "{{count}} valores · {{total}}",
+    "summary_one": "{{count}} valor ({{total}})",
+    "summary_other": "{{count}} valores, {{total}} no total",
     "explain": "A ligação de pagamento destes valores expirou e a família não pagou nada desde então. Não quer dizer que estejam em dívida.",
     "hidden_one": "Está escondido {{count}} valor em que a família pagou alguma coisa depois.",
     "hidden_other": "Estão escondidos {{count}} valores em que a família pagou alguma coisa depois.",
-    "none": "Não há ligações expiradas por rever.",
+    "none": "Não há ligações de pagamento expiradas por rever.",
     "show": "Mostrar",
     "hide": "Esconder",
     "capped": "Estás a ver os {{count}} mais recentes."
