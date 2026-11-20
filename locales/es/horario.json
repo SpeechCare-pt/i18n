@@ -73,8 +73,9 @@
     "approve": "Aprobar",
     "decline": "Rechazar",
     "withdraw": "Retirar",
-    "amend": "Cambiar fechas",
+    "amend": "Cambiar",
     "pendingTitle": "Solicitudes por aprobar",
+    "datesPassed": "Las fechas ya han pasado",
     "tooLong": "Una ausencia no puede durar más de un año.",
     "overlaps": "Ya hay una ausencia en este periodo.",
     "cannotDecideOwn": "No puedes aprobar tu propia solicitud."

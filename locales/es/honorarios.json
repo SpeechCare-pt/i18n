@@ -65,6 +65,8 @@
     "since": "vigente desde {{on}}",
     "from": "entra en vigor el {{on}}",
     "by": "definida por {{name}}, {{on}}",
+    "byName": "definida por {{name}}",
+    "imported": "importada del sistema anterior",
     "superseded": "sustituida",
     "badPercent": "Escribe un porcentaje entre 1 y 100.",
     "badFixed": "Escribe un importe en euros, por ejemplo 30,00.",

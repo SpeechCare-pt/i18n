@@ -106,6 +106,7 @@
   "idle": {
     "label": "Cerrar la sesión de todo el equipo tras inactividad (minutos)",
     "help": "Déjalo vacío para no cerrar nunca. Entre 1 y 480.",
+    "never": "Nunca",
     "save": "Guardar",
     "saved": "Guardado"
   },

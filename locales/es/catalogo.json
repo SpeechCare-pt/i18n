@@ -98,6 +98,8 @@
     "since": "en vigor desde {{on}}",
     "from": "entra en vigor el {{on}}",
     "by": "definido por {{name}}, {{on}}",
+    "byName": "definido por {{name}}",
+    "imported": "importado del sistema anterior",
     "add": "Nuevo precio",
     "amount": "Precio",
     "effectiveFrom": "A partir de",
