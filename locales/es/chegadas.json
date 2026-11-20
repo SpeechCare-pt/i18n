@@ -4,7 +4,8 @@
   "dayNav": {
     "today": "Hoy",
     "prev": "Día anterior",
-    "next": "Día siguiente"
+    "next": "Día siguiente",
+    "label": "Cambiar de día"
   },
   "sections": {
     "waiting": "En espera",
@@ -15,7 +16,8 @@
     "day": "Sin llegadas hoy.",
     "mine": "Todavía no ha llegado ningún paciente tuyo hoy.",
     "waiting": "Nadie en espera.",
-    "expected": "Nadie por llegar."
+    "expected": "Nadie por llegar.",
+    "calledIn": "Todavía no se ha atendido a nadie."
   },
   "search": "Buscar paciente o terapeuta",
   "row": {
@@ -45,7 +47,7 @@
     "calledIn_zero": "Ninguno atendido",
     "calledIn_one": "{{count}} atendido",
     "calledIn_other": "{{count}} atendidos",
-    "avgWait": "espera media {{wait}}",
+    "avgWait": "{{wait}} de espera media de los atendidos",
     "waiting_zero": "Nadie en espera",
     "waiting_one": "{{count}} en espera",
     "waiting_other": "{{count}} en espera"
@@ -85,7 +87,7 @@
     "no": "Todavía no",
     "cancel": "Cancelar",
     "missing": "Falta consentimiento",
-    "signed": "Ha firmado ✓",
+    "signed": "Ha firmado",
     "confirmTitle": "¿Atender sin consentimiento?",
     "confirmBody": "{{name}} todavía no tiene el consentimiento firmado. Queda registrado que se le atendió sin él.",
     "confirmGo": "Atender igualmente",

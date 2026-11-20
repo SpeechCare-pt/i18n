@@ -11,7 +11,7 @@
     "title": "Ainda não há salas",
     "body": "Regista as salas de cada unidade. É com elas que a agenda sabe onde é que cada consulta cabe."
   },
-  "noRooms": "Sem salas.",
+  "noRooms": "Sem salas",
   "search": {
     "label": "Procurar unidade ou sala",
     "placeholder": "Unidade ou sala",
@@ -47,7 +47,7 @@
   },
   "archived": "Arquivada",
   "archive": "Arquivar",
-  "restore": "Reactivar",
+  "restore": "Reativar",
   "save": "Guardar",
   "saving": "A guardar…",
   "saved": "{{name}} guardada.",
@@ -70,8 +70,6 @@
     "nonClinical": "Não clínica",
     "noTherapist": "Sem terapeuta",
     "stretch": "Faixa",
-    "openLabel": "Abrir o mapa da semana de {{name}}",
-    "closeLabel": "Fechar o mapa da semana de {{name}}",
     "weekday": {
       "1": "Segunda",
       "2": "Terça",

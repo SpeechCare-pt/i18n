@@ -5,10 +5,7 @@
   "new": "Nova regra",
   "empty": "Ainda não há regras. Cria a primeira com «Nova regra».",
   "columns": {
-    "name": "Nome",
     "trigger": "Gatilho",
-    "enabled": "Ligada",
-    "today": "Hoje",
     "last": "Último resultado"
   },
   "today": "{{count}} de {{max}} avisos hoje",

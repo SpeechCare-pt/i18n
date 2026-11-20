@@ -4,6 +4,14 @@
   "loading": "A carregar…",
   "empty": "Ainda não há ninguém na equipa.",
   "truncated": "A lista mostra só uma parte da equipa.",
+  "tabs": {
+    "people": "Pessoas"
+  },
+  "search": {
+    "label": "Procurar pessoa",
+    "placeholder": "Procurar por nome ou email"
+  },
+  "noneWithRole": "Ninguém tem o papel {{role}}.",
   "columns": {
     "name": "Nome",
     "roles": "Papéis",
@@ -40,10 +48,10 @@
     "role": "Papel",
     "submit": "Criar convite",
     "busy": "A criar…",
-    "linkLabel": "Link do convite",
+    "linkLabel": "Ligação do convite",
     "copy": "Copiar",
     "copied": "Copiado",
-    "note": "Se o email não chegar, copia o link e entrega-o à pessoa.",
+    "note": "Se o email não chegar, copia a ligação e entrega-a à pessoa.",
     "close": "Fechar",
     "sentTo": "Enviámos o convite para {{email}}.",
     "resend": "Enviar outra vez",

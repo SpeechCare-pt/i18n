@@ -5,7 +5,8 @@
     "subtitle": "Dos últimos 30 dias. Um acesso sai daqui quando passa o período.",
     "empty": "Nada a rever nos últimos 30 dias.",
     "truncated": "Houve mais acessos neste período do que foi possível ler. Esta lista pode estar incompleta.",
-    "capped": "A mostrar os {{count}} mais recentes de {{total}}.",
+    "capped_one": "A mostrar o mais recente de {{total}}.",
+    "capped_other": "A mostrar os {{count}} mais recentes de {{total}}.",
     "breakGlass": {
       "label": "Acesso por urgência",
       "body": "{{actor}} abriu a ficha de {{patient}} sem fazer parte da equipa de cuidados.",
@@ -32,7 +33,6 @@
     "title": "Registo de acessos",
     "subtitle": "Quem viu cada ficha e quando. O registo não se apaga nem se edita.",
     "filters": {
-      "label": "A ver",
       "patient": "Ficha de {{name}}",
       "person": "Feito por {{name}}",
       "from": "De",
@@ -94,7 +94,7 @@
     "subtitle": "Do que está nesta lista de espera. Quem ainda espera conta até hoje.",
     "empty": "Ainda ninguém entrou na lista de espera.",
     "truncated": "Há mais entradas do que foi possível ler. Estes números podem estar incompletos.",
-    "since": "Desde {{date}}.",
+    "since": "Desde {{date}}",
     "bySubject": "Por especialidade",
     "byLocation": "Por unidade",
     "trend": "Por mês de entrada",
@@ -118,7 +118,6 @@
     "pending": {
       "title": "Pedidos de acesso em aberto",
       "empty": "Nenhum pedido de acesso em aberto.",
-      "open": "Abrir",
       "received": "Recebido a {{date}}"
     }
   },

@@ -11,7 +11,7 @@
     "title": "Todavía no hay salas",
     "body": "Registra las salas de cada unidad. Es con ellas que la agenda sabe dónde cabe cada consulta."
   },
-  "noRooms": "Sin salas.",
+  "noRooms": "Sin salas",
   "search": {
     "label": "Buscar unidad o sala",
     "placeholder": "Unidad o sala",
@@ -70,8 +70,6 @@
     "nonClinical": "No clínica",
     "noTherapist": "Sin terapeuta",
     "stretch": "Franja",
-    "openLabel": "Abrir el mapa de la semana de {{name}}",
-    "closeLabel": "Cerrar el mapa de la semana de {{name}}",
     "weekday": {
       "1": "Lunes",
       "2": "Martes",

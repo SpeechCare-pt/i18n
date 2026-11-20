@@ -1,5 +1,8 @@
 {
   "title": "Catálogo",
+  "tabs": {
+    "services": "Serviços"
+  },
   "summary": {
     "pending_one": "{{count}} serviço ainda sem requisitos (sala, equipamento, modalidade, idades ou folgas).",
     "pending_other": "{{count}} serviços ainda sem requisitos (sala, equipamento, modalidade, idades ou folgas).",

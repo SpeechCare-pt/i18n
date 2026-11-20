@@ -5,12 +5,14 @@
   "loading": "A carregar…",
   "actions": {
     "continue": "Continuar",
-    "signOut": "Sair"
+    "signOut": "Sair",
+    "more": "Mais ações",
+    "close": "Fechar"
   },
   "language": {
     "label": "Idioma",
     "pt": "Português",
-    "es": "Espanhol"
+    "es": "Español"
   },
   "specialties": {
     "speechTherapy": "Terapia da Fala",
@@ -19,5 +21,6 @@
     "psychology": "Psicologia",
     "occupationalTherapy": "Terapia Ocupacional"
   },
-  "demoBanner": "Demonstração com dados inventados"
+  "demoBanner": "Demonstração com dados inventados",
+  "howCounted": "Como se conta"
 }

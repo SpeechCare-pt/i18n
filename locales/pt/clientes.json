@@ -999,6 +999,10 @@
       "lastAppointment": "Última consulta"
     },
     "unknownBirthdate": "sem data",
+    "noSns": "sem número",
+    "noLastAppointment": "nenhuma",
+    "mergeHint": "Escolhe a ficha que fica e as que se juntam a ela.",
+    "decidedTitle": "Decididos",
     "stays": "Fica",
     "joins": "Junta",
     "merge_zero": "Juntar",

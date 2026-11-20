@@ -23,7 +23,7 @@
     "hint": "Los cobros pendientes, por antigüedad. Las dos columnas nunca se suman.",
     "homeUnit": "Solo cuenta las familias que pertenecen a las sedes que estás viendo, aunque hayan tenido sesiones en otra.",
     "owed": "Pendientes",
-    "lapsed": "Enlaces de pago caducados",
+    "lapsed": "Enlaces caducados",
     "inCurrency": "En {{currency}}",
     "charges_one": "{{count}} cobro",
     "charges_other": "{{count}} cobros",

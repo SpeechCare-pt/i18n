@@ -5,10 +5,7 @@
   "new": "Nueva regla",
   "empty": "Todavía no hay reglas. Crea la primera con «Nueva regla».",
   "columns": {
-    "name": "Nombre",
     "trigger": "Disparador",
-    "enabled": "Activa",
-    "today": "Hoy",
     "last": "Último resultado"
   },
   "today": "{{count}} de {{max}} avisos hoy",

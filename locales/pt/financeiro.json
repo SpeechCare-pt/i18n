@@ -23,7 +23,7 @@
     "hint": "As cobranças por regularizar, pela idade. As duas colunas nunca se somam.",
     "homeUnit": "Conta só as famílias que pertencem às unidades que estás a ver, mesmo quando tiveram sessões noutra.",
     "owed": "Por regularizar",
-    "lapsed": "Ligações de pagamento expiradas",
+    "lapsed": "Ligações expiradas",
     "inCurrency": "Em {{currency}}",
     "charges_one": "{{count}} cobrança",
     "charges_other": "{{count}} cobranças",

@@ -45,7 +45,7 @@
     "urgent": "Urgente"
   },
   "sla": {
-    "warn": "Más de 1 día laborable sin respuesta",
+    "warn": "Más de un día laborable sin respuesta",
     "urgent": "2 días laborables sin respuesta",
     "paused": "En pausa mientras está pendiente"
   },
@@ -85,7 +85,7 @@
   "search": {
     "placeholder": "Buscar solicitud, paciente o persona",
     "hint": "No se busca en el texto de las conversaciones.",
-    "noResults": "Ninguna tarjeta coincide con la búsqueda."
+    "noResults": "Ninguna tarea coincide con la búsqueda."
   },
   "unread": "Novedades",
   "patientHidden": "Paciente fuera de tu lista",
@@ -134,9 +134,9 @@
     "late_zero": "Ninguna con retraso",
     "late_one": "{{count}} con retraso",
     "late_other": "{{count}} con retraso",
-    "mineOpen_zero": "Ninguna solicitud tuya abierta",
-    "mineOpen_one": "{{count}} solicitud tuya abierta",
-    "mineOpen_other": "{{count}} solicitudes tuyas abiertas",
+    "mineOpen_zero": "Ninguna tarea tuya abierta",
+    "mineOpen_one": "{{count}} tarea tuya abierta",
+    "mineOpen_other": "{{count}} tareas tuyas abiertas",
     "mineUnseen_zero": "Ninguna con novedades",
     "mineUnseen_one": "{{count}} con novedades",
     "mineUnseen_other": "{{count}} con novedades",

@@ -4,6 +4,7 @@
   "previousDay": "Dia anterior",
   "nextDay": "Dia seguinte",
   "pickDay": "Escolher dia",
+  "dayNav": "Mudar de dia",
   "empty": {
     "title": "Nada marcado",
     "body": "Não há consultas neste dia."

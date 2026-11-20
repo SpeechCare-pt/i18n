@@ -6,6 +6,7 @@
   "accept": {
     "title": "Aceptar invitación",
     "subtitle": "Confirma para asociar esta cuenta a la invitación.",
+    "invitedBy": "{{inviter}} te ha invitado al equipo de {{org}}.",
     "confirm": "Aceptar invitación",
     "confirming": "Asociando…"
   },
@@ -18,11 +19,11 @@
   },
   "invalid": {
     "title": "Invitación no válida",
-    "body": "Este enlace de invitación está incompleto: falta el código."
+    "body": "Este enlace de invitación está incompleto. Falta el código."
   },
   "verify": {
     "title": "Confirma tu correo",
-    "body": "Para aceptar la invitación tienes que confirmar el correo. Te hemos enviado un enlace: ábrelo y vuelve a esta página."
+    "body": "Para aceptar la invitación tienes que confirmar el correo. Te hemos enviado un enlace. Ábrelo y vuelve a esta página."
   },
   "errors": {
     "generic": "No se pudo aceptar la invitación. Inténtalo de nuevo o contacta con la clínica.",
