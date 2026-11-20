@@ -26,6 +26,7 @@
   "retire": "Quitar",
   "retiring": "Quitando…",
   "retireConfirm": "¿Quitar este material? Un archivo se borra del todo.",
+  "retireCancel": "Cancelar",
   "ageRange": "{{from}} a {{to}}",
   "ageFrom": "desde {{from}}",
   "ageTo": "hasta {{to}}",
