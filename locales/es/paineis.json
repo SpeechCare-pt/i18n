@@ -33,7 +33,6 @@
     "title": "Registro de accesos",
     "subtitle": "Quién vio cada ficha y cuándo. El registro no se borra ni se edita.",
     "filters": {
-      "label": "Viendo",
       "patient": "Ficha de {{name}}",
       "person": "Hecho por {{name}}",
       "from": "Desde",
@@ -119,7 +118,6 @@
     "pending": {
       "title": "Solicitudes de acceso abiertas",
       "empty": "Ninguna solicitud de acceso abierta.",
-      "open": "Abrir",
       "received": "Recibida el {{date}}"
     }
   },

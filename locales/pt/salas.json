@@ -70,8 +70,6 @@
     "nonClinical": "Não clínica",
     "noTherapist": "Sem terapeuta",
     "stretch": "Faixa",
-    "openLabel": "Abrir o mapa da semana de {{name}}",
-    "closeLabel": "Fechar o mapa da semana de {{name}}",
     "weekday": {
       "1": "Segunda",
       "2": "Terça",

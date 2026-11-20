@@ -33,7 +33,6 @@
     "title": "Registo de acessos",
     "subtitle": "Quem viu cada ficha e quando. O registo não se apaga nem se edita.",
     "filters": {
-      "label": "A ver",
       "patient": "Ficha de {{name}}",
       "person": "Feito por {{name}}",
       "from": "De",
@@ -119,7 +118,6 @@
     "pending": {
       "title": "Pedidos de acesso em aberto",
       "empty": "Nenhum pedido de acesso em aberto.",
-      "open": "Abrir",
       "received": "Recebido a {{date}}"
     }
   },
