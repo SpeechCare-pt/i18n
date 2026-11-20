@@ -1,20 +1,20 @@
 {
   "title": "Catálogo",
   "summary": {
-    "pending_one": "{{count}} serviço ainda não diz o que precisa.",
-    "pending_other": "{{count}} serviços ainda não dizem o que precisam.",
-    "done": "Todos os serviços dizem o que precisam."
+    "pending_one": "{{count}} serviço ainda sem requisitos (sala, equipamento, modalidade, idades ou folgas).",
+    "pending_other": "{{count}} serviços ainda sem requisitos (sala, equipamento, modalidade, idades ou folgas).",
+    "done": "Todos os serviços têm requisitos."
   },
   "filter": {
     "label": "Mostrar",
     "all": "Todos",
-    "pending": "Só os que faltam"
+    "pending": "Só sem requisitos"
   },
   "search": {
     "label": "Procurar serviço",
     "placeholder": "Nome do serviço",
     "none": "Nenhum serviço com «{{term}}».",
-    "hiddenByFilter": "«{{term}}» não está entre os que faltam. Carrega em «Todos» para o ver."
+    "hiddenByFilter": "«{{term}}» não está entre os serviços sem requisitos. Carrega em «Todos» para o ver."
   },
   "empty": {
     "title": "Ainda não há serviços",
@@ -22,13 +22,13 @@
   },
   "allDone": {
     "title": "Está tudo definido",
-    "body": "Nenhum serviço está à espera de regras."
+    "body": "Nenhum serviço está sem requisitos."
   },
   "row": {
     "undefined": "Por definir",
-    "edit": "Definir",
+    "edit": "Editar",
     "close": "Fechar",
-    "editLabel": "Definir {{name}}",
+    "editLabel": "Editar {{name}}",
     "closeLabel": "Fechar {{name}}",
     "archived": "Arquivado"
   },
@@ -42,7 +42,7 @@
     "ages": "Escalão etário",
     "ageMin": "Idade mínima",
     "ageMax": "Idade máxima",
-    "nonBillable": "Ocupa agenda sem facturar",
+    "nonBillable": "Ocupa agenda sem faturar",
     "assessment": "Serviço de avaliação"
   },
   "hints": {
@@ -50,7 +50,7 @@
     "ages": "Em anos. Deixa em branco para não limitar.",
     "roomType": "Como a clínica lhe chama. Usa o mesmo nome nos serviços que precisam da mesma sala.",
     "equipmentKnown": "Separa por vírgulas. Já em uso: {{list}}.",
-    "nonBillable": "Para reunião de equipa, supervisão, deslocação e tempo administrativo. Ocupa a agenda e a sala e não gera documento de facturação.",
+    "nonBillable": "Para reunião de equipa, supervisão, deslocação e tempo administrativo. Ocupa a agenda e a sala e não gera documento de faturação.",
     "assessment": "É uma primeira avaliação. Os Indicadores seguem os pacientes avaliados pela primeira vez a partir daqui."
   },
   "modality": {
@@ -90,7 +90,7 @@
     "title": "Preços",
     "none": "Ainda não há preço definido para este serviço.",
     "onlyCatalogue": "Sem tabela própria. Usa o preço do catálogo, {{amount}}.",
-    "nonBillable": "Este serviço não factura, por isso não tem preço.",
+    "nonBillable": "Este serviço não fatura, por isso não tem preço.",
     "scopeBase": "Tabela base",
     "since": "em vigor desde {{on}}",
     "from": "entra em vigor a {{on}}",
@@ -139,6 +139,6 @@
       "failed": "Não foi possível juntar. Tenta outra vez."
     },
     "pastAtLeast": "mais de {{count}} consultas já realizadas ficam onde estão",
-    "tooMany": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez — não dá para juntar assim."
+    "tooMany": "Este serviço tem mais consultas por realizar do que se consegue mover de uma vez. Assim não dá para juntar."
   }
 }

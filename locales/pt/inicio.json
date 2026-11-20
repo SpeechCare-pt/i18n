@@ -20,7 +20,7 @@
     "doneMine": "Já passaram todas as tuas consultas de hoje.",
     "empty": "Não há consultas marcadas para hoje.",
     "emptyMine": "Não tens consultas marcadas para hoje.",
-    "open": "Ver a agenda",
+    "open": "Abrir agenda",
     "status": {
       "expected_zero": "Ninguém por chegar",
       "expected_one": "{{count}} por chegar",
@@ -45,11 +45,11 @@
   },
   "owed": {
     "label": "Por regularizar",
-    "people_one": "{{count}} pessoa",
-    "people_other": "{{count}} pessoas",
+    "people_one": "{{count}} criança",
+    "people_other": "{{count}} crianças",
     "oldest": "A mais antiga espera {{age}}.",
     "none": "Ninguém tem valores por regularizar.",
-    "open": "Ver cobranças",
+    "open": "Abrir cobrança",
     "behind_zero": "Ninguém em atraso",
     "behind_one": "{{count}} em atraso",
     "behind_other": "{{count}} em atraso"
@@ -78,7 +78,7 @@
   },
   "reassessments": {
     "title": "Reavaliações",
-    "open": "Abrir as reavaliações",
+    "open": "Abrir reavaliações",
     "pending_zero": "Nenhuma por marcar",
     "pending_one": "{{count}} por marcar",
     "pending_other": "{{count}} por marcar",

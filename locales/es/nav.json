@@ -118,23 +118,23 @@
   },
   "deadlines": {
     "title": "Plazos",
-    "intro": "Lo que está a punto de caducar. Nada de esto contacta con las familias: decide recepción.",
+    "intro": "Reservas provisionales, ofertas y pagos online a punto de caducar. Nada de esto contacta con las familias: decide recepción.",
     "loading": "Cargando…",
     "truncated": "Hay más que esto. Solo se muestran las primeras {{count}}.",
     "provisional": {
       "title": "Reservas provisionales",
       "empty": "Ninguna reserva provisional abierta.",
-      "row": "Caduca {{until}} · sesión el {{start}}"
+      "row": "Caduca {{until}}, sesión el {{start}}"
     },
     "offers": {
       "title": "Ofertas de la lista de espera",
       "empty": "Ninguna oferta abierta.",
-      "row": "Caduca {{until}} · hueco del {{start}}"
+      "row": "Caduca {{until}}, hueco del {{start}}"
     },
     "holds": {
       "title": "Sesiones online sin pagar",
       "empty": "Ninguna sesión online con pago pendiente.",
-      "row": "Sesión el {{start}} · con {{technician}}"
+      "row": "Sesión el {{start}}, con {{technician}}"
     }
   }
 }

@@ -13,9 +13,9 @@
   },
   "add": "Adicionar instituição",
   "namePlaceholder": "Nome da instituição",
-  "edit": "Definir",
+  "edit": "Editar",
   "close": "Fechar",
-  "editLabel": "Definir {{name}}",
+  "editLabel": "Editar {{name}}",
   "closeLabel": "Fechar {{name}}",
   "fields": {
     "name": "Nome",
@@ -59,9 +59,9 @@
     "none": "Nenhuma instituição teve movimento neste mês.",
     "truncated": "Este mês tem mais sessões, unidades ou instituições do que o ecrã consegue ler, por isso não mostramos números incompletos.",
     "counts": {
-      "patients": "Crianças: quem teve pelo menos uma sessão realizada nas unidades da instituição, contada uma vez.",
+      "patients": "Crianças: com pelo menos uma sessão realizada nas unidades da instituição, cada uma contada uma vez.",
       "sessions": "Sessões: as sessões realizadas nessas unidades.",
-      "values": "Valores: as cobranças dirigidas à instituição que cobrem o mês (ou, se não indicam mês, emitidas nele). Por pagar é o que falta depois dos pagamentos parciais. O que as famílias pagam não entra."
+      "values": "Valores: cobranças em nome da instituição para o mês (ou emitidas nele, se não indicam mês), sem o que as famílias pagam. Por pagar é o que falta depois de pagamentos parciais."
     },
     "truncatedValues": "Algumas instituições têm demasiadas cobranças neste mês para as somar. Os valores dessas linhas não aparecem.",
     "scopedValues": "Os valores não aparecem a quem trabalha só em algumas unidades. As contagens são das suas unidades."

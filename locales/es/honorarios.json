@@ -1,6 +1,6 @@
 {
   "title": "Honorarios",
-  "intro": "Lo que la clínica debe a quien hizo el trabajo, a partir de lo facturado.",
+  "intro": "Calculados a partir de lo facturado.",
   "period": {
     "title": "Mapa del periodo",
     "earlier": "← Mes anterior",
@@ -24,9 +24,9 @@
     "basis": "facturado {{value}}",
     "noRate": "sin regla",
     "empty": {
-      "title": "No hay nada que pagar este mes",
-      "body": "Nadie que cobre por sesión tiene sesiones facturadas este mes.",
-      "beforeCutover": "Los cobros antiguos no dicen quién hizo la sesión, así que el mapa empieza a llenarse desde el primer mes en que se emite el cobro en Financiero."
+      "title": "Nada que pagar este mes:",
+      "body": "nadie que cobre por sesión tiene sesiones facturadas.",
+      "beforeCutover": "Los cobros antiguos no dicen quién hizo la sesión. El mapa solo se llena desde el primer mes con cobro emitido en Financiero."
     },
     "truncated": "Este mes tiene más cobros de los que esta pantalla puede leer, así que el mapa puede estar incompleto.",
     "payable": "A pagar",

@@ -1,6 +1,6 @@
 {
   "title": "Indicadores",
-  "subtitle": "Lo que SINAIA sabe sobre sesiones, horas, valor y ocupación, por mes y por sede.",
+  "subtitle": "Sesiones, horas, valor y ocupación, por mes y por sede.",
   "period": {
     "label": "Periodo",
     "month": "Mes",
@@ -45,9 +45,9 @@
     "listSettled": "Cobros liquidados"
   },
   "growth": {
-    "up": "+{{percent}} % frente a {{year}}",
-    "down": "−{{percent}} % frente a {{year}}",
-    "flat": "Igual que {{year}}"
+    "up": "+{{percent}} % frente al mismo periodo de {{year}}",
+    "down": "−{{percent}} % frente al mismo periodo de {{year}}",
+    "flat": "Igual que el mismo periodo de {{year}}"
   },
   "cut": {
     "technician": "Por profesional",
@@ -84,9 +84,9 @@
   },
   "notes": {
     "catalogueValue": "El valor es el precio de catálogo de las sesiones realizadas. No es facturación.",
-    "received": "Recibido son los cobros liquidados en el periodo. Los pagos parciales de cobros aún abiertos no entran.",
+    "received": "Recibido: cobros liquidados en el periodo, sin los pagos parciales de cobros aún abiertos.",
     "holidays": "Los festivos no están descontados, así que la ocupación de un mes con festivo queda algo por debajo de la real.",
-    "patients": "Pacientes con al menos una sesión realizada en el mes. En un trimestre se muestran los tres meses, porque el mismo paciente no se suma entre meses."
+    "patients": "Pacientes con al menos una sesión realizada en el mes. En un trimestre, cada mes cuenta aparte."
   },
   "truncated": "El mes tiene más sesiones de las que lee la página, así que las cifras son como mínimo estas.",
   "namesTruncated": "Hay más servicios, profesionales o sedes de los que la página nombra. Pueden faltar algunos valores o nombres.",
@@ -307,7 +307,7 @@
   },
   "resources": {
     "title": "Recursos",
-    "note": "Las horas libres son las horas del mapa de salas menos las reservadas. La productividad es el valor de catálogo de las sesiones realizadas por hora del mapa.",
+    "note": "Horas libres: horas del mapa de salas menos las reservadas. Productividad: valor de catálogo de las sesiones realizadas por hora del mapa.",
     "productivity": "Productividad: valor de las sesiones",
     "freeHoursValue": "{{hours}} h"
   },

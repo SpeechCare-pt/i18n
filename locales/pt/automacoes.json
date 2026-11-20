@@ -1,6 +1,6 @@
 {
   "title": "Automações",
-  "intro": "Regras que avisam a equipa no sino quando alguma coisa acontece. Nenhuma cria tarefas nem envia mensagens a famílias.",
+  "intro": "Avisam a equipa no sino. Nenhuma regra cria tarefas nem envia mensagens a famílias.",
   "loading": "A carregar…",
   "new": "Nova regra",
   "empty": "Ainda não há regras. Cria a primeira com «Nova regra».",
@@ -11,8 +11,8 @@
     "today": "Hoje",
     "last": "Último resultado"
   },
-  "today": "{{count}} de {{max}}",
-  "lastRun": "Correu {{when}}",
+  "today": "{{count}} de {{max}} avisos hoje",
+  "lastRun": "Última execução: {{when}}",
   "neverRan": "Ainda não correu",
   "flagged_one": "Sinalizada: falhou na última execução",
   "flagged_other": "Sinalizada: falhou nas últimas {{count}} execuções",

@@ -75,7 +75,7 @@
       },
       "rate": {
         "pack": "precio de pack",
-        "packLapsed": "pack fuera de plazo · precio de consulta suelta"
+        "packLapsed": "pack fuera de plazo, precio de consulta suelta"
       }
     },
     "arrears": {
@@ -113,7 +113,7 @@
   "conflicts": {
     "therapist_one": "{{name}} ya tiene una sesión a esta hora",
     "therapist_other": "{{name}} ya tiene {{count}} sesiones a esta hora",
-    "therapistHint": "Puedes agendar igual — las sesiones de grupo comparten la hora.",
+    "therapistHint": "Puedes agendar igual. Las sesiones de grupo comparten la hora.",
     "patient_one": "{{name}} ya tiene otra sesión a esta hora",
     "patient_other": "{{name}} ya tiene otras {{count}} sesiones a esta hora",
     "patientHint": "Esto suele ser un error. Confírmalo antes de guardar.",
@@ -125,7 +125,7 @@
     "absentPending": "{{name}} tiene una ausencia por aprobar a esta hora."
   },
   "session": {
-    "title": "{{start}} · {{patient}}",
+    "title": "{{start}}, {{patient}}",
     "with": "con {{name}}",
     "open": "Abrir ficha",
     "confirm": "Confirmar",
@@ -188,8 +188,8 @@
   },
   "chores": {
     "label": "Pendiente",
-    "faltas_one": "{{count}} ausencia por reprogramar · quedan {{days}} días",
-    "faltas_other": "{{count}} ausencias por reprogramar · quedan {{days}} días",
+    "faltas_one": "{{count}} ausencia por reprogramar, {{days}} días hasta fin de mes",
+    "faltas_other": "{{count}} ausencias por reprogramar, {{days}} días hasta fin de mes",
     "closures_one": "{{count}} consulta en día de cierre",
     "closures_other": "{{count}} consultas en días de cierre",
     "absences_zero": "Ninguna sesión por resolver (ausencias)",
@@ -209,7 +209,7 @@
     "looking": "Consultando la agenda…",
     "noSlots": "Sin huecos de este terapeuta hasta fin de mes.",
     "missedOn": "faltó el {{date}}",
-    "slot": "{{date}} · {{start}}–{{end}}",
+    "slot": "{{date}}, {{start}}–{{end}}",
     "back": "Volver",
     "outsideTheMonth": "La reprogramación tiene que ser en el mes de la ausencia.",
     "alreadyRebooked": "Esta ausencia ya se reprogramó.",
@@ -222,7 +222,7 @@
     "summary_one": "{{count}} consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
     "summary_other": "{{count}} consultas de series caen en festivos en las próximas {{weeks}} semanas.",
     "none": "Ninguna consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
-    "noSlot": "Sin hueco de este terapeuta esa semana — hay que hacerlo a mano.",
+    "noSlot": "Sin hueco de este terapeuta esa semana. Hay que hacerlo a mano.",
     "pickFor": "Nueva hora para {{name}}",
     "confirm_one": "Reprogramar {{count}} consulta",
     "confirm_other": "Reprogramar {{count}} consultas",
@@ -232,7 +232,7 @@
   },
   "offer": {
     "title": "Ofrecer este hueco",
-    "slot": "{{date}} · {{start}}–{{end}}",
+    "slot": "{{date}}, {{start}}–{{end}}",
     "none": "Nadie en la lista de espera puede a esta hora.",
     "anySubject": "Este hueco no dice la especialidad, así que la lista es todo el mundo que puede a esta hora.",
     "waiting_one": "esperando desde hace {{count}} día",
@@ -265,7 +265,7 @@
     "reasons": {
       "familyInitiative": "Iniciativa de la familia",
       "patientIllness": "Enfermedad del paciente",
-      "technicianIllness": "Enfermedad del técnico",
+      "technicianIllness": "Enfermedad del terapeuta",
       "clinicInitiative": "Iniciativa de la clínica",
       "bookingError": "Error de agenda",
       "externalConditions": "Condiciones externas",
@@ -557,7 +557,7 @@
     }
   },
   "cardOptions": {
-    "label": "Tarjetas",
+    "label": "Mostrar en las tarjetas",
     "menuLabel": "Qué mostrar en cada tarjeta",
     "hint": "Solo cambia tu pantalla, en este ordenador.",
     "name": "El nombre del paciente aparece siempre.",

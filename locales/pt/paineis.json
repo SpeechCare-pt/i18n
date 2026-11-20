@@ -47,7 +47,7 @@
     "loadMore": "Ver mais",
     "loading": "A carregar…",
     "byPerson": "Ver tudo o que esta pessoa fez",
-    "byPatient": "Ver tudo o que se fez nesta ficha",
+    "byPatient": "Histórico da ficha",
     "noPatient": "Sem ficha associada",
     "file": "«{{name}}»",
     "action": {

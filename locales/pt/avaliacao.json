@@ -27,7 +27,7 @@
     "key": "Código",
     "keyHint": "Curto e sem espaços, por exemplo «talc». Não se pode mudar depois.",
     "name": "Nome",
-    "namePlaceholder": "TALC — Teste de Avaliação da Linguagem na Criança",
+    "namePlaceholder": "TALC (Teste de Avaliação da Linguagem na Criança)",
     "description": "Descrição",
     "specialty": "Especialidade",
     "noSpecialty": "Sem especialidade",

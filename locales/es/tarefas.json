@@ -31,7 +31,7 @@
       "pending": "Pendiente",
       "done": "Hecho"
     },
-    "emptyColumn": "Nada por aquí."
+    "emptyColumn": "Sin tareas."
   },
   "status": {
     "open": "Por hacer",
@@ -124,7 +124,7 @@
     "generic": "No se ha podido guardar. Inténtalo otra vez."
   },
   "inicio": {
-    "title": "Solicitudes",
+    "title": "Tareas",
     "open_zero": "Ninguna por tramitar",
     "open_one": "{{count}} por tramitar",
     "open_other": "{{count}} por tramitar",

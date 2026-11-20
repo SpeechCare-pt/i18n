@@ -118,23 +118,23 @@
   },
   "deadlines": {
     "title": "Prazos",
-    "intro": "O que está a acabar o prazo. Nada disto contacta famílias: a receção decide o que fazer.",
+    "intro": "Marcações provisórias, ofertas e pagamentos online com o prazo a acabar. Nada disto contacta as famílias: a receção decide o que fazer.",
     "loading": "A carregar…",
     "truncated": "Há mais do que isto. Só se mostram as primeiras {{count}}.",
     "provisional": {
       "title": "Marcações provisórias",
       "empty": "Nenhuma marcação provisória em aberto.",
-      "row": "Expira {{until}} · sessão a {{start}}"
+      "row": "Expira {{until}}, sessão a {{start}}"
     },
     "offers": {
       "title": "Ofertas da lista de espera",
       "empty": "Nenhuma oferta em aberto.",
-      "row": "Caduca {{until}} · vaga de {{start}}"
+      "row": "Caduca {{until}}, vaga de {{start}}"
     },
     "holds": {
       "title": "Sessões online por pagar",
       "empty": "Nenhuma sessão online com pagamento por receber.",
-      "row": "Sessão a {{start}} · com {{technician}}"
+      "row": "Sessão a {{start}}, com {{technician}}"
     }
   }
 }

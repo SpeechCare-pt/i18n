@@ -31,7 +31,7 @@
       "pending": "Pendente",
       "done": "Feito"
     },
-    "emptyColumn": "Nada por aqui."
+    "emptyColumn": "Sem tarefas."
   },
   "status": {
     "open": "Por fazer",
@@ -124,20 +124,20 @@
     "generic": "Não foi possível guardar. Tenta outra vez."
   },
   "inicio": {
-    "title": "Pedidos",
-    "open_zero": "Nenhum por tratar",
+    "title": "Tarefas",
+    "open_zero": "Nenhuma por tratar",
     "open_one": "{{count}} por tratar",
     "open_other": "{{count}} por tratar",
-    "unassigned_zero": "Nenhum sem responsável",
+    "unassigned_zero": "Nenhuma sem responsável",
     "unassigned_one": "{{count}} sem responsável",
     "unassigned_other": "{{count}} sem responsável",
-    "late_zero": "Nenhum atrasado",
-    "late_one": "{{count}} atrasado",
-    "late_other": "{{count}} atrasados",
+    "late_zero": "Nenhuma atrasada",
+    "late_one": "{{count}} atrasada",
+    "late_other": "{{count}} atrasadas",
     "mineOpen_zero": "Nenhum pedido teu em aberto",
     "mineOpen_one": "{{count}} pedido teu em aberto",
     "mineOpen_other": "{{count}} pedidos teus em aberto",
-    "mineUnseen_zero": "Nenhum com novidades",
+    "mineUnseen_zero": "Nenhuma com novidades",
     "mineUnseen_one": "{{count}} com novidades",
     "mineUnseen_other": "{{count}} com novidades",
     "link": "Abrir tarefas"
