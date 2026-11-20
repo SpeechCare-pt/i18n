@@ -4,6 +4,14 @@
   "loading": "A carregar…",
   "empty": "Ainda não há ninguém na equipa.",
   "truncated": "A lista mostra só uma parte da equipa.",
+  "tabs": {
+    "people": "Pessoas"
+  },
+  "search": {
+    "label": "Procurar pessoa",
+    "placeholder": "Procurar por nome ou email"
+  },
+  "noneWithRole": "Ninguém tem o papel {{role}}.",
   "columns": {
     "name": "Nome",
     "roles": "Papéis",

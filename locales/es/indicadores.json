@@ -26,6 +26,7 @@
     "cancelled": "Canceladas",
     "missed": "Faltas",
     "cancelRate": "Tasa de cancelación",
+    "cancelRateOf": "Tasa de cancelación del {{rate}}",
     "hours": "Horas realizadas",
     "patients": "Pacientes con sesión",
     "patientsByMonth": "Pacientes con sesión, por mes",
@@ -41,6 +42,7 @@
     "charges_one": "{{count}} cobro",
     "charges_other": "{{count}} cobros",
     "noList": "La lista de cobros es de toda la organización y no se abre aquí.",
+    "homeUnitNoList": "Solo cuenta las familias que pertenecen a las sedes que estás viendo, aunque hayan tenido sesiones en otra. La lista de cobros es de toda la organización y no se abre aquí.",
     "listRaised": "Cobros emitidos",
     "listSettled": "Cobros liquidados"
   },

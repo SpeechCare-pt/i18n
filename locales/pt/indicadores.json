@@ -26,6 +26,7 @@
     "cancelled": "Desmarcadas",
     "missed": "Faltas",
     "cancelRate": "Taxa de desmarcação",
+    "cancelRateOf": "Taxa de desmarcação de {{rate}}",
     "hours": "Horas realizadas",
     "patients": "Pacientes com sessão",
     "patientsByMonth": "Pacientes com sessão, por mês",
@@ -41,6 +42,7 @@
     "charges_one": "{{count}} cobrança",
     "charges_other": "{{count}} cobranças",
     "noList": "A lista das cobranças é da organização inteira e não abre aqui.",
+    "homeUnitNoList": "Conta só as famílias que pertencem às unidades que estás a ver, mesmo quando tiveram sessões noutra. A lista das cobranças é da organização inteira e não abre aqui.",
     "listRaised": "Cobranças emitidas",
     "listSettled": "Cobranças liquidadas"
   },

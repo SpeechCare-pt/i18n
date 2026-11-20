@@ -14,6 +14,11 @@
     "services": "Consultas",
     "servicesAll": "Todas as consultas",
     "save": "Guardar horário",
+    "saveIdle": {
+      "noChanges": "Ainda não mudaste nada no horário.",
+      "noDate": "Escolhe a data a partir da qual o horário vale.",
+      "problem": "Corrige o que está assinalado para poderes guardar."
+    },
     "saved": "Horário guardado.",
     "savedFrom": "Horário guardado. Entra em vigor a {{date}}.",
     "empty": "Sem horário definido. A agenda usa o dia da clínica, das 8h às 19h.",

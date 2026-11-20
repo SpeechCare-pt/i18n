@@ -6,6 +6,7 @@
   "accept": {
     "title": "Aceitar convite",
     "subtitle": "Confirma para associares esta conta ao convite.",
+    "invitedBy": "{{inviter}} convidou-te para a equipa de {{org}}.",
     "confirm": "Aceitar convite",
     "confirming": "A associar…"
   },

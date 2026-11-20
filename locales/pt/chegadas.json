@@ -4,7 +4,8 @@
   "dayNav": {
     "today": "Hoje",
     "prev": "Dia anterior",
-    "next": "Dia seguinte"
+    "next": "Dia seguinte",
+    "label": "Mudar de dia"
   },
   "sections": {
     "waiting": "À espera",
@@ -15,7 +16,8 @@
     "day": "Sem chegadas hoje.",
     "mine": "Ainda nenhum paciente teu deu entrada hoje.",
     "waiting": "Ninguém à espera.",
-    "expected": "Ninguém por chegar."
+    "expected": "Ninguém por chegar.",
+    "calledIn": "Ainda ninguém foi atendido."
   },
   "search": "Procurar paciente ou terapeuta",
   "row": {

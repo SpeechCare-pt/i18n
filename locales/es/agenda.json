@@ -4,6 +4,7 @@
   "previousDay": "Día anterior",
   "nextDay": "Día siguiente",
   "pickDay": "Elegir día",
+  "dayNav": "Cambiar de día",
   "empty": {
     "title": "Nada agendado",
     "body": "No hay citas este día."

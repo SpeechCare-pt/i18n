@@ -170,6 +170,7 @@
     },
     "truncated": "La lista está recortada. Elige menos días.",
     "nextSession": "próxima sesión el {{date}}",
+    "nextSessionDay": "Próxima sesión el {{date}}",
     "noRecord": "Sin consentimiento registrado",
     "expiresIn_zero": "Caduca hoy",
     "expiresIn_one": "Caduca en {{count}} día",

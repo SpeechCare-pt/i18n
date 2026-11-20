@@ -4,6 +4,14 @@
   "loading": "Cargando…",
   "empty": "Todavía no hay nadie en el equipo.",
   "truncated": "La lista muestra solo una parte del equipo.",
+  "tabs": {
+    "people": "Personas"
+  },
+  "search": {
+    "label": "Buscar persona",
+    "placeholder": "Buscar por nombre o correo"
+  },
+  "noneWithRole": "Nadie tiene el rol {{role}}.",
   "columns": {
     "name": "Nombre",
     "roles": "Roles",

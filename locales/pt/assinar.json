@@ -39,6 +39,12 @@
     "tooMany": "Demasiados pedidos. Espera um pouco e tenta outra vez.",
     "noText": "Não conseguimos mostrar o texto desta edição, por isso não podes responder por aqui. Fala com a receção, que volta a enviar a ligação."
   },
+  "contact": {
+    "heading": "Receção de {{clinic}}",
+    "phoneAndEmail": "Liga para {{phone}} ou escreve para {{email}}.",
+    "phone": "Liga para {{phone}}.",
+    "email": "Escreve para {{email}}."
+  },
   "network": {
     "failed": "Não foi possível ligar ao servidor. Tenta outra vez.",
     "retry": "Tentar outra vez"

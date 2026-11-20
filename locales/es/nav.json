@@ -129,7 +129,9 @@
     "offers": {
       "title": "Ofertas de la lista de espera",
       "empty": "Ninguna oferta abierta.",
-      "row": "Caduca {{until}}, hueco del {{start}}"
+      "row": "Caduca {{until}}, hueco del {{start}}",
+      "slot": "Hueco del {{start}}",
+      "seeInWaitlist": "Ver en la lista de espera"
     },
     "holds": {
       "title": "Sesiones online sin pagar",

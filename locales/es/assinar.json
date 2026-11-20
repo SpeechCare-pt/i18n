@@ -39,6 +39,12 @@
     "tooMany": "Demasiadas peticiones. Espera un poco e inténtalo otra vez.",
     "noText": "No hemos podido mostrar el texto de esta edición, así que no puedes responder por aquí. Habla con recepción, que vuelve a enviar el enlace."
   },
+  "contact": {
+    "heading": "Recepción de {{clinic}}",
+    "phoneAndEmail": "Llama al {{phone}} o escribe a {{email}}.",
+    "phone": "Llama al {{phone}}.",
+    "email": "Escribe a {{email}}."
+  },
   "network": {
     "failed": "No se ha podido conectar con el servidor. Inténtalo otra vez.",
     "retry": "Intentar otra vez"
