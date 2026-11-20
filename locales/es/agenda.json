@@ -113,7 +113,7 @@
   "conflicts": {
     "therapist_one": "{{name}} ya tiene una sesión a esta hora",
     "therapist_other": "{{name}} ya tiene {{count}} sesiones a esta hora",
-    "therapistHint": "Puedes agendar igual — las sesiones de grupo comparten la hora.",
+    "therapistHint": "Puedes agendar igual. Las sesiones de grupo comparten la hora.",
     "patient_one": "{{name}} ya tiene otra sesión a esta hora",
     "patient_other": "{{name}} ya tiene otras {{count}} sesiones a esta hora",
     "patientHint": "Esto suele ser un error. Confírmalo antes de guardar.",
@@ -222,7 +222,7 @@
     "summary_one": "{{count}} consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
     "summary_other": "{{count}} consultas de series caen en festivos en las próximas {{weeks}} semanas.",
     "none": "Ninguna consulta de serie cae en festivo en las próximas {{weeks}} semanas.",
-    "noSlot": "Sin hueco de este terapeuta esa semana — hay que hacerlo a mano.",
+    "noSlot": "Sin hueco de este terapeuta esa semana. Hay que hacerlo a mano.",
     "pickFor": "Nueva hora para {{name}}",
     "confirm_one": "Reprogramar {{count}} consulta",
     "confirm_other": "Reprogramar {{count}} consultas",

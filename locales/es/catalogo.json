@@ -139,6 +139,6 @@
       "failed": "No se pudo unir. Inténtalo de nuevo."
     },
     "pastAtLeast": "más de {{count}} consultas ya realizadas se quedan donde están",
-    "tooMany": "Este servicio tiene más consultas por realizar de las que se pueden mover de una vez — así no se puede unir."
+    "tooMany": "Este servicio tiene más consultas por realizar de las que se pueden mover de una vez. Así no se puede unir."
   }
 }

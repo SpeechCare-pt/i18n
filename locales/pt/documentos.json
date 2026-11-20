@@ -21,7 +21,7 @@
     "hideHistory": "Esconder versões",
     "newVersion": "Nova versão",
     "retire": "Retirar",
-    "billable": "Facturável"
+    "billable": "Faturável"
   },
   "builder": {
     "titleNew": "Novo modelo",
@@ -100,7 +100,7 @@
     "submit": "Emitir",
     "cancel": "Cancelar",
     "done": "Documento emitido.",
-    "chargeNotice": "Este relatório é facturável: ao emitir, fica na conta da família ao preço da tabela."
+    "chargeNotice": "Este relatório é faturável: ao emitir, fica na conta da família ao preço da tabela."
   },
   "patient": {
     "title": "Documentos emitidos",
@@ -146,7 +146,7 @@
     "reportNotReadable": "Não tens acesso para emitir este relatório. Pede acesso ao paciente a quem o coordena.",
     "reportPriceUnset": "O serviço de cobrança deste modelo não tem preço. Define-o no Catálogo antes de emitir.",
     "serviceNotFound": "Esse serviço não existe neste consultório.",
-    "serviceNotBillable": "Esse serviço está marcado como não facturável.",
+    "serviceNotBillable": "Esse serviço está marcado como não faturável.",
     "billingNotForDeclaration": "Só os relatórios podem ser cobrados; uma declaração não.",
     "servicePriceUnset": "Esse serviço ainda não tem preço. Define-o no Catálogo primeiro."
   },

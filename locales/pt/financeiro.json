@@ -27,7 +27,7 @@
     "inCurrency": "Em {{currency}}",
     "charges_one": "{{count}} cobrança",
     "charges_other": "{{count}} cobranças",
-    "lapsedNote": "Um link expirado quer dizer que o link de pagamento morreu, não que o dinheiro está em dívida — mas também não quer dizer o contrário. Está aqui para se ver, não para somar.",
+    "lapsedNote": "Um link expirado é um link de pagamento que deixou de funcionar. Isso não diz se o dinheiro ainda está em dívida. Por isso estes valores aparecem à parte e não se somam ao que está por regularizar.",
     "bands": {
       "d0_30": "Até 30 dias",
       "d31_60": "31 a 60 dias",
@@ -46,23 +46,23 @@
     "title": "Realizado e não cobrado",
     "earlier": "← Mês anterior",
     "later": "Mês seguinte →",
-    "summary_zero": "Em {{month}} não se realizou nenhuma sessão facturável.",
-    "summary_one": "Em {{month}} realizou-se {{count}} sessão facturável a {{patients}}.",
-    "summary_other": "Em {{month}} realizaram-se {{count}} sessões facturáveis a {{patients}}.",
+    "summary_zero": "Em {{month}} não se realizou nenhuma sessão faturável.",
+    "summary_one": "Em {{month}} realizou-se {{count}} sessão faturável a {{patients}}.",
+    "summary_other": "Em {{month}} realizaram-se {{count}} sessões faturáveis a {{patients}}.",
     "patientsSeen_zero": "nenhum paciente",
     "patientsSeen_one": "{{count}} paciente",
     "patientsSeen_other": "{{count}} pacientes",
-    "lede_one": "{{count}} paciente foi visto este mês sem nenhuma cobrança emitida, num total de {{sessions}} sessões.",
-    "lede_other": "{{count}} pacientes foram vistos este mês sem nenhuma cobrança emitida, num total de {{sessions}} sessões.",
+    "lede_one": "{{count}} paciente foi visto este mês sem nenhuma cobrança emitida.",
+    "lede_other": "{{count}} pacientes foram vistos este mês sem nenhuma cobrança emitida.",
     "sessions_one": "{{count}} sessão",
     "sessions_other": "{{count}} sessões",
     "since": "desde {{date}}",
-    "notBillable_one": "Ficou de fora {{count}} sessão que não factura (serviço não facturável ou sessão oferecida).",
-    "notBillable_other": "Ficaram de fora {{count}} sessões que não facturam (serviço não facturável ou sessão oferecida).",
+    "notBillable_one": "Ficou de fora {{count}} sessão que não fatura (serviço não faturável ou sessão oferecida).",
+    "notBillable_other": "Ficaram de fora {{count}} sessões que não faturam (serviço não faturável ou sessão oferecida).",
     "empty": {
       "title": "Está tudo cobrado",
       "body": "Todos os pacientes vistos este mês têm uma cobrança emitida.",
-      "quiet": "Não houve sessões facturáveis neste mês."
+      "quiet": "Não houve sessões faturáveis neste mês."
     },
     "truncated": "Houve mais sessões neste mês do que este ecrã consegue ler, por isso a lista pode estar incompleta."
   },
@@ -98,7 +98,7 @@
     "failed": "Não foi possível levantar as cobranças. Tenta outra vez.",
     "loadFailed": "Não foi possível ler o mês. Tenta outra vez.",
     "skipped": {
-      "notBillable": "{{name}} não factura",
+      "notBillable": "{{name}} não fatura",
       "free": "{{name}} foi oferecida",
       "noPrice": "{{name}} não tem preço definido"
     },
@@ -154,7 +154,7 @@
     "empty": "Não houve movimento neste período.",
     "badPeriod": "A data de fim é anterior à de início.",
     "truncated": "O período tem mais cobranças do que este ecrã consegue ler, por isso o ficheiro está incompleto. Escolhe um período mais curto.",
-    "note": "A fatura-recibo é emitida pelo software da contabilidade. Isto é a passagem de testemunho, não um documento fiscal.",
+    "note": "A fatura-recibo é emitida pelo software da contabilidade. O CSV não é um documento fiscal.",
     "csv": {
       "kind": "Tipo",
       "raised": "Emitida",

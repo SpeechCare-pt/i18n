@@ -27,7 +27,7 @@
     "inCurrency": "En {{currency}}",
     "charges_one": "{{count}} cobro",
     "charges_other": "{{count}} cobros",
-    "lapsedNote": "Un enlace caducado significa que el enlace de pago murió, no que el dinero se deba — pero tampoco lo contrario. Está aquí para verse, no para sumarse.",
+    "lapsedNote": "Un enlace caducado es un enlace de pago que dejó de funcionar. Eso no dice si el dinero sigue pendiente. Por eso estos importes van aparte y no se suman a los pendientes.",
     "bands": {
       "d0_30": "Hasta 30 días",
       "d31_60": "31 a 60 días",
@@ -52,8 +52,8 @@
     "patientsSeen_zero": "ningún paciente",
     "patientsSeen_one": "{{count}} paciente",
     "patientsSeen_other": "{{count}} pacientes",
-    "lede_one": "{{count}} paciente fue visto este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
-    "lede_other": "{{count}} pacientes fueron vistos este mes sin ningún cobro emitido, en un total de {{sessions}} sesiones.",
+    "lede_one": "{{count}} paciente fue visto este mes sin ningún cobro emitido.",
+    "lede_other": "{{count}} pacientes fueron vistos este mes sin ningún cobro emitido.",
     "sessions_one": "{{count}} sesión",
     "sessions_other": "{{count}} sesiones",
     "since": "desde {{date}}",
@@ -154,7 +154,7 @@
     "empty": "No hubo movimiento en este periodo.",
     "badPeriod": "La fecha de fin es anterior a la de inicio.",
     "truncated": "El periodo tiene más cobros de los que esta pantalla puede leer, así que el archivo está incompleto. Elige un periodo más corto.",
-    "note": "La factura-recibo la emite el software de contabilidad. Esto es el traspaso, no un documento fiscal.",
+    "note": "La factura-recibo la emite el software de contabilidad. El CSV no es un documento fiscal.",
     "csv": {
       "kind": "Tipo",
       "raised": "Emitido",

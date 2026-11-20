@@ -31,7 +31,7 @@
       "pending": "Pendiente",
       "done": "Hecho"
     },
-    "emptyColumn": "Nada por aquí."
+    "emptyColumn": "Sin tareas."
   },
   "status": {
     "open": "Por hacer",

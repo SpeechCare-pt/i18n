@@ -1,6 +1,6 @@
 {
   "title": "Honorários",
-  "intro": "O que a prática deve a quem fez o trabalho, a partir do que foi facturado.",
+  "intro": "O que a prática deve a quem fez o trabalho, a partir do que foi faturado.",
   "period": {
     "title": "Mapa do período",
     "earlier": "← Mês anterior",
@@ -17,15 +17,15 @@
     "unrated_other": "{{count}} sessões sem regra que lhes chegue, por isso ficam de fora do total.",
     "salaried_one": "{{count}} sessão foi de quem está a contrato, por isso está contada e não é paga aqui.",
     "salaried_other": "{{count}} sessões foram de quem está a contrato, por isso estão contadas e não são pagas aqui.",
-    "unattributed_one": "{{count}} linha facturada não diz quem fez a sessão.",
-    "unattributed_other": "{{count}} linhas facturadas não dizem quem fez a sessão.",
+    "unattributed_one": "{{count}} linha faturada não diz quem fez a sessão.",
+    "unattributed_other": "{{count}} linhas faturadas não dizem quem fez a sessão.",
     "detail": "Ver sessões",
     "hide": "Esconder sessões",
-    "basis": "facturado {{value}}",
+    "basis": "faturado {{value}}",
     "noRate": "sem regra",
     "empty": {
       "title": "Não há nada a pagar neste mês",
-      "body": "Ninguém que receba por sessão tem sessões facturadas neste mês.",
+      "body": "Ninguém que receba por sessão tem sessões faturadas neste mês.",
       "beforeCutover": "As cobranças antigas não dizem quem fez a sessão, por isso o mapa começa a encher a partir do primeiro mês em que se levanta a cobrança no Financeiro."
     },
     "truncated": "Este mês tem mais cobranças do que este ecrã consegue ler, por isso o mapa pode estar incompleto.",

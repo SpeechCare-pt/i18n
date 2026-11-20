@@ -64,7 +64,7 @@
     "therapistCleared": "«{{name}}» não está habilitado para esta consulta. Escolhe outro.",
     "notQualified": "Esse terapeuta não está habilitado para esta consulta.",
     "price": {
-      "nonBillable": "Não factura",
+      "nonBillable": "Não fatura",
       "unset": "Sem preço definido",
       "origin": {
         "institution": "Acordo com instituição",
@@ -101,7 +101,7 @@
       "agreement": "Acordo aplicado",
       "noAgreement": "sem acordo",
       "unset": "preço por definir",
-      "nonBillable": "não factura",
+      "nonBillable": "não fatura",
       "total": "Total estimado",
       "totalPartial": "Total das consultas com preço"
     },
@@ -113,7 +113,7 @@
   "conflicts": {
     "therapist_one": "{{name}} já tem uma sessão a esta hora",
     "therapist_other": "{{name}} já tem {{count}} sessões a esta hora",
-    "therapistHint": "Podes marcar na mesma — as sessões de grupo partilham a hora.",
+    "therapistHint": "Podes marcar na mesma. As sessões de grupo partilham a hora.",
     "patient_one": "{{name}} já tem outra sessão a esta hora",
     "patient_other": "{{name}} já tem outras {{count}} sessões a esta hora",
     "patientHint": "Isto costuma ser engano. Confirma antes de guardar.",
@@ -222,7 +222,7 @@
     "summary_one": "{{count}} consulta de série cai num feriado nas próximas {{weeks}} semanas.",
     "summary_other": "{{count}} consultas de séries caem em feriados nas próximas {{weeks}} semanas.",
     "none": "Nenhuma consulta de série cai num feriado nas próximas {{weeks}} semanas.",
-    "noSlot": "Sem vaga deste terapeuta nessa semana — tem de ser à mão.",
+    "noSlot": "Sem vaga deste terapeuta nessa semana. Tem de ser à mão.",
     "pickFor": "Nova hora para {{name}}",
     "confirm_one": "Remarcar {{count}} consulta",
     "confirm_other": "Remarcar {{count}} consultas",
