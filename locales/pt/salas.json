@@ -11,7 +11,7 @@
     "title": "Ainda não há salas",
     "body": "Regista as salas de cada unidade. É com elas que a agenda sabe onde é que cada consulta cabe."
   },
-  "noRooms": "Sem salas.",
+  "noRooms": "Sem salas",
   "search": {
     "label": "Procurar unidade ou sala",
     "placeholder": "Unidade ou sala",
@@ -47,7 +47,7 @@
   },
   "archived": "Arquivada",
   "archive": "Arquivar",
-  "restore": "Reactivar",
+  "restore": "Reativar",
   "save": "Guardar",
   "saving": "A guardar…",
   "saved": "{{name}} guardada.",

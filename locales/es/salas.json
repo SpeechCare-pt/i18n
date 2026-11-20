@@ -11,7 +11,7 @@
     "title": "Todavía no hay salas",
     "body": "Registra las salas de cada unidad. Es con ellas que la agenda sabe dónde cabe cada consulta."
   },
-  "noRooms": "Sin salas.",
+  "noRooms": "Sin salas",
   "search": {
     "label": "Buscar unidad o sala",
     "placeholder": "Unidad o sala",

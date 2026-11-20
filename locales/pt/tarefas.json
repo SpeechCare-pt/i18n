@@ -45,7 +45,7 @@
     "urgent": "Urgente"
   },
   "sla": {
-    "warn": "Há mais de 1 dia útil sem resposta",
+    "warn": "Mais de um dia útil sem resposta",
     "urgent": "2 dias úteis sem resposta",
     "paused": "Em pausa enquanto pendente"
   },
@@ -85,7 +85,7 @@
   "search": {
     "placeholder": "Pesquisar pedido, paciente ou pessoa",
     "hint": "O texto das conversas não é pesquisado.",
-    "noResults": "Nenhum cartão corresponde à pesquisa."
+    "noResults": "Nenhuma tarefa corresponde à pesquisa."
   },
   "unread": "Novidades",
   "patientHidden": "Paciente fora da tua lista",
@@ -134,9 +134,9 @@
     "late_zero": "Nenhuma atrasada",
     "late_one": "{{count}} atrasada",
     "late_other": "{{count}} atrasadas",
-    "mineOpen_zero": "Nenhum pedido teu em aberto",
-    "mineOpen_one": "{{count}} pedido teu em aberto",
-    "mineOpen_other": "{{count}} pedidos teus em aberto",
+    "mineOpen_zero": "Nenhuma tarefa tua em aberto",
+    "mineOpen_one": "{{count}} tarefa tua em aberto",
+    "mineOpen_other": "{{count}} tarefas tuas em aberto",
     "mineUnseen_zero": "Nenhuma com novidades",
     "mineUnseen_one": "{{count}} com novidades",
     "mineUnseen_other": "{{count}} com novidades",

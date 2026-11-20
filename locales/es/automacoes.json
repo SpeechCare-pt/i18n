@@ -8,7 +8,6 @@
     "name": "Nombre",
     "trigger": "Disparador",
     "enabled": "Activa",
-    "today": "Hoy",
     "last": "Último resultado"
   },
   "today": "{{count}} de {{max}} avisos hoy",
